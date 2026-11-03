@@ -1,0 +1,9 @@
+Does your PC feel slower on hot days? You're probably not imagining it.
+
+Under load, a CPU or graphics card can turn well over a hundred watts of power into heat, in a chip smaller than a cracker.
+
+Coolers move that heat away. Thermal paste carries it into metal fins, and fans push it out of the case.
+
+But when the room is hot, the air the fans push is already warm, so cooling falls behind. To protect itself, the chip lowers its clock speed. That's called thermal throttling.
+
+Clean the dust out of your fans, and give your case room to breathe. Every part of your PC is explained in the full video on the channel.

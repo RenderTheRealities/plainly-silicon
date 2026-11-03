@@ -1,0 +1,9 @@
+RAM and storage are both memory. So why does your PC need both?
+
+Think of storage as a filing cabinet. It's huge, and it keeps everything, even with the power off. But walking over to it takes time.
+
+RAM is your desk. It's small, but everything on it is right in front of you, so the CPU can grab it in nanoseconds.
+
+When you open a game, its files move from the cabinet onto the desk. When you shut down, the desk is wiped clean. The cabinet keeps everything.
+
+That's why more RAM only helps if your desk is too small. For most gaming, 16 to 32 gigabytes is plenty. The full breakdown of every part is on the channel.

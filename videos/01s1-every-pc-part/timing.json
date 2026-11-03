@@ -1,0 +1,101 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   5.22
+  ],
+  [
+   5.97,
+   14.178
+  ],
+  [
+   14.928,
+   25.581
+  ],
+  [
+   26.331,
+   36.403
+  ],
+  [
+   37.153,
+   46.073
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    5.22,
+    "Here's every part inside your PC, and what it actually does, in under a minute."
+   ]
+  ],
+  [
+   [
+    5.97,
+    10.287,
+    "The power supply turns wall power into clean, low-voltage power."
+   ],
+   [
+    10.567,
+    14.178,
+    "The motherboard connects everything, like the roads of a city."
+   ]
+  ],
+  [
+   [
+    14.928,
+    16.542,
+    "The CPU is the brain."
+   ],
+   [
+    16.822,
+    19.939,
+    "It runs billions of tiny instructions every second."
+   ],
+   [
+    20.219,
+    25.581,
+    "The GPU is a crowd of thousands of small cores that draws every frame you see."
+   ]
+  ],
+  [
+   [
+    26.331,
+    28.312,
+    "Storage is long-term memory."
+   ],
+   [
+    28.592,
+    30.853,
+    "It keeps your files when the power is off."
+   ],
+   [
+    31.133,
+    33.151,
+    "RAM is short-term memory."
+   ],
+   [
+    33.431,
+    36.403,
+    "It's fast, but it forgets everything when you shut down."
+   ]
+  ],
+  [
+   [
+    37.153,
+    40.537,
+    "And the coolers pull heat away so none of it slows down."
+   ],
+   [
+    40.817,
+    42.836,
+    "Want to see it all working together?"
+   ],
+   [
+    43.116,
+    46.073,
+    "The full animated breakdown is on the channel."
+   ]
+  ]
+ ]
+}

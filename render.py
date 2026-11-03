@@ -155,6 +155,8 @@ def load_scenes(vdir):
     mod = importlib.util.module_from_spec(spec)
     sys.modules["scenes"] = mod
     spec.loader.exec_module(mod)
+    global W, H
+    W, H = getattr(mod, "SIZE", (1920, 1080))  # Shorts set SIZE = (1080, 1920)
     return mod.SCENES
 
 
@@ -248,23 +250,29 @@ def frame(scenes, total, T):
         veil = Image.new("RGBA", (W, H), NAVY + (int(255 * (1 - fade)),))
         img.alpha_composite(veil)
     d = ImageDraw.Draw(img, "RGBA")
-    # chapter label
-    d.text((60, 52), f"{si + 1:02d}", font=font("monob", 30), fill=CYAN + (255,))
-    d.text((112, 52), sc["title"].upper(), font=font("semi", 30), fill=WHITE + (230,))
+    vertical = H > W
+    if vertical:
+        # Shorts: big scene headline under the top UI; subtitles above the bottom UI; no label/logo
+        hf = font("title", 64)
+        for k, l in enumerate(wrap(sc["title"], hf, W - 140, d)[:2]):
+            d.text((W / 2, 230 + k * 76), l, font=hf, fill=CYAN + (255,), anchor="ma")
+        f, lh, maxw, ybase, nmax = font("semi", 50), 64, W - 160, 1560, 4
+    else:
+        d.text((60, 52), f"{si + 1:02d}", font=font("monob", 30), fill=CYAN + (255,))
+        d.text((112, 52), sc["title"].upper(), font=font("semi", 30), fill=WHITE + (230,))
+        f, lh, maxw, ybase, nmax = font("semi", 36), 48, 1500, 1040, 3
     # subtitle (current sentence)
     cur = [s for (a, b, s) in sc["subs"] if a - 0.05 <= T < b + 0.2]
     if cur:
-        f = font("semi", 36)
-        lines = wrap(cur[-1], f, 1500, d)[:3]
-        lh = 48
-        y = 1040 - lh * len(lines)
+        lines = wrap(cur[-1], f, maxw, d)[:nmax]
+        y = ybase - lh * len(lines)
         tw = max(d.textlength(l, font=f) for l in lines)
-        d.rounded_rectangle([960 - tw / 2 - 26, y - 14, 960 + tw / 2 + 26, y + lh * len(lines) + 6], radius=16, fill=(6, 10, 20, 205))
+        d.rounded_rectangle([W / 2 - tw / 2 - 26, y - 14, W / 2 + tw / 2 + 26, y + lh * len(lines) + 6], radius=16, fill=(6, 10, 20, 205))
         for k, l in enumerate(lines):
-            d.text((960, y + k * lh), l, font=f, fill=WHITE + (255,), anchor="ma")
-    # progress bar + watermark
-    d.rectangle([0, H - 6, W * T / total, H], fill=CYAN + (255,))
-    img.alpha_composite(LOGO, (W - 96, 36))
+            d.text((W / 2, y + k * lh), l, font=f, fill=WHITE + (255,), anchor="ma")
+    if not vertical:
+        d.rectangle([0, H - 6, W * T / total, H], fill=CYAN + (255,))
+        img.alpha_composite(LOGO, (W - 96, 36))
     return img.convert("RGB")
 
 

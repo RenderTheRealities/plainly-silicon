@@ -1,0 +1,9 @@
+If your old PC feels painfully slow, there's one upgrade that usually beats all the others.
+
+Many older PCs still run on a hard drive. It stores data on spinning platters, read by an arm that has to physically move into place.
+
+That's slow. A typical hard drive reads around 150 to 200 megabytes per second.
+
+A solid state drive has no moving parts at all. Even a basic one is several times faster, and an NVMe SSD can read thousands of megabytes per second.
+
+Boot times, app launches and loading screens all shrink. Before you buy anything else, check whether you're still on a hard drive. The full PC breakdown is on the channel.

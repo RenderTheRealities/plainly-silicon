@@ -1,0 +1,9 @@
+Your CPU might have 8 cores. Your graphics card has thousands. So why isn't the GPU in charge?
+
+CPU cores are like a few expert workers. Each one is fast and clever, and great at complicated, step-by-step jobs.
+
+GPU cores are a huge crowd of simpler workers. On their own, they're not that smart.
+
+But a frame is millions of pixels, and most of them can be worked out at the same time. Give each worker a few pixels, and the whole picture fills in at once.
+
+That's why games lean on the GPU for frame rate, while the CPU runs everything else. See every part of your PC explained in the full video on the channel.

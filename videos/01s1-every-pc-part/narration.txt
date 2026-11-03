@@ -1,0 +1,9 @@
+Here's every part inside your PC, and what it actually does, in under a minute.
+
+The power supply turns wall power into clean, low-voltage power. The motherboard connects everything, like the roads of a city.
+
+The CPU is the brain. It runs billions of tiny instructions every second. The GPU is a crowd of thousands of small cores that draws every frame you see.
+
+Storage is long-term memory. It keeps your files when the power is off. RAM is short-term memory. It's fast, but it forgets everything when you shut down.
+
+And the coolers pull heat away so none of it slows down. Want to see it all working together? The full animated breakdown is on the channel.
