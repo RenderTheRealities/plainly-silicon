@@ -6,3 +6,4 @@ tts/voices.npz
 *.m4a
 preview_*.png
 __pycache__/
+.media-worktree/
