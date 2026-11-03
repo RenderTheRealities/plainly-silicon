@@ -1,0 +1,553 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   24.111
+  ],
+  [
+   24.861,
+   69.342
+  ],
+  [
+   70.092,
+   103.851
+  ],
+  [
+   104.601,
+   144.039
+  ],
+  [
+   144.789,
+   198.668
+  ],
+  [
+   199.418,
+   254.779
+  ],
+  [
+   255.529,
+   280.438
+  ],
+  [
+   281.188,
+   336.274
+  ],
+  [
+   337.024,
+   379.693
+  ],
+  [
+   380.443,
+   393.112
+  ],
+  [
+   393.862,
+   421.77
+  ],
+  [
+   422.52,
+   439.544
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    1.757,
+    "You double-click a game."
+   ],
+   [
+    2.037,
+    4.69,
+    "Three seconds later, you're on the main menu."
+   ],
+   [
+    4.97,
+    12.376,
+    "In those three seconds, every single part inside your PC did a job, and most people couldn't name half of them."
+   ],
+   [
+    12.656,
+    16.755,
+    "So let's follow that one click through the whole machine, part by part."
+   ],
+   [
+    17.035,
+    24.111,
+    "By the end, you'll know what every component does, which ones actually matter for speed, and where people waste money."
+   ]
+  ],
+  [
+   [
+    24.861,
+    25.97,
+    "Start at the wall."
+   ],
+   [
+    26.25,
+    32.144,
+    "Your outlet sends out alternating current, around 120 volts in North America."
+   ],
+   [
+    32.424,
+    34.775,
+    "Nothing inside your PC can use that."
+   ],
+   [
+    35.055,
+    38.215,
+    "So the first part that wakes up is the power supply."
+   ],
+   [
+    38.495,
+    50.579,
+    "Its whole job is translation: it turns wall power into steady, low-voltage direct current, mostly 12 volts, plus 5 and 3.3 volts for smaller parts."
+   ],
+   [
+    50.859,
+    58.702,
+    "Every other component depends on it, which is why a cheap, unrated power supply is the one corner you should never cut."
+   ],
+   [
+    58.982,
+    61.481,
+    "When it fails, it can take other parts with it."
+   ],
+   [
+    61.761,
+    69.342,
+    "Look for an efficiency rating like 80 Plus Bronze or better, and a wattage with some headroom above what your parts draw."
+   ]
+  ],
+  [
+   [
+    70.092,
+    72.204,
+    "That power flows into the motherboard."
+   ],
+   [
+    72.484,
+    75.94,
+    "Think of the motherboard as the city the other parts live in."
+   ],
+   [
+    76.22,
+    77.599,
+    "It doesn't do the thinking."
+   ],
+   [
+    77.879,
+    79.319,
+    "It provides the roads."
+   ],
+   [
+    79.599,
+    88.36,
+    "Copper traces connect the processor to the memory, the graphics card, and the storage, and the board decides how fast those roads can run."
+   ],
+   [
+    88.64,
+    94.846,
+    "It also holds a small chip with firmware called UEFI, the modern version of the BIOS."
+   ],
+   [
+    95.126,
+    98.403,
+    "That's the first code that runs when you press the power button."
+   ],
+   [
+    98.683,
+    103.851,
+    "It checks that everything is present, then hands control to your operating system."
+   ]
+  ],
+  [
+   [
+    104.601,
+    105.974,
+    "Now, back to your click."
+   ],
+   [
+    106.254,
+    116.298,
+    "Your mouse sends a tiny signal through USB, and the motherboard delivers it to the brain of the system: the CPU, or central processing unit."
+   ],
+   [
+    116.578,
+    122.459,
+    "The CPU runs instructions one tiny step at a time, billions of times per second."
+   ],
+   [
+    122.739,
+    124.868,
+    "That's what the gigahertz number means."
+   ],
+   [
+    125.148,
+    129.699,
+    "A 4 gigahertz chip ticks through about four billion cycles every second."
+   ],
+   [
+    129.979,
+    136.084,
+    "Modern CPUs also have multiple cores, which are like several workers sharing one desk."
+   ],
+   [
+    136.364,
+    140.703,
+    "Your click becomes a list of instructions: find the game, load it, start it."
+   ],
+   [
+    140.983,
+    144.039,
+    "The CPU starts working through that list immediately."
+   ]
+  ],
+  [
+   [
+    144.789,
+    146.611,
+    "But the CPU has a problem."
+   ],
+   [
+    146.891,
+    148.636,
+    "The game isn't anywhere near it."
+   ],
+   [
+    148.916,
+    150.643,
+    "It's sitting on your storage drive."
+   ],
+   [
+    150.923,
+    153.783,
+    "Storage is the long-term memory of your PC."
+   ],
+   [
+    154.063,
+    159.683,
+    "It keeps everything when the power is off: your operating system, your games, your photos."
+   ],
+   [
+    159.963,
+    161.464,
+    "There are two main kinds."
+   ],
+   [
+    161.744,
+    169.009,
+    "A hard drive stores data on spinning magnetic platters, read by an arm that physically moves into place."
+   ],
+   [
+    169.289,
+    176.147,
+    "It's cheap and roomy, but slow, usually around 150 to 200 megabytes per second."
+   ],
+   [
+    176.427,
+    179.59,
+    "A solid state drive has no moving parts at all."
+   ],
+   [
+    179.87,
+    182.329,
+    "It stores data in flash memory chips."
+   ],
+   [
+    182.609,
+    190.564,
+    "A good NVMe SSD, the kind that slots straight into the motherboard, can read thousands of megabytes per second."
+   ],
+   [
+    190.844,
+    198.668,
+    "That's why the single biggest upgrade for an old, slow PC is usually swapping a hard drive for an SSD."
+   ]
+  ],
+  [
+   [
+    199.418,
+    202.237,
+    "So the game files start flowing off the SSD."
+   ],
+   [
+    202.517,
+    204.624,
+    "But they don't go straight to the CPU."
+   ],
+   [
+    204.904,
+    210.995,
+    "Storage, even fast storage, is still far too slow for the processor to work from directly."
+   ],
+   [
+    211.275,
+    213.308,
+    "So the files land in RAM."
+   ],
+   [
+    213.588,
+    220.177,
+    "RAM is short-term memory: a fast workspace the CPU can grab from in nanoseconds."
+   ],
+   [
+    220.457,
+    221.852,
+    "Here's the key difference."
+   ],
+   [
+    222.132,
+    225.558,
+    "RAM forgets everything the moment you cut the power."
+   ],
+   [
+    225.838,
+    227.167,
+    "Storage remembers."
+   ],
+   [
+    227.447,
+    229.729,
+    "RAM is the desk you're working at."
+   ],
+   [
+    230.009,
+    232.871,
+    "Storage is the filing cabinet across the room."
+   ],
+   [
+    233.151,
+    239.529,
+    "More RAM means a bigger desk, so you can keep more open at once without walking back to the cabinet."
+   ],
+   [
+    239.809,
+    244.952,
+    "But once your desk is big enough for what you do, adding more doesn't make anything faster."
+   ],
+   [
+    245.232,
+    250.744,
+    "For most gaming right now, 16 to 32 gigabytes is the comfortable range."
+   ],
+   [
+    251.024,
+    254.779,
+    "Past that, you're usually paying for desk space you'll never use."
+   ]
+  ],
+  [
+   [
+    255.529,
+    258.817,
+    "Even RAM is too slow for the CPU's taste."
+   ],
+   [
+    259.097,
+    265.514,
+    "So the processor keeps its own tiny, extremely fast memory built right into the chip, called cache."
+   ],
+   [
+    265.794,
+    274.004,
+    "It's measured in megabytes, not gigabytes, but it's so close to the cores that the CPU checks it first for anything it needs."
+   ],
+   [
+    274.284,
+    276.493,
+    "Cache, then RAM, then storage."
+   ],
+   [
+    276.773,
+    280.438,
+    "Each step is bigger, cheaper, and slower than the one before."
+   ]
+  ],
+  [
+   [
+    281.188,
+    288.496,
+    "With the game loaded, it's time to draw the main menu, and this is where the CPU hands off to a specialist."
+   ],
+   [
+    288.776,
+    293.444,
+    "The GPU, or graphics processing unit, lives on your graphics card."
+   ],
+   [
+    293.724,
+    296.86,
+    "A CPU has a handful of very smart cores."
+   ],
+   [
+    297.14,
+    299.804,
+    "A GPU has thousands of simpler ones."
+   ],
+   [
+    300.084,
+    305.281,
+    "That sounds like a downgrade, but drawing an image is a perfect job for a crowd."
+   ],
+   [
+    305.561,
+    312.45,
+    "Your screen has millions of pixels, and most of them can be calculated at the same time, independently."
+   ],
+   [
+    312.73,
+    319.166,
+    "So the GPU splits the frame into a massive number of small tasks and runs them all in parallel."
+   ],
+   [
+    319.446,
+    326.255,
+    "The graphics card also has its own memory, called VRAM, where it keeps textures and models close at hand."
+   ],
+   [
+    326.535,
+    332.269,
+    "In games, the GPU usually matters more for frame rate than the CPU does."
+   ],
+   [
+    332.549,
+    336.274,
+    "That's why it's often the most expensive part in a gaming build."
+   ]
+  ],
+  [
+   [
+    337.024,
+    338.783,
+    "All that work produces heat."
+   ],
+   [
+    339.063,
+    348.022,
+    "A CPU or GPU under load can turn well over a hundred watts of electricity into heat, in a space smaller than a cracker."
+   ],
+   [
+    348.302,
+    349.878,
+    "So the next part is cooling."
+   ],
+   [
+    350.158,
+    357.116,
+    "A cooler sits on the CPU, with a thin layer of thermal paste filling the microscopic gaps between them."
+   ],
+   [
+    357.396,
+    362.133,
+    "Heat moves into the cooler's metal fins or liquid, and fans push it away."
+   ],
+   [
+    362.413,
+    365.251,
+    "Your graphics card has its own cooler built in."
+   ],
+   [
+    365.531,
+    368.632,
+    "And the case fans move fresh air through the whole system."
+   ],
+   [
+    368.912,
+    373.462,
+    "If cooling falls behind, the chips protect themselves by slowing down."
+   ],
+   [
+    373.742,
+    379.693,
+    "That's called thermal throttling, and it's a common hidden reason a PC feels slower in summer."
+   ]
+  ],
+  [
+   [
+    380.443,
+    381.638,
+    "Finally, the case."
+   ],
+   [
+    381.918,
+    383.395,
+    "It's not just a box."
+   ],
+   [
+    383.675,
+    393.112,
+    "It sets the airflow path, protects the parts, and decides what fits inside: how long a graphics card, how tall a cooler, how many drives."
+   ]
+  ],
+  [
+   [
+    393.862,
+    395.475,
+    "So let's replay that click."
+   ],
+   [
+    395.755,
+    397.851,
+    "The power supply feeds clean power."
+   ],
+   [
+    398.131,
+    400.014,
+    "The motherboard connects everything."
+   ],
+   [
+    400.294,
+    403.839,
+    "The CPU reads your click and starts the instructions."
+   ],
+   [
+    404.119,
+    406.695,
+    "The SSD hands over the game files."
+   ],
+   [
+    406.975,
+    408.777,
+    "RAM holds them close."
+   ],
+   [
+    409.057,
+    411.443,
+    "Cache feeds the CPU even faster."
+   ],
+   [
+    411.723,
+    416.054,
+    "The GPU draws the menu across millions of pixels at once."
+   ],
+   [
+    416.334,
+    418.674,
+    "And the coolers keep it all from overheating."
+   ],
+   [
+    418.954,
+    421.77,
+    "Three seconds, eight parts, all working together."
+   ]
+  ],
+  [
+   [
+    422.52,
+    429.298,
+    "If your PC feels slow, the fix depends on which part is the bottleneck, and most people guess wrong."
+   ],
+   [
+    429.578,
+    436.497,
+    "That's the next video: what actually makes a PC slow, and why more RAM usually isn't the answer."
+   ],
+   [
+    436.777,
+    439.544,
+    "If this helped, subscribe, and I'll see you there."
+   ]
+  ]
+ ]
+}

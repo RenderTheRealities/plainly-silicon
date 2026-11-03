@@ -1,0 +1,380 @@
+1
+00:00:00,300 --> 00:00:01,757
+You double-click a game.
+
+2
+00:00:02,037 --> 00:00:04,690
+Three seconds later, you're on the main menu.
+
+3
+00:00:04,970 --> 00:00:12,376
+In those three seconds, every single part inside your PC did a job, and most people couldn't name half of them.
+
+4
+00:00:12,656 --> 00:00:16,755
+So let's follow that one click through the whole machine, part by part.
+
+5
+00:00:17,035 --> 00:00:24,111
+By the end, you'll know what every component does, which ones actually matter for speed, and where people waste money.
+
+6
+00:00:24,861 --> 00:00:25,970
+Start at the wall.
+
+7
+00:00:26,250 --> 00:00:32,144
+Your outlet sends out alternating current, around 120 volts in North America.
+
+8
+00:00:32,424 --> 00:00:34,775
+Nothing inside your PC can use that.
+
+9
+00:00:35,055 --> 00:00:38,215
+So the first part that wakes up is the power supply.
+
+10
+00:00:38,495 --> 00:00:50,579
+Its whole job is translation: it turns wall power into steady, low-voltage direct current, mostly 12 volts, plus 5 and 3.3 volts for smaller parts.
+
+11
+00:00:50,859 --> 00:00:58,702
+Every other component depends on it, which is why a cheap, unrated power supply is the one corner you should never cut.
+
+12
+00:00:58,982 --> 00:01:01,481
+When it fails, it can take other parts with it.
+
+13
+00:01:01,761 --> 00:01:09,342
+Look for an efficiency rating like 80 Plus Bronze or better, and a wattage with some headroom above what your parts draw.
+
+14
+00:01:10,092 --> 00:01:12,204
+That power flows into the motherboard.
+
+15
+00:01:12,484 --> 00:01:15,940
+Think of the motherboard as the city the other parts live in.
+
+16
+00:01:16,220 --> 00:01:17,599
+It doesn't do the thinking.
+
+17
+00:01:17,879 --> 00:01:19,319
+It provides the roads.
+
+18
+00:01:19,599 --> 00:01:28,360
+Copper traces connect the processor to the memory, the graphics card, and the storage, and the board decides how fast those roads can run.
+
+19
+00:01:28,640 --> 00:01:34,846
+It also holds a small chip with firmware called UEFI, the modern version of the BIOS.
+
+20
+00:01:35,126 --> 00:01:38,403
+That's the first code that runs when you press the power button.
+
+21
+00:01:38,683 --> 00:01:43,851
+It checks that everything is present, then hands control to your operating system.
+
+22
+00:01:44,601 --> 00:01:45,974
+Now, back to your click.
+
+23
+00:01:46,254 --> 00:01:56,298
+Your mouse sends a tiny signal through USB, and the motherboard delivers it to the brain of the system: the CPU, or central processing unit.
+
+24
+00:01:56,578 --> 00:02:02,459
+The CPU runs instructions one tiny step at a time, billions of times per second.
+
+25
+00:02:02,739 --> 00:02:04,868
+That's what the gigahertz number means.
+
+26
+00:02:05,148 --> 00:02:09,699
+A 4 gigahertz chip ticks through about four billion cycles every second.
+
+27
+00:02:09,979 --> 00:02:16,084
+Modern CPUs also have multiple cores, which are like several workers sharing one desk.
+
+28
+00:02:16,364 --> 00:02:20,703
+Your click becomes a list of instructions: find the game, load it, start it.
+
+29
+00:02:20,983 --> 00:02:24,039
+The CPU starts working through that list immediately.
+
+30
+00:02:24,789 --> 00:02:26,611
+But the CPU has a problem.
+
+31
+00:02:26,891 --> 00:02:28,636
+The game isn't anywhere near it.
+
+32
+00:02:28,916 --> 00:02:30,643
+It's sitting on your storage drive.
+
+33
+00:02:30,923 --> 00:02:33,783
+Storage is the long-term memory of your PC.
+
+34
+00:02:34,063 --> 00:02:39,683
+It keeps everything when the power is off: your operating system, your games, your photos.
+
+35
+00:02:39,963 --> 00:02:41,464
+There are two main kinds.
+
+36
+00:02:41,744 --> 00:02:49,009
+A hard drive stores data on spinning magnetic platters, read by an arm that physically moves into place.
+
+37
+00:02:49,289 --> 00:02:56,147
+It's cheap and roomy, but slow, usually around 150 to 200 megabytes per second.
+
+38
+00:02:56,427 --> 00:02:59,590
+A solid state drive has no moving parts at all.
+
+39
+00:02:59,870 --> 00:03:02,329
+It stores data in flash memory chips.
+
+40
+00:03:02,609 --> 00:03:10,564
+A good NVMe SSD, the kind that slots straight into the motherboard, can read thousands of megabytes per second.
+
+41
+00:03:10,844 --> 00:03:18,668
+That's why the single biggest upgrade for an old, slow PC is usually swapping a hard drive for an SSD.
+
+42
+00:03:19,418 --> 00:03:22,237
+So the game files start flowing off the SSD.
+
+43
+00:03:22,517 --> 00:03:24,624
+But they don't go straight to the CPU.
+
+44
+00:03:24,904 --> 00:03:30,995
+Storage, even fast storage, is still far too slow for the processor to work from directly.
+
+45
+00:03:31,275 --> 00:03:33,308
+So the files land in RAM.
+
+46
+00:03:33,588 --> 00:03:40,177
+RAM is short-term memory: a fast workspace the CPU can grab from in nanoseconds.
+
+47
+00:03:40,457 --> 00:03:41,852
+Here's the key difference.
+
+48
+00:03:42,132 --> 00:03:45,558
+RAM forgets everything the moment you cut the power.
+
+49
+00:03:45,838 --> 00:03:47,167
+Storage remembers.
+
+50
+00:03:47,447 --> 00:03:49,729
+RAM is the desk you're working at.
+
+51
+00:03:50,009 --> 00:03:52,871
+Storage is the filing cabinet across the room.
+
+52
+00:03:53,151 --> 00:03:59,529
+More RAM means a bigger desk, so you can keep more open at once without walking back to the cabinet.
+
+53
+00:03:59,809 --> 00:04:04,952
+But once your desk is big enough for what you do, adding more doesn't make anything faster.
+
+54
+00:04:05,232 --> 00:04:10,744
+For most gaming right now, 16 to 32 gigabytes is the comfortable range.
+
+55
+00:04:11,024 --> 00:04:14,779
+Past that, you're usually paying for desk space you'll never use.
+
+56
+00:04:15,529 --> 00:04:18,817
+Even RAM is too slow for the CPU's taste.
+
+57
+00:04:19,097 --> 00:04:25,514
+So the processor keeps its own tiny, extremely fast memory built right into the chip, called cache.
+
+58
+00:04:25,794 --> 00:04:34,004
+It's measured in megabytes, not gigabytes, but it's so close to the cores that the CPU checks it first for anything it needs.
+
+59
+00:04:34,284 --> 00:04:36,493
+Cache, then RAM, then storage.
+
+60
+00:04:36,773 --> 00:04:40,438
+Each step is bigger, cheaper, and slower than the one before.
+
+61
+00:04:41,188 --> 00:04:48,496
+With the game loaded, it's time to draw the main menu, and this is where the CPU hands off to a specialist.
+
+62
+00:04:48,776 --> 00:04:53,444
+The GPU, or graphics processing unit, lives on your graphics card.
+
+63
+00:04:53,724 --> 00:04:56,860
+A CPU has a handful of very smart cores.
+
+64
+00:04:57,140 --> 00:04:59,804
+A GPU has thousands of simpler ones.
+
+65
+00:05:00,084 --> 00:05:05,281
+That sounds like a downgrade, but drawing an image is a perfect job for a crowd.
+
+66
+00:05:05,561 --> 00:05:12,450
+Your screen has millions of pixels, and most of them can be calculated at the same time, independently.
+
+67
+00:05:12,730 --> 00:05:19,166
+So the GPU splits the frame into a massive number of small tasks and runs them all in parallel.
+
+68
+00:05:19,446 --> 00:05:26,255
+The graphics card also has its own memory, called VRAM, where it keeps textures and models close at hand.
+
+69
+00:05:26,535 --> 00:05:32,269
+In games, the GPU usually matters more for frame rate than the CPU does.
+
+70
+00:05:32,549 --> 00:05:36,274
+That's why it's often the most expensive part in a gaming build.
+
+71
+00:05:37,024 --> 00:05:38,783
+All that work produces heat.
+
+72
+00:05:39,063 --> 00:05:48,022
+A CPU or GPU under load can turn well over a hundred watts of electricity into heat, in a space smaller than a cracker.
+
+73
+00:05:48,302 --> 00:05:49,878
+So the next part is cooling.
+
+74
+00:05:50,158 --> 00:05:57,116
+A cooler sits on the CPU, with a thin layer of thermal paste filling the microscopic gaps between them.
+
+75
+00:05:57,396 --> 00:06:02,133
+Heat moves into the cooler's metal fins or liquid, and fans push it away.
+
+76
+00:06:02,413 --> 00:06:05,251
+Your graphics card has its own cooler built in.
+
+77
+00:06:05,531 --> 00:06:08,632
+And the case fans move fresh air through the whole system.
+
+78
+00:06:08,912 --> 00:06:13,462
+If cooling falls behind, the chips protect themselves by slowing down.
+
+79
+00:06:13,742 --> 00:06:19,693
+That's called thermal throttling, and it's a common hidden reason a PC feels slower in summer.
+
+80
+00:06:20,443 --> 00:06:21,638
+Finally, the case.
+
+81
+00:06:21,918 --> 00:06:23,395
+It's not just a box.
+
+82
+00:06:23,675 --> 00:06:33,112
+It sets the airflow path, protects the parts, and decides what fits inside: how long a graphics card, how tall a cooler, how many drives.
+
+83
+00:06:33,862 --> 00:06:35,475
+So let's replay that click.
+
+84
+00:06:35,755 --> 00:06:37,851
+The power supply feeds clean power.
+
+85
+00:06:38,131 --> 00:06:40,014
+The motherboard connects everything.
+
+86
+00:06:40,294 --> 00:06:43,839
+The CPU reads your click and starts the instructions.
+
+87
+00:06:44,119 --> 00:06:46,695
+The SSD hands over the game files.
+
+88
+00:06:46,975 --> 00:06:48,777
+RAM holds them close.
+
+89
+00:06:49,057 --> 00:06:51,443
+Cache feeds the CPU even faster.
+
+90
+00:06:51,723 --> 00:06:56,054
+The GPU draws the menu across millions of pixels at once.
+
+91
+00:06:56,334 --> 00:06:58,674
+And the coolers keep it all from overheating.
+
+92
+00:06:58,954 --> 00:07:01,770
+Three seconds, eight parts, all working together.
+
+93
+00:07:02,520 --> 00:07:09,298
+If your PC feels slow, the fix depends on which part is the bottleneck, and most people guess wrong.
+
+94
+00:07:09,578 --> 00:07:16,497
+That's the next video: what actually makes a PC slow, and why more RAM usually isn't the answer.
+
+95
+00:07:16,777 --> 00:07:19,544
+If this helped, subscribe, and I'll see you there.
+

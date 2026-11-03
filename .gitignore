@@ -1,0 +1,8 @@
+tts/model.onnx
+tts/*.bin
+tts/voices.npz
+*.mp4
+*.wav
+*.m4a
+preview_*.png
+__pycache__/
