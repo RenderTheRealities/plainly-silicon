@@ -9,9 +9,10 @@
    "publish": "2026-11-03T03:00:00-07:00",
    "title": "Every PC Component Explained in 7 Minutes (Animated)",
    "keyword": "every pc component explained",
-   "status": "scheduled",
+   "status": "published",
    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=1855835219625987956",
-   "theme": "circuit"
+   "theme": "circuit",
+   "youtubeUrl": "https://www.youtube.com/watch?v=IlvT-Sk3UiQ"
   },
   {
    "slug": "02-how-a-gpu-works",
