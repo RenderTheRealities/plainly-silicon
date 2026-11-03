@@ -19,7 +19,7 @@ def p_intro(x):
 
 def p_power(x):
     a = x.b(0)
-    x.rect([CX - 220, 450, CX + 220, 700], CYAN, a, 5, r=20, fill=(17, 27, 46, 255))
+    x.rect([CX - 220, 450, CX + 220, 700], CYAN, a, 5, r=20, fill=PANEL + (255,))
     x.text((CX, 545), "POWER", "title", 56, CYAN, a, anchor="mm")
     x.text((CX, 615), "SUPPLY", "title", 56, CYAN, a, anchor="mm")
     for j, v in enumerate(["12 V", "5 V", "3.3 V"]):
@@ -43,7 +43,7 @@ def p_cpu_gpu(x):
         r_, c_ = divmod(i, 4)
         lit = 0.4 + 0.6 * (0.5 + 0.5 * math.sin(x.t * 5 + i))
         x.rect([200 + c_ * 48, 570 + r_ * 75, 236 + c_ * 48, 630 + r_ * 75], CYAN, a * lit, 3, r=4,
-               fill=(34, 211, 238, int(80 * lit)), glow=False)
+               fill=CYAN + (int(80 * lit),), glow=False)
     x.text((290, 820), "CPU · 8 cores", "semi", 38, WHITE, a, anchor="mm")
     x.text((800, 600), "billions", "title", 58, AMBER, x.b(1), anchor="mm")
     x.text((800, 665), "of steps / second", "semi", 34, WHITE, x.b(1), anchor="mm")
@@ -74,7 +74,7 @@ def p_mem(x):
         p = ease((x.since(2) - i * 0.3) / 0.8)
         fx = 330 + (640 + i * 100 - 330) * p
         fy = 520 + i * 128 + (585 - 520 - i * 128) * p - 120 * math.sin(math.pi * p)
-        x.rect([fx, fy, fx + 80, fy + 50], WHITE, b * (1 - 0.85 * wipe), 3, r=6, fill=(17, 27, 46, 255), glow=False)
+        x.rect([fx, fy, fx + 80, fy + 50], WHITE, b * (1 - 0.85 * wipe), 3, r=6, fill=PANEL + (255,), glow=False)
     label_box(x, CX, 1150, "power off → RAM wiped", RED, wipe, 40)
 
 
@@ -84,10 +84,10 @@ def p_cool(x):
     chip_icon(x, cx, cy, 220, CYAN, a, 5)
     for k in range(3):
         ph = (x.t * 0.7 + k / 3) % 1.0
-        y = cy - 150 - ph * 220
+        y = cy - 150 - ph * 150
         pts = [(cx - 100 + i * 8, y + 12 * math.sin(i * 0.5 + x.t * 4)) for i in range(26)]
         x.line(pts, AMBER, a * (1 - ph), 4)
-    fcx, fcy = cx, 520
+    fcx, fcy = cx, 470
     x.circle(fcx, fcy, 100, CYAN, a, 5)
     for k in range(4):
         ang = x.t * 10 + k * math.pi / 2

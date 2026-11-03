@@ -1,0 +1,55 @@
+{
+ "shorts_per_day": 2,
+ "times": [
+  "12:00",
+  "18:00"
+ ],
+ "timezone": "America/Cambridge_Bay",
+ "shorts": [
+  {
+   "slug": "01s1-every-pc-part",
+   "theme": "blueprint",
+   "title": "Every PC Part Explained in Under a Minute #shorts",
+   "publish": "2026-11-03T09:00:00-07:00",
+   "source": "01-every-pc-component",
+   "status": "scheduled",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-5245755248572346950"
+  },
+  {
+   "slug": "01s2-ram-vs-storage",
+   "theme": "paper",
+   "title": "RAM vs Storage: Why Your PC Needs Both #shorts",
+   "publish": "2026-11-03T12:00:00-07:00",
+   "source": "01-every-pc-component",
+   "status": "scheduled",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-2354027853065400754"
+  },
+  {
+   "slug": "01s3-gpu-thousands-of-cores",
+   "theme": "terminal",
+   "title": "Why Your GPU Has Thousands of Cores #shorts",
+   "publish": "2026-11-03T15:00:00-07:00",
+   "source": "01-every-pc-component",
+   "status": "scheduled",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-1372206360290309065"
+  },
+  {
+   "slug": "01s4-best-upgrade-old-pc",
+   "theme": "sunset",
+   "title": "The One Upgrade That Revives an Old PC #shorts",
+   "publish": "2026-11-03T18:00:00-07:00",
+   "source": "01-every-pc-component",
+   "status": "scheduled",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-1602231477257680525"
+  },
+  {
+   "slug": "01s5-pc-slower-in-summer",
+   "theme": "mint",
+   "title": "Why Your PC Gets Slower in Summer #shorts",
+   "publish": "2026-11-03T21:00:00-07:00",
+   "source": "01-every-pc-component",
+   "status": "scheduled",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-3703900542235688107"
+  }
+ ]
+}

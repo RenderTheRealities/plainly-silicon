@@ -22,7 +22,7 @@ def g_cpu(x):
         r_, c_ = divmod(i, 4)
         x0, y0 = 170 + c_ * 190, 520 + r_ * 220
         lit = 0.5 + 0.5 * math.sin(x.t * 3 + i)
-        x.rect([x0, y0, x0 + 160, y0 + 180], WHITE, a, 4, r=14, fill=(229, 231, 235, int(40 * lit)))
+        x.rect([x0, y0, x0 + 160, y0 + 180], WHITE, a, 4, r=14, fill=WHITE + (int(40 * lit),))
     x.text((CX, 1020), "a few expert workers", "title", 52, WHITE, x.b(1), anchor="mm")
     x.text((CX, 1090), "fast · clever · step by step", "semi", 36, MUTED, x.b(1), anchor="mm")
 

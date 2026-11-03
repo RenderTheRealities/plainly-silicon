@@ -52,7 +52,7 @@ def q_move(x):
         ex, ey = 600 + i * 95, 580
         fx = sx + (ex - sx) * p
         fy = sy + (ey - sy) * p - 140 * math.sin(math.pi * p)
-        x.rect([fx, fy, fx + 80, fy + 50], WHITE, a * (1 - 0.85 * wipe), 3, r=6, fill=(17, 27, 46, 255), glow=False)
+        x.rect([fx, fy, fx + 80, fy + 50], WHITE, a * (1 - 0.85 * wipe), 3, r=6, fill=PANEL + (255,), glow=False)
     label_box(x, 790, 1000, "power off → desk wiped", RED, wipe, 36)
     label_box(x, 290, 1000, "cabinet keeps it", CYAN, x.b(2), 36)
 

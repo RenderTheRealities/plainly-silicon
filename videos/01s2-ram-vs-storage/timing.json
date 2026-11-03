@@ -1,0 +1,101 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   5.191
+  ],
+  [
+   5.941,
+   14.429
+  ],
+  [
+   15.179,
+   23.166
+  ],
+  [
+   23.916,
+   33.108
+  ],
+  [
+   33.858,
+   44.953
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    2.801,
+    "RAM and storage are both memory."
+   ],
+   [
+    3.081,
+    5.191,
+    "So why does your PC need both?"
+   ]
+  ],
+  [
+   [
+    5.941,
+    8.261,
+    "Think of storage as a filing cabinet."
+   ],
+   [
+    8.541,
+    12.164,
+    "It's huge, and it keeps everything, even with the power off."
+   ],
+   [
+    12.444,
+    14.429,
+    "But walking over to it takes time."
+   ]
+  ],
+  [
+   [
+    15.179,
+    16.678,
+    "RAM is your desk."
+   ],
+   [
+    16.958,
+    23.166,
+    "It's small, but everything on it is right in front of you, so the CPU can grab it in nanoseconds."
+   ]
+  ],
+  [
+   [
+    23.916,
+    28.256,
+    "When you open a game, its files move from the cabinet onto the desk."
+   ],
+   [
+    28.536,
+    31.159,
+    "When you shut down, the desk is wiped clean."
+   ],
+   [
+    31.439,
+    33.108,
+    "The cabinet keeps everything."
+   ]
+  ],
+  [
+   [
+    33.858,
+    37.618,
+    "That's why more RAM only helps if your desk is too small."
+   ],
+   [
+    37.898,
+    41.869,
+    "For most gaming, 16 to 32 gigabytes is plenty."
+   ],
+   [
+    42.149,
+    44.953,
+    "The full breakdown of every part is on the channel."
+   ]
+  ]
+ ]
+}

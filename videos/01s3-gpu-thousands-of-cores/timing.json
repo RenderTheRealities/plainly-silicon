@@ -1,0 +1,91 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   7.419
+  ],
+  [
+   8.169,
+   16.724
+  ],
+  [
+   17.474,
+   23.072
+  ],
+  [
+   23.822,
+   33.516
+  ],
+  [
+   34.266,
+   44.828
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    2.525,
+    "Your CPU might have 8 cores."
+   ],
+   [
+    2.805,
+    4.76,
+    "Your graphics card has thousands."
+   ],
+   [
+    5.04,
+    7.419,
+    "So why isn't the GPU in charge?"
+   ]
+  ],
+  [
+   [
+    8.169,
+    11.414,
+    "CPU cores are like a few expert workers."
+   ],
+   [
+    11.694,
+    16.724,
+    "Each one is fast and clever, and great at complicated, step-by-step jobs."
+   ]
+  ],
+  [
+   [
+    17.474,
+    20.937,
+    "GPU cores are a huge crowd of simpler workers."
+   ],
+   [
+    21.217,
+    23.072,
+    "On their own, they're not that smart."
+   ]
+  ],
+  [
+   [
+    23.822,
+    29.022,
+    "But a frame is millions of pixels, and most of them can be worked out at the same time."
+   ],
+   [
+    29.302,
+    33.516,
+    "Give each worker a few pixels, and the whole picture fills in at once."
+   ]
+  ],
+  [
+   [
+    34.266,
+    40.282,
+    "That's why games lean on the GPU for frame rate, while the CPU runs everything else."
+   ],
+   [
+    40.562,
+    44.828,
+    "See every part of your PC explained in the full video on the channel."
+   ]
+  ]
+ ]
+}

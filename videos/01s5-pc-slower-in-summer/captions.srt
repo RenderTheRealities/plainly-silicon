@@ -1,0 +1,40 @@
+1
+00:00:00,300 --> 00:00:02,839
+Does your PC feel slower on hot days?
+
+2
+00:00:03,119 --> 00:00:05,006
+You're probably not imagining it.
+
+3
+00:00:05,756 --> 00:00:14,488
+Under load, a CPU or graphics card can turn well over a hundred watts of power into heat, in a chip smaller than a cracker.
+
+4
+00:00:15,238 --> 00:00:16,900
+Coolers move that heat away.
+
+5
+00:00:17,180 --> 00:00:21,801
+Thermal paste carries it into metal fins, and fans push it out of the case.
+
+6
+00:00:22,551 --> 00:00:28,483
+But when the room is hot, the air the fans push is already warm, so cooling falls behind.
+
+7
+00:00:28,763 --> 00:00:31,984
+To protect itself, the chip lowers its clock speed.
+
+8
+00:00:32,264 --> 00:00:34,001
+That's called thermal throttling.
+
+9
+00:00:34,751 --> 00:00:38,706
+Clean the dust out of your fans, and give your case room to breathe.
+
+10
+00:00:38,986 --> 00:00:43,292
+Every part of your PC is explained in the full video on the channel.
+

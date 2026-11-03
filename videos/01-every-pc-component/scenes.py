@@ -10,7 +10,7 @@ def s_hook(x):
     # game tile + cursor double click
     tile_a = x.b(0, 0.6)
     tx, ty = 960, 470
-    x.rect([tx - 110, ty - 110, tx + 110, ty + 110], CYAN, tile_a, 5, r=36, fill=(17, 27, 46, 255))
+    x.rect([tx - 110, ty - 110, tx + 110, ty + 110], CYAN, tile_a, 5, r=36, fill=PANEL + (255,))
     x.d.polygon([(tx - 30, ty - 45), (tx - 30, ty + 45), (tx + 45, ty)], fill=col(CYAN, tile_a))
     x.text((tx, ty + 160), "Your game", "semi", 34, WHITE, tile_a, anchor="mm")
     # cursor glides in during first 1.2 s
@@ -56,7 +56,7 @@ def s_psu(x):
     # PSU box
     a2 = x.b(2)
     px0, px1 = 800, 1180
-    x.rect([px0, oy - 170, px1, oy + 170], CYAN, a2, 5, r=20, fill=(17, 27, 46, 255))
+    x.rect([px0, oy - 170, px1, oy + 170], CYAN, a2, 5, r=20, fill=PANEL + (255,))
     x.text(((px0 + px1) / 2, oy - 30), "POWER", "title", 54, CYAN, a2, anchor="mm")
     x.text(((px0 + px1) / 2, oy + 35), "SUPPLY", "title", 54, CYAN, a2, anchor="mm")
     # fan circle with rotating blades
@@ -82,7 +82,7 @@ def s_psu(x):
 def s_mobo(x):
     a = x.b(0)
     bx0, by0, bx1, by1 = 460, 150, 1460, 900
-    x.rect([bx0, by0, bx1, by1], CYAN, a, 5, r=18, fill=(14, 24, 40, 255))
+    x.rect([bx0, by0, bx1, by1], CYAN, a, 5, r=18, fill=PANEL + (255,))
     x.text((bx0 + 30, by0 + 30), "MOTHERBOARD", "monob", 30, CYAN, a)
     # components on the board
     ca = x.b(1)
@@ -145,7 +145,7 @@ def s_cpu(x):
         x0 = cx - 135 + c_ * 70
         y0 = cy - 100 + r_ * 110
         lit = 0.35 + 0.65 * (0.5 + 0.5 * math.sin(x.t * 5 + i * 1.3))
-        x.rect([x0, y0, x0 + 55, y0 + 85], CYAN, cores_a * lit, 3, r=6, fill=(34, 211, 238, int(70 * lit)), glow=False)
+        x.rect([x0, y0, x0 + 55, y0 + 85], CYAN, cores_a * lit, 3, r=6, fill=CYAN + (int(70 * lit),), glow=False)
     x.text((cx, cy + 250), "8 cores = 8 workers", "semi", 32, WHITE, cores_a, anchor="mm")
     # clock counter
     ga = x.b(2)
@@ -179,7 +179,7 @@ def s_storage(x):
     # SSD
     sa = x.b(7)
     sx, sy = 1400, 450
-    x.rect([sx - 300, sy - 70, sx + 300, sy + 70], CYAN, sa, 4, r=10, fill=(17, 27, 46, 255))
+    x.rect([sx - 300, sy - 70, sx + 300, sy + 70], CYAN, sa, 4, r=10, fill=PANEL + (255,))
     for i in range(4):
         x.rect([sx - 270 + i * 140, sy - 45, sx - 160 + i * 140, sy + 45], CYAN, sa, 3, r=6, glow=False)
     x.text((sx, sy - 120), "NVMe SSD (no moving parts)", "semi", 36, CYAN, sa, anchor="mm")
@@ -220,7 +220,7 @@ def s_ram(x):
         ex, ey = 260 + i * 115, 410
         fx, fy = sx + (ex - sx) * p, sy + (ey - sy) * p - 120 * math.sin(math.pi * p)
         fa = x.b(2) * (0.15 if wiped else 1)
-        x.rect([fx, fy, fx + 90, fy + 54], WHITE, fa, 3, r=6, fill=(17, 27, 46, 255), glow=False)
+        x.rect([fx, fy, fx + 90, fy + 54], WHITE, fa, 3, r=6, fill=PANEL + (255,), glow=False)
     if wiped:
         label_box(x, 530, 360, "POWER OFF → desk cleared", RED, x.b(4), 32)
     # sizing bar
@@ -243,7 +243,7 @@ def s_cache(x):
         if i:
             a = x.b(4) * ease((x.since(4) - (i - 1) * 0.4) / 0.5)
         y = 250 + i * 200
-        x.rect([960 - wd, y, 960 + wd, y + 150], c, a, 5, r=14, fill=(17, 27, 46, 255))
+        x.rect([960 - wd, y, 960 + wd, y + 150], c, a, 5, r=14, fill=PANEL + (255,))
         x.text((960, y + 55), nm, "title", 58, c, a, anchor="mm")
         x.text((960, y + 112), sub, "semi", 30, WHITE, a, anchor="mm")
     aa = x.b(5)
@@ -296,7 +296,7 @@ def s_cooling(x):
     x.text((cx, cy + 210), "100+ W of heat in a tiny chip", "semi", 32, WHITE, a, anchor="mm")
     # paste + fins
     pa = x.b(3)
-    x.rect([cx - 140, cy - 165, cx + 140, cy - 150], WHITE, pa, 3, r=3, glow=False, fill=(229, 231, 235, 255))
+    x.rect([cx - 140, cy - 165, cx + 140, cy - 150], WHITE, pa, 3, r=3, glow=False, fill=WHITE + (255,))
     x.text((cx + 170, cy - 158), "thermal paste", "semi", 26, WHITE, pa, anchor="lm")
     fa = x.b(4)
     for i in range(9):
@@ -351,7 +351,7 @@ def s_replay(x):
         a = 0.25 + 0.75 * x.b(bi)
         cx = 300 + (i % 4) * 440
         cy = 330 + (i // 4) * 330
-        x.rect([cx - 190, cy - 110, cx + 190, cy + 110], CYAN, a, 4, r=18, fill=(17, 27, 46, 255), glow=x.b(bi) > 0.5)
+        x.rect([cx - 190, cy - 110, cx + 190, cy + 110], CYAN, a, 4, r=18, fill=PANEL + (255,), glow=x.b(bi) > 0.5)
         x.text((cx, cy - 25), nm, "title", 48, CYAN if x.b(bi) > 0.5 else MUTED, a, anchor="mm")
         x.text((cx, cy + 40), sub, "semi", 28, WHITE, a, anchor="mm")
     fa = x.b(len(x.beats) - 1)
@@ -361,7 +361,7 @@ def s_replay(x):
 def s_outro(x):
     a = x.b(0)
     x.text((960, 230), "Up next", "semi", 40, MUTED, a, anchor="mm")
-    x.rect([460, 300, 1460, 720], CYAN, x.b(1), 5, r=26, fill=(17, 27, 46, 255))
+    x.rect([460, 300, 1460, 720], CYAN, x.b(1), 5, r=26, fill=PANEL + (255,))
     x.text((960, 450), "Why your PC is slow", "title", 72, WHITE, x.b(1), anchor="mm")
     x.text((960, 550), "and why more RAM usually isn't the fix", "semi", 38, AMBER, x.b(1), anchor="mm")
     sa = x.b(2)

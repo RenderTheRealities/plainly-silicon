@@ -1,0 +1,86 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   5.006
+  ],
+  [
+   5.756,
+   14.488
+  ],
+  [
+   15.238,
+   21.801
+  ],
+  [
+   22.551,
+   34.001
+  ],
+  [
+   34.751,
+   43.292
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    2.839,
+    "Does your PC feel slower on hot days?"
+   ],
+   [
+    3.119,
+    5.006,
+    "You're probably not imagining it."
+   ]
+  ],
+  [
+   [
+    5.756,
+    14.488,
+    "Under load, a CPU or graphics card can turn well over a hundred watts of power into heat, in a chip smaller than a cracker."
+   ]
+  ],
+  [
+   [
+    15.238,
+    16.9,
+    "Coolers move that heat away."
+   ],
+   [
+    17.18,
+    21.801,
+    "Thermal paste carries it into metal fins, and fans push it out of the case."
+   ]
+  ],
+  [
+   [
+    22.551,
+    28.483,
+    "But when the room is hot, the air the fans push is already warm, so cooling falls behind."
+   ],
+   [
+    28.763,
+    31.984,
+    "To protect itself, the chip lowers its clock speed."
+   ],
+   [
+    32.264,
+    34.001,
+    "That's called thermal throttling."
+   ]
+  ],
+  [
+   [
+    34.751,
+    38.706,
+    "Clean the dust out of your fans, and give your case room to breathe."
+   ],
+   [
+    38.986,
+    43.292,
+    "Every part of your PC is explained in the full video on the channel."
+   ]
+  ]
+ ]
+}

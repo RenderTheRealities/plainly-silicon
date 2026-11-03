@@ -1,0 +1,40 @@
+1
+00:00:00,300 --> 00:00:06,620
+If your old PC feels painfully slow, there's one upgrade that usually beats all the others.
+
+2
+00:00:07,370 --> 00:00:10,383
+Many older PCs still run on a hard drive.
+
+3
+00:00:10,663 --> 00:00:16,576
+It stores data on spinning platters, read by an arm that has to physically move into place.
+
+4
+00:00:17,326 --> 00:00:18,192
+That's slow.
+
+5
+00:00:18,472 --> 00:00:24,252
+A typical hard drive reads around 150 to 200 megabytes per second.
+
+6
+00:00:25,002 --> 00:00:28,165
+A solid state drive has no moving parts at all.
+
+7
+00:00:28,445 --> 00:00:36,085
+Even a basic one is several times faster, and an NVMe SSD can read thousands of megabytes per second.
+
+8
+00:00:36,835 --> 00:00:40,295
+Boot times, app launches and loading screens all shrink.
+
+9
+00:00:40,575 --> 00:00:44,741
+Before you buy anything else, check whether you're still on a hard drive.
+
+10
+00:00:45,021 --> 00:00:47,599
+The full PC breakdown is on the channel.
+

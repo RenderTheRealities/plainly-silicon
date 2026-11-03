@@ -1,0 +1,52 @@
+1
+00:00:00,300 --> 00:00:02,801
+RAM and storage are both memory.
+
+2
+00:00:03,081 --> 00:00:05,191
+So why does your PC need both?
+
+3
+00:00:05,941 --> 00:00:08,261
+Think of storage as a filing cabinet.
+
+4
+00:00:08,541 --> 00:00:12,164
+It's huge, and it keeps everything, even with the power off.
+
+5
+00:00:12,444 --> 00:00:14,429
+But walking over to it takes time.
+
+6
+00:00:15,179 --> 00:00:16,678
+RAM is your desk.
+
+7
+00:00:16,958 --> 00:00:23,166
+It's small, but everything on it is right in front of you, so the CPU can grab it in nanoseconds.
+
+8
+00:00:23,916 --> 00:00:28,256
+When you open a game, its files move from the cabinet onto the desk.
+
+9
+00:00:28,536 --> 00:00:31,159
+When you shut down, the desk is wiped clean.
+
+10
+00:00:31,439 --> 00:00:33,108
+The cabinet keeps everything.
+
+11
+00:00:33,858 --> 00:00:37,618
+That's why more RAM only helps if your desk is too small.
+
+12
+00:00:37,898 --> 00:00:41,869
+For most gaming, 16 to 32 gigabytes is plenty.
+
+13
+00:00:42,149 --> 00:00:44,953
+The full breakdown of every part is on the channel.
+

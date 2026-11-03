@@ -1,0 +1,52 @@
+1
+00:00:00,300 --> 00:00:05,220
+Here's every part inside your PC, and what it actually does, in under a minute.
+
+2
+00:00:05,970 --> 00:00:10,287
+The power supply turns wall power into clean, low-voltage power.
+
+3
+00:00:10,567 --> 00:00:14,178
+The motherboard connects everything, like the roads of a city.
+
+4
+00:00:14,928 --> 00:00:16,542
+The CPU is the brain.
+
+5
+00:00:16,822 --> 00:00:19,939
+It runs billions of tiny instructions every second.
+
+6
+00:00:20,219 --> 00:00:25,581
+The GPU is a crowd of thousands of small cores that draws every frame you see.
+
+7
+00:00:26,331 --> 00:00:28,312
+Storage is long-term memory.
+
+8
+00:00:28,592 --> 00:00:30,853
+It keeps your files when the power is off.
+
+9
+00:00:31,133 --> 00:00:33,151
+RAM is short-term memory.
+
+10
+00:00:33,431 --> 00:00:36,403
+It's fast, but it forgets everything when you shut down.
+
+11
+00:00:37,153 --> 00:00:40,537
+And the coolers pull heat away so none of it slows down.
+
+12
+00:00:40,817 --> 00:00:42,836
+Want to see it all working together?
+
+13
+00:00:43,116 --> 00:00:46,073
+The full animated breakdown is on the channel.
+

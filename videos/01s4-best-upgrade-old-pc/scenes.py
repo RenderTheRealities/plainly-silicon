@@ -43,7 +43,7 @@ def u_slow(x):
 
 def u_ssd(x):
     a = x.b(0)
-    x.rect([CX - 320, 520, CX + 320, 680], CYAN, a, 5, r=12, fill=(17, 27, 46, 255))
+    x.rect([CX - 320, 520, CX + 320, 680], CYAN, a, 5, r=12, fill=PANEL + (255,))
     for i in range(4):
         x.rect([CX - 290 + i * 150, 550, CX - 170 + i * 150, 650], CYAN, a, 3, r=6, glow=False)
     x.text((CX, 740), "SSD: no moving parts", "title", 48, CYAN, a, anchor="mm")

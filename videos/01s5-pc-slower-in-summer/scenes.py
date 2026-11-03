@@ -38,7 +38,7 @@ def h_cool(x):
     a = x.b(0)
     cy = 950
     chip_icon(x, CX, cy, 200, CYAN, a, 5)
-    x.rect([CX - 120, cy - 135, CX + 120, cy - 120], WHITE, x.b(1), 3, r=3, glow=False, fill=(229, 231, 235, 255))
+    x.rect([CX - 120, cy - 135, CX + 120, cy - 120], WHITE, x.b(1), 3, r=3, glow=False, fill=WHITE + (255,))
     for i in range(9):
         fx = CX - 120 + i * 30
         x.line([(fx, cy - 150), (fx, cy - 320)], CYAN, x.b(1), 5, glow=False)

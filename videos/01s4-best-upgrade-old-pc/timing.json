@@ -1,0 +1,86 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   6.62
+  ],
+  [
+   7.37,
+   16.576
+  ],
+  [
+   17.326,
+   24.252
+  ],
+  [
+   25.002,
+   36.085
+  ],
+  [
+   36.835,
+   47.599
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    6.62,
+    "If your old PC feels painfully slow, there's one upgrade that usually beats all the others."
+   ]
+  ],
+  [
+   [
+    7.37,
+    10.383,
+    "Many older PCs still run on a hard drive."
+   ],
+   [
+    10.663,
+    16.576,
+    "It stores data on spinning platters, read by an arm that has to physically move into place."
+   ]
+  ],
+  [
+   [
+    17.326,
+    18.192,
+    "That's slow."
+   ],
+   [
+    18.472,
+    24.252,
+    "A typical hard drive reads around 150 to 200 megabytes per second."
+   ]
+  ],
+  [
+   [
+    25.002,
+    28.165,
+    "A solid state drive has no moving parts at all."
+   ],
+   [
+    28.445,
+    36.085,
+    "Even a basic one is several times faster, and an NVMe SSD can read thousands of megabytes per second."
+   ]
+  ],
+  [
+   [
+    36.835,
+    40.295,
+    "Boot times, app launches and loading screens all shrink."
+   ],
+   [
+    40.575,
+    44.741,
+    "Before you buy anything else, check whether you're still on a hard drive."
+   ],
+   [
+    45.021,
+    47.599,
+    "The full PC breakdown is on the channel."
+   ]
+  ]
+ ]
+}

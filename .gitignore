@@ -7,3 +7,4 @@ tts/voices.npz
 preview_*.png
 __pycache__/
 .media-worktree/
+*.log

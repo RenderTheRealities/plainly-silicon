@@ -12,26 +12,78 @@ import json, math, os, re, subprocess, sys
 from PIL import Image, ImageDraw, ImageFont
 
 W, H, FPS = 1920, 1080, 30
-NAVY = (11, 18, 32)
-GRID = (20, 31, 52)
-CYAN = (34, 211, 238)
-AMBER = (245, 158, 11)
-WHITE = (229, 231, 235)
-MUTED = (120, 135, 160)
-RED = (239, 68, 68)
-GREEN = (52, 211, 153)
 FD = "/usr/share/fonts/opentype/inter/"
+GF = "/usr/share/fonts/truetype/google-fonts/"
+DV = "/usr/share/fonts/truetype/dejavu/"
+
+# ---------- themes ----------
+# Every video picks a theme in VIDEO_DIR/theme.txt so videos don't look alike.
+# Color names are ROLES, kept for compatibility with scene code:
+#   NAVY = background, PANEL = box fill, GRID = background pattern, CYAN = primary accent,
+#   AMBER = secondary accent, WHITE = main text/lines, MUTED = secondary text,
+#   RED = bad/warning, GREEN = good/takeaway, SUB_BG = subtitle box (RGBA).
+INTER = {"title": FD + "InterDisplay-Bold.otf", "semi": FD + "Inter-SemiBold.otf", "reg": FD + "Inter-Regular.otf"}
+POPPINS = {"title": GF + "Poppins-Bold.ttf", "semi": GF + "Poppins-Medium.ttf", "reg": GF + "Poppins-Regular.ttf"}
+LORA = {"title": (GF + "Lora-Variable.ttf", b"Bold"), "semi": FD + "Inter-SemiBold.otf", "reg": FD + "Inter-Regular.otf"}
+MONO = {"title": DV + "DejaVuSansMono-Bold.ttf", "semi": DV + "DejaVuSansMono.ttf", "reg": DV + "DejaVuSansMono.ttf"}
+THEMES = {
+    "circuit":   dict(NAVY=(11, 18, 32), PANEL=(17, 27, 46), GRID=(20, 31, 52), CYAN=(34, 211, 238), AMBER=(245, 158, 11),
+                      WHITE=(229, 231, 235), MUTED=(120, 135, 160), RED=(239, 68, 68), GREEN=(52, 211, 153),
+                      SUB_BG=(6, 10, 20, 205), bg="grid", glow=True, fonts=INTER),
+    "blueprint": dict(NAVY=(14, 42, 84), PANEL=(20, 54, 104), GRID=(40, 80, 140), CYAN=(186, 225, 255), AMBER=(255, 209, 102),
+                      WHITE=(240, 246, 255), MUTED=(150, 180, 215), RED=(255, 120, 120), GREEN=(140, 240, 190),
+                      SUB_BG=(8, 26, 56, 215), bg="blueprint", glow=False, fonts=INTER),
+    "paper":     dict(NAVY=(246, 241, 231), PANEL=(255, 252, 245), GRID=(226, 218, 202), CYAN=(37, 99, 235), AMBER=(217, 70, 39),
+                      WHITE=(31, 41, 55), MUTED=(110, 110, 120), RED=(190, 30, 45), GREEN=(22, 128, 80),
+                      SUB_BG=(31, 41, 55, 225), SUB_FG=(250, 248, 242), bg="dots", glow=False, fonts=LORA),
+    "terminal":  dict(NAVY=(6, 10, 7), PANEL=(10, 20, 12), GRID=(16, 32, 20), CYAN=(74, 222, 128), AMBER=(250, 204, 21),
+                      WHITE=(214, 240, 220), MUTED=(110, 150, 120), RED=(248, 113, 113), GREEN=(134, 239, 172),
+                      SUB_BG=(0, 0, 0, 220), bg="scanlines", glow=True, fonts=MONO),
+    "sunset":    dict(NAVY=(30, 14, 48), PANEL=(48, 24, 72), GRID=(60, 30, 86), CYAN=(244, 114, 182), AMBER=(251, 146, 60),
+                      WHITE=(253, 242, 248), MUTED=(190, 150, 190), RED=(255, 99, 99), GREEN=(110, 231, 183),
+                      SUB_BG=(20, 8, 32, 215), bg="gradient", glow=True, fonts=POPPINS),
+    "mint":      dict(NAVY=(5, 38, 35), PANEL=(10, 56, 51), GRID=(14, 66, 60), CYAN=(45, 212, 191), AMBER=(253, 230, 138),
+                      WHITE=(236, 253, 245), MUTED=(130, 180, 170), RED=(251, 113, 133), GREEN=(190, 242, 100),
+                      SUB_BG=(2, 24, 22, 215), bg="diagonal", glow=False, fonts=POPPINS),
+    "ember":     dict(NAVY=(22, 20, 19), PANEL=(36, 32, 30), GRID=(44, 39, 36), CYAN=(251, 146, 60), AMBER=(250, 204, 21),
+                      WHITE=(245, 240, 235), MUTED=(160, 150, 140), RED=(239, 68, 68), GREEN=(132, 204, 22),
+                      SUB_BG=(10, 9, 8, 215), bg="plain", glow=True, fonts=INTER),
+    "ocean":     dict(NAVY=(8, 24, 44), PANEL=(14, 38, 66), GRID=(20, 46, 78), CYAN=(96, 165, 250), AMBER=(52, 211, 153),
+                      WHITE=(226, 236, 248), MUTED=(130, 150, 180), RED=(248, 113, 113), GREEN=(167, 243, 208),
+                      SUB_BG=(4, 14, 28, 210), bg="gradient", glow=True, fonts=POPPINS),
+}
+THEME = "circuit"
+SUB_FG = (255, 255, 255)
+FONTS, BG_STYLE, GLOW = INTER, "grid", True
 _fc = {}
+
+
+def apply_theme(name):
+    """Set the color/font/background globals for a theme (call before importing scenes)."""
+    global THEME, FONTS, BG_STYLE, GLOW, SUB_FG
+    t = THEMES[name]
+    g = globals()
+    for k in ("NAVY", "PANEL", "GRID", "CYAN", "AMBER", "WHITE", "MUTED", "RED", "GREEN", "SUB_BG"):
+        g[k] = t[k]
+    SUB_FG = t.get("SUB_FG", (255, 255, 255))
+    THEME, FONTS, BG_STYLE, GLOW = name, t["fonts"], t["bg"], t["glow"]
+    _fc.clear()
+
+
+apply_theme("circuit")
 
 
 def font(kind, size):
     key = (kind, size)
     if key not in _fc:
-        path = {"title": FD + "InterDisplay-Bold.otf", "semi": FD + "Inter-SemiBold.otf",
-                "reg": FD + "Inter-Regular.otf",
-                "mono": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
-                "monob": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf"}[kind]
-        _fc[key] = ImageFont.truetype(path, size)
+        path = {"mono": DV + "DejaVuSansMono.ttf", "monob": DV + "DejaVuSansMono-Bold.ttf"}.get(kind) or FONTS[kind]
+        var = None
+        if isinstance(path, tuple):
+            path, var = path
+        f = ImageFont.truetype(path, size)
+        if var:
+            f.set_variation_by_name(var)
+        _fc[key] = f
     return _fc[key]
 
 
@@ -70,14 +122,14 @@ class Ctx:
     def line(self, pts, c, a, w=4, glow=True):
         if a <= 0:
             return
-        if glow:
+        if glow and GLOW:
             self.d.line(pts, fill=col(c, a * 0.18), width=w * 4, joint="curve")
         self.d.line(pts, fill=col(c, a), width=w, joint="curve")
 
     def rect(self, box, c, a, w=4, r=10, fill=None, glow=True):
         if a <= 0:
             return
-        if glow:
+        if glow and GLOW:
             x0, y0, x1, y1 = box
             self.d.rounded_rectangle([x0 - 4, y0 - 4, x1 + 4, y1 + 4], radius=r + 4, outline=col(c, a * 0.18), width=w * 3)
         self.d.rounded_rectangle(box, radius=r, outline=col(c, a), width=w,
@@ -151,6 +203,10 @@ def load_scenes(vdir):
     """Each video folder has scenes.py defining SCENES = [(chapter title, draw fn), ...],
     one entry per narration paragraph. Draw fns get a Ctx; x.b(i) fades in with sentence i."""
     import importlib.util
+    tpath = os.path.join(vdir, "theme.txt")
+    apply_theme(open(tpath).read().strip() if os.path.exists(tpath) else "circuit")
+    # scenes do `from render import *`; make that the module that is running, so they get the theme
+    sys.modules.setdefault("render", sys.modules[__name__])
     spec = importlib.util.spec_from_file_location("scenes", os.path.join(vdir, "scenes.py"))
     mod = importlib.util.module_from_spec(spec)
     sys.modules["scenes"] = mod
@@ -207,10 +263,33 @@ def load(vdir):
 def background():
     bg = Image.new("RGBA", (W, H), NAVY + (255,))
     d = ImageDraw.Draw(bg)
-    for gx in range(0, W, 60):
-        d.line([(gx, 0), (gx, H)], fill=GRID + (110,), width=1)
-    for gy in range(0, H, 60):
-        d.line([(0, gy), (W, gy)], fill=GRID + (110,), width=1)
+    g = GRID + (255,)
+    if BG_STYLE == "grid":
+        for gx in range(0, W, 60):
+            d.line([(gx, 0), (gx, H)], fill=GRID + (110,), width=1)
+        for gy in range(0, H, 60):
+            d.line([(0, gy), (W, gy)], fill=GRID + (110,), width=1)
+    elif BG_STYLE == "blueprint":
+        for i, gx in enumerate(range(0, W, 30)):
+            d.line([(gx, 0), (gx, H)], fill=GRID + (200 if i % 5 == 0 else 90,), width=2 if i % 5 == 0 else 1)
+        for i, gy in enumerate(range(0, H, 30)):
+            d.line([(0, gy), (W, gy)], fill=GRID + (200 if i % 5 == 0 else 90,), width=2 if i % 5 == 0 else 1)
+    elif BG_STYLE == "dots":
+        for gx in range(20, W, 40):
+            for gy in range(20, H, 40):
+                d.ellipse([gx - 2, gy - 2, gx + 2, gy + 2], fill=g)
+    elif BG_STYLE == "scanlines":
+        for gy in range(0, H, 4):
+            d.line([(0, gy), (W, gy)], fill=GRID + (120,), width=1)
+    elif BG_STYLE == "diagonal":
+        for k in range(-H, W, 48):
+            d.line([(k, 0), (k + H, H)], fill=GRID + (140,), width=2)
+    elif BG_STYLE == "gradient":
+        top, bot = NAVY, PANEL
+        for gy in range(H):
+            f = gy / H
+            d.line([(0, gy), (W, gy)], fill=tuple(int(top[i] + (bot[i] - top[i]) * f) for i in range(3)) + (255,))
+    # "plain": solid background
     return bg
 
 
@@ -267,9 +346,9 @@ def frame(scenes, total, T):
         lines = wrap(cur[-1], f, maxw, d)[:nmax]
         y = ybase - lh * len(lines)
         tw = max(d.textlength(l, font=f) for l in lines)
-        d.rounded_rectangle([W / 2 - tw / 2 - 26, y - 14, W / 2 + tw / 2 + 26, y + lh * len(lines) + 6], radius=16, fill=(6, 10, 20, 205))
+        d.rounded_rectangle([W / 2 - tw / 2 - 26, y - 14, W / 2 + tw / 2 + 26, y + lh * len(lines) + 6], radius=16, fill=SUB_BG)
         for k, l in enumerate(lines):
-            d.text((W / 2, y + k * lh), l, font=f, fill=WHITE + (255,), anchor="ma")
+            d.text((W / 2, y + k * lh), l, font=f, fill=SUB_FG + (255,), anchor="ma")
     if not vertical:
         d.rectangle([0, H - 6, W * T / total, H], fill=CYAN + (255,))
         img.alpha_composite(LOGO, (W - 96, 36))
