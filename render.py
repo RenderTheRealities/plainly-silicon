@@ -372,6 +372,18 @@ def frame(scenes, total, T):
     if not vertical:
         d.rectangle([0, H - 6, W * T / total, H], fill=CYAN + (255,))
         img.alpha_composite(LOGO, (W - 96, 36))
+        # mid-video subscribe reminder: ~35% in, 6 s, slides into the header strip beside the logo
+        s0 = total * 0.35
+        if s0 <= T < s0 + 6:
+            p = min(ease((T - s0) / 0.5), ease((s0 + 6 - T) / 0.5))
+            f = font("semi", 30)
+            msg = safe("Enjoying this? Subscribe for more animated PC explainers")
+            tw = d.textlength(msg, font=f)
+            x1 = W - 120 + (1 - p) * (tw + 240)
+            d.rounded_rectangle([x1 - tw - 110, 24, x1, 82], radius=30, fill=SUB_BG)
+            d.rounded_rectangle([x1 - tw - 96, 35, x1 - tw - 52, 71], radius=8, fill=RED + (255,))
+            d.polygon([(x1 - tw - 80, 43), (x1 - tw - 80, 63), (x1 - tw - 64, 53)], fill=(255, 255, 255, 255))
+            d.text((x1 - 24, 53), msg, font=f, fill=SUB_FG + (255,), anchor="rm")
     return img.convert("RGB")
 
 

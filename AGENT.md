@@ -51,3 +51,15 @@ Each daily run makes **2 YouTube Shorts** for that same day, published at 12:00 
 9. Metricool `createScheduledPost` as for long videos, but `youtubeData.type` = "short"; title under 70 characters ending in " #shorts"; text = 1–2 sentences on what it explains, a line naming the full video it comes from (or "More PC hardware explained on the channel"), and 2–3 hashtags including #shorts; 5–8 tags.
 10. Add both Shorts to `shorts.json` (slug, theme, title, publish, source, status "scheduled", plannerUrl), commit, `git pull --rebase origin main`, push.
 11. Report to the owner in a short message: both titles, times and planner links, plus any problems.
+
+## Growth rules (watch hours and subscribers)
+
+Only **long videos** earn the 4,000 watch hours; Shorts watch time doesn't count ([YouTube](https://blog.youtube/news-and-events/youtube-monetization-qualified-watch-hours-shorts-views/)). Shorts exist to be discovered and to send viewers to long videos. Apply these in every run:
+
+- **Hook fast (long videos).** The first 2 sentences state exactly what the viewer will get and why it matters to them. No "welcome back", no channel intro. Keep momentum: every scene should change something on screen within a few seconds.
+- **Subscribe reminder.** `render.py` adds a short animated reminder about 35% into every long video automatically. Don't add other on-screen begging.
+- **Ask a question in the first comment.** In the Metricool post, set `firstCommentText` to one specific question viewers can answer from their own setup (for example "What GPU are you running right now?"). This drives comments, which help ranking. For long videos you can add the full URL of the most related earlier long video under it.
+- **Long-video descriptions** start with the hook line, then the chapters, then "Watch next:" with the full YouTube URL of the most related published long video (from `calendar.json` `youtubeUrl`), then `Subscribe: https://www.youtube.com/@plainlysilicon?sub_confirmation=1`, then sources and hashtags.
+- **Every Short points at a long video.** Pick Short topics that are one idea from a published long video whenever one fits, and record it in `shorts.json` as `"source"` with that video's slug. End the Short with one line naming that long video. Links in Shorts descriptions and comments aren't clickable, so in your report list each new Short with the long video the owner should attach as its **Related video** in YouTube Studio (Content → the Short → Related video).
+- **Topic choice favors search.** Long videos that answer questions people search for keep earning views for months. Prefer topics with steady search demand over news.
+- **Never** buy views, subscribers or engagement, use sub-for-sub schemes, or post links to the channel in other communities. It breaks YouTube's rules and can get the channel terminated.
