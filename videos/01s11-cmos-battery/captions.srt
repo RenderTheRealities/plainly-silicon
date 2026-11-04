@@ -1,0 +1,32 @@
+1
+00:00:00,300 --> 00:00:06,243
+Your PC has a tiny battery inside it, even if it's a desktop that's always plugged in.
+
+2
+00:00:06,993 --> 00:00:13,908
+It's a coin cell, usually the same kind you'd find in a watch or a car key, sitting right on the motherboard.
+
+3
+00:00:14,658 --> 00:00:22,621
+Its job is to keep a small clock running when your PC is unplugged, and on many boards, to hold your BIOS settings.
+
+4
+00:00:23,371 --> 00:00:24,795
+It can last for years.
+
+5
+00:00:25,075 --> 00:00:31,915
+But when it dies, the PC may forget the date and time every time it loses power, or reset its settings.
+
+6
+00:00:32,665 --> 00:00:33,878
+The fix is cheap.
+
+7
+00:00:34,158 --> 00:00:38,679
+Replace the coin cell with the same type, with the power cable unplugged.
+
+8
+00:00:38,959 --> 00:00:41,525
+More PC hardware explained on the channel.
+

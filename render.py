@@ -51,6 +51,18 @@ THEMES = {
     "ocean":     dict(NAVY=(8, 24, 44), PANEL=(14, 38, 66), GRID=(20, 46, 78), CYAN=(96, 165, 250), AMBER=(52, 211, 153),
                       WHITE=(226, 236, 248), MUTED=(130, 150, 180), RED=(248, 113, 113), GREEN=(167, 243, 208),
                       SUB_BG=(4, 14, 28, 210), bg="gradient", glow=True, fonts=POPPINS),
+    "neon":      dict(NAVY=(4, 4, 10), PANEL=(16, 10, 30), GRID=(30, 16, 50), CYAN=(217, 70, 239), AMBER=(34, 211, 238),
+                      WHITE=(245, 240, 255), MUTED=(150, 130, 180), RED=(255, 80, 120), GREEN=(80, 250, 160),
+                      SUB_BG=(0, 0, 0, 225), bg="grid", glow=True, fonts=POPPINS),
+    "arctic":    dict(NAVY=(232, 241, 250), PANEL=(250, 252, 255), GRID=(205, 222, 240), CYAN=(14, 116, 144), AMBER=(234, 88, 12),
+                      WHITE=(15, 32, 54), MUTED=(90, 110, 135), RED=(200, 30, 50), GREEN=(4, 120, 87),
+                      SUB_BG=(15, 32, 54, 225), SUB_FG=(240, 248, 255), bg="blueprint", glow=False, fonts=INTER),
+    "retro":     dict(NAVY=(40, 28, 22), PANEL=(58, 42, 32), GRID=(70, 52, 40), CYAN=(250, 180, 60), AMBER=(232, 93, 60),
+                      WHITE=(250, 236, 214), MUTED=(190, 160, 130), RED=(232, 70, 60), GREEN=(160, 200, 90),
+                      SUB_BG=(24, 16, 12, 220), bg="diagonal", glow=False, fonts=POPPINS),
+    "graphite":  dict(NAVY=(28, 30, 34), PANEL=(40, 43, 48), GRID=(48, 51, 57), CYAN=(226, 232, 240), AMBER=(239, 68, 68),
+                      WHITE=(241, 245, 249), MUTED=(148, 155, 165), RED=(239, 68, 68), GREEN=(74, 222, 128),
+                      SUB_BG=(12, 13, 15, 220), bg="dots", glow=False, fonts=LORA),
 }
 THEME = "circuit"
 SUB_FG = (255, 255, 255)
@@ -88,6 +100,12 @@ def font(kind, size):
 
 
 # ---------- easing / helpers ----------
+def safe(s, kind="semi"):
+    """Poppins and Lora lack the arrow symbol; swap it so nothing renders as a box."""
+    if kind in ("mono", "monob") or FONTS in (INTER, MONO):
+        return s
+    return s.replace("→", "->")
+
 def clamp(x, a=0.0, b=1.0):
     return max(a, min(b, x))
 
@@ -138,6 +156,7 @@ class Ctx:
     def text(self, xy, s, kind, size, c, a, anchor="la"):
         if a <= 0:
             return
+        s = safe(s, kind)
         self.d.text(xy, s, font=font(kind, size), fill=col(c, a), anchor=anchor)
 
     def circle(self, cx, cy, r, c, a, w=4, fill=None):
@@ -163,6 +182,7 @@ def label_box(x, cx, cy, s, c, a, tsize=34):
     """A pill label centered at (cx, cy)."""
     if a <= 0:
         return
+    s = safe(s, "semi")
     f = font("semi", tsize)
     tw = x.d.textlength(s, font=f)
     x.rect([cx - tw / 2 - 22, cy - tsize * 0.85, cx + tw / 2 + 22, cy + tsize * 0.85], c, a, 3, r=tsize * 0.85,

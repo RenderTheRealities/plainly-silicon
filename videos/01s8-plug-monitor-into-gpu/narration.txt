@@ -1,0 +1,9 @@
+If you have a graphics card, check which port your monitor is plugged into. A lot of people get this wrong.
+
+Your PC has two sets of video ports. One set is on the motherboard, near the USB ports. The other is lower down, on the graphics card itself.
+
+The motherboard ports come from the processor's built-in graphics, not your graphics card. And if your processor has no built-in graphics, those ports may not work at all.
+
+Plug into the motherboard, and your expensive graphics card can end up sitting idle while games run on much weaker built-in graphics.
+
+So follow the cable. It should go into the graphics card, lower down on the back of the case. More PC hardware explained on the channel.

@@ -1,0 +1,86 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   4.341
+  ],
+  [
+   5.091,
+   13.053
+  ],
+  [
+   13.803,
+   20.806
+  ],
+  [
+   21.556,
+   32.35
+  ],
+  [
+   33.1,
+   39.994
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    2.404,
+    "Your processor says 4 gigahertz."
+   ],
+   [
+    2.684,
+    4.341,
+    "What is it actually counting?"
+   ]
+  ],
+  [
+   [
+    5.091,
+    9.03,
+    "Inside the CPU is a clock that ticks, like a metronome."
+   ],
+   [
+    9.31,
+    13.053,
+    "Every tick, the processor can move its work one step forward."
+   ]
+  ],
+  [
+   [
+    13.803,
+    16.478,
+    "Gigahertz means billions of ticks per second."
+   ],
+   [
+    16.758,
+    20.806,
+    "So 4 gigahertz is four billion ticks, every single second."
+   ]
+  ],
+  [
+   [
+    21.556,
+    24.704,
+    "But a higher number doesn't always mean a faster chip."
+   ],
+   [
+    24.984,
+    32.35,
+    "Newer processors get more work done on every tick, so a newer chip at 4 gigahertz can beat an older one at 5."
+   ]
+  ],
+  [
+   [
+    33.1,
+    37.148,
+    "Clock speed is how fast it ticks, not how much it does each tick."
+   ],
+   [
+    37.428,
+    39.994,
+    "More PC hardware explained on the channel."
+   ]
+  ]
+ ]
+}

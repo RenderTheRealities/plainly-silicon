@@ -1,0 +1,91 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   7.802
+  ],
+  [
+   8.552,
+   15.681
+  ],
+  [
+   16.431,
+   25.583
+  ],
+  [
+   26.333,
+   34.424
+  ],
+  [
+   35.174,
+   43.103
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    5.703,
+    "Two 8 gigabyte sticks of RAM can be faster than one 16 gigabyte stick."
+   ],
+   [
+    5.983,
+    7.802,
+    "Same total memory, so why?"
+   ]
+  ],
+  [
+   [
+    8.552,
+    12.937,
+    "Your processor talks to memory through channels, like lanes on a road."
+   ],
+   [
+    13.217,
+    15.681,
+    "Most desktop processors have two of them."
+   ]
+  ],
+  [
+   [
+    16.431,
+    19.45,
+    "With a single stick, only one lane is in use."
+   ],
+   [
+    19.73,
+    25.583,
+    "Install two matching sticks in the right slots, and both lanes carry data at the same time."
+   ]
+  ],
+  [
+   [
+    26.333,
+    30.69,
+    "That roughly doubles the peak bandwidth between the processor and memory."
+   ],
+   [
+    30.97,
+    34.424,
+    "Games and built-in graphics often feel the difference most."
+   ]
+  ],
+  [
+   [
+    35.174,
+    38.193,
+    "Check your motherboard manual for which slots to use."
+   ],
+   [
+    38.473,
+    40.257,
+    "It's often the second and fourth."
+   ],
+   [
+    40.537,
+    43.103,
+    "More PC hardware explained on the channel."
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,9 @@
+A 3 nanometer chip doesn't have anything on it that's 3 nanometers. So what does the name mean?
+
+Decades ago, the number matched a real feature on the chip, roughly the length of a transistor's gate.
+
+As chips got smaller, that link broke. Today, the parts of a transistor are many times larger than the number in the name.
+
+Now it's a generation label. Smaller numbers usually mean denser, more efficient chips. But one company's 3 nanometer isn't the same as another's. Intel even renamed one of its processes from 10 nanometer to Intel 7.
+
+So compare real performance, not the number in the name. More PC hardware explained on the channel.

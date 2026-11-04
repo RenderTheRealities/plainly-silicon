@@ -1,0 +1,91 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   4.203
+  ],
+  [
+   4.953,
+   14.09
+  ],
+  [
+   14.84,
+   22.174
+  ],
+  [
+   22.924,
+   29.472
+  ],
+  [
+   30.222,
+   38.965
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    2.284,
+    "How much thermal paste should you use?"
+   ],
+   [
+    2.564,
+    4.203,
+    "Less than you probably think."
+   ]
+  ],
+  [
+   [
+    4.953,
+    9.867,
+    "Thermal paste fills the microscopic gaps between your processor and its cooler."
+   ],
+   [
+    10.147,
+    14.09,
+    "Air is a terrible conductor of heat, and the paste pushes it out."
+   ]
+  ],
+  [
+   [
+    14.84,
+    19.19,
+    "The common advice is a dot about the size of a pea, right in the middle."
+   ],
+   [
+    19.47,
+    22.174,
+    "When you mount the cooler, the pressure spreads it out."
+   ]
+  ],
+  [
+   [
+    22.924,
+    24.533,
+    "Too little leaves air gaps."
+   ],
+   [
+    24.813,
+    29.472,
+    "Too much just squeezes out the sides and makes a mess, without cooling any better."
+   ]
+  ],
+  [
+   [
+    30.222,
+    31.758,
+    "And check your cooler first."
+   ],
+   [
+    32.038,
+    36.119,
+    "Many come with paste already applied, so you may not need any extra."
+   ],
+   [
+    36.399,
+    38.965,
+    "More PC hardware explained on the channel."
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   7.959
+  ],
+  [
+   8.709,
+   15.854
+  ],
+  [
+   16.604,
+   25.613
+  ],
+  [
+   26.363,
+   34.681
+  ],
+  [
+   35.431,
+   46.419
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    5.638,
+    "An 850 watt power supply doesn't use 850 watts."
+   ],
+   [
+    5.918,
+    7.959,
+    "Here's what that number really means."
+   ]
+  ],
+  [
+   [
+    8.709,
+    11.556,
+    "The wattage on a power supply is a maximum."
+   ],
+   [
+    11.836,
+    15.854,
+    "It's the most it can safely deliver, not what it draws all the time."
+   ]
+  ],
+  [
+   [
+    16.604,
+    18.691,
+    "Your parts take only what they need."
+   ],
+   [
+    18.971,
+    25.613,
+    "A PC that needs 300 watts while gaming draws about 300, plus a little lost as heat."
+   ]
+  ],
+  [
+   [
+    26.363,
+    31.192,
+    "Power supplies are often most efficient somewhere around half of their rated load."
+   ],
+   [
+    31.472,
+    34.681,
+    "That's one reason a bit of headroom is a good idea."
+   ]
+  ],
+  [
+   [
+    35.431,
+    39.567,
+    "So a bigger power supply won't raise your power bill much on its own."
+   ],
+   [
+    39.847,
+    43.573,
+    "Buying one that's far bigger than you need just costs more up front."
+   ],
+   [
+    43.853,
+    46.419,
+    "More PC hardware explained on the channel."
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   6.243
+  ],
+  [
+   6.993,
+   13.908
+  ],
+  [
+   14.658,
+   22.621
+  ],
+  [
+   23.371,
+   31.915
+  ],
+  [
+   32.665,
+   41.525
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    6.243,
+    "Your PC has a tiny battery inside it, even if it's a desktop that's always plugged in."
+   ]
+  ],
+  [
+   [
+    6.993,
+    13.908,
+    "It's a coin cell, usually the same kind you'd find in a watch or a car key, sitting right on the motherboard."
+   ]
+  ],
+  [
+   [
+    14.658,
+    22.621,
+    "Its job is to keep a small clock running when your PC is unplugged, and on many boards, to hold your BIOS settings."
+   ]
+  ],
+  [
+   [
+    23.371,
+    24.795,
+    "It can last for years."
+   ],
+   [
+    25.075,
+    31.915,
+    "But when it dies, the PC may forget the date and time every time it loses power, or reset its settings."
+   ]
+  ],
+  [
+   [
+    32.665,
+    33.878,
+    "The fix is cheap."
+   ],
+   [
+    34.158,
+    38.679,
+    "Replace the coin cell with the same type, with the power cable unplugged."
+   ],
+   [
+    38.959,
+    41.525,
+    "More PC hardware explained on the channel."
+   ]
+  ]
+ ]
+}

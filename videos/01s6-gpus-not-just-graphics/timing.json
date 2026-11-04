@@ -1,0 +1,91 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   8.493
+  ],
+  [
+   9.243,
+   20.713
+  ],
+  [
+   21.463,
+   33.657
+  ],
+  [
+   34.407,
+   43.462
+  ],
+  [
+   44.212,
+   53.978
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    2.965,
+    "Your graphics card has graphics in its name."
+   ],
+   [
+    3.245,
+    8.493,
+    "But some of the most important work GPUs do today has nothing to do with games."
+   ]
+  ],
+  [
+   [
+    9.243,
+    12.959,
+    "A GPU is thousands of small cores working at once."
+   ],
+   [
+    13.239,
+    20.713,
+    "That's perfect for drawing pixels, but it's perfect for any job that splits into lots of small, independent pieces."
+   ]
+  ],
+  [
+   [
+    21.463,
+    24.036,
+    "Artificial intelligence is the big one."
+   ],
+   [
+    24.316,
+    33.657,
+    "Training and running AI models is mostly enormous piles of multiplication, and a GPU can do huge amounts of it in parallel."
+   ]
+  ],
+  [
+   [
+    34.407,
+    39.358,
+    "Scientists use GPUs to simulate weather, molecules and proteins."
+   ],
+   [
+    39.638,
+    43.462,
+    "Video editors use them to speed up effects and exports."
+   ]
+  ],
+  [
+   [
+    44.212,
+    46.775,
+    "So a GPU isn't really a graphics chip."
+   ],
+   [
+    47.055,
+    51.132,
+    "It's a parallel math machine that happens to be great at graphics."
+   ],
+   [
+    51.412,
+    53.978,
+    "More PC hardware explained on the channel."
+   ]
+  ]
+ ]
+}

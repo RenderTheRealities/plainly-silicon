@@ -1,0 +1,44 @@
+1
+00:00:00,300 --> 00:00:02,284
+How much thermal paste should you use?
+
+2
+00:00:02,564 --> 00:00:04,203
+Less than you probably think.
+
+3
+00:00:04,953 --> 00:00:09,867
+Thermal paste fills the microscopic gaps between your processor and its cooler.
+
+4
+00:00:10,147 --> 00:00:14,090
+Air is a terrible conductor of heat, and the paste pushes it out.
+
+5
+00:00:14,840 --> 00:00:19,190
+The common advice is a dot about the size of a pea, right in the middle.
+
+6
+00:00:19,470 --> 00:00:22,174
+When you mount the cooler, the pressure spreads it out.
+
+7
+00:00:22,924 --> 00:00:24,533
+Too little leaves air gaps.
+
+8
+00:00:24,813 --> 00:00:29,472
+Too much just squeezes out the sides and makes a mess, without cooling any better.
+
+9
+00:00:30,222 --> 00:00:31,758
+And check your cooler first.
+
+10
+00:00:32,038 --> 00:00:36,119
+Many come with paste already applied, so you may not need any extra.
+
+11
+00:00:36,399 --> 00:00:38,965
+More PC hardware explained on the channel.
+

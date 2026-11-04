@@ -1,0 +1,44 @@
+1
+00:00:00,300 --> 00:00:04,548
+If you have a graphics card, check which port your monitor is plugged into.
+
+2
+00:00:04,828 --> 00:00:06,531
+A lot of people get this wrong.
+
+3
+00:00:07,281 --> 00:00:09,836
+Your PC has two sets of video ports.
+
+4
+00:00:10,116 --> 00:00:13,574
+One set is on the motherboard, near the USB ports.
+
+5
+00:00:13,854 --> 00:00:17,248
+The other is lower down, on the graphics card itself.
+
+6
+00:00:17,998 --> 00:00:23,345
+The motherboard ports come from the processor's built-in graphics, not your graphics card.
+
+7
+00:00:23,625 --> 00:00:28,525
+And if your processor has no built-in graphics, those ports may not work at all.
+
+8
+00:00:29,275 --> 00:00:37,594
+Plug into the motherboard, and your expensive graphics card can end up sitting idle while games run on much weaker built-in graphics.
+
+9
+00:00:38,344 --> 00:00:39,680
+So follow the cable.
+
+10
+00:00:39,960 --> 00:00:44,056
+It should go into the graphics card, lower down on the back of the case.
+
+11
+00:00:44,336 --> 00:00:46,902
+More PC hardware explained on the channel.
+

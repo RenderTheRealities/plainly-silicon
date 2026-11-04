@@ -1,0 +1,44 @@
+1
+00:00:00,300 --> 00:00:02,965
+Your graphics card has graphics in its name.
+
+2
+00:00:03,245 --> 00:00:08,493
+But some of the most important work GPUs do today has nothing to do with games.
+
+3
+00:00:09,243 --> 00:00:12,959
+A GPU is thousands of small cores working at once.
+
+4
+00:00:13,239 --> 00:00:20,713
+That's perfect for drawing pixels, but it's perfect for any job that splits into lots of small, independent pieces.
+
+5
+00:00:21,463 --> 00:00:24,036
+Artificial intelligence is the big one.
+
+6
+00:00:24,316 --> 00:00:33,657
+Training and running AI models is mostly enormous piles of multiplication, and a GPU can do huge amounts of it in parallel.
+
+7
+00:00:34,407 --> 00:00:39,358
+Scientists use GPUs to simulate weather, molecules and proteins.
+
+8
+00:00:39,638 --> 00:00:43,462
+Video editors use them to speed up effects and exports.
+
+9
+00:00:44,212 --> 00:00:46,775
+So a GPU isn't really a graphics chip.
+
+10
+00:00:47,055 --> 00:00:51,132
+It's a parallel math machine that happens to be great at graphics.
+
+11
+00:00:51,412 --> 00:00:53,978
+More PC hardware explained on the channel.
+

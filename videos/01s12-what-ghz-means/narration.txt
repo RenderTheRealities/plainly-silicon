@@ -1,0 +1,9 @@
+Your processor says 4 gigahertz. What is it actually counting?
+
+Inside the CPU is a clock that ticks, like a metronome. Every tick, the processor can move its work one step forward.
+
+Gigahertz means billions of ticks per second. So 4 gigahertz is four billion ticks, every single second.
+
+But a higher number doesn't always mean a faster chip. Newer processors get more work done on every tick, so a newer chip at 4 gigahertz can beat an older one at 5.
+
+Clock speed is how fast it ticks, not how much it does each tick. More PC hardware explained on the channel.

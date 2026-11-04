@@ -1,0 +1,40 @@
+1
+00:00:00,300 --> 00:00:02,404
+Your processor says 4 gigahertz.
+
+2
+00:00:02,684 --> 00:00:04,341
+What is it actually counting?
+
+3
+00:00:05,091 --> 00:00:09,030
+Inside the CPU is a clock that ticks, like a metronome.
+
+4
+00:00:09,310 --> 00:00:13,053
+Every tick, the processor can move its work one step forward.
+
+5
+00:00:13,803 --> 00:00:16,478
+Gigahertz means billions of ticks per second.
+
+6
+00:00:16,758 --> 00:00:20,806
+So 4 gigahertz is four billion ticks, every single second.
+
+7
+00:00:21,556 --> 00:00:24,704
+But a higher number doesn't always mean a faster chip.
+
+8
+00:00:24,984 --> 00:00:32,350
+Newer processors get more work done on every tick, so a newer chip at 4 gigahertz can beat an older one at 5.
+
+9
+00:00:33,100 --> 00:00:37,148
+Clock speed is how fast it ticks, not how much it does each tick.
+
+10
+00:00:37,428 --> 00:00:39,994
+More PC hardware explained on the channel.
+

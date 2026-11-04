@@ -1,0 +1,86 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   6.343
+  ],
+  [
+   7.093,
+   15.884
+  ],
+  [
+   16.634,
+   25.08
+  ],
+  [
+   25.83,
+   40.831
+  ],
+  [
+   41.581,
+   47.956
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    3.37,
+    "You paid for a 144 hertz monitor."
+   ],
+   [
+    3.65,
+    6.343,
+    "There's a real chance it's still running at 60."
+   ]
+  ],
+  [
+   [
+    7.093,
+    11.97,
+    "Refresh rate is how many times per second your screen draws a new image."
+   ],
+   [
+    12.25,
+    15.884,
+    "A higher number means smoother motion, especially in games."
+   ]
+  ],
+  [
+   [
+    16.634,
+    20.127,
+    "But Windows doesn't always switch to the highest rate on its own."
+   ],
+   [
+    20.407,
+    25.08,
+    "Many high refresh monitors start out at 60 hertz until you change it."
+   ]
+  ],
+  [
+   [
+    25.83,
+    32.38,
+    "On Windows 11, open Settings, then System, Display, Advanced display, and choose a refresh rate."
+   ],
+   [
+    32.66,
+    40.831,
+    "If the higher option is missing, your cable or port might be the limit, so try the DisplayPort cable that came with the monitor."
+   ]
+  ],
+  [
+   [
+    41.581,
+    45.11,
+    "Ten seconds, and the screen you paid for finally shows up."
+   ],
+   [
+    45.39,
+    47.956,
+    "More PC hardware explained on the channel."
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,44 @@
+1
+00:00:00,300 --> 00:00:05,703
+Two 8 gigabyte sticks of RAM can be faster than one 16 gigabyte stick.
+
+2
+00:00:05,983 --> 00:00:07,802
+Same total memory, so why?
+
+3
+00:00:08,552 --> 00:00:12,937
+Your processor talks to memory through channels, like lanes on a road.
+
+4
+00:00:13,217 --> 00:00:15,681
+Most desktop processors have two of them.
+
+5
+00:00:16,431 --> 00:00:19,450
+With a single stick, only one lane is in use.
+
+6
+00:00:19,730 --> 00:00:25,583
+Install two matching sticks in the right slots, and both lanes carry data at the same time.
+
+7
+00:00:26,333 --> 00:00:30,690
+That roughly doubles the peak bandwidth between the processor and memory.
+
+8
+00:00:30,970 --> 00:00:34,424
+Games and built-in graphics often feel the difference most.
+
+9
+00:00:35,174 --> 00:00:38,193
+Check your motherboard manual for which slots to use.
+
+10
+00:00:38,473 --> 00:00:40,257
+It's often the second and fourth.
+
+11
+00:00:40,537 --> 00:00:43,103
+More PC hardware explained on the channel.
+

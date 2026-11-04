@@ -1,0 +1,106 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   8.012
+  ],
+  [
+   8.762,
+   13.093
+  ],
+  [
+   13.843,
+   19.748
+  ],
+  [
+   20.498,
+   38.402
+  ],
+  [
+   39.152,
+   46.707
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    2.211,
+    "You bought a one terabyte drive."
+   ],
+   [
+    2.491,
+    5.688,
+    "Windows says it's 931 gigabytes."
+   ],
+   [
+    5.968,
+    8.012,
+    "Where did 69 gigabytes go?"
+   ]
+  ],
+  [
+   [
+    8.762,
+    9.435,
+    "Nowhere."
+   ],
+   [
+    9.715,
+    10.91,
+    "Nothing is missing."
+   ],
+   [
+    11.19,
+    13.093,
+    "It's two different ways of counting."
+   ]
+  ],
+  [
+   [
+    13.843,
+    15.794,
+    "Drive makers count in thousands."
+   ],
+   [
+    16.074,
+    19.748,
+    "To them, one terabyte is exactly one trillion bytes."
+   ]
+  ],
+  [
+   [
+    20.498,
+    22.555,
+    "But Windows counts in powers of two."
+   ],
+   [
+    22.835,
+    32.63,
+    "To Windows, a gigabyte is 1,024 times 1,024 times 1,024 bytes, which is a bit more than a billion."
+   ],
+   [
+    32.91,
+    38.402,
+    "Divide one trillion bytes by that bigger number, and you get about 931."
+   ]
+  ],
+  [
+   [
+    39.152,
+    40.83,
+    "Same bytes, different ruler."
+   ],
+   [
+    41.11,
+    43.861,
+    "Your drive is exactly the size on the box."
+   ],
+   [
+    44.141,
+    46.707,
+    "More PC hardware explained on the channel."
+   ]
+  ]
+ ]
+}

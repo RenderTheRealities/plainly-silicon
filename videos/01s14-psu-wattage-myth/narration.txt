@@ -1,0 +1,9 @@
+An 850 watt power supply doesn't use 850 watts. Here's what that number really means.
+
+The wattage on a power supply is a maximum. It's the most it can safely deliver, not what it draws all the time.
+
+Your parts take only what they need. A PC that needs 300 watts while gaming draws about 300, plus a little lost as heat.
+
+Power supplies are often most efficient somewhere around half of their rated load. That's one reason a bit of headroom is a good idea.
+
+So a bigger power supply won't raise your power bill much on its own. Buying one that's far bigger than you need just costs more up front. More PC hardware explained on the channel.

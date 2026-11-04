@@ -1,0 +1,91 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   6.531
+  ],
+  [
+   7.281,
+   17.248
+  ],
+  [
+   17.998,
+   28.525
+  ],
+  [
+   29.275,
+   37.594
+  ],
+  [
+   38.344,
+   46.902
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    4.548,
+    "If you have a graphics card, check which port your monitor is plugged into."
+   ],
+   [
+    4.828,
+    6.531,
+    "A lot of people get this wrong."
+   ]
+  ],
+  [
+   [
+    7.281,
+    9.836,
+    "Your PC has two sets of video ports."
+   ],
+   [
+    10.116,
+    13.574,
+    "One set is on the motherboard, near the USB ports."
+   ],
+   [
+    13.854,
+    17.248,
+    "The other is lower down, on the graphics card itself."
+   ]
+  ],
+  [
+   [
+    17.998,
+    23.345,
+    "The motherboard ports come from the processor's built-in graphics, not your graphics card."
+   ],
+   [
+    23.625,
+    28.525,
+    "And if your processor has no built-in graphics, those ports may not work at all."
+   ]
+  ],
+  [
+   [
+    29.275,
+    37.594,
+    "Plug into the motherboard, and your expensive graphics card can end up sitting idle while games run on much weaker built-in graphics."
+   ]
+  ],
+  [
+   [
+    38.344,
+    39.68,
+    "So follow the cable."
+   ],
+   [
+    39.96,
+    44.056,
+    "It should go into the graphics card, lower down on the back of the case."
+   ],
+   [
+    44.336,
+    46.902,
+    "More PC hardware explained on the channel."
+   ]
+  ]
+ ]
+}

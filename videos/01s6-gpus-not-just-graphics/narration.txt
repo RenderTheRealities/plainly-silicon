@@ -1,0 +1,9 @@
+Your graphics card has graphics in its name. But some of the most important work GPUs do today has nothing to do with games.
+
+A GPU is thousands of small cores working at once. That's perfect for drawing pixels, but it's perfect for any job that splits into lots of small, independent pieces.
+
+Artificial intelligence is the big one. Training and running AI models is mostly enormous piles of multiplication, and a GPU can do huge amounts of it in parallel.
+
+Scientists use GPUs to simulate weather, molecules and proteins. Video editors use them to speed up effects and exports.
+
+So a GPU isn't really a graphics chip. It's a parallel math machine that happens to be great at graphics. More PC hardware explained on the channel.

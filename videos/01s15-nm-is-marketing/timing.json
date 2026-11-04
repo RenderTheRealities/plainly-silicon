@@ -1,0 +1,91 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   6.689
+  ],
+  [
+   7.439,
+   13.812
+  ],
+  [
+   14.562,
+   22.321
+  ],
+  [
+   23.071,
+   38.637
+  ],
+  [
+   39.387,
+   45.746
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    4.874,
+    "A 3 nanometer chip doesn't have anything on it that's 3 nanometers."
+   ],
+   [
+    5.154,
+    6.689,
+    "So what does the name mean?"
+   ]
+  ],
+  [
+   [
+    7.439,
+    13.812,
+    "Decades ago, the number matched a real feature on the chip, roughly the length of a transistor's gate."
+   ]
+  ],
+  [
+   [
+    14.562,
+    17.079,
+    "As chips got smaller, that link broke."
+   ],
+   [
+    17.359,
+    22.321,
+    "Today, the parts of a transistor are many times larger than the number in the name."
+   ]
+  ],
+  [
+   [
+    23.071,
+    24.996,
+    "Now it's a generation label."
+   ],
+   [
+    25.276,
+    28.861,
+    "Smaller numbers usually mean denser, more efficient chips."
+   ],
+   [
+    29.141,
+    33.087,
+    "But one company's 3 nanometer isn't the same as another's."
+   ],
+   [
+    33.367,
+    38.637,
+    "Intel even renamed one of its processes from 10 nanometer to Intel 7."
+   ]
+  ],
+  [
+   [
+    39.387,
+    42.9,
+    "So compare real performance, not the number in the name."
+   ],
+   [
+    43.18,
+    45.746,
+    "More PC hardware explained on the channel."
+   ]
+  ]
+ ]
+}

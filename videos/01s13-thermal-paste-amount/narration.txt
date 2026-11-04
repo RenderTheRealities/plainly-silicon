@@ -1,0 +1,9 @@
+How much thermal paste should you use? Less than you probably think.
+
+Thermal paste fills the microscopic gaps between your processor and its cooler. Air is a terrible conductor of heat, and the paste pushes it out.
+
+The common advice is a dot about the size of a pea, right in the middle. When you mount the cooler, the pressure spreads it out.
+
+Too little leaves air gaps. Too much just squeezes out the sides and makes a mess, without cooling any better.
+
+And check your cooler first. Many come with paste already applied, so you may not need any extra. More PC hardware explained on the channel.

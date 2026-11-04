@@ -1,0 +1,44 @@
+1
+00:00:00,300 --> 00:00:05,638
+An 850 watt power supply doesn't use 850 watts.
+
+2
+00:00:05,918 --> 00:00:07,959
+Here's what that number really means.
+
+3
+00:00:08,709 --> 00:00:11,556
+The wattage on a power supply is a maximum.
+
+4
+00:00:11,836 --> 00:00:15,854
+It's the most it can safely deliver, not what it draws all the time.
+
+5
+00:00:16,604 --> 00:00:18,691
+Your parts take only what they need.
+
+6
+00:00:18,971 --> 00:00:25,613
+A PC that needs 300 watts while gaming draws about 300, plus a little lost as heat.
+
+7
+00:00:26,363 --> 00:00:31,192
+Power supplies are often most efficient somewhere around half of their rated load.
+
+8
+00:00:31,472 --> 00:00:34,681
+That's one reason a bit of headroom is a good idea.
+
+9
+00:00:35,431 --> 00:00:39,567
+So a bigger power supply won't raise your power bill much on its own.
+
+10
+00:00:39,847 --> 00:00:43,573
+Buying one that's far bigger than you need just costs more up front.
+
+11
+00:00:43,853 --> 00:00:46,419
+More PC hardware explained on the channel.
+

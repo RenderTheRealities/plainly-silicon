@@ -1,0 +1,9 @@
+Your PC has a tiny battery inside it, even if it's a desktop that's always plugged in.
+
+It's a coin cell, usually the same kind you'd find in a watch or a car key, sitting right on the motherboard.
+
+Its job is to keep a small clock running when your PC is unplugged, and on many boards, to hold your BIOS settings.
+
+It can last for years. But when it dies, the PC may forget the date and time every time it loses power, or reset its settings.
+
+The fix is cheap. Replace the coin cell with the same type, with the power cable unplugged. More PC hardware explained on the channel.

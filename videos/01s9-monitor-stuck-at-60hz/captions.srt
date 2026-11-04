@@ -1,0 +1,40 @@
+1
+00:00:00,300 --> 00:00:03,370
+You paid for a 144 hertz monitor.
+
+2
+00:00:03,650 --> 00:00:06,343
+There's a real chance it's still running at 60.
+
+3
+00:00:07,093 --> 00:00:11,970
+Refresh rate is how many times per second your screen draws a new image.
+
+4
+00:00:12,250 --> 00:00:15,884
+A higher number means smoother motion, especially in games.
+
+5
+00:00:16,634 --> 00:00:20,127
+But Windows doesn't always switch to the highest rate on its own.
+
+6
+00:00:20,407 --> 00:00:25,080
+Many high refresh monitors start out at 60 hertz until you change it.
+
+7
+00:00:25,830 --> 00:00:32,380
+On Windows 11, open Settings, then System, Display, Advanced display, and choose a refresh rate.
+
+8
+00:00:32,660 --> 00:00:40,831
+If the higher option is missing, your cable or port might be the limit, so try the DisplayPort cable that came with the monitor.
+
+9
+00:00:41,581 --> 00:00:45,110
+Ten seconds, and the screen you paid for finally shows up.
+
+10
+00:00:45,390 --> 00:00:47,956
+More PC hardware explained on the channel.
+

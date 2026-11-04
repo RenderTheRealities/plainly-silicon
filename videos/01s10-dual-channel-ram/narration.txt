@@ -1,0 +1,9 @@
+Two 8 gigabyte sticks of RAM can be faster than one 16 gigabyte stick. Same total memory, so why?
+
+Your processor talks to memory through channels, like lanes on a road. Most desktop processors have two of them.
+
+With a single stick, only one lane is in use. Install two matching sticks in the right slots, and both lanes carry data at the same time.
+
+That roughly doubles the peak bandwidth between the processor and memory. Games and built-in graphics often feel the difference most.
+
+Check your motherboard manual for which slots to use. It's often the second and fourth. More PC hardware explained on the channel.
