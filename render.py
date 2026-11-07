@@ -203,7 +203,7 @@ def stamp(x, cx, cy, s, c, a, angle=-8):
     sc = 1 + 0.6 * (1 - a)
     layer = layer.rotate(angle, expand=True, resample=Image.BICUBIC)
     layer = layer.resize((int(layer.width * sc), int(layer.height * sc)), Image.BICUBIC)
-    x.img.alpha_composite(layer, (int(cx - layer.width / 2), int(cy - layer.height / 2)))
+    x.img.paste(layer, (int(cx - layer.width / 2), int(cy - layer.height / 2)), layer)
 
 
 def bar(x, x0, y, wmax, frac, c, a, h=34, label="", value=""):
@@ -334,8 +334,10 @@ def wrap(text, f, maxw, d):
 def frame(scenes, total, T):
     global BG, LOGO
     if BG is None:
-        BG = background()
+        BG = background().convert("RGB")
         LOGO = Image.open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "brand/plainly-silicon-logo.png")).convert("RGBA").resize((64, 64))
+    # Draw on an RGB canvas: PIL only alpha-blends RGBA colors onto RGB images. On an RGBA canvas it
+    # overwrites pixels, so faded or hidden (alpha 0) shapes showed at full strength.
     img = BG.copy()
     si = max(i for i, s in enumerate(scenes) if s["start"] <= T or i == 0)
     sc = scenes[si]
@@ -346,8 +348,7 @@ def frame(scenes, total, T):
     # scene fade in/out (0.35 s)
     fade = min(ease(t / 0.35), ease((dur - t) / 0.35)) if si < len(scenes) - 1 else ease(t / 0.35)
     if fade < 1:
-        veil = Image.new("RGBA", (W, H), NAVY + (int(255 * (1 - fade)),))
-        img.alpha_composite(veil)
+        img.paste(NAVY, (0, 0, W, H), Image.new("L", (W, H), int(255 * (1 - fade))))
     d = ImageDraw.Draw(img, "RGBA")
     vertical = H > W
     if vertical:
@@ -371,7 +372,7 @@ def frame(scenes, total, T):
             d.text((W / 2, y + k * lh), l, font=f, fill=SUB_FG + (255,), anchor="ma")
     if not vertical:
         d.rectangle([0, H - 6, W * T / total, H], fill=CYAN + (255,))
-        img.alpha_composite(LOGO, (W - 96, 36))
+        img.paste(LOGO, (W - 96, 36), LOGO)
         # mid-video subscribe reminder: ~35% in, 6 s, slides into the header strip beside the logo
         s0 = total * 0.35
         if s0 <= T < s0 + 6:
@@ -384,7 +385,7 @@ def frame(scenes, total, T):
             d.rounded_rectangle([x1 - tw - 96, 35, x1 - tw - 52, 71], radius=8, fill=RED + (255,))
             d.polygon([(x1 - tw - 80, 43), (x1 - tw - 80, 63), (x1 - tw - 64, 53)], fill=(255, 255, 255, 255))
             d.text((x1 - 24, 53), msg, font=f, fill=SUB_FG + (255,), anchor="rm")
-    return img.convert("RGB")
+    return img
 
 
 def main():
