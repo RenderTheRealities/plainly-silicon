@@ -1,0 +1,11 @@
+Two M dot 2 drives can look identical, yet one can be ten times faster.
+
+That's because M dot 2 is a shape, not a speed. It's a small stick that screws flat onto your motherboard.
+
+Some use SATA, the same link as a two and a half inch SSD. They top out around 550 megabytes per second.
+
+Others use N V M e over P C I e lanes. Even older ones reach about 3,500 megabytes per second, and newer drives pass 7,000.
+
+To tell them apart, check the notches. SATA sticks usually have two, B and M. N V M e sticks usually have one, the M key. The label tells you for sure.
+
+And check your motherboard manual, because some slots only take N V M e. More PC hardware explained on the channel.

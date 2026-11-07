@@ -1,0 +1,107 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   5.006
+  ],
+  [
+   5.756,
+   17.553
+  ],
+  [
+   18.303,
+   28.526
+  ],
+  [
+   29.276,
+   38.685
+  ],
+  [
+   39.435,
+   44.713
+  ],
+  [
+   45.463,
+   48.029
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    3.031,
+    "Why does an SSD get slower as it fills up?"
+   ],
+   [
+    3.311,
+    5.006,
+    "It's not your imagination."
+   ]
+  ],
+  [
+   [
+    5.756,
+    7.878,
+    "Many consumer drives use a trick."
+   ],
+   [
+    8.158,
+    13.355,
+    "They run part of their empty flash in a fast mode that stores just one bit per cell."
+   ],
+   [
+    13.635,
+    17.553,
+    "That's called an SLC cache, and new writes land there first."
+   ]
+  ],
+  [
+   [
+    18.303,
+    21.297,
+    "The catch is that the cache is built from free space."
+   ],
+   [
+    21.577,
+    23.756,
+    "As the drive fills, the cache shrinks."
+   ],
+   [
+    24.036,
+    28.526,
+    "A big copy runs out of it sooner and drops to the slower native speed."
+   ]
+  ],
+  [
+   [
+    29.276,
+    35.214,
+    "Free space also helps the controller tidy up, spreading out wear and clearing old blocks."
+   ],
+   [
+    35.494,
+    38.685,
+    "With little room left, that cleanup slows your writes."
+   ]
+  ],
+  [
+   [
+    39.435,
+    41.072,
+    "So leave some breathing room."
+   ],
+   [
+    41.352,
+    44.713,
+    "A common rule of thumb is 10 to 20 percent free."
+   ]
+  ],
+  [
+   [
+    45.463,
+    48.029,
+    "More PC hardware explained on the channel."
+   ]
+  ]
+ ]
+}

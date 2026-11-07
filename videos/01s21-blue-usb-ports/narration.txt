@@ -1,0 +1,11 @@
+Why are some U S B ports blue? It's not just decoration.
+
+Blue usually marks U S B 3, also called SuperSpeed. The first version of it runs at up to five gigabits per second.
+
+The black ports beside it are usually U S B 2. That tops out at 480 megabits per second, roughly ten times slower.
+
+But the color is a convention, not a rule. Some makers use red, teal, or plain black for fast ports. The S S logo next to the port, or your manual, is the better clue.
+
+So plug your fast flash drive or external S S D into the faster port. Big copies finish much sooner.
+
+More PC hardware explained on the channel.

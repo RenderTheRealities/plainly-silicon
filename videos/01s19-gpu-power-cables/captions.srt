@@ -1,0 +1,56 @@
+1
+00:00:00,300 --> 00:00:05,818
+Your graphics card already plugs into a slot, so why does it need extra power cables?
+
+2
+00:00:06,568 --> 00:00:10,487
+The PCIe slot can supply up to 75 watts.
+
+3
+00:00:10,767 --> 00:00:13,037
+That's enough for a small, basic card.
+
+4
+00:00:13,787 --> 00:00:18,893
+But a mid-range or high-end card can pull 300 watts or more while gaming.
+
+5
+00:00:19,173 --> 00:00:21,523
+The rest comes straight from the power supply.
+
+6
+00:00:22,273 --> 00:00:23,841
+That's what the cables carry.
+
+7
+00:00:24,122 --> 00:00:27,606
+A 6-pin connector is rated for 75 watts.
+
+8
+00:00:27,886 --> 00:00:29,886
+An 8-pin, 150.
+
+9
+00:00:30,166 --> 00:00:34,089
+The newer 12V-2x6 connector, up to 600.
+
+10
+00:00:34,839 --> 00:00:35,652
+Add it up.
+
+11
+00:00:35,932 --> 00:00:44,042
+75 from the slot plus two 8-pins gives 375 watts, enough for a 300 watt card.
+
+12
+00:00:44,792 --> 00:00:48,322
+So plug in every power connector on the card, firmly.
+
+13
+00:00:48,602 --> 00:00:51,756
+An empty socket can mean crashes or a black screen.
+
+14
+00:00:52,036 --> 00:00:54,602
+More PC hardware explained on the channel.
+

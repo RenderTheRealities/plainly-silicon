@@ -1,0 +1,11 @@
+Your graphics card already plugs into a slot, so why does it need extra power cables?
+
+The P C I e slot can supply up to 75 watts. That's enough for a small, basic card.
+
+But a mid-range or high-end card can pull 300 watts or more while gaming. The rest comes straight from the power supply.
+
+That's what the cables carry. A 6-pin connector is rated for 75 watts. An 8-pin, 150. The newer twelve volt two by six connector, up to 600.
+
+Add it up. 75 from the slot plus two 8-pins gives 375 watts, enough for a 300 watt card.
+
+So plug in every power connector on the card, firmly. An empty socket can mean crashes or a black screen. More PC hardware explained on the channel.

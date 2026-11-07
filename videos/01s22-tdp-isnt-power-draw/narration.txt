@@ -1,0 +1,11 @@
+The T D P on your CPU box is not how much power it uses. It's a cooling number.
+
+T D P means thermal design power. It tells cooler makers how much heat to plan for at base speed. Boost is another story.
+
+So Intel now lists two figures. The Core i nine fourteen nine hundred K has a base power of 125 watts, but a max turbo power of 253 watts. More than double.
+
+AMD is similar. The Ryzen seventy-seven hundred X is rated at 105 watts T D P. Its power limit, called P P T, is 142 watts.
+
+So size your cooler and power supply on the turbo or P P T figure, not the small one.
+
+More PC hardware explained on the channel.

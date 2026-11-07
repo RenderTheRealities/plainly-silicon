@@ -1,0 +1,107 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   5.403
+  ],
+  [
+   6.153,
+   12.506
+  ],
+  [
+   13.256,
+   21.128
+  ],
+  [
+   21.878,
+   32.76
+  ],
+  [
+   33.51,
+   43.857
+  ],
+  [
+   44.607,
+   52.168
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    5.403,
+    "Two M.2 drives can look identical, yet one can be ten times faster."
+   ]
+  ],
+  [
+   [
+    6.153,
+    9.184,
+    "That's because M.2 is a shape, not a speed."
+   ],
+   [
+    9.464,
+    12.506,
+    "It's a small stick that screws flat onto your motherboard."
+   ]
+  ],
+  [
+   [
+    13.256,
+    17.348,
+    "Some use SATA, the same link as a 2.5-inch SSD."
+   ],
+   [
+    17.628,
+    21.128,
+    "They top out around 550 megabytes per second."
+   ]
+  ],
+  [
+   [
+    21.878,
+    25.16,
+    "Others use NVMe over PCIe lanes."
+   ],
+   [
+    25.44,
+    32.76,
+    "Even older ones reach about 3,500 megabytes per second, and newer drives pass 7,000."
+   ]
+  ],
+  [
+   [
+    33.51,
+    35.569,
+    "To tell them apart, check the notches."
+   ],
+   [
+    35.849,
+    38.477,
+    "SATA sticks usually have two, B and M."
+   ],
+   [
+    38.757,
+    41.936,
+    "NVMe sticks usually have one, the M key."
+   ],
+   [
+    42.216,
+    43.857,
+    "The label tells you for sure."
+   ]
+  ],
+  [
+   [
+    44.607,
+    49.322,
+    "And check your motherboard manual, because some slots only take NVMe."
+   ],
+   [
+    49.602,
+    52.168,
+    "More PC hardware explained on the channel."
+   ]
+  ]
+ ]
+}

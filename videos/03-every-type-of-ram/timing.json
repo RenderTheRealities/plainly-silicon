@@ -1,0 +1,438 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   30.134
+  ],
+  [
+   30.884,
+   76.859
+  ],
+  [
+   77.609,
+   110.289
+  ],
+  [
+   111.039,
+   146.867
+  ],
+  [
+   147.617,
+   188.241
+  ],
+  [
+   188.991,
+   225.544
+  ],
+  [
+   226.294,
+   268.204
+  ],
+  [
+   268.954,
+   312.658
+  ],
+  [
+   313.408,
+   346.912
+  ],
+  [
+   347.662,
+   399.957
+  ],
+  [
+   400.707,
+   441.631
+  ],
+  [
+   442.381,
+   458.465
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    6.402,
+    "You're holding a stick of RAM from an old PC, and there's a brand new motherboard on your desk."
+   ],
+   [
+    6.682,
+    9.935,
+    "Will it fit, and if it somehow did, would it even work?"
+   ],
+   [
+    10.215,
+    20.135,
+    "To answer that, we'll follow this one stick through three generations of memory, and then into every other place RAM hides inside your devices."
+   ],
+   [
+    20.415,
+    30.134,
+    "By the end, you'll be able to look at any memory stick, laptop or graphics card and know what kind of RAM it uses, and why it can't be swapped."
+   ]
+  ],
+  [
+   [
+    30.884,
+    32.997,
+    "Start with what's actually on the stick."
+   ],
+   [
+    33.277,
+    36.286,
+    "Those black rectangles are DRAM chips."
+   ],
+   [
+    36.566,
+    48.006,
+    "Each one stores billions of bits as tiny electrical charges, and because those charges slowly leak away, the chips are refreshed over and over just to remember anything."
+   ],
+   [
+    48.286,
+    51.303,
+    "The letters DDR stand for double data rate."
+   ],
+   [
+    51.583,
+    61.503,
+    "The memory runs on a clock, a steady tick, and DDR moves data twice on every tick, once as the signal rises and once as it falls."
+   ],
+   [
+    61.783,
+    66.604,
+    "That's why speeds are measured in megatransfers per second, not megahertz."
+   ],
+   [
+    66.884,
+    74.29,
+    "A stick sold as DDR4-3200 has a clock of 1600 megahertz."
+   ],
+   [
+    74.57,
+    76.859,
+    "It just moves data on both edges."
+   ]
+  ],
+  [
+   [
+    77.609,
+    79.488,
+    "Now look at the label on our stick."
+   ],
+   [
+    79.768,
+    81.383,
+    "It says DDR3."
+   ],
+   [
+    81.663,
+    92.877,
+    "That standard launched in 2007, and it ran at 1.5 volts, with a low voltage version, DDR3L, at 1.35 volts."
+   ],
+   [
+    93.157,
+    99.345,
+    "Official speeds went from 800 up to 2133 megatransfers per second."
+   ],
+   [
+    99.625,
+    107.326,
+    "Run your finger along the bottom edge and you'll count 240 gold contacts, with one small gap cut into them."
+   ],
+   [
+    107.606,
+    108.826,
+    "Remember that gap."
+   ],
+   [
+    109.106,
+    110.289,
+    "It's about to matter."
+   ]
+  ],
+  [
+   [
+    111.039,
+    116.373,
+    "The next generation, DDR4, reached PCs in 2014."
+   ],
+   [
+    116.653,
+    128.182,
+    "It dropped the voltage to 1.2 volts and started at 2133 megatransfers per second, with the official standard going up to 3200."
+   ],
+   [
+    128.462,
+    143.558,
+    "The stick is the same length as DDR3, but it has 288 contacts packed tighter, and its bottom edge is slightly curved, so the pins touch the slot a few at a time and the stick takes less force to push in."
+   ],
+   [
+    143.838,
+    146.867,
+    "And that little gap, the notch, sits in a different spot."
+   ]
+  ],
+  [
+   [
+    147.617,
+    149.814,
+    "That's the answer to our first question."
+   ],
+   [
+    150.094,
+    151.369,
+    "The notch is a key."
+   ],
+   [
+    151.649,
+    160.914,
+    "Each DDR generation puts it in a different place, and the slot has a matching ridge, so an older stick physically can't seat in a newer slot."
+   ],
+   [
+    161.194,
+    162.349,
+    "That's on purpose."
+   ],
+   [
+    162.629,
+    173.645,
+    "The voltages are different, the signals are different, and the memory controller that talks to the RAM lives inside the processor, built for a specific generation."
+   ],
+   [
+    173.925,
+    184.059,
+    "Some Intel chips, like the twelfth generation, can handle both DDR4 and DDR5, but any single motherboard is wired for one."
+   ],
+   [
+    184.339,
+    186.49,
+    "So our DDR3 stick is out."
+   ],
+   [
+    186.77,
+    188.241,
+    "Let's see what replaced it."
+   ]
+  ],
+  [
+   [
+    188.991,
+    193.604,
+    "DDR5 was published as a standard in 2020."
+   ],
+   [
+    193.884,
+    205.607,
+    "It starts where DDR4 topped out and then some, at 4800 megatransfers per second, and the official speed list now runs up to 8800."
+   ],
+   [
+    205.887,
+    209.012,
+    "The voltage drops again, to 1.1 volts."
+   ],
+   [
+    209.292,
+    210.335,
+    "Here's the trap."
+   ],
+   [
+    210.615,
+    216.965,
+    "A DDR5 stick has the same 288 contacts as DDR4."
+   ],
+   [
+    217.245,
+    218.715,
+    "Same count, same length."
+   ],
+   [
+    218.995,
+    225.544,
+    "Only the notch has moved, and that's the only thing stopping you from forcing the wrong stick into the wrong board."
+   ]
+  ],
+  [
+   [
+    226.294,
+    229.681,
+    "Inside, DDR5 changed how the stick talks."
+   ],
+   [
+    229.961,
+    237.365,
+    "A DDR4 stick is one 64-bit channel, like one wide road where everything travels together."
+   ],
+   [
+    237.645,
+    248.351,
+    "A DDR5 stick splits that into two independent 32-bit subchannels, two narrower roads that can each carry a different request at the same time."
+   ],
+   [
+    248.631,
+    258.912,
+    "Each subchannel sends longer bursts, sixteen transfers instead of eight, so one request still delivers the same 64 byte chunk the processor wants."
+   ],
+   [
+    259.192,
+    268.204,
+    "The result is that one stick can juggle more small jobs at once, which is exactly what modern processors with lots of cores ask for."
+   ]
+  ],
+  [
+   [
+    268.954,
+    273.312,
+    "DDR5 also moved some parts onto the stick itself."
+   ],
+   [
+    273.592,
+    278.18,
+    "On older generations, the motherboard regulated the memory's power."
+   ],
+   [
+    278.46,
+    289.939,
+    "A DDR5 stick carries its own power management chip, which takes in 5 volts on desktop sticks and turns it into the exact voltages the memory chips need."
+   ],
+   [
+    290.219,
+    298.235,
+    "Each chip also has on-die ECC, error correction built inside the chip that fixes flipped bits before they leave it."
+   ],
+   [
+    298.515,
+    305.403,
+    "That's not the same as the full ECC memory servers use, which also protects the trip to the processor."
+   ],
+   [
+    305.683,
+    312.658,
+    "And because the chips got denser, the largest possible stick grew from 64 gigabytes to 512."
+   ]
+  ],
+  [
+   [
+    313.408,
+    315.777,
+    "Now take the same question to a laptop."
+   ],
+   [
+    316.057,
+    325.996,
+    "Laptop sticks are called SO-DIMMs, and they're about half the length of a desktop stick, roughly 68 millimeters instead of 133."
+   ],
+   [
+    326.276,
+    327.726,
+    "The same rules apply."
+   ],
+   [
+    328.006,
+    339.532,
+    "A DDR4 SO-DIMM has 260 contacts, a DDR5 one has 262, the notches differ, and neither fits the other's slot."
+   ],
+   [
+    339.812,
+    346.912,
+    "So if your laptop has SO-DIMM slots, you can upgrade it, but only with the generation it was built for."
+   ]
+  ],
+  [
+   [
+    347.662,
+    350.244,
+    "Many thin laptops don't have slots at all."
+   ],
+   [
+    350.524,
+    357.859,
+    "They use LPDDR, low power DDR, which is soldered to the board right next to the processor."
+   ],
+   [
+    358.139,
+    365.886,
+    "Shorter wires mean less power and higher speeds, but you can never upgrade it, so buy the capacity you'll need on day one."
+   ],
+   [
+    366.166,
+    373.322,
+    "A newer removable module called LPCAMM2 tries to give you both, and a few laptops already use it."
+   ],
+   [
+    373.602,
+    375.4,
+    "Then there's your graphics card."
+   ],
+   [
+    375.68,
+    384.237,
+    "The chips around its GPU are GDDR, graphics DDR, built for raw bandwidth instead of low latency."
+   ],
+   [
+    384.517,
+    390.1,
+    "GDDR6 reaches up to 24 gigabits per second on every pin."
+   ],
+   [
+    390.38,
+    399.957,
+    "GDDR7 starts at 32 and is rated up to 48, partly by sending three voltage levels per signal instead of two."
+   ]
+  ],
+  [
+   [
+    400.707,
+    402.589,
+    "So, back to the stick in your hand."
+   ],
+   [
+    402.869,
+    407.617,
+    "It's DDR3, so it won't fit the new board, and it isn't supposed to."
+   ],
+   [
+    407.897,
+    414.019,
+    "What does fit is whatever your motherboard's spec page lists, and it lists exactly one generation."
+   ],
+   [
+    414.299,
+    425.941,
+    "Buy a matched kit of that type, at least two sticks so you get two channels, and remember that a new kit starts at a safe default speed until you turn on its speed profile in the BIOS."
+   ],
+   [
+    426.221,
+    427.498,
+    "That's the whole family."
+   ],
+   [
+    427.778,
+    441.631,
+    "DDR for desktops, SO-DIMMs for laptops, LPDDR soldered for battery life, and GDDR on your graphics card, each one keyed, timed and powered for its own job."
+   ]
+  ],
+  [
+   [
+    442.381,
+    443.529,
+    "But here's the thing."
+   ],
+   [
+    443.809,
+    449.643,
+    "Even the fastest RAM won't help if memory isn't what's holding your PC back."
+   ],
+   [
+    449.923,
+    456.504,
+    "Next time, we'll figure out why your PC is slow, and why more RAM usually isn't the fix."
+   ],
+   [
+    456.784,
+    458.465,
+    "Subscribe so you don't miss it."
+   ]
+  ]
+ ]
+}

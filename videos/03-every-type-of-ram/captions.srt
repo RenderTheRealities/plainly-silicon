@@ -1,0 +1,288 @@
+1
+00:00:00,300 --> 00:00:06,402
+You're holding a stick of RAM from an old PC, and there's a brand new motherboard on your desk.
+
+2
+00:00:06,682 --> 00:00:09,935
+Will it fit, and if it somehow did, would it even work?
+
+3
+00:00:10,215 --> 00:00:20,135
+To answer that, we'll follow this one stick through three generations of memory, and then into every other place RAM hides inside your devices.
+
+4
+00:00:20,415 --> 00:00:30,134
+By the end, you'll be able to look at any memory stick, laptop or graphics card and know what kind of RAM it uses, and why it can't be swapped.
+
+5
+00:00:30,884 --> 00:00:32,997
+Start with what's actually on the stick.
+
+6
+00:00:33,277 --> 00:00:36,286
+Those black rectangles are DRAM chips.
+
+7
+00:00:36,566 --> 00:00:48,006
+Each one stores billions of bits as tiny electrical charges, and because those charges slowly leak away, the chips are refreshed over and over just to remember anything.
+
+8
+00:00:48,286 --> 00:00:51,303
+The letters DDR stand for double data rate.
+
+9
+00:00:51,583 --> 00:01:01,503
+The memory runs on a clock, a steady tick, and DDR moves data twice on every tick, once as the signal rises and once as it falls.
+
+10
+00:01:01,783 --> 00:01:06,604
+That's why speeds are measured in megatransfers per second, not megahertz.
+
+11
+00:01:06,884 --> 00:01:14,290
+A stick sold as DDR4-3200 has a clock of 1600 megahertz.
+
+12
+00:01:14,570 --> 00:01:16,859
+It just moves data on both edges.
+
+13
+00:01:17,609 --> 00:01:19,488
+Now look at the label on our stick.
+
+14
+00:01:19,768 --> 00:01:21,383
+It says DDR3.
+
+15
+00:01:21,663 --> 00:01:32,877
+That standard launched in 2007, and it ran at 1.5 volts, with a low voltage version, DDR3L, at 1.35 volts.
+
+16
+00:01:33,157 --> 00:01:39,345
+Official speeds went from 800 up to 2133 megatransfers per second.
+
+17
+00:01:39,625 --> 00:01:47,326
+Run your finger along the bottom edge and you'll count 240 gold contacts, with one small gap cut into them.
+
+18
+00:01:47,606 --> 00:01:48,826
+Remember that gap.
+
+19
+00:01:49,106 --> 00:01:50,289
+It's about to matter.
+
+20
+00:01:51,039 --> 00:01:56,373
+The next generation, DDR4, reached PCs in 2014.
+
+21
+00:01:56,653 --> 00:02:08,182
+It dropped the voltage to 1.2 volts and started at 2133 megatransfers per second, with the official standard going up to 3200.
+
+22
+00:02:08,462 --> 00:02:23,558
+The stick is the same length as DDR3, but it has 288 contacts packed tighter, and its bottom edge is slightly curved, so the pins touch the slot a few at a time and the stick takes less force to push in.
+
+23
+00:02:23,838 --> 00:02:26,867
+And that little gap, the notch, sits in a different spot.
+
+24
+00:02:27,617 --> 00:02:29,814
+That's the answer to our first question.
+
+25
+00:02:30,094 --> 00:02:31,369
+The notch is a key.
+
+26
+00:02:31,649 --> 00:02:40,914
+Each DDR generation puts it in a different place, and the slot has a matching ridge, so an older stick physically can't seat in a newer slot.
+
+27
+00:02:41,194 --> 00:02:42,349
+That's on purpose.
+
+28
+00:02:42,629 --> 00:02:53,645
+The voltages are different, the signals are different, and the memory controller that talks to the RAM lives inside the processor, built for a specific generation.
+
+29
+00:02:53,925 --> 00:03:04,059
+Some Intel chips, like the twelfth generation, can handle both DDR4 and DDR5, but any single motherboard is wired for one.
+
+30
+00:03:04,339 --> 00:03:06,490
+So our DDR3 stick is out.
+
+31
+00:03:06,770 --> 00:03:08,241
+Let's see what replaced it.
+
+32
+00:03:08,991 --> 00:03:13,604
+DDR5 was published as a standard in 2020.
+
+33
+00:03:13,884 --> 00:03:25,607
+It starts where DDR4 topped out and then some, at 4800 megatransfers per second, and the official speed list now runs up to 8800.
+
+34
+00:03:25,887 --> 00:03:29,012
+The voltage drops again, to 1.1 volts.
+
+35
+00:03:29,292 --> 00:03:30,335
+Here's the trap.
+
+36
+00:03:30,615 --> 00:03:36,965
+A DDR5 stick has the same 288 contacts as DDR4.
+
+37
+00:03:37,245 --> 00:03:38,715
+Same count, same length.
+
+38
+00:03:38,995 --> 00:03:45,544
+Only the notch has moved, and that's the only thing stopping you from forcing the wrong stick into the wrong board.
+
+39
+00:03:46,294 --> 00:03:49,681
+Inside, DDR5 changed how the stick talks.
+
+40
+00:03:49,961 --> 00:03:57,365
+A DDR4 stick is one 64-bit channel, like one wide road where everything travels together.
+
+41
+00:03:57,645 --> 00:04:08,351
+A DDR5 stick splits that into two independent 32-bit subchannels, two narrower roads that can each carry a different request at the same time.
+
+42
+00:04:08,631 --> 00:04:18,912
+Each subchannel sends longer bursts, sixteen transfers instead of eight, so one request still delivers the same 64 byte chunk the processor wants.
+
+43
+00:04:19,192 --> 00:04:28,204
+The result is that one stick can juggle more small jobs at once, which is exactly what modern processors with lots of cores ask for.
+
+44
+00:04:28,954 --> 00:04:33,312
+DDR5 also moved some parts onto the stick itself.
+
+45
+00:04:33,592 --> 00:04:38,180
+On older generations, the motherboard regulated the memory's power.
+
+46
+00:04:38,460 --> 00:04:49,939
+A DDR5 stick carries its own power management chip, which takes in 5 volts on desktop sticks and turns it into the exact voltages the memory chips need.
+
+47
+00:04:50,219 --> 00:04:58,235
+Each chip also has on-die ECC, error correction built inside the chip that fixes flipped bits before they leave it.
+
+48
+00:04:58,515 --> 00:05:05,403
+That's not the same as the full ECC memory servers use, which also protects the trip to the processor.
+
+49
+00:05:05,683 --> 00:05:12,658
+And because the chips got denser, the largest possible stick grew from 64 gigabytes to 512.
+
+50
+00:05:13,408 --> 00:05:15,777
+Now take the same question to a laptop.
+
+51
+00:05:16,057 --> 00:05:25,996
+Laptop sticks are called SO-DIMMs, and they're about half the length of a desktop stick, roughly 68 millimeters instead of 133.
+
+52
+00:05:26,276 --> 00:05:27,726
+The same rules apply.
+
+53
+00:05:28,006 --> 00:05:39,532
+A DDR4 SO-DIMM has 260 contacts, a DDR5 one has 262, the notches differ, and neither fits the other's slot.
+
+54
+00:05:39,812 --> 00:05:46,912
+So if your laptop has SO-DIMM slots, you can upgrade it, but only with the generation it was built for.
+
+55
+00:05:47,662 --> 00:05:50,244
+Many thin laptops don't have slots at all.
+
+56
+00:05:50,524 --> 00:05:57,859
+They use LPDDR, low power DDR, which is soldered to the board right next to the processor.
+
+57
+00:05:58,139 --> 00:06:05,886
+Shorter wires mean less power and higher speeds, but you can never upgrade it, so buy the capacity you'll need on day one.
+
+58
+00:06:06,166 --> 00:06:13,322
+A newer removable module called LPCAMM2 tries to give you both, and a few laptops already use it.
+
+59
+00:06:13,602 --> 00:06:15,400
+Then there's your graphics card.
+
+60
+00:06:15,680 --> 00:06:24,237
+The chips around its GPU are GDDR, graphics DDR, built for raw bandwidth instead of low latency.
+
+61
+00:06:24,517 --> 00:06:30,100
+GDDR6 reaches up to 24 gigabits per second on every pin.
+
+62
+00:06:30,380 --> 00:06:39,957
+GDDR7 starts at 32 and is rated up to 48, partly by sending three voltage levels per signal instead of two.
+
+63
+00:06:40,707 --> 00:06:42,589
+So, back to the stick in your hand.
+
+64
+00:06:42,869 --> 00:06:47,617
+It's DDR3, so it won't fit the new board, and it isn't supposed to.
+
+65
+00:06:47,897 --> 00:06:54,019
+What does fit is whatever your motherboard's spec page lists, and it lists exactly one generation.
+
+66
+00:06:54,299 --> 00:07:05,941
+Buy a matched kit of that type, at least two sticks so you get two channels, and remember that a new kit starts at a safe default speed until you turn on its speed profile in the BIOS.
+
+67
+00:07:06,221 --> 00:07:07,498
+That's the whole family.
+
+68
+00:07:07,778 --> 00:07:21,631
+DDR for desktops, SO-DIMMs for laptops, LPDDR soldered for battery life, and GDDR on your graphics card, each one keyed, timed and powered for its own job.
+
+69
+00:07:22,381 --> 00:07:23,529
+But here's the thing.
+
+70
+00:07:23,809 --> 00:07:29,643
+Even the fastest RAM won't help if memory isn't what's holding your PC back.
+
+71
+00:07:29,923 --> 00:07:36,504
+Next time, we'll figure out why your PC is slow, and why more RAM usually isn't the fix.
+
+72
+00:07:36,784 --> 00:07:38,465
+Subscribe so you don't miss it.
+

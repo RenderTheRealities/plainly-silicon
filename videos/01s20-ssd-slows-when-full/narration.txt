@@ -1,0 +1,11 @@
+Why does an S S D get slower as it fills up? It's not your imagination.
+
+Many consumer drives use a trick. They run part of their empty flash in a fast mode that stores just one bit per cell. That's called an S L C cache, and new writes land there first.
+
+The catch is that the cache is built from free space. As the drive fills, the cache shrinks. A big copy runs out of it sooner and drops to the slower native speed.
+
+Free space also helps the controller tidy up, spreading out wear and clearing old blocks. With little room left, that cleanup slows your writes.
+
+So leave some breathing room. A common rule of thumb is ten to twenty percent free.
+
+More PC hardware explained on the channel.

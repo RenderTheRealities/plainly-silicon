@@ -16,7 +16,7 @@
   },
   {
    "slug": "02-how-a-gpu-works",
-   "publish": "2026-11-07T16:00:00-07:00",
+   "publish": "2026-11-07T12:32:00-07:00",
    "title": "How a GPU Actually Works: One Frame in 16 Milliseconds (Animated)",
    "keyword": "how gpu works",
    "status": "scheduled",
@@ -25,15 +25,17 @@
   },
   {
    "slug": "03-every-type-of-ram",
-   "publish": "2026-11-13T12:00:00-07:00",
+   "publish": "2026-11-07T12:36:00-07:00",
    "title": "Every Type of RAM Explained: DDR3 to DDR5",
    "keyword": "every ddr ram explained",
-   "status": "planned"
+   "status": "scheduled",
+   "theme": "mint",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-997620991232491130"
   },
   {
    "slug": "04-why-your-pc-is-slow",
    "publish": "2026-11-16T12:00:00-07:00",
-   "title": "Why Your PC Is Slow \u2014 and Why More RAM Usually Isn't the Fix",
+   "title": "Why Your PC Is Slow — and Why More RAM Usually Isn't the Fix",
    "keyword": "how to have a low memory on your pc",
    "status": "planned"
   },

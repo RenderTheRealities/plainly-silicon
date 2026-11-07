@@ -1,0 +1,48 @@
+1
+00:00:00,300 --> 00:00:02,260
+Why are some USB ports blue?
+
+2
+00:00:02,540 --> 00:00:04,133
+It's not just decoration.
+
+3
+00:00:04,883 --> 00:00:09,083
+Blue usually marks USB 3, also called SuperSpeed.
+
+4
+00:00:09,363 --> 00:00:13,251
+The first version of it runs at up to 5 gigabits per second.
+
+5
+00:00:14,001 --> 00:00:17,434
+The black ports beside it are usually USB 2.
+
+6
+00:00:17,714 --> 00:00:22,919
+That tops out at 480 megabits per second, roughly 10 times slower.
+
+7
+00:00:23,669 --> 00:00:26,255
+But the color is a convention, not a rule.
+
+8
+00:00:26,535 --> 00:00:30,338
+Some makers use red, teal, or plain black for fast ports.
+
+9
+00:00:30,618 --> 00:00:35,040
+The SS logo next to the port, or your manual, is the better clue.
+
+10
+00:00:35,790 --> 00:00:40,942
+So plug your fast flash drive or external SSD into the faster port.
+
+11
+00:00:41,222 --> 00:00:43,087
+Big copies finish much sooner.
+
+12
+00:00:43,837 --> 00:00:46,402
+More PC hardware explained on the channel.
+

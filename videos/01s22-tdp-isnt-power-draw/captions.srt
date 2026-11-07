@@ -1,0 +1,52 @@
+1
+00:00:00,300 --> 00:00:05,007
+The TDP on your CPU box is not how much power it uses.
+
+2
+00:00:05,287 --> 00:00:06,527
+It's a cooling number.
+
+3
+00:00:07,277 --> 00:00:10,014
+TDP means thermal design power.
+
+4
+00:00:10,294 --> 00:00:14,217
+It tells cooler makers how much heat to plan for at base speed.
+
+5
+00:00:14,497 --> 00:00:16,103
+Boost is another story.
+
+6
+00:00:16,853 --> 00:00:18,992
+So Intel now lists two figures.
+
+7
+00:00:19,272 --> 00:00:29,739
+The Core i9-14900K has a base power of 125 watts, but a max turbo power of 253 watts.
+
+8
+00:00:30,019 --> 00:00:31,007
+More than double.
+
+9
+00:00:31,757 --> 00:00:33,003
+AMD is similar.
+
+10
+00:00:33,283 --> 00:00:39,114
+The Ryzen 7 7700X is rated at 105 watts TDP.
+
+11
+00:00:39,394 --> 00:00:43,966
+Its power limit, called PPT, is 142 watts.
+
+12
+00:00:44,716 --> 00:00:50,871
+So size your cooler and power supply on the turbo or PPT figure, not the small one.
+
+13
+00:00:51,621 --> 00:00:54,187
+More PC hardware explained on the channel.
+

@@ -1,0 +1,112 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   5.818
+  ],
+  [
+   6.568,
+   13.037
+  ],
+  [
+   13.787,
+   21.523
+  ],
+  [
+   22.273,
+   34.089
+  ],
+  [
+   34.839,
+   44.042
+  ],
+  [
+   44.792,
+   54.602
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    5.818,
+    "Your graphics card already plugs into a slot, so why does it need extra power cables?"
+   ]
+  ],
+  [
+   [
+    6.568,
+    10.487,
+    "The PCIe slot can supply up to 75 watts."
+   ],
+   [
+    10.767,
+    13.037,
+    "That's enough for a small, basic card."
+   ]
+  ],
+  [
+   [
+    13.787,
+    18.893,
+    "But a mid-range or high-end card can pull 300 watts or more while gaming."
+   ],
+   [
+    19.173,
+    21.523,
+    "The rest comes straight from the power supply."
+   ]
+  ],
+  [
+   [
+    22.273,
+    23.841,
+    "That's what the cables carry."
+   ],
+   [
+    24.122,
+    27.606,
+    "A 6-pin connector is rated for 75 watts."
+   ],
+   [
+    27.886,
+    29.886,
+    "An 8-pin, 150."
+   ],
+   [
+    30.166,
+    34.089,
+    "The newer 12V-2x6 connector, up to 600."
+   ]
+  ],
+  [
+   [
+    34.839,
+    35.652,
+    "Add it up."
+   ],
+   [
+    35.932,
+    44.042,
+    "75 from the slot plus two 8-pins gives 375 watts, enough for a 300 watt card."
+   ]
+  ],
+  [
+   [
+    44.792,
+    48.322,
+    "So plug in every power connector on the card, firmly."
+   ],
+   [
+    48.602,
+    51.756,
+    "An empty socket can mean crashes or a black screen."
+   ],
+   [
+    52.036,
+    54.602,
+    "More PC hardware explained on the channel."
+   ]
+  ]
+ ]
+}

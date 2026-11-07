@@ -1,0 +1,52 @@
+1
+00:00:00,300 --> 00:00:05,403
+Two M.2 drives can look identical, yet one can be ten times faster.
+
+2
+00:00:06,153 --> 00:00:09,184
+That's because M.2 is a shape, not a speed.
+
+3
+00:00:09,464 --> 00:00:12,506
+It's a small stick that screws flat onto your motherboard.
+
+4
+00:00:13,256 --> 00:00:17,348
+Some use SATA, the same link as a 2.5-inch SSD.
+
+5
+00:00:17,628 --> 00:00:21,128
+They top out around 550 megabytes per second.
+
+6
+00:00:21,878 --> 00:00:25,160
+Others use NVMe over PCIe lanes.
+
+7
+00:00:25,440 --> 00:00:32,760
+Even older ones reach about 3,500 megabytes per second, and newer drives pass 7,000.
+
+8
+00:00:33,510 --> 00:00:35,569
+To tell them apart, check the notches.
+
+9
+00:00:35,849 --> 00:00:38,477
+SATA sticks usually have two, B and M.
+
+10
+00:00:38,757 --> 00:00:41,936
+NVMe sticks usually have one, the M key.
+
+11
+00:00:42,216 --> 00:00:43,857
+The label tells you for sure.
+
+12
+00:00:44,607 --> 00:00:49,322
+And check your motherboard manual, because some slots only take NVMe.
+
+13
+00:00:49,602 --> 00:00:52,168
+More PC hardware explained on the channel.
+

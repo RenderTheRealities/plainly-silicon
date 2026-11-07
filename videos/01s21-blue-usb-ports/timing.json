@@ -1,0 +1,102 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   4.133
+  ],
+  [
+   4.883,
+   13.251
+  ],
+  [
+   14.001,
+   22.919
+  ],
+  [
+   23.669,
+   35.04
+  ],
+  [
+   35.79,
+   43.087
+  ],
+  [
+   43.837,
+   46.402
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    2.26,
+    "Why are some USB ports blue?"
+   ],
+   [
+    2.54,
+    4.133,
+    "It's not just decoration."
+   ]
+  ],
+  [
+   [
+    4.883,
+    9.083,
+    "Blue usually marks USB 3, also called SuperSpeed."
+   ],
+   [
+    9.363,
+    13.251,
+    "The first version of it runs at up to 5 gigabits per second."
+   ]
+  ],
+  [
+   [
+    14.001,
+    17.434,
+    "The black ports beside it are usually USB 2."
+   ],
+   [
+    17.714,
+    22.919,
+    "That tops out at 480 megabits per second, roughly 10 times slower."
+   ]
+  ],
+  [
+   [
+    23.669,
+    26.255,
+    "But the color is a convention, not a rule."
+   ],
+   [
+    26.535,
+    30.338,
+    "Some makers use red, teal, or plain black for fast ports."
+   ],
+   [
+    30.618,
+    35.04,
+    "The SS logo next to the port, or your manual, is the better clue."
+   ]
+  ],
+  [
+   [
+    35.79,
+    40.942,
+    "So plug your fast flash drive or external SSD into the faster port."
+   ],
+   [
+    41.222,
+    43.087,
+    "Big copies finish much sooner."
+   ]
+  ],
+  [
+   [
+    43.837,
+    46.402,
+    "More PC hardware explained on the channel."
+   ]
+  ]
+ ]
+}

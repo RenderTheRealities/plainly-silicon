@@ -1,0 +1,52 @@
+1
+00:00:00,300 --> 00:00:03,031
+Why does an SSD get slower as it fills up?
+
+2
+00:00:03,311 --> 00:00:05,006
+It's not your imagination.
+
+3
+00:00:05,756 --> 00:00:07,878
+Many consumer drives use a trick.
+
+4
+00:00:08,158 --> 00:00:13,355
+They run part of their empty flash in a fast mode that stores just one bit per cell.
+
+5
+00:00:13,635 --> 00:00:17,553
+That's called an SLC cache, and new writes land there first.
+
+6
+00:00:18,303 --> 00:00:21,297
+The catch is that the cache is built from free space.
+
+7
+00:00:21,577 --> 00:00:23,756
+As the drive fills, the cache shrinks.
+
+8
+00:00:24,036 --> 00:00:28,526
+A big copy runs out of it sooner and drops to the slower native speed.
+
+9
+00:00:29,276 --> 00:00:35,214
+Free space also helps the controller tidy up, spreading out wear and clearing old blocks.
+
+10
+00:00:35,494 --> 00:00:38,685
+With little room left, that cleanup slows your writes.
+
+11
+00:00:39,435 --> 00:00:41,072
+So leave some breathing room.
+
+12
+00:00:41,352 --> 00:00:44,713
+A common rule of thumb is 10 to 20 percent free.
+
+13
+00:00:45,463 --> 00:00:48,029
+More PC hardware explained on the channel.
+
