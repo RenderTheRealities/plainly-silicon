@@ -1,0 +1,280 @@
+1
+00:00:00,300 --> 00:00:07,017
+Your graphics card has about sixteen milliseconds to draw every frame you see at sixty frames per second.
+
+2
+00:00:07,297 --> 00:00:17,349
+In this video, we'll follow one single frame through the GPU, from a pile of triangles to a finished picture, and see exactly how it pulls that off.
+
+3
+00:00:18,099 --> 00:00:19,263
+Here's the job.
+
+4
+00:00:19,543 --> 00:00:23,280
+A full HD screen has just over two million pixels.
+
+5
+00:00:23,560 --> 00:00:29,301
+Every one of them needs a color, and every one of them has to be ready before the next frame is due.
+
+6
+00:00:29,581 --> 00:00:38,141
+Do the math, and that's more than a hundred million pixel colors every second, before the game even gets fancy with lighting or shadows.
+
+7
+00:00:38,421 --> 00:00:44,114
+At 4K, it's about four times as much, close to five hundred million every second.
+
+8
+00:00:44,394 --> 00:00:47,593
+No ordinary processor can keep up with that alone.
+
+9
+00:00:47,873 --> 00:00:51,465
+So the GPU isn't built like an ordinary processor.
+
+10
+00:00:51,745 --> 00:00:54,803
+Let's watch how it's built, by following our frame.
+
+11
+00:00:55,553 --> 00:00:57,541
+Our frame starts on the CPU.
+
+12
+00:00:57,821 --> 00:01:02,954
+The game works out where the camera is, where the characters stand, and what's on screen.
+
+13
+00:01:03,234 --> 00:01:07,736
+Then it hands the graphics card a list of instructions called draw calls.
+
+14
+00:01:08,016 --> 00:01:12,778
+Each one says, roughly, draw this model, with these textures, at this position.
+
+15
+00:01:13,058 --> 00:01:14,826
+The CPU is the director.
+
+16
+00:01:15,106 --> 00:01:18,352
+The GPU is the crew that actually builds the set.
+
+17
+00:01:19,102 --> 00:01:21,524
+The first thing the GPU builds is shape.
+
+18
+00:01:21,804 --> 00:01:29,715
+Every 3D model in a game is made of triangles, and each triangle is defined by three corners called vertices.
+
+19
+00:01:29,995 --> 00:01:40,169
+A small program called a vertex shader runs on every single vertex, moving it from the model's own space into the world, and then onto your screen.
+
+20
+00:01:40,449 --> 00:01:48,905
+A character might have tens of thousands of vertices, and they're all processed in parallel, because no vertex needs to wait for another.
+
+21
+00:01:49,655 --> 00:01:51,414
+Next comes rasterization.
+
+22
+00:01:51,694 --> 00:01:59,025
+The GPU takes each triangle, now flattened onto the screen, and asks a simple question for every pixel.
+
+23
+00:01:59,305 --> 00:02:02,133
+Is this pixel inside the triangle or not?
+
+24
+00:02:02,413 --> 00:02:07,303
+The pixels it covers become fragments, which are candidates for a final color.
+
+25
+00:02:07,583 --> 00:02:15,440
+Triangles facing away from the camera are thrown out early, so the GPU never wastes time on the back of a character's head.
+
+26
+00:02:15,720 --> 00:02:20,112
+Even one small triangle on screen can cover dozens of pixels.
+
+27
+00:02:20,392 --> 00:02:25,424
+A whole scene covers millions, and every one of them is now waiting to be colored.
+
+28
+00:02:26,174 --> 00:02:27,478
+Now the heavy lifting.
+
+29
+00:02:27,758 --> 00:02:31,053
+For each fragment, a pixel shader works out the color.
+
+30
+00:02:31,333 --> 00:02:36,558
+It reads the texture, the image wrapped around the model, from the card's video memory.
+
+31
+00:02:36,838 --> 00:02:41,579
+It checks where the lights are, how shiny the surface is, and whether it's in shadow.
+
+32
+00:02:41,859 --> 00:02:45,503
+And it has to do this for millions of fragments, every frame.
+
+33
+00:02:45,783 --> 00:02:49,967
+The good news is that every fragment's color can be worked out on its own.
+
+34
+00:02:50,247 --> 00:02:55,534
+The pixel on a character's nose doesn't need to know about the pixel on the tree behind them.
+
+35
+00:02:55,814 --> 00:02:59,584
+This is the moment the GPU's design really pays off.
+
+36
+00:03:00,334 --> 00:03:11,863
+Inside a GPU like the GeForce RTX 40 60, there are 24 blocks called streaming multiprocessors, each with 128 small cores.
+
+37
+00:03:12,143 --> 00:03:14,879
+That's 3,072 cores in total.
+
+38
+00:03:15,159 --> 00:03:16,736
+But here's the clever part.
+
+39
+00:03:17,016 --> 00:03:18,817
+Those cores don't work alone.
+
+40
+00:03:19,097 --> 00:03:29,273
+They're grouped into teams of 32 threads called warps, and every thread in a warp runs the same instruction at the same moment, just on different pixels.
+
+41
+00:03:29,553 --> 00:03:31,855
+One instruction, thirty-two pixels.
+
+42
+00:03:32,135 --> 00:03:39,266
+That's how a chip keeps millions of shader calculations moving without needing millions of separate control units.
+
+43
+00:03:40,016 --> 00:03:41,200
+There's a catch, though.
+
+44
+00:03:41,480 --> 00:03:45,247
+Reading a texture from memory is slow compared to doing math.
+
+45
+00:03:45,527 --> 00:03:52,534
+So when one warp is stuck waiting for data, the multiprocessor simply switches to another warp that's ready to go.
+
+46
+00:03:52,814 --> 00:03:57,881
+Each warp's state stays in the chip's registers, so switching costs almost nothing.
+
+47
+00:03:58,161 --> 00:04:03,964
+The GPU hides the wait by always having more work lined up than it can run at once.
+
+48
+00:04:04,244 --> 00:04:14,252
+And if threads in the same warp take different branches, say half the pixels are in shadow and half aren't, the warp has to run both paths one after the other.
+
+49
+00:04:14,532 --> 00:04:17,932
+That's one reason some effects cost more than you'd expect.
+
+50
+00:04:18,212 --> 00:04:24,723
+Graphics programmers spend a lot of effort keeping neighboring pixels on the same path, so the warps stay busy.
+
+51
+00:04:25,473 --> 00:04:27,730
+All of this needs a firehose of data.
+
+52
+00:04:28,010 --> 00:04:38,538
+The RTX 40 60 has 8 gigabytes of video memory on a 128 bit bus, moving about 272 gigabytes per second.
+
+53
+00:04:38,817 --> 00:04:48,017
+It also has 24 megabytes of level two cache on the chip, so the textures it uses most don't have to make the trip to memory every time.
+
+54
+00:04:48,297 --> 00:04:55,827
+When a game needs more textures than the video memory can hold, that's when you see stutter, and that's a story for another video.
+
+55
+00:04:56,577 --> 00:04:59,393
+Modern cards add two specialists to the crew.
+
+56
+00:04:59,673 --> 00:05:10,728
+The RTX 40 60 has 24 ray tracing cores, built to quickly test which objects a ray of light would hit, for realistic reflections and shadows.
+
+57
+00:05:11,008 --> 00:05:22,609
+And it has 96 tensor cores, built for the kind of math that AI uses, which powers upscaling features that draw a smaller image and rebuild it at a higher resolution.
+
+58
+00:05:22,889 --> 00:05:24,760
+They don't replace the main cores.
+
+59
+00:05:25,040 --> 00:05:31,275
+They take the jobs the main cores are worst at, so the regular shaders are free for everything else.
+
+60
+00:05:32,025 --> 00:05:38,271
+Finally, the finished colors land in a frame buffer, a block of memory holding the complete image.
+
+61
+00:05:38,551 --> 00:05:44,256
+While you're looking at the previous frame, the GPU is filling in the next one behind the scenes.
+
+62
+00:05:44,536 --> 00:05:48,852
+When it's done, the two swap, and the new picture goes out to your monitor.
+
+63
+00:05:49,132 --> 00:05:53,011
+Then the whole thing starts again, sixty or more times a second.
+
+64
+00:05:53,291 --> 00:05:59,672
+If any step runs late, the frame misses its deadline, and that's what you feel as a lower frame rate.
+
+65
+00:05:59,952 --> 00:06:03,231
+Whichever stage is slowest sets the pace for everything.
+
+66
+00:06:03,981 --> 00:06:05,308
+So that's one frame.
+
+67
+00:06:05,588 --> 00:06:22,519
+The CPU directs, vertex shaders place the triangles, rasterization finds the pixels, warps of thirty-two shade them together, memory feeds the whole thing, and the finished image swaps onto your screen, all in about sixteen milliseconds.
+
+68
+00:06:22,799 --> 00:06:28,401
+Of course, all those textures and models live in memory, and not all memory is the same.
+
+69
+00:06:28,681 --> 00:06:36,701
+Next time, we'll go through every type of RAM, from DDR3 to DDR5, and what actually changed.
+
+70
+00:06:36,981 --> 00:06:39,458
+If this helped, subscribe so you don't miss it.
+
