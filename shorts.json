@@ -140,6 +140,24 @@
    "source": "standalone",
    "status": "scheduled",
    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-1525257833332260464"
+  },
+  {
+   "slug": "01s16-ram-default-speed",
+   "theme": "arctic",
+   "title": "Your RAM Is Probably Slower Than the Box Says #shorts",
+   "publish": "2026-11-07T12:00:00-07:00",
+   "source": "01-every-pc-component",
+   "status": "scheduled",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-1720626683122268559"
+  },
+  {
+   "slug": "01s17-ryzen-95-degrees",
+   "theme": "ember",
+   "title": "Is 95°C Too Hot for a Ryzen CPU? #shorts",
+   "publish": "2026-11-07T18:00:00-07:00",
+   "source": "standalone",
+   "status": "scheduled",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-4755846058635999873"
   }
  ]
 }

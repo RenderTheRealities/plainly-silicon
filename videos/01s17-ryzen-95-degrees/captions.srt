@@ -1,0 +1,48 @@
+1
+00:00:00,300 --> 00:00:03,825
+Your Ryzen processor just hit 95 degrees.
+
+2
+00:00:04,105 --> 00:00:05,876
+Is it about to cook itself?
+
+3
+00:00:06,626 --> 00:00:07,172
+No.
+
+4
+00:00:07,452 --> 00:00:11,291
+AMD says recent Ryzen chips are built to run that hot.
+
+5
+00:00:11,571 --> 00:00:20,022
+Under heavy load, a Ryzen 7000 chip pushes itself until it reaches its limit, about 95 degrees Celsius.
+
+6
+00:00:20,772 --> 00:00:21,992
+Heat is the brake.
+
+7
+00:00:22,272 --> 00:00:26,275
+While there's thermal room left, the chip keeps raising its clock speed.
+
+8
+00:00:26,555 --> 00:00:29,942
+At the limit, it holds steady instead of climbing higher.
+
+9
+00:00:30,692 --> 00:00:38,135
+AMD's guide for reviewers says these chips are designed to sit at that limit around the clock, without damage.
+
+10
+00:00:38,885 --> 00:00:42,632
+So a high number under load isn't a problem by itself.
+
+11
+00:00:42,912 --> 00:00:47,192
+Worry if it runs hot while idle, or if performance suddenly drops.
+
+12
+00:00:47,472 --> 00:00:50,038
+More PC hardware explained on the channel.
+

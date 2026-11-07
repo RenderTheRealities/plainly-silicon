@@ -1,0 +1,52 @@
+1
+00:00:00,300 --> 00:00:03,110
+That 6000 speed on your RAM box?
+
+2
+00:00:03,390 --> 00:00:05,671
+Your PC probably isn't using it.
+
+3
+00:00:06,421 --> 00:00:11,044
+New memory starts at a safe default speed set by an industry standard.
+
+4
+00:00:11,324 --> 00:00:15,470
+For DDR5, that's usually 4800.
+
+5
+00:00:15,750 --> 00:00:20,162
+For DDR4, it's often 2133.
+
+6
+00:00:20,912 --> 00:00:25,359
+The faster number on the box is a profile stored on the stick itself.
+
+7
+00:00:25,639 --> 00:00:27,488
+Intel calls it XMP.
+
+8
+00:00:27,768 --> 00:00:29,402
+AMD calls it EXPO.
+
+9
+00:00:29,682 --> 00:00:34,401
+It's a tested overclock, and your PC won't use it until you turn it on.
+
+10
+00:00:35,151 --> 00:00:41,080
+Open your BIOS, find the XMP or EXPO setting, pick the profile, and save.
+
+11
+00:00:41,360 --> 00:00:43,965
+Then check the memory speed in Task Manager.
+
+12
+00:00:44,715 --> 00:00:47,766
+If your PC starts crashing, switch it back off.
+
+13
+00:00:48,046 --> 00:00:51,801
+Full video: Every PC Component Explained, on the channel.
+

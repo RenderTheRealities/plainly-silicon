@@ -1,0 +1,96 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   5.876
+  ],
+  [
+   6.626,
+   20.022
+  ],
+  [
+   20.772,
+   29.942
+  ],
+  [
+   30.692,
+   38.135
+  ],
+  [
+   38.885,
+   50.038
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    3.825,
+    "Your Ryzen processor just hit 95 degrees."
+   ],
+   [
+    4.105,
+    5.876,
+    "Is it about to cook itself?"
+   ]
+  ],
+  [
+   [
+    6.626,
+    7.172,
+    "No."
+   ],
+   [
+    7.452,
+    11.291,
+    "AMD says recent Ryzen chips are built to run that hot."
+   ],
+   [
+    11.571,
+    20.022,
+    "Under heavy load, a Ryzen 7000 chip pushes itself until it reaches its limit, about 95 degrees Celsius."
+   ]
+  ],
+  [
+   [
+    20.772,
+    21.992,
+    "Heat is the brake."
+   ],
+   [
+    22.272,
+    26.275,
+    "While there's thermal room left, the chip keeps raising its clock speed."
+   ],
+   [
+    26.555,
+    29.942,
+    "At the limit, it holds steady instead of climbing higher."
+   ]
+  ],
+  [
+   [
+    30.692,
+    38.135,
+    "AMD's guide for reviewers says these chips are designed to sit at that limit around the clock, without damage."
+   ]
+  ],
+  [
+   [
+    38.885,
+    42.632,
+    "So a high number under load isn't a problem by itself."
+   ],
+   [
+    42.912,
+    47.192,
+    "Worry if it runs hot while idle, or if performance suddenly drops."
+   ],
+   [
+    47.472,
+    50.038,
+    "More PC hardware explained on the channel."
+   ]
+  ]
+ ]
+}

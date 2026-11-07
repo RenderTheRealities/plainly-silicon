@@ -1,0 +1,101 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   5.671
+  ],
+  [
+   6.421,
+   20.162
+  ],
+  [
+   20.912,
+   34.401
+  ],
+  [
+   35.151,
+   43.965
+  ],
+  [
+   44.715,
+   51.801
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    3.11,
+    "That 6000 speed on your RAM box?"
+   ],
+   [
+    3.39,
+    5.671,
+    "Your PC probably isn't using it."
+   ]
+  ],
+  [
+   [
+    6.421,
+    11.044,
+    "New memory starts at a safe default speed set by an industry standard."
+   ],
+   [
+    11.324,
+    15.47,
+    "For DDR5, that's usually 4800."
+   ],
+   [
+    15.75,
+    20.162,
+    "For DDR4, it's often 2133."
+   ]
+  ],
+  [
+   [
+    20.912,
+    25.359,
+    "The faster number on the box is a profile stored on the stick itself."
+   ],
+   [
+    25.639,
+    27.488,
+    "Intel calls it XMP."
+   ],
+   [
+    27.768,
+    29.402,
+    "AMD calls it EXPO."
+   ],
+   [
+    29.682,
+    34.401,
+    "It's a tested overclock, and your PC won't use it until you turn it on."
+   ]
+  ],
+  [
+   [
+    35.151,
+    41.08,
+    "Open your BIOS, find the XMP or EXPO setting, pick the profile, and save."
+   ],
+   [
+    41.36,
+    43.965,
+    "Then check the memory speed in Task Manager."
+   ]
+  ],
+  [
+   [
+    44.715,
+    47.766,
+    "If your PC starts crashing, switch it back off."
+   ],
+   [
+    48.046,
+    51.801,
+    "Full video: Every PC Component Explained, on the channel."
+   ]
+  ]
+ ]
+}

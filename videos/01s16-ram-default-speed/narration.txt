@@ -1,0 +1,9 @@
+That 6000 speed on your RAM box? Your PC probably isn't using it.
+
+New memory starts at a safe default speed set by an industry standard. For D D R 5, that's usually 4800. For D D R 4, it's often 2133.
+
+The faster number on the box is a profile stored on the stick itself. Intel calls it X M P. AMD calls it EXPO. It's a tested overclock, and your PC won't use it until you turn it on.
+
+Open your BIOS, find the X M P or EXPO setting, pick the profile, and save. Then check the memory speed in Task Manager.
+
+If your PC starts crashing, switch it back off. Full video: Every PC Component Explained, on the channel.

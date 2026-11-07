@@ -1,0 +1,9 @@
+Your Ryzen processor just hit 95 degrees. Is it about to cook itself?
+
+No. AMD says recent Ryzen chips are built to run that hot. Under heavy load, a Ryzen 7000 chip pushes itself until it reaches its limit, about 95 degrees Celsius.
+
+Heat is the brake. While there's thermal room left, the chip keeps raising its clock speed. At the limit, it holds steady instead of climbing higher.
+
+AMD's guide for reviewers says these chips are designed to sit at that limit around the clock, without damage.
+
+So a high number under load isn't a problem by itself. Worry if it runs hot while idle, or if performance suddenly drops. More PC hardware explained on the channel.
