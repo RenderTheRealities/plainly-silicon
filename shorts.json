@@ -91,73 +91,81 @@
    "slug": "01s10-dual-channel-ram",
    "theme": "retro",
    "title": "Why Two RAM Sticks Beat One #shorts",
-   "publish": "2026-11-03T18:01:00-07:00",
+   "publish": "2026-11-07T06:55:00-07:00",
    "source": "standalone",
-   "status": "scheduled",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=7408543634511187247"
+   "status": "published",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=7408543634511187247",
+   "youtubeUrl": "https://www.youtube.com/shorts/MXZFC-aeTRk"
   },
   {
    "slug": "01s11-cmos-battery",
    "theme": "graphite",
    "title": "The Tiny Battery Inside Your PC #shorts",
-   "publish": "2026-11-03T18:03:00-07:00",
+   "publish": "2026-11-07T06:57:00-07:00",
    "source": "standalone",
-   "status": "scheduled",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=3847773103811937011"
+   "status": "published",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=3847773103811937011",
+   "youtubeUrl": "https://www.youtube.com/shorts/idn5jaZlcU4"
   },
   {
    "slug": "01s12-what-ghz-means",
    "theme": "blueprint",
    "title": "What 4 GHz Actually Means #shorts",
-   "publish": "2026-11-03T18:05:00-07:00",
+   "publish": "2026-11-07T06:59:00-07:00",
    "source": "standalone",
-   "status": "scheduled",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-2160611966541673359"
+   "status": "published",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-2160611966541673359",
+   "youtubeUrl": "https://www.youtube.com/shorts/4dC_XYvz8MA"
   },
   {
    "slug": "01s13-thermal-paste-amount",
    "theme": "paper",
    "title": "How Much Thermal Paste Should You Use? #shorts",
-   "publish": "2026-11-03T18:07:00-07:00",
+   "publish": "2026-11-07T07:01:00-07:00",
    "source": "standalone",
-   "status": "scheduled",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-783203216692195603"
+   "status": "published",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-783203216692195603",
+   "youtubeUrl": "https://www.youtube.com/shorts/jeubgoxVY8g"
   },
   {
    "slug": "01s14-psu-wattage-myth",
    "theme": "terminal",
    "title": "Your 850 W Power Supply Doesn't Use 850 W #shorts",
-   "publish": "2026-11-03T18:09:00-07:00",
+   "publish": "2026-11-07T07:03:00-07:00",
    "source": "standalone",
-   "status": "scheduled",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-5462688516042896849"
+   "status": "published",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-5462688516042896849",
+   "youtubeUrl": "https://www.youtube.com/shorts/Ioo98nWJ81o"
   },
   {
    "slug": "01s15-nm-is-marketing",
    "theme": "sunset",
    "title": "3 nm Chips Aren't Actually 3 nm #shorts",
-   "publish": "2026-11-03T18:11:00-07:00",
+   "publish": "2026-11-07T07:05:00-07:00",
    "source": "standalone",
-   "status": "scheduled",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-1525257833332260464"
+   "status": "published",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-1525257833332260464",
+   "youtubeUrl": "https://www.youtube.com/shorts/_nJieW9jBfA"
   },
   {
    "slug": "01s16-ram-default-speed",
    "theme": "arctic",
    "title": "Your RAM Is Probably Slower Than the Box Says #shorts",
-   "publish": "2026-11-07T12:00:00-07:00",
+   "publish": "2026-11-07T07:07:00-07:00",
    "source": "01-every-pc-component",
-   "status": "scheduled",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-1720626683122268559"
+   "status": "published",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-1720626683122268559",
+   "youtubeUrl": "https://www.youtube.com/shorts/XOUnoLxUz10"
   },
   {
    "slug": "01s17-ryzen-95-degrees",
    "theme": "ember",
    "title": "Is 95°C Too Hot for a Ryzen CPU? #shorts",
-   "publish": "2026-11-07T18:00:00-07:00",
+   "publish": "2026-11-07T07:09:00-07:00",
    "source": "standalone",
-   "status": "scheduled",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-4755846058635999873"
+   "status": "published",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-4755846058635999873",
+   "youtubeUrl": "https://www.youtube.com/shorts/fwrX16y99Nk"
   }
  ]
 }
