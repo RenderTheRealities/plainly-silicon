@@ -19,8 +19,9 @@
    "publish": "2026-11-07T16:00:00-07:00",
    "title": "How a GPU Actually Works: One Frame in 16 Milliseconds (Animated)",
    "keyword": "how gpu works",
-   "status": "planned",
-   "theme": "neon"
+   "status": "scheduled",
+   "theme": "neon",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-262540926088101803"
   },
   {
    "slug": "03-every-type-of-ram",
