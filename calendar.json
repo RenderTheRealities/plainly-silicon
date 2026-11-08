@@ -1,112 +1,112 @@
 {
- "timezone": "America/Cambridge_Bay",
- "publish_time": "12:00",
- "metricool_blog_id": "7842182",
- "youtube_channel_id": "UCf627rtR4-W-FS_p-WnFWnQ",
- "videos": [
-  {
-   "slug": "01-every-pc-component",
-   "publish": "2026-11-03T03:00:00-07:00",
-   "title": "Every PC Component Explained in 7 Minutes (Animated)",
-   "keyword": "every pc component explained",
-   "status": "published",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=1855835219625987956",
-   "theme": "circuit",
-   "youtubeUrl": "https://www.youtube.com/watch?v=IlvT-Sk3UiQ"
-  },
-  {
-   "slug": "02-how-a-gpu-works",
-   "publish": "2026-11-08T07:30:00-07:00",
-   "title": "How a GPU Actually Works: One Frame in 16 Milliseconds (Animated)",
-   "keyword": "how gpu works",
-   "status": "scheduled",
-   "theme": "neon",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-262540926088101803"
-  },
-  {
-   "slug": "03-every-type-of-ram",
-   "publish": "2026-11-08T07:40:00-07:00",
-   "title": "Every Type of RAM Explained: DDR3 to DDR5",
-   "keyword": "every ddr ram explained",
-   "status": "scheduled",
-   "theme": "mint",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-997620991232491130"
-  },
-  {
-   "slug": "04-why-your-pc-is-slow",
-   "publish": "2026-11-08T10:00:00-07:00",
-   "title": "Why Your PC Is Slow — and Why More RAM Usually Isn't the Fix",
-   "keyword": "how to have a low memory on your pc",
-   "status": "scheduled",
-   "theme": "circuit",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=1012158798527481253"
-  },
-  {
-   "slug": "05-ssd-vs-hdd-vs-nvme",
-   "publish": "2026-11-08T16:00:00-07:00",
-   "title": "SSD vs HDD vs NVMe: What Really Makes Games Load Faster",
-   "keyword": "hdd vs ssd",
-   "status": "scheduled",
-   "theme": "terminal",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=568359942914130734"
-  },
-  {
-   "slug": "06-how-a-cpu-runs-code",
-   "publish": "2026-11-09T10:00:00-07:00",
-   "title": "How a CPU Runs Your Code, One Clock Cycle at a Time",
-   "keyword": "how a cpu works",
-   "status": "scheduled",
-   "theme": "sunset",
-   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-472205807780085175"
-  },
-  {
-   "slug": "07-black-friday-pc-traps",
-   "publish": "2026-11-23T12:00:00-07:00",
-   "title": "7 Black Friday PC Part Traps (and How to Spot a Real Deal)",
-   "keyword": "pc parts black friday",
-   "status": "planned"
-  },
-  {
-   "slug": "08-what-raises-fps",
-   "publish": "2026-11-25T12:00:00-07:00",
-   "title": "What Actually Raises FPS (and 5 Myths That Don't)",
-   "keyword": "how to optimize pc for gaming",
-   "status": "planned"
-  },
-  {
-   "slug": "09-bottlenecks-explained",
-   "publish": "2026-11-27T12:00:00-07:00",
-   "title": "Bottlenecks Explained: Is Your CPU Holding Back Your GPU?",
-   "keyword": "pc bottleneck explained",
-   "status": "planned"
-  },
-  {
-   "slug": "10-power-supplies-explained",
-   "publish": "2026-11-30T12:00:00-07:00",
-   "title": "Power Supplies Explained: Watts, 80+ Ratings, and Why Cheap Ones Fail",
-   "keyword": "psu explained",
-   "status": "planned"
-  },
-  {
-   "slug": "11-why-vram-matters",
-   "publish": "2026-12-02T12:00:00-07:00",
-   "title": "Why VRAM Suddenly Matters So Much",
-   "keyword": "vram explained",
-   "status": "planned"
-  },
-  {
-   "slug": "12-clean-your-pc",
-   "publish": "2026-12-04T12:00:00-07:00",
-   "title": "How to Clean Your PC Without Breaking It",
-   "keyword": "how to clean pc",
-   "status": "planned"
-  },
-  {
-   "slug": "13-boot-process",
-   "publish": "2026-12-07T12:00:00-07:00",
-   "title": "What Happens When You Press the Power Button (Boot Process Explained)",
-   "keyword": "how a computer boots",
-   "status": "planned"
-  }
- ]
+  "timezone": "America/Cambridge_Bay",
+  "publish_time": "12:00",
+  "metricool_blog_id": "7842182",
+  "youtube_channel_id": "UCf627rtR4-W-FS_p-WnFWnQ",
+  "videos": [
+    {
+      "slug": "01-every-pc-component",
+      "publish": "2026-11-03T03:00:00-07:00",
+      "title": "Every PC Component Explained in 7 Minutes (Animated)",
+      "keyword": "every pc component explained",
+      "status": "published",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=1855835219625987956",
+      "theme": "circuit",
+      "youtubeUrl": "https://www.youtube.com/watch?v=IlvT-Sk3UiQ"
+    },
+    {
+      "slug": "02-how-a-gpu-works",
+      "publish": "2026-11-08T07:30:00-07:00",
+      "title": "How a GPU Actually Works: One Frame in 16 Milliseconds (Animated)",
+      "keyword": "how gpu works",
+      "status": "scheduled",
+      "theme": "neon",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-262540926088101803"
+    },
+    {
+      "slug": "03-every-type-of-ram",
+      "publish": "2026-11-08T07:40:00-07:00",
+      "title": "Every Type of RAM Explained: DDR3 to DDR5",
+      "keyword": "every ddr ram explained",
+      "status": "scheduled",
+      "theme": "mint",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-997620991232491130"
+    },
+    {
+      "slug": "04-why-your-pc-is-slow",
+      "publish": "2026-11-08T10:00:00-07:00",
+      "title": "Why Your PC Is Slow — and Why More RAM Usually Isn't the Fix",
+      "keyword": "how to have a low memory on your pc",
+      "status": "scheduled",
+      "theme": "circuit",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=1012158798527481253"
+    },
+    {
+      "slug": "05-ssd-vs-hdd-vs-nvme",
+      "publish": "2026-11-08T16:00:00-07:00",
+      "title": "SSD vs HDD vs NVMe: What Really Makes Games Load Faster",
+      "keyword": "hdd vs ssd",
+      "status": "scheduled",
+      "theme": "terminal",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=568359942914130734"
+    },
+    {
+      "slug": "06-how-a-cpu-runs-code",
+      "publish": "2026-11-09T10:00:00-07:00",
+      "title": "How a CPU Runs Your Code, One Clock Cycle at a Time",
+      "keyword": "how a cpu works",
+      "status": "scheduled",
+      "theme": "sunset",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-472205807780085175"
+    },
+    {
+      "slug": "07-black-friday-pc-traps",
+      "publish": "2026-11-23T12:00:00-07:00",
+      "title": "7 Black Friday PC Part Traps (and How to Spot a Real Deal)",
+      "keyword": "pc parts black friday",
+      "status": "planned"
+    },
+    {
+      "slug": "08-what-raises-fps",
+      "publish": "2026-11-25T12:00:00-07:00",
+      "title": "What Actually Raises FPS (and 5 Myths That Don't)",
+      "keyword": "how to optimize pc for gaming",
+      "status": "planned"
+    },
+    {
+      "slug": "09-bottlenecks-explained",
+      "publish": "2026-11-27T12:00:00-07:00",
+      "title": "Bottlenecks Explained: Is Your CPU Holding Back Your GPU?",
+      "keyword": "pc bottleneck explained",
+      "status": "planned"
+    },
+    {
+      "slug": "10-power-supplies-explained",
+      "publish": "2026-11-30T12:00:00-07:00",
+      "title": "Power Supplies Explained: Watts, 80+ Ratings, and Why Cheap Ones Fail",
+      "keyword": "psu explained",
+      "status": "planned"
+    },
+    {
+      "slug": "11-why-vram-matters",
+      "publish": "2026-12-02T12:00:00-07:00",
+      "title": "Why VRAM Suddenly Matters So Much",
+      "keyword": "vram explained",
+      "status": "planned"
+    },
+    {
+      "slug": "12-clean-your-pc",
+      "publish": "2026-12-04T12:00:00-07:00",
+      "title": "How to Clean Your PC Without Breaking It",
+      "keyword": "how to clean pc",
+      "status": "planned"
+    },
+    {
+      "slug": "13-boot-process",
+      "publish": "2026-12-07T12:00:00-07:00",
+      "title": "What Happens When You Press the Power Button (Boot Process Explained)",
+      "keyword": "how a computer boots",
+      "status": "planned"
+    }
+  ]
 }
