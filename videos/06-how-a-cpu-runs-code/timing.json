@@ -1,0 +1,399 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   21.969
+  ],
+  [
+   22.719,
+   48.527
+  ],
+  [
+   49.277,
+   80.454
+  ],
+  [
+   81.204,
+   104.866
+  ],
+  [
+   105.616,
+   136.272
+  ],
+  [
+   137.022,
+   171.364
+  ],
+  [
+   172.114,
+   199.682
+  ],
+  [
+   200.432,
+   234.203
+  ],
+  [
+   234.953,
+   268.664
+  ],
+  [
+   269.414,
+   304.355
+  ],
+  [
+   305.105,
+   344.847
+  ],
+  [
+   345.597,
+   373.526
+  ],
+  [
+   374.276,
+   384.991
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    9.758,
+    "When your game adds ten points to your score, your CPU can do the actual math in a single clock tick, a fifth of a billionth of a second."
+   ],
+   [
+    10.038,
+    13.988,
+    "Or it can sit and wait for hundreds of ticks while nothing happens."
+   ],
+   [
+    14.268,
+    21.969,
+    "Today we follow those ten points through one processor core, cycle by cycle, and see exactly where the time goes."
+   ]
+  ],
+  [
+   [
+    22.719,
+    26.911,
+    "It starts as one line of code: score equals score + 10."
+   ],
+   [
+    27.191,
+    29.05,
+    "Your CPU can't read that."
+   ],
+   [
+    29.33,
+    33.599,
+    "A compiler turned it into machine instructions long before you hit play."
+   ],
+   [
+    33.879,
+    36.0,
+    "Add ten to the score sitting in memory."
+   ],
+   [
+    36.28,
+    40.81,
+    "Then compare it with the high score, and jump somewhere else if you just beat it."
+   ],
+   [
+    41.09,
+    48.527,
+    "Each instruction sits at an address in memory, and a register called the program counter always points at the next one to run."
+   ]
+  ],
+  [
+   [
+    49.277,
+    52.887,
+    "Everything inside the core moves to the beat of a clock."
+   ],
+   [
+    53.167,
+    63.954,
+    "At 5 GHz, that clock ticks 5 billion times every second, and today's fastest desktop chips boost even a little higher, to around 5.7 GHz."
+   ],
+   [
+    64.234,
+    68.555,
+    "At 5 GHz, one tick lasts just 0.2 nanoseconds."
+   ],
+   [
+    68.835,
+    75.107,
+    "That's so short that light itself only travels about 6 centimeters before the next tick arrives."
+   ],
+   [
+    75.387,
+    80.454,
+    "Every step our ten points take has to fit inside these tiny slices of time."
+   ]
+  ],
+  [
+   [
+    81.204,
+    82.489,
+    "Step one is fetch."
+   ],
+   [
+    82.769,
+    95.088,
+    "The front of the core reads the program counter and pulls the instruction bytes out of a small, very fast memory right next to it, the level 1 instruction cache, about 32 KB."
+   ],
+   [
+    95.368,
+    98.492,
+    "A modern core doesn't fetch one instruction at a time."
+   ],
+   [
+    98.772,
+    104.866,
+    "It grabs a whole chunk of upcoming code every tick, because it's already planning several steps ahead."
+   ]
+  ],
+  [
+   [
+    105.616,
+    107.086,
+    "Step two is decode."
+   ],
+   [
+    107.366,
+    113.019,
+    "The instructions your game was compiled into are complicated, and they come in different lengths."
+   ],
+   [
+    113.299,
+    118.03,
+    "So the decoder chops each one into simple pieces called micro-ops."
+   ],
+   [
+    118.31,
+    125.601,
+    "Our add-to-the-score instruction can become three of them: load the old value, do the addition, and store the result."
+   ],
+   [
+    125.881,
+    136.272,
+    "To save effort, the core keeps recently decoded micro-ops in a micro-op cache, so a loop that runs every frame doesn't have to be decoded again and again."
+   ]
+  ],
+  [
+   [
+    137.022,
+    141.969,
+    "Step three is execute, and this is where registers and the ALU come in."
+   ],
+   [
+    142.249,
+    147.85,
+    "Registers are the core's tiny scratchpads, holding the numbers it's working on right now."
+   ],
+   [
+    148.13,
+    153.44,
+    "Your program sees 16 general-purpose registers, each 64 bits wide."
+   ],
+   [
+    153.72,
+    156.976,
+    "The load micro-op copies the score into one of them."
+   ],
+   [
+    157.256,
+    160.681,
+    "Then the ALU, the arithmetic logic unit, adds ten."
+   ],
+   [
+    160.961,
+    171.364,
+    "A simple add like this takes exactly one clock cycle, and a core like AMD's Zen 4 has 4 of these units, so it can do 4 adds in the same tick."
+   ]
+  ],
+  [
+   [
+    172.114,
+    174.358,
+    "Now here's the trick that makes it fast."
+   ],
+   [
+    174.638,
+    179.617,
+    "Fetch, decode and execute aren't done one after another for each instruction."
+   ],
+   [
+    179.897,
+    182.249,
+    "They're a pipeline, like an assembly line."
+   ],
+   [
+    182.529,
+    189.33,
+    "While our add is executing, the next instruction is being decoded, and the one after that is being fetched."
+   ],
+   [
+    189.61,
+    199.682,
+    "A single instruction doesn't finish any sooner, but with every stage busy, finished work comes out of the end of the line every tick instead of every few ticks."
+   ]
+  ],
+  [
+   [
+    200.432,
+    204.099,
+    "Modern cores go further and run instructions out of order."
+   ],
+   [
+    204.379,
+    209.015,
+    "If the load is stuck waiting for the score to arrive, the core doesn't freeze."
+   ],
+   [
+    209.295,
+    216.83,
+    "It looks ahead for work that doesn't depend on the score, like moving your character or playing a sound, and runs that first."
+   ],
+   [
+    217.11,
+    228.006,
+    "A structure called the reorder buffer keeps track of everything in flight, 320 micro-ops on Zen 4, and 448 on the newer Zen 5."
+   ],
+   [
+    228.286,
+    234.203,
+    "Results are then retired in the original order, so your program never notices the shuffle."
+   ]
+  ],
+  [
+   [
+    234.953,
+    237.876,
+    "So where is the score, and how long is the wait?"
+   ],
+   [
+    238.156,
+    243.823,
+    "If it was used a moment ago, it's in the level 1 data cache, about 4 cycles away."
+   ],
+   [
+    244.103,
+    247.998,
+    "If not, the core checks level 2, around 14 cycles."
+   ],
+   [
+    248.278,
+    251.823,
+    "Then the shared level 3 cache, around 50 cycles."
+   ],
+   [
+    252.103,
+    262.346,
+    "And if it has to come all the way from your RAM sticks, that's roughly 70 nanoseconds, or about 350 cycles at 5 GHz."
+   ],
+   [
+    262.626,
+    268.664,
+    "That's the hundreds of ticks of waiting from the start, and it's why cache size matters so much in games."
+   ]
+  ],
+  [
+   [
+    269.414,
+    275.109,
+    "Next comes the comparison with your high score, and that means a branch, a fork in the road."
+   ],
+   [
+    275.389,
+    283.611,
+    "The core can't afford to wait and see which way it goes, so a branch predictor guesses, based on what this same branch did before."
+   ],
+   [
+    283.891,
+    286.499,
+    "The core starts running the guessed path right away."
+   ],
+   [
+    286.779,
+    290.558,
+    "Most of the time the guess is right and no time is lost."
+   ],
+   [
+    290.838,
+    298.694,
+    "When it's wrong, all that speculative work gets thrown out, the pipeline is flushed, and fetching restarts on the correct path."
+   ],
+   [
+    298.974,
+    304.355,
+    "Measurements on recent cores put that penalty at roughly 15 to 20 cycles."
+   ]
+  ],
+  [
+   [
+    305.105,
+    312.04,
+    "Put it all together and you get the number that really decides speed, IPC, or instructions per cycle."
+   ],
+   [
+    312.32,
+    315.545,
+    "Clock speed tells you how many ticks happen each second."
+   ],
+   [
+    315.825,
+    320.031,
+    "IPC tells you how much useful work gets finished in each tick."
+   ],
+   [
+    320.311,
+    333.446,
+    "A wide core with a good predictor and big caches can retire several instructions every cycle, and a Zen 5 core can feed up to 8 micro-ops into its out-of-order engine in a single tick."
+   ],
+   [
+    333.726,
+    344.847,
+    "But in games, cache misses and wrong guesses keep the real average much lower than the maximum, which is why two chips at the same gigahertz can perform very differently."
+   ]
+  ],
+  [
+   [
+    345.597,
+    347.586,
+    "So let's replay our ten points."
+   ],
+   [
+    347.866,
+    365.743,
+    "Fetched from the instruction cache, decoded into three micro-ops, the score loaded into a register, added in one cycle by the ALU, stored back, and the high score check guessed by the predictor, all overlapped with dozens of other instructions in the pipeline."
+   ],
+   [
+    366.023,
+    370.379,
+    "With the score in cache, that whole trip takes just a few nanoseconds."
+   ],
+   [
+    370.659,
+    373.526,
+    "Your game does this billions of times every second."
+   ]
+  ],
+  [
+   [
+    374.276,
+    377.228,
+    "Next time, we're leaving the core and going shopping."
+   ],
+   [
+    377.508,
+    383.03,
+    "7 Black Friday PC part traps, and how to spot a real deal before you buy."
+   ],
+   [
+    383.31,
+    384.991,
+    "Subscribe so you don't miss it."
+   ]
+  ]
+ ]
+}

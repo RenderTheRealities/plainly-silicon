@@ -1,0 +1,348 @@
+1
+00:00:00,300 --> 00:00:09,295
+Your PC takes two full minutes to become usable after you log in, and everyone online gives the same advice: buy more RAM.
+
+2
+00:00:09,575 --> 00:00:18,212
+In the next few minutes, we'll use one free tool that's already on your PC to find out what's really slowing it down, before you spend anything.
+
+3
+00:00:18,492 --> 00:00:23,941
+Picture a five year old desktop with 8 gigabytes of RAM and a hard drive.
+
+4
+00:00:24,221 --> 00:00:28,767
+The desktop appears, but every click takes seconds, and the browser crawls.
+
+5
+00:00:29,047 --> 00:00:31,854
+Let's diagnose it, one reading at a time.
+
+6
+00:00:32,604 --> 00:00:38,464
+Press Control, Shift and Escape to open Task Manager, and stay on the Processes tab.
+
+7
+00:00:38,744 --> 00:00:44,667
+Across the top, you'll see columns for CPU, Memory, Disk, Network and GPU.
+
+8
+00:00:44,947 --> 00:00:48,903
+Each one is a part of your PC that can run out of capacity.
+
+9
+00:00:49,183 --> 00:00:55,457
+Click a column header, and the list sorts by that column, so the heaviest process jumps to the top.
+
+10
+00:00:55,737 --> 00:00:58,314
+What we're hunting for is called a bottleneck.
+
+11
+00:00:58,594 --> 00:01:05,959
+A computer is a chain of parts handing work to each other, and the whole chain only moves as fast as its slowest link.
+
+12
+00:01:06,239 --> 00:01:08,916
+Speed up any other link, and nothing changes.
+
+13
+00:01:09,666 --> 00:01:10,857
+So which link is it?
+
+14
+00:01:11,137 --> 00:01:15,857
+On our slow desktop, the CPU column reads around 15 percent.
+
+15
+00:01:16,137 --> 00:01:18,065
+Memory says 68 percent.
+
+16
+00:01:18,345 --> 00:01:20,578
+And Disk is pinned at 100 percent.
+
+17
+00:01:20,858 --> 00:01:25,642
+That memory number scares a lot of people, but it isn't a problem by itself.
+
+18
+00:01:25,922 --> 00:01:29,479
+RAM only slows you down when it actually runs out.
+
+19
+00:01:29,759 --> 00:01:31,266
+A busy desk is fine.
+
+20
+00:01:31,546 --> 00:01:33,551
+A desk with no room left is not.
+
+21
+00:01:33,831 --> 00:01:35,957
+The number that matters here is the disk.
+
+22
+00:01:36,707 --> 00:01:39,108
+Here's the catch with that 100 percent.
+
+23
+00:01:39,388 --> 00:01:41,248
+It doesn't mean your drive is full.
+
+24
+00:01:41,528 --> 00:01:46,533
+It means the drive was busy for the entire time Task Manager was measuring.
+
+25
+00:01:46,813 --> 00:01:48,391
+That's called active time.
+
+26
+00:01:48,671 --> 00:01:53,066
+Every request that arrives while the drive is busy has to wait in line.
+
+27
+00:01:53,346 --> 00:02:01,355
+Open the Performance tab and click the disk, and you'll see the average response time, how long each request takes to be answered.
+
+28
+00:02:01,635 --> 00:02:08,757
+On a struggling drive, that number climbs as the line grows, and every app that needs a file waits at the back of it.
+
+29
+00:02:09,507 --> 00:02:12,339
+Why does a hard drive fall behind so easily?
+
+30
+00:02:12,619 --> 00:02:17,044
+It stores data on spinning platters, read by a head on a moving arm.
+
+31
+00:02:17,324 --> 00:02:25,386
+For every small, scattered read, the arm has to swing to the right track, which typically takes around 8 to 12 milliseconds.
+
+32
+00:02:25,666 --> 00:02:33,501
+Then it waits for the platter to spin the data underneath it, about 4 more milliseconds at 7,200 RPM.
+
+33
+00:02:33,781 --> 00:02:44,178
+That's roughly 14 milliseconds per read, which limits a typical desktop hard drive to somewhere around 75 to 100 random reads per second.
+
+34
+00:02:44,458 --> 00:02:47,228
+A solid state drive has no arm to move.
+
+35
+00:02:47,508 --> 00:02:53,279
+It answers in well under a millisecond, and it can handle tens of thousands of reads per second.
+
+36
+00:02:54,029 --> 00:02:55,906
+Now, who's doing all that reading?
+
+37
+00:02:56,186 --> 00:02:58,241
+Sort the Processes tab by Disk.
+
+38
+00:02:58,521 --> 00:03:09,041
+Right after login, a slow PC is often buried in apps that launch themselves at startup, like chat apps, game launchers, updaters and cloud sync.
+
+39
+00:03:09,321 --> 00:03:15,490
+Each one wants its files at the same moment, and on a hard drive, they all queue up behind each other.
+
+40
+00:03:15,770 --> 00:03:17,472
+Open the Startup apps tab.
+
+41
+00:03:17,752 --> 00:03:20,608
+Task Manager rates each app's startup impact.
+
+42
+00:03:20,888 --> 00:03:28,210
+High means it used more than one second of CPU time, or more than 3 megabytes of disk, while starting.
+
+43
+00:03:28,490 --> 00:03:32,018
+Select the ones you don't need right away, and click Disable.
+
+44
+00:03:32,298 --> 00:03:36,799
+It costs nothing, and it can take a real bite out of that two minute wait.
+
+45
+00:03:37,549 --> 00:03:38,566
+But hold on.
+
+46
+00:03:38,846 --> 00:03:41,703
+Couldn't the disk be busy because RAM is full?
+
+47
+00:03:41,983 --> 00:03:46,134
+Sometimes, yes, and this is where the RAM advice comes from.
+
+48
+00:03:46,414 --> 00:03:55,579
+When memory runs short, Windows first compresses data it hasn't touched in a while, typically to around 40 percent of its original size.
+
+49
+00:03:55,859 --> 00:04:04,289
+If that isn't enough, it moves that data out to the page file, a hidden file on your drive that works as overflow for RAM.
+
+50
+00:04:04,569 --> 00:04:08,812
+When an app needs the data back, it has to be read from the disk again.
+
+51
+00:04:09,092 --> 00:04:14,091
+So running out of RAM can show up as a disk stuck at 100 percent.
+
+52
+00:04:14,371 --> 00:04:18,699
+On a hard drive, that feels like the whole PC is wading through mud.
+
+53
+00:04:19,449 --> 00:04:21,291
+So how do you tell the two apart?
+
+54
+00:04:21,570 --> 00:04:24,204
+Go to the Performance tab and click Memory.
+
+55
+00:04:24,484 --> 00:04:28,077
+Look at In use, and then at Committed, which shows two numbers.
+
+56
+00:04:28,357 --> 00:04:33,285
+The second one is the commit limit, your RAM and the page file combined.
+
+57
+00:04:33,565 --> 00:04:41,886
+If In use sits close to your total RAM, and the committed number keeps pushing toward its limit, you really are short on memory.
+
+58
+00:04:42,166 --> 00:04:47,821
+On our desktop, In use is 5.4 gigabytes out of 8, with room to spare.
+
+59
+00:04:48,101 --> 00:04:51,178
+So more RAM wouldn't touch the real problem.
+
+60
+00:04:51,458 --> 00:04:58,018
+The disk is busy because startup apps are queuing on a slow drive, not because memory is overflowing.
+
+61
+00:04:58,768 --> 00:05:01,202
+That doesn't mean RAM never matters.
+
+62
+00:05:01,482 --> 00:05:15,470
+HP's current buying guide calls 16 gigabytes the ideal amount for a smooth Windows 11 experience, and says 8 gigabytes can struggle once lots of browser tabs and background apps are open.
+
+63
+00:05:15,750 --> 00:05:19,496
+If you regularly fill your RAM, more of it helps a lot.
+
+64
+00:05:19,776 --> 00:05:26,440
+If you don't, the extra RAM just sits there empty, and empty RAM doesn't make anything faster.
+
+65
+00:05:27,190 --> 00:05:29,890
+Two other culprits are worth a check while you're here.
+
+66
+00:05:30,170 --> 00:05:34,547
+If the CPU column stays near 100 percent, sort by it.
+
+67
+00:05:34,827 --> 00:05:42,258
+One runaway process might be hogging the processor, or the chip might simply be too slow for what you're asking of it.
+
+68
+00:05:42,538 --> 00:05:49,267
+And if your PC feels fine at first but slows down after a few minutes of heavy work, heat might be the brake.
+
+69
+00:05:49,547 --> 00:05:56,661
+Most processors have a maximum temperature somewhere between 95 and 110 degrees Celsius.
+
+70
+00:05:56,941 --> 00:06:01,114
+When they reach it, they cut power and clock speed to protect themselves.
+
+71
+00:06:01,394 --> 00:06:02,826
+That's thermal throttling.
+
+72
+00:06:03,106 --> 00:06:07,446
+On the Performance tab, the CPU page shows its current speed.
+
+73
+00:06:07,726 --> 00:06:13,206
+If that speed sinks under load while the fans roar, clean out the dust and check your cooling.
+
+74
+00:06:13,956 --> 00:06:15,836
+Gamers, there's one more column.
+
+75
+00:06:16,116 --> 00:06:21,073
+In a demanding game, a GPU running near 99 percent is normal.
+
+76
+00:06:21,353 --> 00:06:25,980
+It means the graphics card is the limit, which is exactly what you paid for.
+
+77
+00:06:26,260 --> 00:06:36,115
+But if the GPU sits well below that while the CPU works flat out, the graphics card is waiting for instructions that can't arrive fast enough.
+
+78
+00:06:36,395 --> 00:06:40,899
+That's a CPU bottleneck, and a faster graphics card won't fix it.
+
+79
+00:06:41,649 --> 00:06:42,960
+Back to our desktop.
+
+80
+00:06:43,240 --> 00:06:54,992
+With the startup apps trimmed, it settles down sooner, but the real bottleneck is still that hard drive, and no amount of RAM changes how fast its arm can move.
+
+81
+00:06:55,272 --> 00:06:59,118
+The fix that matters is moving Windows onto an SSD.
+
+82
+00:06:59,398 --> 00:07:01,414
+And this method works on any PC.
+
+83
+00:07:01,694 --> 00:07:07,866
+Open Task Manager, sort each column, find the part that's pinned at the top, and fix that part.
+
+84
+00:07:08,146 --> 00:07:09,928
+Not the part the internet guessed.
+
+85
+00:07:10,678 --> 00:07:12,734
+Next time, we'll dig into that fix.
+
+86
+00:07:13,014 --> 00:07:22,785
+SSD versus HDD versus NVMe: what really makes games load faster, and when a faster drive stops making a difference.
+
+87
+00:07:23,065 --> 00:07:27,022
+If this helped you find your bottleneck, subscribe, so you don't miss it.
+

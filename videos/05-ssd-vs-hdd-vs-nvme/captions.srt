@@ -1,0 +1,276 @@
+1
+00:00:00,300 --> 00:00:03,071
+Same game, same PC, same save file.
+
+2
+00:00:03,351 --> 00:00:13,181
+In one PCWorld test, Cyberpunk 2077 loaded in 6 seconds from an SSD and 63 seconds from a hard drive.
+
+3
+00:00:13,461 --> 00:00:21,438
+Yet in TechSpot's testing, a drive with several times the top speed of another loaded Starfield less than a second faster.
+
+4
+00:00:21,718 --> 00:00:28,554
+So let's follow one load screen through every kind of drive and find out exactly where your waiting time goes.
+
+5
+00:00:29,304 --> 00:00:32,142
+First, what does a load screen actually ask for?
+
+6
+00:00:32,422 --> 00:00:33,737
+Not one big file.
+
+7
+00:00:34,017 --> 00:00:41,079
+The game needs textures, models, sounds and map data, often thousands of pieces scattered across the drive.
+
+8
+00:00:41,359 --> 00:00:47,480
+Each piece has to be found, read, and then unpacked by your processor before the world can appear.
+
+9
+00:00:47,760 --> 00:00:50,233
+That gives a drive two very different jobs.
+
+10
+00:00:50,513 --> 00:00:54,273
+Reading one long stream of data is called sequential speed.
+
+11
+00:00:54,553 --> 00:00:59,640
+Finding lots of small, scattered pieces depends on how long each lookup takes.
+
+12
+00:00:59,920 --> 00:01:05,014
+Keep both in mind, because each drive type wins and loses in a different place.
+
+13
+00:01:05,764 --> 00:01:07,391
+Start with the hard drive.
+
+14
+00:01:07,671 --> 00:01:15,305
+Inside is a metal platter spinning 7,200 times a minute, and an arm with a read head that swings across it.
+
+15
+00:01:15,585 --> 00:01:22,363
+To fetch a piece of data, the arm has to move to the right ring, which takes about 8 to 10 milliseconds.
+
+16
+00:01:22,643 --> 00:01:26,683
+Then it waits for the right spot to spin underneath, about 4 more.
+
+17
+00:01:26,963 --> 00:01:30,443
+So every scattered lookup costs roughly 12 milliseconds.
+
+18
+00:01:30,723 --> 00:01:32,975
+Once it's in place, reading is decent.
+
+19
+00:01:33,255 --> 00:01:41,555
+A current Seagate BarraCuda is rated at up to 190 megabytes per second, and that's on the fast outer edge of the platter.
+
+20
+00:01:42,305 --> 00:01:43,967
+Now run our load screen on it.
+
+21
+00:01:44,247 --> 00:01:52,511
+Twelve milliseconds sounds tiny, but it means a hard drive can only handle around a hundred to two hundred scattered reads per second.
+
+22
+00:01:52,791 --> 00:02:00,221
+A level that needs thousands of them turns into a queue, and the arm spends most of its time travelling instead of reading.
+
+23
+00:02:00,501 --> 00:02:03,422
+That's how you get 63 seconds in Cyberpunk.
+
+24
+00:02:03,702 --> 00:02:13,480
+In TechSpot's tests, Kingdom Come: Deliverance II took over four minutes to load from a hard drive, and the game itself warns you not to use one.
+
+25
+00:02:13,760 --> 00:02:16,822
+Worse, modern games keep streaming data while you play.
+
+26
+00:02:17,102 --> 00:02:22,705
+On a slow hard drive, TechSpot saw Stalker 2 load with missing pieces of the world.
+
+27
+00:02:23,455 --> 00:02:25,162
+Next, the SATA SSD.
+
+28
+00:02:25,442 --> 00:02:27,690
+There's no arm and no spinning platter.
+
+29
+00:02:27,970 --> 00:02:34,085
+Data lives in flash memory chips, and a controller reads from several chips at the same time.
+
+30
+00:02:34,365 --> 00:02:43,782
+A lookup takes around a tenth of a millisecond instead of twelve, so scattered reads stop being a queue and become a crowd that's served all at once.
+
+31
+00:02:44,062 --> 00:02:45,441
+The catch is the cable.
+
+32
+00:02:45,721 --> 00:02:48,033
+SATA was designed for hard drives.
+
+33
+00:02:48,313 --> 00:03:00,340
+Its link runs at 6 gigabits per second, but encoding overhead leaves about 600 megabytes per second of real data, and SATA drives top out around 550.
+
+34
+00:03:01,090 --> 00:03:02,992
+So what happens to our load screen?
+
+35
+00:03:03,272 --> 00:03:04,655
+This is the big jump.
+
+36
+00:03:04,935 --> 00:03:09,894
+The hard drive's 12 millisecond penalty disappears, and the wait collapses.
+
+37
+00:03:10,174 --> 00:03:22,310
+In TechSpot's testing, reloading a Cyberpunk save took about the same time on every SSD they tried, SATA included, while hard drives were up to nearly four times slower.
+
+38
+00:03:22,590 --> 00:03:28,550
+For a lot of games, the moment you leave spinning disks behind, storage stops being the problem.
+
+39
+00:03:29,300 --> 00:03:30,952
+Then comes NVMe.
+
+40
+00:03:31,232 --> 00:03:41,853
+Instead of a SATA cable, the drive talks over PCIe lanes, the same kind of high-speed link a graphics card uses, usually four lanes wide.
+
+41
+00:03:42,133 --> 00:03:46,752
+Each PCIe generation roughly doubles the speed of a lane.
+
+42
+00:03:47,032 --> 00:03:57,037
+A PCIe 3.0 drive like Samsung's 970 EVO Plus is rated at 3,500 megabytes per second.
+
+43
+00:03:57,317 --> 00:04:05,049
+A PCIe 4.0 drive like the 990 Pro reaches about 7,450.
+
+44
+00:04:05,329 --> 00:04:13,530
+And PCIe 5.0 drives like the 9100 Pro are rated at up to 14,800.
+
+45
+00:04:13,810 --> 00:04:22,815
+NVMe can also keep many queues of requests open at once, a perfect fit for a game asking for thousands of pieces.
+
+46
+00:04:23,565 --> 00:04:30,091
+So why doesn't a drive 25 times faster than SATA load games 25 times faster?
+
+47
+00:04:30,371 --> 00:04:37,035
+Because once the data arrives, your processor still has to unpack it, build the world, and set up the level.
+
+48
+00:04:37,315 --> 00:04:40,489
+The bottleneck moves from the drive to the CPU.
+
+49
+00:04:40,769 --> 00:04:48,378
+In TechSpot's tests, Starfield loaded less than a second apart on PCIe 5.0 and PCIe 3.0.
+
+50
+00:04:48,658 --> 00:04:59,597
+F1 25 was identical across every NVMe drive, and Red Dead Redemption 2 showed no difference between any SSDs at all.
+
+51
+00:04:59,877 --> 00:05:08,287
+Back in 2018, Legit Reviews even found a budget NVMe drive that was slower than a good SATA one.
+
+52
+00:05:09,037 --> 00:05:12,667
+But SATA is starting to show its age, and you can see where.
+
+53
+00:05:12,947 --> 00:05:20,953
+Games built for modern consoles, which all have fast NVMe storage, are designed to pull in data constantly.
+
+54
+00:05:21,233 --> 00:05:32,459
+In TechSpot's results, Ratchet & Clank: Rift Apart loaded in just 1.3 seconds on a PCIe drive, while SATA drives were nearly five times slower.
+
+55
+00:05:32,739 --> 00:05:42,249
+In Spider-Man 2, SATA was up to nearly four times slower in the worst cases, and The Last of Us Part II took at least 60 percent longer.
+
+56
+00:05:42,999 --> 00:05:46,377
+Some of those games use Microsoft's DirectStorage.
+
+57
+00:05:46,657 --> 00:05:55,906
+It lets a game batch thousands of small requests and hand them to the NVMe drive's queues in one go, instead of one at a time.
+
+58
+00:05:56,186 --> 00:06:02,151
+Version 1.1 also moves decompression from the processor to the graphics card.
+
+59
+00:06:02,431 --> 00:06:15,611
+In PCWorld's tests of Forspoken, the first DirectStorage game, one scene took 7.4 seconds on a SATA SSD and 1.9 seconds on a PCIe 4.0 drive.
+
+60
+00:06:15,891 --> 00:06:22,134
+This is the one place where a faster drive can really change the clock, and only in games built for it.
+
+61
+00:06:22,884 --> 00:06:25,549
+So let's race our load screen one last time.
+
+62
+00:06:25,829 --> 00:06:32,040
+The hard drive is still finding pieces long after everyone else is playing, sometimes for minutes.
+
+63
+00:06:32,320 --> 00:06:39,759
+The SATA SSD finishes close to the leaders in most games, and falls behind in newer console-style ones.
+
+64
+00:06:40,039 --> 00:06:43,806
+Any NVMe drive gets you nearly all the benefit.
+
+65
+00:06:44,086 --> 00:06:52,362
+PCIe 5.0 rarely helps games, and TechSpot found it costs at least 40 percent more than PCIe 4.0.
+
+66
+00:06:52,642 --> 00:07:00,449
+One quick check before you buy: M.2 is just a shape, so make sure your slot actually supports NVMe.
+
+67
+00:07:01,199 --> 00:07:06,749
+Notice that once storage was fast enough, the processor became the thing we were waiting on.
+
+68
+00:07:07,029 --> 00:07:15,668
+Next time, we'll follow a single instruction through a CPU, in How a CPU Runs Your Code, One Clock Cycle at a Time.
+
+69
+00:07:15,948 --> 00:07:19,054
+If you want to see that, subscribe, so you don't miss it.
+

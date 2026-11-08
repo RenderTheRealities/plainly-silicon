@@ -1,0 +1,519 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   31.854
+  ],
+  [
+   32.604,
+   68.916
+  ],
+  [
+   69.666,
+   95.957
+  ],
+  [
+   96.707,
+   128.757
+  ],
+  [
+   129.507,
+   173.279
+  ],
+  [
+   174.029,
+   216.799
+  ],
+  [
+   217.549,
+   258.699
+  ],
+  [
+   259.449,
+   298.018
+  ],
+  [
+   298.768,
+   326.44
+  ],
+  [
+   327.19,
+   373.206
+  ],
+  [
+   373.956,
+   400.899
+  ],
+  [
+   401.649,
+   429.928
+  ],
+  [
+   430.678,
+   447.022
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    9.295,
+    "Your PC takes two full minutes to become usable after you log in, and everyone online gives the same advice: buy more RAM."
+   ],
+   [
+    9.575,
+    18.212,
+    "In the next few minutes, we'll use one free tool that's already on your PC to find out what's really slowing it down, before you spend anything."
+   ],
+   [
+    18.492,
+    23.941,
+    "Picture a five year old desktop with 8 gigabytes of RAM and a hard drive."
+   ],
+   [
+    24.221,
+    28.767,
+    "The desktop appears, but every click takes seconds, and the browser crawls."
+   ],
+   [
+    29.047,
+    31.854,
+    "Let's diagnose it, one reading at a time."
+   ]
+  ],
+  [
+   [
+    32.604,
+    38.464,
+    "Press Control, Shift and Escape to open Task Manager, and stay on the Processes tab."
+   ],
+   [
+    38.744,
+    44.667,
+    "Across the top, you'll see columns for CPU, Memory, Disk, Network and GPU."
+   ],
+   [
+    44.947,
+    48.903,
+    "Each one is a part of your PC that can run out of capacity."
+   ],
+   [
+    49.183,
+    55.457,
+    "Click a column header, and the list sorts by that column, so the heaviest process jumps to the top."
+   ],
+   [
+    55.737,
+    58.314,
+    "What we're hunting for is called a bottleneck."
+   ],
+   [
+    58.594,
+    65.959,
+    "A computer is a chain of parts handing work to each other, and the whole chain only moves as fast as its slowest link."
+   ],
+   [
+    66.239,
+    68.916,
+    "Speed up any other link, and nothing changes."
+   ]
+  ],
+  [
+   [
+    69.666,
+    70.857,
+    "So which link is it?"
+   ],
+   [
+    71.137,
+    75.857,
+    "On our slow desktop, the CPU column reads around 15 percent."
+   ],
+   [
+    76.137,
+    78.065,
+    "Memory says 68 percent."
+   ],
+   [
+    78.345,
+    80.578,
+    "And Disk is pinned at 100 percent."
+   ],
+   [
+    80.858,
+    85.642,
+    "That memory number scares a lot of people, but it isn't a problem by itself."
+   ],
+   [
+    85.922,
+    89.479,
+    "RAM only slows you down when it actually runs out."
+   ],
+   [
+    89.759,
+    91.266,
+    "A busy desk is fine."
+   ],
+   [
+    91.546,
+    93.551,
+    "A desk with no room left is not."
+   ],
+   [
+    93.831,
+    95.957,
+    "The number that matters here is the disk."
+   ]
+  ],
+  [
+   [
+    96.707,
+    99.108,
+    "Here's the catch with that 100 percent."
+   ],
+   [
+    99.388,
+    101.248,
+    "It doesn't mean your drive is full."
+   ],
+   [
+    101.528,
+    106.533,
+    "It means the drive was busy for the entire time Task Manager was measuring."
+   ],
+   [
+    106.813,
+    108.391,
+    "That's called active time."
+   ],
+   [
+    108.671,
+    113.066,
+    "Every request that arrives while the drive is busy has to wait in line."
+   ],
+   [
+    113.346,
+    121.355,
+    "Open the Performance tab and click the disk, and you'll see the average response time, how long each request takes to be answered."
+   ],
+   [
+    121.635,
+    128.757,
+    "On a struggling drive, that number climbs as the line grows, and every app that needs a file waits at the back of it."
+   ]
+  ],
+  [
+   [
+    129.507,
+    132.339,
+    "Why does a hard drive fall behind so easily?"
+   ],
+   [
+    132.619,
+    137.044,
+    "It stores data on spinning platters, read by a head on a moving arm."
+   ],
+   [
+    137.324,
+    145.386,
+    "For every small, scattered read, the arm has to swing to the right track, which typically takes around 8 to 12 milliseconds."
+   ],
+   [
+    145.666,
+    153.501,
+    "Then it waits for the platter to spin the data underneath it, about 4 more milliseconds at 7,200 RPM."
+   ],
+   [
+    153.781,
+    164.178,
+    "That's roughly 14 milliseconds per read, which limits a typical desktop hard drive to somewhere around 75 to 100 random reads per second."
+   ],
+   [
+    164.458,
+    167.228,
+    "A solid state drive has no arm to move."
+   ],
+   [
+    167.508,
+    173.279,
+    "It answers in well under a millisecond, and it can handle tens of thousands of reads per second."
+   ]
+  ],
+  [
+   [
+    174.029,
+    175.906,
+    "Now, who's doing all that reading?"
+   ],
+   [
+    176.186,
+    178.241,
+    "Sort the Processes tab by Disk."
+   ],
+   [
+    178.521,
+    189.041,
+    "Right after login, a slow PC is often buried in apps that launch themselves at startup, like chat apps, game launchers, updaters and cloud sync."
+   ],
+   [
+    189.321,
+    195.49,
+    "Each one wants its files at the same moment, and on a hard drive, they all queue up behind each other."
+   ],
+   [
+    195.77,
+    197.472,
+    "Open the Startup apps tab."
+   ],
+   [
+    197.752,
+    200.608,
+    "Task Manager rates each app's startup impact."
+   ],
+   [
+    200.888,
+    208.21,
+    "High means it used more than one second of CPU time, or more than 3 megabytes of disk, while starting."
+   ],
+   [
+    208.49,
+    212.018,
+    "Select the ones you don't need right away, and click Disable."
+   ],
+   [
+    212.298,
+    216.799,
+    "It costs nothing, and it can take a real bite out of that two minute wait."
+   ]
+  ],
+  [
+   [
+    217.549,
+    218.566,
+    "But hold on."
+   ],
+   [
+    218.846,
+    221.703,
+    "Couldn't the disk be busy because RAM is full?"
+   ],
+   [
+    221.983,
+    226.134,
+    "Sometimes, yes, and this is where the RAM advice comes from."
+   ],
+   [
+    226.414,
+    235.579,
+    "When memory runs short, Windows first compresses data it hasn't touched in a while, typically to around 40 percent of its original size."
+   ],
+   [
+    235.859,
+    244.289,
+    "If that isn't enough, it moves that data out to the page file, a hidden file on your drive that works as overflow for RAM."
+   ],
+   [
+    244.569,
+    248.812,
+    "When an app needs the data back, it has to be read from the disk again."
+   ],
+   [
+    249.092,
+    254.091,
+    "So running out of RAM can show up as a disk stuck at 100 percent."
+   ],
+   [
+    254.371,
+    258.699,
+    "On a hard drive, that feels like the whole PC is wading through mud."
+   ]
+  ],
+  [
+   [
+    259.449,
+    261.291,
+    "So how do you tell the two apart?"
+   ],
+   [
+    261.57,
+    264.204,
+    "Go to the Performance tab and click Memory."
+   ],
+   [
+    264.484,
+    268.077,
+    "Look at In use, and then at Committed, which shows two numbers."
+   ],
+   [
+    268.357,
+    273.285,
+    "The second one is the commit limit, your RAM and the page file combined."
+   ],
+   [
+    273.565,
+    281.886,
+    "If In use sits close to your total RAM, and the committed number keeps pushing toward its limit, you really are short on memory."
+   ],
+   [
+    282.166,
+    287.821,
+    "On our desktop, In use is 5.4 gigabytes out of 8, with room to spare."
+   ],
+   [
+    288.101,
+    291.178,
+    "So more RAM wouldn't touch the real problem."
+   ],
+   [
+    291.458,
+    298.018,
+    "The disk is busy because startup apps are queuing on a slow drive, not because memory is overflowing."
+   ]
+  ],
+  [
+   [
+    298.768,
+    301.202,
+    "That doesn't mean RAM never matters."
+   ],
+   [
+    301.482,
+    315.47,
+    "HP's current buying guide calls 16 gigabytes the ideal amount for a smooth Windows 11 experience, and says 8 gigabytes can struggle once lots of browser tabs and background apps are open."
+   ],
+   [
+    315.75,
+    319.496,
+    "If you regularly fill your RAM, more of it helps a lot."
+   ],
+   [
+    319.776,
+    326.44,
+    "If you don't, the extra RAM just sits there empty, and empty RAM doesn't make anything faster."
+   ]
+  ],
+  [
+   [
+    327.19,
+    329.89,
+    "Two other culprits are worth a check while you're here."
+   ],
+   [
+    330.17,
+    334.547,
+    "If the CPU column stays near 100 percent, sort by it."
+   ],
+   [
+    334.827,
+    342.258,
+    "One runaway process might be hogging the processor, or the chip might simply be too slow for what you're asking of it."
+   ],
+   [
+    342.538,
+    349.267,
+    "And if your PC feels fine at first but slows down after a few minutes of heavy work, heat might be the brake."
+   ],
+   [
+    349.547,
+    356.661,
+    "Most processors have a maximum temperature somewhere between 95 and 110 degrees Celsius."
+   ],
+   [
+    356.941,
+    361.114,
+    "When they reach it, they cut power and clock speed to protect themselves."
+   ],
+   [
+    361.394,
+    362.826,
+    "That's thermal throttling."
+   ],
+   [
+    363.106,
+    367.446,
+    "On the Performance tab, the CPU page shows its current speed."
+   ],
+   [
+    367.726,
+    373.206,
+    "If that speed sinks under load while the fans roar, clean out the dust and check your cooling."
+   ]
+  ],
+  [
+   [
+    373.956,
+    375.836,
+    "Gamers, there's one more column."
+   ],
+   [
+    376.116,
+    381.073,
+    "In a demanding game, a GPU running near 99 percent is normal."
+   ],
+   [
+    381.353,
+    385.98,
+    "It means the graphics card is the limit, which is exactly what you paid for."
+   ],
+   [
+    386.26,
+    396.115,
+    "But if the GPU sits well below that while the CPU works flat out, the graphics card is waiting for instructions that can't arrive fast enough."
+   ],
+   [
+    396.395,
+    400.899,
+    "That's a CPU bottleneck, and a faster graphics card won't fix it."
+   ]
+  ],
+  [
+   [
+    401.649,
+    402.96,
+    "Back to our desktop."
+   ],
+   [
+    403.24,
+    414.992,
+    "With the startup apps trimmed, it settles down sooner, but the real bottleneck is still that hard drive, and no amount of RAM changes how fast its arm can move."
+   ],
+   [
+    415.272,
+    419.118,
+    "The fix that matters is moving Windows onto an SSD."
+   ],
+   [
+    419.398,
+    421.414,
+    "And this method works on any PC."
+   ],
+   [
+    421.694,
+    427.866,
+    "Open Task Manager, sort each column, find the part that's pinned at the top, and fix that part."
+   ],
+   [
+    428.146,
+    429.928,
+    "Not the part the internet guessed."
+   ]
+  ],
+  [
+   [
+    430.678,
+    432.734,
+    "Next time, we'll dig into that fix."
+   ],
+   [
+    433.014,
+    442.785,
+    "SSD versus HDD versus NVMe: what really makes games load faster, and when a faster drive stops making a difference."
+   ],
+   [
+    443.065,
+    447.022,
+    "If this helped you find your bottleneck, subscribe, so you don't miss it."
+   ]
+  ]
+ ]
+}

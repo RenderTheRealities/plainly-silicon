@@ -1,0 +1,423 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   28.554
+  ],
+  [
+   29.304,
+   65.014
+  ],
+  [
+   65.764,
+   101.555
+  ],
+  [
+   102.305,
+   142.705
+  ],
+  [
+   143.455,
+   180.34
+  ],
+  [
+   181.09,
+   208.55
+  ],
+  [
+   209.3,
+   262.815
+  ],
+  [
+   263.565,
+   308.287
+  ],
+  [
+   309.037,
+   342.249
+  ],
+  [
+   342.999,
+   382.134
+  ],
+  [
+   382.884,
+   420.449
+  ],
+  [
+   421.199,
+   439.054
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    3.071,
+    "Same game, same PC, same save file."
+   ],
+   [
+    3.351,
+    13.181,
+    "In one PCWorld test, Cyberpunk 2077 loaded in 6 seconds from an SSD and 63 seconds from a hard drive."
+   ],
+   [
+    13.461,
+    21.438,
+    "Yet in TechSpot's testing, a drive with several times the top speed of another loaded Starfield less than a second faster."
+   ],
+   [
+    21.718,
+    28.554,
+    "So let's follow one load screen through every kind of drive and find out exactly where your waiting time goes."
+   ]
+  ],
+  [
+   [
+    29.304,
+    32.142,
+    "First, what does a load screen actually ask for?"
+   ],
+   [
+    32.422,
+    33.737,
+    "Not one big file."
+   ],
+   [
+    34.017,
+    41.079,
+    "The game needs textures, models, sounds and map data, often thousands of pieces scattered across the drive."
+   ],
+   [
+    41.359,
+    47.48,
+    "Each piece has to be found, read, and then unpacked by your processor before the world can appear."
+   ],
+   [
+    47.76,
+    50.233,
+    "That gives a drive two very different jobs."
+   ],
+   [
+    50.513,
+    54.273,
+    "Reading one long stream of data is called sequential speed."
+   ],
+   [
+    54.553,
+    59.64,
+    "Finding lots of small, scattered pieces depends on how long each lookup takes."
+   ],
+   [
+    59.92,
+    65.014,
+    "Keep both in mind, because each drive type wins and loses in a different place."
+   ]
+  ],
+  [
+   [
+    65.764,
+    67.391,
+    "Start with the hard drive."
+   ],
+   [
+    67.671,
+    75.305,
+    "Inside is a metal platter spinning 7,200 times a minute, and an arm with a read head that swings across it."
+   ],
+   [
+    75.585,
+    82.363,
+    "To fetch a piece of data, the arm has to move to the right ring, which takes about 8 to 10 milliseconds."
+   ],
+   [
+    82.643,
+    86.683,
+    "Then it waits for the right spot to spin underneath, about 4 more."
+   ],
+   [
+    86.963,
+    90.443,
+    "So every scattered lookup costs roughly 12 milliseconds."
+   ],
+   [
+    90.723,
+    92.975,
+    "Once it's in place, reading is decent."
+   ],
+   [
+    93.255,
+    101.555,
+    "A current Seagate BarraCuda is rated at up to 190 megabytes per second, and that's on the fast outer edge of the platter."
+   ]
+  ],
+  [
+   [
+    102.305,
+    103.967,
+    "Now run our load screen on it."
+   ],
+   [
+    104.247,
+    112.511,
+    "Twelve milliseconds sounds tiny, but it means a hard drive can only handle around a hundred to two hundred scattered reads per second."
+   ],
+   [
+    112.791,
+    120.221,
+    "A level that needs thousands of them turns into a queue, and the arm spends most of its time travelling instead of reading."
+   ],
+   [
+    120.501,
+    123.422,
+    "That's how you get 63 seconds in Cyberpunk."
+   ],
+   [
+    123.702,
+    133.48,
+    "In TechSpot's tests, Kingdom Come: Deliverance II took over four minutes to load from a hard drive, and the game itself warns you not to use one."
+   ],
+   [
+    133.76,
+    136.822,
+    "Worse, modern games keep streaming data while you play."
+   ],
+   [
+    137.102,
+    142.705,
+    "On a slow hard drive, TechSpot saw Stalker 2 load with missing pieces of the world."
+   ]
+  ],
+  [
+   [
+    143.455,
+    145.162,
+    "Next, the SATA SSD."
+   ],
+   [
+    145.442,
+    147.69,
+    "There's no arm and no spinning platter."
+   ],
+   [
+    147.97,
+    154.085,
+    "Data lives in flash memory chips, and a controller reads from several chips at the same time."
+   ],
+   [
+    154.365,
+    163.782,
+    "A lookup takes around a tenth of a millisecond instead of twelve, so scattered reads stop being a queue and become a crowd that's served all at once."
+   ],
+   [
+    164.062,
+    165.441,
+    "The catch is the cable."
+   ],
+   [
+    165.721,
+    168.033,
+    "SATA was designed for hard drives."
+   ],
+   [
+    168.313,
+    180.34,
+    "Its link runs at 6 gigabits per second, but encoding overhead leaves about 600 megabytes per second of real data, and SATA drives top out around 550."
+   ]
+  ],
+  [
+   [
+    181.09,
+    182.992,
+    "So what happens to our load screen?"
+   ],
+   [
+    183.272,
+    184.655,
+    "This is the big jump."
+   ],
+   [
+    184.935,
+    189.894,
+    "The hard drive's 12 millisecond penalty disappears, and the wait collapses."
+   ],
+   [
+    190.174,
+    202.31,
+    "In TechSpot's testing, reloading a Cyberpunk save took about the same time on every SSD they tried, SATA included, while hard drives were up to nearly four times slower."
+   ],
+   [
+    202.59,
+    208.55,
+    "For a lot of games, the moment you leave spinning disks behind, storage stops being the problem."
+   ]
+  ],
+  [
+   [
+    209.3,
+    210.952,
+    "Then comes NVMe."
+   ],
+   [
+    211.232,
+    221.853,
+    "Instead of a SATA cable, the drive talks over PCIe lanes, the same kind of high-speed link a graphics card uses, usually four lanes wide."
+   ],
+   [
+    222.133,
+    226.752,
+    "Each PCIe generation roughly doubles the speed of a lane."
+   ],
+   [
+    227.032,
+    237.037,
+    "A PCIe 3.0 drive like Samsung's 970 EVO Plus is rated at 3,500 megabytes per second."
+   ],
+   [
+    237.317,
+    245.049,
+    "A PCIe 4.0 drive like the 990 Pro reaches about 7,450."
+   ],
+   [
+    245.329,
+    253.53,
+    "And PCIe 5.0 drives like the 9100 Pro are rated at up to 14,800."
+   ],
+   [
+    253.81,
+    262.815,
+    "NVMe can also keep many queues of requests open at once, a perfect fit for a game asking for thousands of pieces."
+   ]
+  ],
+  [
+   [
+    263.565,
+    270.091,
+    "So why doesn't a drive 25 times faster than SATA load games 25 times faster?"
+   ],
+   [
+    270.371,
+    277.035,
+    "Because once the data arrives, your processor still has to unpack it, build the world, and set up the level."
+   ],
+   [
+    277.315,
+    280.489,
+    "The bottleneck moves from the drive to the CPU."
+   ],
+   [
+    280.769,
+    288.378,
+    "In TechSpot's tests, Starfield loaded less than a second apart on PCIe 5.0 and PCIe 3.0."
+   ],
+   [
+    288.658,
+    299.597,
+    "F1 25 was identical across every NVMe drive, and Red Dead Redemption 2 showed no difference between any SSDs at all."
+   ],
+   [
+    299.877,
+    308.287,
+    "Back in 2018, Legit Reviews even found a budget NVMe drive that was slower than a good SATA one."
+   ]
+  ],
+  [
+   [
+    309.037,
+    312.667,
+    "But SATA is starting to show its age, and you can see where."
+   ],
+   [
+    312.947,
+    320.953,
+    "Games built for modern consoles, which all have fast NVMe storage, are designed to pull in data constantly."
+   ],
+   [
+    321.233,
+    332.459,
+    "In TechSpot's results, Ratchet & Clank: Rift Apart loaded in just 1.3 seconds on a PCIe drive, while SATA drives were nearly five times slower."
+   ],
+   [
+    332.739,
+    342.249,
+    "In Spider-Man 2, SATA was up to nearly four times slower in the worst cases, and The Last of Us Part II took at least 60 percent longer."
+   ]
+  ],
+  [
+   [
+    342.999,
+    346.377,
+    "Some of those games use Microsoft's DirectStorage."
+   ],
+   [
+    346.657,
+    355.906,
+    "It lets a game batch thousands of small requests and hand them to the NVMe drive's queues in one go, instead of one at a time."
+   ],
+   [
+    356.186,
+    362.151,
+    "Version 1.1 also moves decompression from the processor to the graphics card."
+   ],
+   [
+    362.431,
+    375.611,
+    "In PCWorld's tests of Forspoken, the first DirectStorage game, one scene took 7.4 seconds on a SATA SSD and 1.9 seconds on a PCIe 4.0 drive."
+   ],
+   [
+    375.891,
+    382.134,
+    "This is the one place where a faster drive can really change the clock, and only in games built for it."
+   ]
+  ],
+  [
+   [
+    382.884,
+    385.549,
+    "So let's race our load screen one last time."
+   ],
+   [
+    385.829,
+    392.04,
+    "The hard drive is still finding pieces long after everyone else is playing, sometimes for minutes."
+   ],
+   [
+    392.32,
+    399.759,
+    "The SATA SSD finishes close to the leaders in most games, and falls behind in newer console-style ones."
+   ],
+   [
+    400.039,
+    403.806,
+    "Any NVMe drive gets you nearly all the benefit."
+   ],
+   [
+    404.086,
+    412.362,
+    "PCIe 5.0 rarely helps games, and TechSpot found it costs at least 40 percent more than PCIe 4.0."
+   ],
+   [
+    412.642,
+    420.449,
+    "One quick check before you buy: M.2 is just a shape, so make sure your slot actually supports NVMe."
+   ]
+  ],
+  [
+   [
+    421.199,
+    426.749,
+    "Notice that once storage was fast enough, the processor became the thing we were waiting on."
+   ],
+   [
+    427.029,
+    435.668,
+    "Next time, we'll follow a single instruction through a CPU, in How a CPU Runs Your Code, One Clock Cycle at a Time."
+   ],
+   [
+    435.948,
+    439.054,
+    "If you want to see that, subscribe, so you don't miss it."
+   ]
+  ]
+ ]
+}
