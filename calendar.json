@@ -16,7 +16,7 @@
     },
     {
       "slug": "02-how-a-gpu-works",
-      "publish": "2026-11-08T07:30:00-07:00",
+      "publish": "2026-12-01T10:00:00-07:00",
       "title": "How a GPU Actually Works: One Frame in 16 Milliseconds (Animated)",
       "keyword": "how gpu works",
       "status": "scheduled",
@@ -25,7 +25,7 @@
     },
     {
       "slug": "03-every-type-of-ram",
-      "publish": "2026-11-08T07:40:00-07:00",
+      "publish": "2026-12-01T16:00:00-07:00",
       "title": "Every Type of RAM Explained: DDR3 to DDR5",
       "keyword": "every ddr ram explained",
       "status": "scheduled",
@@ -34,7 +34,7 @@
     },
     {
       "slug": "04-why-your-pc-is-slow",
-      "publish": "2026-11-08T10:00:00-07:00",
+      "publish": "2026-12-02T10:00:00-07:00",
       "title": "Why Your PC Is Slow — and Why More RAM Usually Isn't the Fix",
       "keyword": "how to have a low memory on your pc",
       "status": "scheduled",
@@ -43,7 +43,7 @@
     },
     {
       "slug": "05-ssd-vs-hdd-vs-nvme",
-      "publish": "2026-11-08T16:00:00-07:00",
+      "publish": "2026-12-02T16:00:00-07:00",
       "title": "SSD vs HDD vs NVMe: What Really Makes Games Load Faster",
       "keyword": "hdd vs ssd",
       "status": "scheduled",
@@ -52,7 +52,7 @@
     },
     {
       "slug": "06-how-a-cpu-runs-code",
-      "publish": "2026-11-09T10:00:00-07:00",
+      "publish": "2026-12-03T10:00:00-07:00",
       "title": "How a CPU Runs Your Code, One Clock Cycle at a Time",
       "keyword": "how a cpu works",
       "status": "scheduled",
