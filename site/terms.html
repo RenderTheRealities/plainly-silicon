@@ -50,7 +50,7 @@
 (()=>{const d=document.querySelector('nav.dock'),i=d.querySelector('.dock-ind');
 function place(){const c=d.querySelector('[aria-current="page"]');if(!c){i.style.opacity=0;return}
 const dr=d.getBoundingClientRect(),cr=c.getBoundingClientRect();i.style.width=cr.width+'px';i.style.transform='translateX('+(cr.left-dr.left)+'px)'}
-addEventListener('load',place);addEventListener('resize',place);place();
+addEventListener('load',place);document.fonts&&document.fonts.ready.then(place);addEventListener('resize',place);place();
 d.addEventListener('pointermove',e=>{const r=d.getBoundingClientRect();d.style.setProperty('--mx',(e.clientX-r.left)+'px');d.style.setProperty('--my',(e.clientY-r.top)+'px')});
 d.addEventListener('pointerleave',()=>{d.style.setProperty('--mx','50%');d.style.setProperty('--my','0%')});})();
 </script>
