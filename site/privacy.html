@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Plainly Silicon</title>
+<meta name="description" content="How the Plainly Silicon Uploader handles data from YouTube API Services.">
+<link rel="icon" href="/logo.webp" type="image/webp">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main>
+<a class="brand" href="/" style="text-decoration:none;color:inherit"><img src="/logo.webp" alt="Plainly Silicon logo" width="56" height="56"><div><b>Plainly Silicon</b><span>PC hardware, explained plainly</span></div></a>
+<h1>Privacy Policy</h1>
+<p class="updated">Last updated: November 9, 2026</p>
+<p>This policy covers the <b>Plainly Silicon Uploader</b> (the "App") and this website. The App is a private tool used only by the owner of the Plainly Silicon YouTube channel to upload that channel's own videos. It uses <b>YouTube API Services</b>. By using the App you also agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and Google's handling of data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2>What the App accesses</h2>
+<p>When the channel owner signs in with Google, the App asks for one permission, <code>https://www.googleapis.com/auth/youtube.upload</code>, which lets it upload videos and thumbnails to the owner's YouTube channel. It uses this only to:</p>
+<ul>
+  <li>upload the channel's own finished video files;</li>
+  <li>set each video's title, description, tags, category, audience setting, privacy and publish time;</li>
+  <li>set the video's custom thumbnail.</li>
+</ul>
+<p>The App does not read, download or store viewer data, comments, subscriber lists, analytics or any other information from YouTube, and it does not access any account other than the owner's.</p>
+
+<h2>What is stored</h2>
+<ul>
+  <li><b>Sign-in tokens.</b> The OAuth client ID, client secret and refresh token are kept only as private environment variables in the owner's own automation environment. They are never published, logged or shared.</li>
+  <li><b>Video details.</b> The titles, descriptions and tags the owner writes are kept in the owner's project files before upload.</li>
+  <li><b>This website</b> sets no cookies and runs no analytics or tracking. Fonts load from Google Fonts.</li>
+</ul>
+
+<h2>Sharing</h2>
+<p>The App does not sell, rent or share any data with anyone. Data obtained through YouTube API Services is sent only to YouTube, to carry out the upload the owner asked for.</p>
+
+<h2>Keeping and deleting data</h2>
+<p>The only thing the App receives back from YouTube is the new video's ID, which the owner keeps in their project records. The owner can revoke the App's access at any time on the Google security settings page, <a href="https://security.google.com/settings/security/permissions">security.google.com/settings/security/permissions</a>. Revoking access stops the App immediately, and the stored tokens are then deleted. To ask for any data to be deleted, email the address below.</p>
+
+<h2>Children</h2>
+<p>The App is not directed at children and is used only by the channel owner.</p>
+
+<h2>Changes and contact</h2>
+<p>If this policy changes, the new version will be posted on this page with a new date. Questions or requests: <a href="mailto:canadianvideobusiness@gmail.com">canadianvideobusiness@gmail.com</a>.</p>
+</main>
+<footer>
+  <span>© 2026 Plainly Silicon · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · <a href="mailto:canadianvideobusiness@gmail.com">Contact</a></span>
+  <div class="creator-credit" hidden><span class="creator-credit-label">Made by</span><creator-egg url="https://joraveer-portfolio.vercel.app" align="right" label="Made by" name="Joraveer Singh Ratan"></creator-egg></div>
+</footer>
+<nav class="dock" aria-label="Site">
+  <span class="dock-ind" aria-hidden="true"></span>
+  <a href="/" >Home</a>
+  <a href="/privacy" aria-current="page">Privacy</a>
+  <a href="/terms" >Terms</a>
+  <a href="https://www.youtube.com/@plainlysilicon">YouTube</a>
+</nav>
+<script>
+(()=>{const d=document.querySelector('nav.dock'),i=d.querySelector('.dock-ind');
+function place(){const c=d.querySelector('[aria-current="page"]');if(!c){i.style.opacity=0;return}
+const dr=d.getBoundingClientRect(),cr=c.getBoundingClientRect();i.style.width=cr.width+'px';i.style.transform='translateX('+(cr.left-dr.left)+'px)'}
+addEventListener('load',place);addEventListener('resize',place);place();
+d.addEventListener('pointermove',e=>{const r=d.getBoundingClientRect();d.style.setProperty('--mx',(e.clientX-r.left)+'px');d.style.setProperty('--my',(e.clientY-r.top)+'px')});
+d.addEventListener('pointerleave',()=>{d.style.setProperty('--mx','50%');d.style.setProperty('--my','0%')});})();
+</script>
+<script src="https://flyclear.vercel.app/creator-egg.js" defer></script>
+</body>
+</html>

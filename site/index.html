@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plainly Silicon</title>
+<meta name="description" content="Plainly Silicon makes animated explainers about PC hardware on YouTube.">
+<link rel="icon" href="/logo.webp" type="image/webp">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main>
+<a class="brand" href="/" style="text-decoration:none;color:inherit"><img src="/logo.webp" alt="Plainly Silicon logo" width="56" height="56"><div><b>Plainly Silicon</b><span>PC hardware, explained plainly</span></div></a>
+<h1>PC hardware, <em>explained plainly.</em></h1>
+<p class="lede">Plainly Silicon is a YouTube channel of animated explainers about what is actually inside your computer: CPUs, graphics cards, RAM, storage, power supplies and how they work together.</p>
+<a class="cta" href="https://www.youtube.com/@plainlysilicon">Watch on YouTube →</a>
+
+<div class="grid">
+  <div class="card"><b>Long explainers</b><span class="muted">6–8 minute deep dives that follow one example from start to finish.</span></div>
+  <div class="card"><b>Shorts</b><span class="muted">One idea in under a minute, for quick answers.</span></div>
+  <div class="card"><b>Sourced</b><span class="muted">Every number on screen is checked, with sources in the description.</span></div>
+</div>
+
+<h2>About the Plainly Silicon Uploader</h2>
+<p>The <b>Plainly Silicon Uploader</b> is a small private tool used only by the owner of the Plainly Silicon channel. It uses the YouTube Data API to upload the channel's own finished videos, with their titles, descriptions, tags and thumbnails, to the Plainly Silicon YouTube channel on a schedule.</p>
+<ul>
+  <li>It only ever acts on the owner's own channel, after the owner signs in with Google and grants access.</li>
+  <li>It requests one permission: uploading videos to that channel (<code>youtube.upload</code>).</li>
+  <li>It is not offered to the public, has no other users, and does not read, collect or share anyone else's data.</li>
+</ul>
+<p>Read the <a href="/privacy">Privacy Policy</a> and <a href="/terms">Terms of Service</a>. The tool uses YouTube API Services, so the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> also apply.</p>
+<p class="muted">Questions: <a href="mailto:canadianvideobusiness@gmail.com">canadianvideobusiness@gmail.com</a></p>
+</main>
+<footer>
+  <span>© 2026 Plainly Silicon · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · <a href="mailto:canadianvideobusiness@gmail.com">Contact</a></span>
+  <div class="creator-credit" hidden><span class="creator-credit-label">Made by</span><creator-egg url="https://joraveer-portfolio.vercel.app" align="right" label="Made by" name="Joraveer Singh Ratan"></creator-egg></div>
+</footer>
+<nav class="dock" aria-label="Site">
+  <span class="dock-ind" aria-hidden="true"></span>
+  <a href="/" aria-current="page">Home</a>
+  <a href="/privacy" >Privacy</a>
+  <a href="/terms" >Terms</a>
+  <a href="https://www.youtube.com/@plainlysilicon">YouTube</a>
+</nav>
+<script>
+(()=>{const d=document.querySelector('nav.dock'),i=d.querySelector('.dock-ind');
+function place(){const c=d.querySelector('[aria-current="page"]');if(!c){i.style.opacity=0;return}
+const dr=d.getBoundingClientRect(),cr=c.getBoundingClientRect();i.style.width=cr.width+'px';i.style.transform='translateX('+(cr.left-dr.left)+'px)'}
+addEventListener('load',place);addEventListener('resize',place);place();
+d.addEventListener('pointermove',e=>{const r=d.getBoundingClientRect();d.style.setProperty('--mx',(e.clientX-r.left)+'px');d.style.setProperty('--my',(e.clientY-r.top)+'px')});
+d.addEventListener('pointerleave',()=>{d.style.setProperty('--mx','50%');d.style.setProperty('--my','0%')});})();
+</script>
+<script src="https://flyclear.vercel.app/creator-egg.js" defer></script>
+</body>
+</html>
