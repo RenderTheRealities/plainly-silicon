@@ -16,48 +16,53 @@
     },
     {
       "slug": "02-how-a-gpu-works",
-      "publish": "2026-12-01T10:00:00-07:00",
+      "publish": "2026-11-09T21:40:00-08:00",
       "title": "How a GPU Actually Works: One Frame in 16 Milliseconds (Animated)",
       "keyword": "how gpu works",
-      "status": "scheduled",
+      "status": "published",
       "theme": "neon",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-262540926088101803"
+      "youtubeUrl": "https://www.youtube.com/watch?v=oouhEJk4AVM",
+      "publishedVia": "YouTube Studio (by hand), Nov 9 2026"
     },
     {
       "slug": "03-every-type-of-ram",
-      "publish": "2026-12-01T16:00:00-07:00",
+      "publish": "2026-11-09T21:40:00-08:00",
       "title": "Every Type of RAM Explained: DDR3 to DDR5",
       "keyword": "every ddr ram explained",
-      "status": "scheduled",
+      "status": "published",
       "theme": "mint",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-997620991232491130"
+      "youtubeUrl": "https://www.youtube.com/watch?v=KLsnJ17daJE",
+      "publishedVia": "YouTube Studio (by hand), Nov 9 2026"
     },
     {
       "slug": "04-why-your-pc-is-slow",
-      "publish": "2026-12-02T10:00:00-07:00",
+      "publish": "2026-11-09T21:40:00-08:00",
       "title": "Why Your PC Is Slow — and Why More RAM Usually Isn't the Fix",
       "keyword": "how to have a low memory on your pc",
-      "status": "scheduled",
+      "status": "published",
       "theme": "circuit",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=1012158798527481253"
+      "youtubeUrl": "https://www.youtube.com/watch?v=8zRSmxnJTIA",
+      "publishedVia": "YouTube Studio (by hand), Nov 9 2026"
     },
     {
       "slug": "05-ssd-vs-hdd-vs-nvme",
-      "publish": "2026-12-02T16:00:00-07:00",
+      "publish": "2026-11-09T21:40:00-08:00",
       "title": "SSD vs HDD vs NVMe: What Really Makes Games Load Faster",
       "keyword": "hdd vs ssd",
-      "status": "scheduled",
+      "status": "published",
       "theme": "terminal",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=568359942914130734"
+      "youtubeUrl": "https://www.youtube.com/watch?v=fau-c6M-M9I",
+      "publishedVia": "YouTube Studio (by hand), Nov 9 2026"
     },
     {
       "slug": "06-how-a-cpu-runs-code",
-      "publish": "2026-12-03T10:00:00-07:00",
+      "publish": "2026-11-09T21:40:00-08:00",
       "title": "How a CPU Runs Your Code, One Clock Cycle at a Time",
       "keyword": "how a cpu works",
-      "status": "scheduled",
+      "status": "published",
       "theme": "sunset",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-472205807780085175"
+      "youtubeUrl": "https://www.youtube.com/watch?v=O14uJcxMIvU",
+      "publishedVia": "YouTube Studio (by hand), Nov 9 2026"
     },
     {
       "slug": "07-black-friday-pc-traps",
