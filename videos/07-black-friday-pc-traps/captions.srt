@@ -1,0 +1,272 @@
+1
+00:00:00,300 --> 00:00:06,088
+A Black Friday cart that says you saved four hundred dollars might have saved you almost nothing.
+
+2
+00:00:06,368 --> 00:00:14,642
+In the next few minutes we'll push one shopping cart through seven traps, and by the end you'll be able to check any PC deal in about a minute.
+
+3
+00:00:14,922 --> 00:00:15,854
+Meet Jamie.
+
+4
+00:00:16,134 --> 00:00:24,575
+Jamie's cart has a graphics card, a fast SSD, a prebuilt desktop for a younger brother, and a gaming laptop for school.
+
+5
+00:00:24,855 --> 00:00:31,667
+The cart total is just under two thousand dollars, and a big green banner says you saved four hundred and twenty.
+
+6
+00:00:31,947 --> 00:00:33,862
+Let's see how much of that survives.
+
+7
+00:00:34,612 --> 00:00:36,302
+Trap one is the "was" price.
+
+8
+00:00:36,582 --> 00:00:44,264
+The crossed-out number next to the sale price is the whole reason the deal feels good, and it's the easiest number to inflate.
+
+9
+00:00:44,544 --> 00:00:53,847
+In a study published last November, the British consumer group Which tracked one hundred and seventy-five products from eight big retailers for a full year.
+
+10
+00:00:54,127 --> 00:01:01,505
+Eighty-three percent of them were the same price or cheaper at least once outside the Black Friday sale period.
+
+11
+00:01:01,785 --> 00:01:06,289
+And not one of them was at its cheapest only on Black Friday itself.
+
+12
+00:01:06,569 --> 00:01:20,669
+In the United States, the FTC's pricing guide says a former price should be a real price the item was openly sold at for a reasonably substantial time, not a number set up just to make a big discount.
+
+13
+00:01:20,949 --> 00:01:22,135
+The fix is free.
+
+14
+00:01:22,415 --> 00:01:33,163
+Paste the product into a price history tracker, or check the price chart on PCPartPicker, and compare today's price with the last few months, not with the sticker.
+
+15
+00:01:33,913 --> 00:01:36,604
+Trap two is the same name on a different chip.
+
+16
+00:01:36,884 --> 00:01:44,661
+Jamie's graphics card is an RTX 30 50, and it's cheaper than every other RTX 30 50 on the page.
+
+17
+00:01:44,941 --> 00:01:46,885
+That's because there are two of them.
+
+18
+00:01:47,165 --> 00:01:55,066
+The 8 gigabyte version has 2,560 CUDA cores on a 128-bit memory bus.
+
+19
+00:01:55,346 --> 00:02:12,110
+The 6 gigabyte version has 2,304 cores on a 96-bit bus, so its memory bandwidth drops from 224 to 168 gigabytes per second, and its power drops from 130 watts to 70.
+
+20
+00:02:12,390 --> 00:02:15,572
+Same family name, a noticeably slower card.
+
+21
+00:02:15,852 --> 00:02:20,506
+The clue is usually tiny, like a "6G" buried in the product title.
+
+22
+00:02:20,786 --> 00:02:26,756
+The fix: read the full model name, then look up that exact name on the maker's spec page.
+
+23
+00:02:27,506 --> 00:02:29,493
+Trap three is the silent swap.
+
+24
+00:02:29,773 --> 00:02:33,949
+Sometimes a product keeps its name while the parts inside change.
+
+25
+00:02:34,229 --> 00:02:46,839
+In 2021, Tom's Hardware found that Crucial had switched its P2 SSD from TLC flash to slower QLC flash without changing the product name or number.
+
+26
+00:02:47,119 --> 00:02:57,239
+In their retest, once the drive's fast cache filled up, sustained writes fell to about 40 megabytes per second, which is USB 2 territory.
+
+27
+00:02:57,519 --> 00:03:02,570
+Reviews from launch day can describe a different drive from the one in the box today.
+
+28
+00:03:02,850 --> 00:03:13,707
+The fix: look for recent reviews or owner reports of the exact model, and be a little suspicious when an old, well-reviewed drive suddenly becomes much cheaper.
+
+29
+00:03:14,457 --> 00:03:16,655
+Trap four lives inside the laptop.
+
+30
+00:03:16,935 --> 00:03:22,460
+Jamie's laptop says RTX 40 60, the same name as a desktop card.
+
+31
+00:03:22,740 --> 00:03:26,752
+But a laptop GPU's power is chosen by the laptop maker.
+
+32
+00:03:27,032 --> 00:03:38,405
+The RTX 40 60 Laptop GPU can be configured anywhere from 35 to 115 watts, plus a little extra boost borrowed from the CPU.
+
+33
+00:03:38,685 --> 00:03:48,192
+A thin laptop running it near the bottom of that range can be dramatically slower than a thick one running near the top, and both stickers say the same thing.
+
+34
+00:03:48,472 --> 00:03:59,156
+The fix: find the GPU power number in the laptop's spec sheet or in a review, and compare laptops by that number, not just by the GPU name.
+
+35
+00:03:59,906 --> 00:04:02,735
+Trap five is the prebuilt with mystery parts.
+
+36
+00:04:03,015 --> 00:04:14,625
+The prebuilt in Jamie's cart lists a fast CPU, a big graphics card and "16 gigabytes of RAM." What it doesn't say is how that RAM is installed.
+
+37
+00:04:14,905 --> 00:04:24,972
+One 16 gigabyte stick runs in single channel, which gives the CPU half the memory bandwidth of two 8 gigabyte sticks in dual channel.
+
+38
+00:04:25,252 --> 00:04:32,638
+And "650 watt power supply" with no brand or model tells you almost nothing about its quality.
+
+39
+00:04:32,918 --> 00:04:38,376
+Sellers spend the budget on the parts you'll see in the headline and save it on the parts you won't.
+
+40
+00:04:38,656 --> 00:04:46,993
+The fix: look for "two by eight" in the memory line, and ask for, or look up, the exact power supply model before you buy.
+
+41
+00:04:47,743 --> 00:04:49,267
+Trap six is the clock.
+
+42
+00:04:49,547 --> 00:04:55,545
+A countdown says the deal ends in fourteen minutes, and a red label says only three left.
+
+43
+00:04:55,825 --> 00:05:08,660
+In 2022, an FTC staff report on manipulative website design called out fake countdown timers and scarcity and demand claims meant to make shoppers act quickly.
+
+44
+00:05:08,940 --> 00:05:14,302
+Some timers are real, but the pressure works the same either way: it stops you checking.
+
+45
+00:05:14,582 --> 00:05:18,071
+The fix: let the timer run while you do the one-minute check.
+
+46
+00:05:18,351 --> 00:05:23,891
+If the history chart shows this price comes back every few weeks, missing it costs you nothing.
+
+47
+00:05:24,641 --> 00:05:27,014
+Trap seven is who's actually selling it.
+
+48
+00:05:27,294 --> 00:05:30,992
+On big marketplaces, the store isn't always the seller.
+
+49
+00:05:31,272 --> 00:05:41,715
+Amazon itself said in 2020 that independent sellers made almost sixty percent of the sales of physical products in its store, by value.
+
+50
+00:05:41,995 --> 00:05:53,370
+That's fine when the seller is good, but the return window, the shipping, and sometimes the condition of the box can depend on that seller, not on the store's name at the top of the page.
+
+51
+00:05:53,650 --> 00:06:02,045
+The fix: check the "sold by" and "ships from" lines before checkout, and read the seller's return policy for anything expensive.
+
+52
+00:06:02,795 --> 00:06:04,730
+So let's re-run Jamie's cart.
+
+53
+00:06:05,010 --> 00:06:08,347
+The graphics card turned out to be the 6 gigabyte version.
+
+54
+00:06:08,627 --> 00:06:12,323
+The SSD's price matches what it sold for in the summer.
+
+55
+00:06:12,603 --> 00:06:17,053
+The prebuilt has one stick of RAM and an unnamed power supply.
+
+56
+00:06:17,333 --> 00:06:21,637
+The laptop's GPU runs near the bottom of its power range.
+
+57
+00:06:21,917 --> 00:06:29,494
+And the banner's four hundred and twenty dollars was measured against crossed-out prices that the history charts don't support.
+
+58
+00:06:29,774 --> 00:06:37,785
+The real saving in this example cart is a fraction of that banner, and two of the items aren't the products Jamie thought they were buying.
+
+59
+00:06:38,535 --> 00:06:41,443
+Here's the one-minute check, in the order you'd do it.
+
+60
+00:06:41,723 --> 00:06:46,731
+First, the price history: is today lower than this item's own recent prices?
+
+61
+00:06:47,011 --> 00:06:51,737
+Second, the full model name: is this the exact version the reviews tested?
+
+62
+00:06:52,017 --> 00:06:56,974
+Third, a recent review or owner report: has anything changed inside?
+
+63
+00:06:57,254 --> 00:07:03,356
+Fourth, the hidden numbers: memory layout, power supply model, laptop GPU watts.
+
+64
+00:07:03,636 --> 00:07:07,057
+And fifth, the seller: who ships it, and will they take it back?
+
+65
+00:07:07,337 --> 00:07:09,189
+A real deal passes all five.
+
+66
+00:07:09,469 --> 00:07:16,853
+It's the exact product you researched, at a price lower than its own history, from someone who'll take it back if it's wrong.
+
+67
+00:07:17,603 --> 00:07:27,398
+Next time, we're tackling the question every gamer asks after buying new parts: what actually raises your frame rate, and five popular tricks that don't.
+
+68
+00:07:27,678 --> 00:07:36,978
+If this saved you from even one bad deal, subscribe so you don't miss it, and tell us in the comments the best real PC deal you've ever found.
+

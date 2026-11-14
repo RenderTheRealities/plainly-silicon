@@ -29,7 +29,7 @@ def main(vdir):
     cal = json.load(open(os.path.join(ROOT, "calendar.json")))
     today = dt.date.today().isoformat()
     for v in cal["videos"]:
-        if v["publish"][:10] < today:
+        if v["publish"][:10] < today and v.get("status") != "ready":  # keep unposted ready videos hosted
             for ext in ("mp4", "jpg"):
                 f = os.path.join(WT, f"{v['slug']}.{ext}")
                 if os.path.exists(f):

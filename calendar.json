@@ -66,10 +66,11 @@
     },
     {
       "slug": "07-black-friday-pc-traps",
-      "publish": "2026-11-23T12:00:00-07:00",
+      "publish": "2026-11-14T16:00:00-07:00",
       "title": "7 Black Friday PC Part Traps (and How to Spot a Real Deal)",
       "keyword": "pc parts black friday",
-      "status": "planned"
+      "status": "ready",
+      "theme": "retro"
     },
     {
       "slug": "08-what-raises-fps",
@@ -111,6 +112,34 @@
       "publish": "2026-12-07T12:00:00-07:00",
       "title": "What Happens When You Press the Power Button (Boot Process Explained)",
       "keyword": "how a computer boots",
+      "status": "planned"
+    },
+    {
+      "slug": "14-motherboard-chipsets-explained",
+      "publish": "2026-12-09T12:00:00-07:00",
+      "title": "Motherboard Chipsets Explained: What B, X and Z Really Mean",
+      "keyword": "motherboard chipset explained",
+      "status": "planned"
+    },
+    {
+      "slug": "15-air-vs-liquid-cooling",
+      "publish": "2026-12-11T12:00:00-07:00",
+      "title": "Air Cooler vs AIO Liquid Cooler: Which Really Keeps Your CPU Cooler?",
+      "keyword": "air cooler vs aio",
+      "status": "planned"
+    },
+    {
+      "slug": "16-monitor-panels-explained",
+      "publish": "2026-12-14T12:00:00-07:00",
+      "title": "IPS vs VA vs OLED: How Monitor Panels Actually Work",
+      "keyword": "ips vs va vs oled",
+      "status": "planned"
+    },
+    {
+      "slug": "17-pcie-lanes-explained",
+      "publish": "2026-12-16T12:00:00-07:00",
+      "title": "PCIe Lanes Explained: Why Adding an SSD Can Slow Your GPU",
+      "keyword": "pcie lanes explained",
       "status": "planned"
     }
   ]
