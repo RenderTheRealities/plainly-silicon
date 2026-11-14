@@ -214,6 +214,24 @@
    "source": "standalone",
    "status": "published",
    "publishedVia": "YouTube Studio (by hand), Nov 8 2026"
+  },
+  {
+   "slug": "06s1-cpu-cache-levels",
+   "theme": "ember",
+   "title": "CPU Cache Explained: Why RAM Is 100x Slower #shorts",
+   "publish": "2026-11-14T12:00:00-07:00",
+   "source": "06-how-a-cpu-runs-code",
+   "status": "ready",
+   "video": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/06s1-cpu-cache-levels.mp4"
+  },
+  {
+   "slug": "03s1-laptop-ram-soldered",
+   "theme": "graphite",
+   "title": "Can Your Laptop Take More RAM? Check This First #shorts",
+   "publish": "2026-11-14T18:00:00-07:00",
+   "source": "03-every-type-of-ram",
+   "status": "ready",
+   "video": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/03s1-laptop-ram-soldered.mp4"
   }
  ]
 }

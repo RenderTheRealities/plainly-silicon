@@ -1,0 +1,107 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   5.358
+  ],
+  [
+   6.108,
+   12.8
+  ],
+  [
+   13.55,
+   24.127
+  ],
+  [
+   24.877,
+   36.46
+  ],
+  [
+   37.21,
+   43.124
+  ],
+  [
+   43.874,
+   49.132
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    3.23,
+    "Many laptops can never get a RAM upgrade."
+   ],
+   [
+    3.51,
+    5.358,
+    "Here's how to tell before you buy."
+   ]
+  ],
+  [
+   [
+    6.108,
+    8.507,
+    "Thicker laptops often use S O DIMMs."
+   ],
+   [
+    8.787,
+    12.8,
+    "These are small removable sticks in a slot, so you can add more."
+   ]
+  ],
+  [
+   [
+    13.55,
+    18.02,
+    "Lots of thin laptops use L P D D R, low power memory."
+   ],
+   [
+    18.3,
+    19.425,
+    "There's no slot."
+   ],
+   [
+    19.705,
+    22.211,
+    "The chips are soldered right onto the board."
+   ],
+   [
+    22.491,
+    24.127,
+    "What you buy is what you keep."
+   ]
+  ],
+  [
+   [
+    24.877,
+    30.801,
+    "A newer option, L P CAMM 2, puts that memory on a small module held by a screw."
+   ],
+   [
+    31.081,
+    36.46,
+    "It first showed up in the Lenovo ThinkPad P1 Gen 7, and it can be swapped."
+   ]
+  ],
+  [
+   [
+    37.21,
+    40.504,
+    "So check the spec sheet for a slot or the word soldered."
+   ],
+   [
+    40.784,
+    43.124,
+    "If it's soldered, buy enough on day one."
+   ]
+  ],
+  [
+   [
+    43.874,
+    49.132,
+    "Every kind of RAM is in our full video, Every Type of RAM Explained."
+   ]
+  ]
+ ]
+}

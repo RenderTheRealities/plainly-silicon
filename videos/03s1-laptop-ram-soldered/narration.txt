@@ -1,0 +1,11 @@
+Many laptops can never get a RAM upgrade. Here's how to tell before you buy.
+
+Thicker laptops often use S O DIMMs. These are small removable sticks in a slot, so you can add more.
+
+Lots of thin laptops use L P D D R, low power memory. There's no slot. The chips are soldered right onto the board. What you buy is what you keep.
+
+A newer option, L P CAMM 2, puts that memory on a small module held by a screw. It first showed up in the Lenovo ThinkPad P1 Gen 7, and it can be swapped.
+
+So check the spec sheet for a slot or the word soldered. If it's soldered, buy enough on day one.
+
+Every kind of RAM is in our full video, Every Type of RAM Explained.

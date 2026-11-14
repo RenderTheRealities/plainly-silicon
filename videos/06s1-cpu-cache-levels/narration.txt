@@ -1,0 +1,11 @@
+Your CPU can wait more than 350 cycles for one number from RAM. That's why it keeps tiny memories inside itself.
+
+Take an AMD Zen four core. Closest of all is the level one data cache. It holds 32 kilobytes and answers in about 4 cycles.
+
+Miss there, and the core checks level two. That's one megabyte, about 14 cycles away.
+
+Next is level three, shared by the cores. It's roughly 50 cycles away.
+
+From your RAM sticks, it takes about 73 nanoseconds. At 5 gigahertz, that's more than 350 cycles, roughly a hundred times slower than level one.
+
+That's why big caches help games so much. The full trip is in our video, How a CPU Runs Your Code.

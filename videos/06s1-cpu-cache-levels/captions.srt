@@ -1,0 +1,52 @@
+1
+00:00:00,300 --> 00:00:06,098
+Your CPU can wait more than 350 cycles for one number from RAM.
+
+2
+00:00:06,378 --> 00:00:09,294
+That's why it keeps tiny memories inside itself.
+
+3
+00:00:10,044 --> 00:00:12,152
+Take an AMD Zen four core.
+
+4
+00:00:12,432 --> 00:00:15,401
+Closest of all is the level one data cache.
+
+5
+00:00:15,681 --> 00:00:19,845
+It holds 32 kilobytes and answers in about 4 cycles.
+
+6
+00:00:20,595 --> 00:00:22,949
+Miss there, and the core checks level two.
+
+7
+00:00:23,229 --> 00:00:26,438
+That's one megabyte, about 14 cycles away.
+
+8
+00:00:27,188 --> 00:00:29,847
+Next is level three, shared by the cores.
+
+9
+00:00:30,127 --> 00:00:32,115
+It's roughly 50 cycles away.
+
+10
+00:00:32,865 --> 00:00:37,037
+From your RAM sticks, it takes about 73 nanoseconds.
+
+11
+00:00:37,317 --> 00:00:44,334
+At 5 gigahertz, that's more than 350 cycles, roughly a hundred times slower than level one.
+
+12
+00:00:45,084 --> 00:00:47,639
+That's why big caches help games so much.
+
+13
+00:00:47,919 --> 00:00:51,830
+The full trip is in our video, How a CPU Runs Your Code.
+

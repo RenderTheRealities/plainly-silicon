@@ -1,0 +1,107 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   9.294
+  ],
+  [
+   10.044,
+   19.845
+  ],
+  [
+   20.595,
+   26.438
+  ],
+  [
+   27.188,
+   32.115
+  ],
+  [
+   32.865,
+   44.334
+  ],
+  [
+   45.084,
+   51.83
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    6.098,
+    "Your CPU can wait more than 350 cycles for one number from RAM."
+   ],
+   [
+    6.378,
+    9.294,
+    "That's why it keeps tiny memories inside itself."
+   ]
+  ],
+  [
+   [
+    10.044,
+    12.152,
+    "Take an AMD Zen four core."
+   ],
+   [
+    12.432,
+    15.401,
+    "Closest of all is the level one data cache."
+   ],
+   [
+    15.681,
+    19.845,
+    "It holds 32 kilobytes and answers in about 4 cycles."
+   ]
+  ],
+  [
+   [
+    20.595,
+    22.949,
+    "Miss there, and the core checks level two."
+   ],
+   [
+    23.229,
+    26.438,
+    "That's one megabyte, about 14 cycles away."
+   ]
+  ],
+  [
+   [
+    27.188,
+    29.847,
+    "Next is level three, shared by the cores."
+   ],
+   [
+    30.127,
+    32.115,
+    "It's roughly 50 cycles away."
+   ]
+  ],
+  [
+   [
+    32.865,
+    37.037,
+    "From your RAM sticks, it takes about 73 nanoseconds."
+   ],
+   [
+    37.317,
+    44.334,
+    "At 5 gigahertz, that's more than 350 cycles, roughly a hundred times slower than level one."
+   ]
+  ],
+  [
+   [
+    45.084,
+    47.639,
+    "That's why big caches help games so much."
+   ],
+   [
+    47.919,
+    51.83,
+    "The full trip is in our video, How a CPU Runs Your Code."
+   ]
+  ]
+ ]
+}

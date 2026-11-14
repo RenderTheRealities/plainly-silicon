@@ -1,0 +1,52 @@
+1
+00:00:00,300 --> 00:00:03,230
+Many laptops can never get a RAM upgrade.
+
+2
+00:00:03,510 --> 00:00:05,358
+Here's how to tell before you buy.
+
+3
+00:00:06,108 --> 00:00:08,507
+Thicker laptops often use S O DIMMs.
+
+4
+00:00:08,787 --> 00:00:12,800
+These are small removable sticks in a slot, so you can add more.
+
+5
+00:00:13,550 --> 00:00:18,020
+Lots of thin laptops use L P D D R, low power memory.
+
+6
+00:00:18,300 --> 00:00:19,425
+There's no slot.
+
+7
+00:00:19,705 --> 00:00:22,211
+The chips are soldered right onto the board.
+
+8
+00:00:22,491 --> 00:00:24,127
+What you buy is what you keep.
+
+9
+00:00:24,877 --> 00:00:30,801
+A newer option, L P CAMM 2, puts that memory on a small module held by a screw.
+
+10
+00:00:31,081 --> 00:00:36,460
+It first showed up in the Lenovo ThinkPad P1 Gen 7, and it can be swapped.
+
+11
+00:00:37,210 --> 00:00:40,504
+So check the spec sheet for a slot or the word soldered.
+
+12
+00:00:40,784 --> 00:00:43,124
+If it's soldered, buy enough on day one.
+
+13
+00:00:43,874 --> 00:00:49,132
+Every kind of RAM is in our full video, Every Type of RAM Explained.
+
