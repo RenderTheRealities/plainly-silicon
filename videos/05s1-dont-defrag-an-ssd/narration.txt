@@ -1,0 +1,11 @@
+Should you defrag your S S D? No, and here's why.
+
+On a hard drive, a file can end up in scattered pieces. The read head has to jump across the spinning platter to reach each one. Defragging puts them back in a row.
+
+An S S D has no moving parts. It reads flash chips electronically, so a file in one piece or fifty pieces loads at almost the same speed.
+
+Defragging would rewrite lots of data for nothing. Flash cells survive a limited number of writes, so that just wears the drive out.
+
+Windows already handles this. On an S S D, Optimize Drives sends a TRIM command instead, telling the drive which blocks are free.
+
+Why hard drives hate scattered files is in our video, S S D versus H D D versus N V M e.

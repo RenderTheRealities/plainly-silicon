@@ -160,7 +160,7 @@
   {
    "slug": "01s17-ryzen-95-degrees",
    "theme": "ember",
-   "title": "Is 95°C Too Hot for a Ryzen CPU? #shorts",
+   "title": "Is 95\u00b0C Too Hot for a Ryzen CPU? #shorts",
    "publish": "2026-11-07T07:09:00-07:00",
    "source": "standalone",
    "status": "published",
@@ -232,6 +232,24 @@
    "source": "03-every-type-of-ram",
    "status": "ready",
    "video": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/03s1-laptop-ram-soldered.mp4"
+  },
+  {
+   "slug": "05s1-dont-defrag-an-ssd",
+   "theme": "mint",
+   "title": "Should You Defrag an SSD? Here's Why Not #shorts",
+   "publish": "2026-11-15T12:00:00-07:00",
+   "source": "05-ssd-vs-hdd-vs-nvme",
+   "status": "ready",
+   "video": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/05s1-dont-defrag-an-ssd.mp4"
+  },
+  {
+   "slug": "06s2-cores-vs-threads",
+   "theme": "neon",
+   "title": "Cores vs Threads: What Hyper-Threading Really Does #shorts",
+   "publish": "2026-11-15T18:00:00-07:00",
+   "source": "06-how-a-cpu-runs-code",
+   "status": "ready",
+   "video": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/06s2-cores-vs-threads.mp4"
   }
  ]
 }

@@ -1,0 +1,48 @@
+1
+00:00:00,300 --> 00:00:03,693
+Your CPU might say 8 cores and 16 threads.
+
+2
+00:00:03,973 --> 00:00:06,439
+So what's a thread, and why isn't it a core?
+
+3
+00:00:07,189 --> 00:00:09,521
+A thread is one stream of instructions.
+
+4
+00:00:09,801 --> 00:00:16,553
+A core is the hardware that runs it: units that do the math, plus a record of where the thread is up to.
+
+5
+00:00:17,303 --> 00:00:20,862
+Cores often sit idle, waiting for data from memory.
+
+6
+00:00:21,142 --> 00:00:24,001
+Hyper-Threading lets one core hold two threads.
+
+7
+00:00:24,281 --> 00:00:27,550
+When one stalls, the other uses the idle units.
+
+8
+00:00:28,300 --> 00:00:30,437
+But both threads share the same units.
+
+9
+00:00:30,717 --> 00:00:36,134
+That's why Intel's first version promised up to thirty percent more speed, not double.
+
+10
+00:00:36,884 --> 00:00:38,062
+Some chips skip it.
+
+11
+00:00:38,342 --> 00:00:47,958
+Intel's Core Ultra 9 285K has 24 cores and just 24 threads, because Hyper-Threading was removed.
+
+12
+00:00:48,708 --> 00:00:53,558
+How one core runs your code is in our video, How a CPU Runs Your Code.
+

@@ -1,0 +1,11 @@
+Your CPU might say 8 cores and 16 threads. So what's a thread, and why isn't it a core?
+
+A thread is one stream of instructions. A core is the hardware that runs it: units that do the math, plus a record of where the thread is up to.
+
+Cores often sit idle, waiting for data from memory. Hyper-Threading lets one core hold two threads. When one stalls, the other uses the idle units.
+
+But both threads share the same units. That's why Intel's first version promised up to thirty percent more speed, not double.
+
+Some chips skip it. Intel's Core Ultra 9 285K has 24 cores and just 24 threads, because Hyper-Threading was removed.
+
+How one core runs your code is in our video, How a CPU Runs Your Code.

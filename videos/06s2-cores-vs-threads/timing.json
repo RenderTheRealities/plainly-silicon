@@ -1,0 +1,102 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   6.439
+  ],
+  [
+   7.189,
+   16.553
+  ],
+  [
+   17.303,
+   27.55
+  ],
+  [
+   28.3,
+   36.134
+  ],
+  [
+   36.884,
+   47.958
+  ],
+  [
+   48.708,
+   53.558
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    3.693,
+    "Your CPU might say 8 cores and 16 threads."
+   ],
+   [
+    3.973,
+    6.439,
+    "So what's a thread, and why isn't it a core?"
+   ]
+  ],
+  [
+   [
+    7.189,
+    9.521,
+    "A thread is one stream of instructions."
+   ],
+   [
+    9.801,
+    16.553,
+    "A core is the hardware that runs it: units that do the math, plus a record of where the thread is up to."
+   ]
+  ],
+  [
+   [
+    17.303,
+    20.862,
+    "Cores often sit idle, waiting for data from memory."
+   ],
+   [
+    21.142,
+    24.001,
+    "Hyper-Threading lets one core hold two threads."
+   ],
+   [
+    24.281,
+    27.55,
+    "When one stalls, the other uses the idle units."
+   ]
+  ],
+  [
+   [
+    28.3,
+    30.437,
+    "But both threads share the same units."
+   ],
+   [
+    30.717,
+    36.134,
+    "That's why Intel's first version promised up to thirty percent more speed, not double."
+   ]
+  ],
+  [
+   [
+    36.884,
+    38.062,
+    "Some chips skip it."
+   ],
+   [
+    38.342,
+    47.958,
+    "Intel's Core Ultra 9 285K has 24 cores and just 24 threads, because Hyper-Threading was removed."
+   ]
+  ],
+  [
+   [
+    48.708,
+    53.558,
+    "How one core runs your code is in our video, How a CPU Runs Your Code."
+   ]
+  ]
+ ]
+}

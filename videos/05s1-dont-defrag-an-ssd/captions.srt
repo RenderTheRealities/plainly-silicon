@@ -1,0 +1,48 @@
+1
+00:00:00,300 --> 00:00:02,173
+Should you defrag your S S D?
+
+2
+00:00:02,453 --> 00:00:03,743
+No, and here's why.
+
+3
+00:00:04,493 --> 00:00:08,224
+On a hard drive, a file can end up in scattered pieces.
+
+4
+00:00:08,504 --> 00:00:12,691
+The read head has to jump across the spinning platter to reach each one.
+
+5
+00:00:12,971 --> 00:00:14,989
+Defragging puts them back in a row.
+
+6
+00:00:15,739 --> 00:00:18,114
+An S S D has no moving parts.
+
+7
+00:00:18,394 --> 00:00:25,919
+It reads flash chips electronically, so a file in one piece or fifty pieces loads at almost the same speed.
+
+8
+00:00:26,669 --> 00:00:29,666
+Defragging would rewrite lots of data for nothing.
+
+9
+00:00:29,946 --> 00:00:35,070
+Flash cells survive a limited number of writes, so that just wears the drive out.
+
+10
+00:00:35,820 --> 00:00:37,770
+Windows already handles this.
+
+11
+00:00:38,050 --> 00:00:45,022
+On an S S D, Optimize Drives sends a TRIM command instead, telling the drive which blocks are free.
+
+12
+00:00:45,772 --> 00:00:53,325
+Why hard drives hate scattered files is in our video, S S D versus H D D versus N V M e.
+
