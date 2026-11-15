@@ -1,0 +1,429 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   21.093
+  ],
+  [
+   21.843,
+   52.133
+  ],
+  [
+   52.883,
+   90.628
+  ],
+  [
+   91.378,
+   118.774
+  ],
+  [
+   119.524,
+   161.497
+  ],
+  [
+   162.247,
+   214.075
+  ],
+  [
+   214.825,
+   254.182
+  ],
+  [
+   254.932,
+   283.167
+  ],
+  [
+   283.917,
+   321.12
+  ],
+  [
+   321.87,
+   353.67
+  ],
+  [
+   354.42,
+   380.981
+  ],
+  [
+   381.731,
+   409.755
+  ],
+  [
+   410.505,
+   429.528
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    11.075,
+    "Here's one gaming PC running a demanding game at 48 frames per second, and by the end of this video it'll be in the mid 80s without buying a single part."
+   ],
+   [
+    11.354,
+    21.093,
+    "Along the way we'll test five popular tricks that people swear by and see why they barely move the number, so you know exactly where your time is worth spending."
+   ]
+  ],
+  [
+   [
+    21.843,
+    24.43,
+    "First, what is that number actually measuring?"
+   ],
+   [
+    24.71,
+    26.608,
+    "Every frame is a relay race."
+   ],
+   [
+    26.888,
+    34.675,
+    "The CPU runs the game logic and tells the graphics card what to draw, then the GPU paints the pixels."
+   ],
+   [
+    34.955,
+    39.91,
+    "At 48 frames per second, each frame takes about 21 milliseconds."
+   ],
+   [
+    40.19,
+    44.584,
+    "To reach 60, you need to get that down to about 16.7."
+   ],
+   [
+    44.864,
+    52.133,
+    "Whichever runner is slower sets the pace, and that single idea explains every fix and every myth that follows."
+   ]
+  ],
+  [
+   [
+    52.883,
+    60.683,
+    "Our example PC is GPU-limited: the graphics card is at 99 percent, while the CPU waits for it."
+   ],
+   [
+    60.963,
+    63.708,
+    "So the first fix is the cheapest one there is."
+   ],
+   [
+    63.988,
+    66.162,
+    "Drop the preset from Ultra to High."
+   ],
+   [
+    66.442,
+    75.13,
+    "TechSpot tested this across a whole set of games and found the jump from Ultra to High is typically worth 15 to 25 percent."
+   ],
+   [
+    75.41,
+    79.557,
+    "In Cyberpunk 2077 it was 24 percent."
+   ],
+   [
+    79.837,
+    85.823,
+    "In Microsoft Flight Simulator at 4K, the average went from 45 to 57."
+   ],
+   [
+    86.103,
+    90.628,
+    "Ultra mostly adds effects that are hard to spot while you're actually playing."
+   ]
+  ],
+  [
+   [
+    91.378,
+    95.282,
+    "Applied to our example, 48 becomes about 58."
+   ],
+   [
+    95.562,
+    100.105,
+    "Notice that the frame time bar shrank, but the picture barely changed."
+   ],
+   [
+    100.385,
+    106.062,
+    "That's the trade you want: big savings in milliseconds for a small cost you can't see in motion."
+   ],
+   [
+    106.342,
+    108.2,
+    "And you don't have to drop everything."
+   ],
+   [
+    108.48,
+    118.774,
+    "Pick the preset first, then put textures back up if your graphics card has the memory for them, because texture quality costs memory far more than it costs speed."
+   ]
+  ],
+  [
+   [
+    119.524,
+    121.316,
+    "The second fix is upscaling."
+   ],
+   [
+    121.596,
+    131.136,
+    "With DLSS, FSR or XeSS, the GPU draws a smaller image and a smart upscaler rebuilds it at full resolution."
+   ],
+   [
+    131.416,
+    137.289,
+    "In DLSS Quality mode, each side of the image is rendered at about 67 percent."
+   ],
+   [
+    137.569,
+    144.943,
+    "At 1440p, that's roughly 1707 by 960."
+   ],
+   [
+    145.223,
+    151.714,
+    "Because that shrinks both width and height, the GPU paints only about 44 percent of the pixels."
+   ],
+   [
+    151.994,
+    157.077,
+    "Performance mode goes to 50 percent per side, which is a quarter of the pixels."
+   ],
+   [
+    157.357,
+    161.497,
+    "In our example, Quality mode lifts 58 to about 78."
+   ]
+  ],
+  [
+   [
+    162.247,
+    166.687,
+    "The third fix lives in the BIOS, and lots of people never turn it on."
+   ],
+   [
+    166.967,
+    173.131,
+    "Memory runs at a slow default speed until you enable its XMP or EXPO profile."
+   ],
+   [
+    173.411,
+    185.433,
+    "PC Gamer tested the same DDR5 kit at its rated 6000 and at the default 4800 on a Ryzen 9 9900X."
+   ],
+   [
+    185.713,
+    197.433,
+    "In Hogwarts Legacy at 1080p, the average went from 154 to 183, and the 1% lows went from 65 to 78."
+   ],
+   [
+    197.713,
+    201.049,
+    "At 4K, the averages were basically identical."
+   ],
+   [
+    201.329,
+    208.357,
+    "Memory speed helps the CPU's side of the relay, so it matters most when the CPU is the slower runner."
+   ],
+   [
+    208.637,
+    214.075,
+    "For our example, it smooths the dips and adds a few frames, landing in the mid 80s."
+   ]
+  ],
+  [
+   [
+    214.825,
+    219.149,
+    "Now the myths, starting with the most common one: buy more RAM."
+   ],
+   [
+    219.429,
+    228.031,
+    "PC Gamer also ran 16 gigabytes against 32 gigabytes on the same machine with an RTX 5090."
+   ],
+   [
+    228.311,
+    230.83,
+    "Cyberpunk went from 83 to 84."
+   ],
+   [
+    231.11,
+    234.097,
+    "Black Myth Wukong was 76 either way."
+   ],
+   [
+    234.377,
+    244.771,
+    "Some games did gain: Escape from Tarkov's average rose from 97 to 109, and Flight Simulator stuttered less on takeoff and landing."
+   ],
+   [
+    245.051,
+    250.482,
+    "But if your game fits in 16 gigabytes, the extra memory just sits there unused."
+   ],
+   [
+    250.762,
+    254.182,
+    "More RAM fixes running out, not running slow."
+   ]
+  ],
+  [
+   [
+    254.932,
+    257.968,
+    "Myth two: a faster drive raises your frame rate."
+   ],
+   [
+    258.248,
+    261.572,
+    "Storage feeds the game its files, not its frames."
+   ],
+   [
+    261.852,
+    275.599,
+    "In a Digital Citizen test of an SSD against a hard drive, Far Cry 5 ran 1 frame per second faster on the SSD, and their conclusion was that an SSD doesn't increase your frame rate."
+   ],
+   [
+    275.879,
+    279.493,
+    "What it does change is how long you wait on loading screens."
+   ],
+   [
+    279.773,
+    283.167,
+    "That's a real upgrade, just not an FPS upgrade."
+   ]
+  ],
+  [
+   [
+    283.917,
+    287.792,
+    "Myth three: frame generation doubles your real performance."
+   ],
+   [
+    288.072,
+    293.481,
+    "Frame generation inserts an extra, predicted frame between two real ones."
+   ],
+   [
+    293.761,
+    305.431,
+    "AMD says it roughly doubles the frame rate, but it recommends at least 60 real frames per second before you turn it on, and says that below 30 it should be avoided entirely."
+   ],
+   [
+    305.711,
+    310.118,
+    "The reason is simple: the inserted frames don't respond to your mouse."
+   ],
+   [
+    310.398,
+    319.205,
+    "Your controls still react at the real rate, which is why NVIDIA requires its Reflex latency tool whenever its version is on."
+   ],
+   [
+    319.485,
+    321.12,
+    "It's smoothness, not speed."
+   ]
+  ],
+  [
+   [
+    321.87,
+    326.755,
+    "Myth four is the booster app that promises free frames by clearing your memory."
+   ],
+   [
+    327.035,
+    334.89,
+    "Think back to the RAM test: doubling the memory barely changed the frame rate, so freeing a few gigabytes won't either."
+   ],
+   [
+    335.17,
+    338.875,
+    "Myth five is that lowering your resolution always helps."
+   ],
+   [
+    339.155,
+    342.256,
+    "It only helps when the GPU is the slower runner."
+   ],
+   [
+    342.536,
+    353.67,
+    "If the CPU needs 12 milliseconds to prepare each frame, you're capped at around 83 frames per second, no matter how few pixels the GPU has to draw."
+   ]
+  ],
+  [
+   [
+    354.42,
+    357.467,
+    "So here's our example PC, back at the start."
+   ],
+   [
+    357.747,
+    360.305,
+    "Ultra to High took 48 to 58."
+   ],
+   [
+    360.585,
+    362.476,
+    "Upscaling took it to 78."
+   ],
+   [
+    362.756,
+    365.728,
+    "The memory profile pushed it into the mid 80s."
+   ],
+   [
+    366.008,
+    370.938,
+    "None of it cost money, and all of it works because it shortened the slower runner's lap."
+   ],
+   [
+    371.218,
+    380.981,
+    "Turn on frame generation now and the counter might read around 160, which looks great, but it'll still feel like the 80s underneath."
+   ]
+  ],
+  [
+   [
+    381.731,
+    387.629,
+    "Here's the check you can run tonight: open a performance overlay and look at GPU usage."
+   ],
+   [
+    387.909,
+    392.342,
+    "If it sits near 99 percent, lower settings and use upscaling."
+   ],
+   [
+    392.622,
+    402.135,
+    "If it's well below that, your CPU or memory is the limit, so turn on XMP or EXPO, and lower resolution won't save you."
+   ],
+   [
+    402.415,
+    409.755,
+    "Change one thing at a time, and watch the frame time, not just the counter, so you know which change actually helped."
+   ]
+  ],
+  [
+   [
+    410.505,
+    419.63,
+    "That second case has a name, a bottleneck, and next time we'll find out exactly how to tell whether your CPU is holding back your GPU."
+   ],
+   [
+    419.91,
+    429.528,
+    "If this video got you some free frames, subscribe so you don't miss it, and tell us in the comments what frame rate you're getting in your favorite game right now."
+   ]
+  ]
+ ]
+}

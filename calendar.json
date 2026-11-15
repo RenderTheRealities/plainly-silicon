@@ -74,10 +74,11 @@
     },
     {
       "slug": "08-what-raises-fps",
-      "publish": "2026-11-25T12:00:00-07:00",
+      "publish": "2026-11-15T10:00:00-07:00",
       "title": "What Actually Raises FPS (and 5 Myths That Don't)",
       "keyword": "how to optimize pc for gaming",
-      "status": "planned"
+      "status": "planned",
+      "theme": "arctic"
     },
     {
       "slug": "09-bottlenecks-explained",
@@ -140,6 +141,20 @@
       "publish": "2026-12-16T12:00:00-07:00",
       "title": "PCIe Lanes Explained: Why Adding an SSD Can Slow Your GPU",
       "keyword": "pcie lanes explained",
+      "status": "planned"
+    },
+    {
+      "slug": "18-integrated-vs-dedicated-graphics",
+      "publish": "2026-12-18T12:00:00-07:00",
+      "title": "Integrated vs Dedicated Graphics: What Your CPU's GPU Can Really Do",
+      "keyword": "integrated vs dedicated graphics",
+      "status": "planned"
+    },
+    {
+      "slug": "19-hdmi-vs-displayport",
+      "publish": "2026-12-21T12:00:00-07:00",
+      "title": "HDMI vs DisplayPort: Which Cable Your Monitor Actually Needs",
+      "keyword": "hdmi vs displayport",
       "status": "planned"
     }
   ]

@@ -1,0 +1,276 @@
+1
+00:00:00,300 --> 00:00:11,075
+Here's one gaming PC running a demanding game at 48 frames per second, and by the end of this video it'll be in the mid 80s without buying a single part.
+
+2
+00:00:11,354 --> 00:00:21,093
+Along the way we'll test five popular tricks that people swear by and see why they barely move the number, so you know exactly where your time is worth spending.
+
+3
+00:00:21,843 --> 00:00:24,430
+First, what is that number actually measuring?
+
+4
+00:00:24,710 --> 00:00:26,608
+Every frame is a relay race.
+
+5
+00:00:26,888 --> 00:00:34,675
+The CPU runs the game logic and tells the graphics card what to draw, then the GPU paints the pixels.
+
+6
+00:00:34,955 --> 00:00:39,910
+At 48 frames per second, each frame takes about 21 milliseconds.
+
+7
+00:00:40,190 --> 00:00:44,584
+To reach 60, you need to get that down to about 16.7.
+
+8
+00:00:44,864 --> 00:00:52,133
+Whichever runner is slower sets the pace, and that single idea explains every fix and every myth that follows.
+
+9
+00:00:52,883 --> 00:01:00,683
+Our example PC is GPU-limited: the graphics card is at 99 percent, while the CPU waits for it.
+
+10
+00:01:00,963 --> 00:01:03,708
+So the first fix is the cheapest one there is.
+
+11
+00:01:03,988 --> 00:01:06,162
+Drop the preset from Ultra to High.
+
+12
+00:01:06,442 --> 00:01:15,130
+TechSpot tested this across a whole set of games and found the jump from Ultra to High is typically worth 15 to 25 percent.
+
+13
+00:01:15,410 --> 00:01:19,557
+In Cyberpunk 2077 it was 24 percent.
+
+14
+00:01:19,837 --> 00:01:25,823
+In Microsoft Flight Simulator at 4K, the average went from 45 to 57.
+
+15
+00:01:26,103 --> 00:01:30,628
+Ultra mostly adds effects that are hard to spot while you're actually playing.
+
+16
+00:01:31,378 --> 00:01:35,282
+Applied to our example, 48 becomes about 58.
+
+17
+00:01:35,562 --> 00:01:40,105
+Notice that the frame time bar shrank, but the picture barely changed.
+
+18
+00:01:40,385 --> 00:01:46,062
+That's the trade you want: big savings in milliseconds for a small cost you can't see in motion.
+
+19
+00:01:46,342 --> 00:01:48,200
+And you don't have to drop everything.
+
+20
+00:01:48,480 --> 00:01:58,774
+Pick the preset first, then put textures back up if your graphics card has the memory for them, because texture quality costs memory far more than it costs speed.
+
+21
+00:01:59,524 --> 00:02:01,316
+The second fix is upscaling.
+
+22
+00:02:01,596 --> 00:02:11,136
+With DLSS, FSR or XeSS, the GPU draws a smaller image and a smart upscaler rebuilds it at full resolution.
+
+23
+00:02:11,416 --> 00:02:17,289
+In DLSS Quality mode, each side of the image is rendered at about 67 percent.
+
+24
+00:02:17,569 --> 00:02:24,943
+At 1440p, that's roughly 1707 by 960.
+
+25
+00:02:25,223 --> 00:02:31,714
+Because that shrinks both width and height, the GPU paints only about 44 percent of the pixels.
+
+26
+00:02:31,994 --> 00:02:37,077
+Performance mode goes to 50 percent per side, which is a quarter of the pixels.
+
+27
+00:02:37,357 --> 00:02:41,497
+In our example, Quality mode lifts 58 to about 78.
+
+28
+00:02:42,247 --> 00:02:46,687
+The third fix lives in the BIOS, and lots of people never turn it on.
+
+29
+00:02:46,967 --> 00:02:53,131
+Memory runs at a slow default speed until you enable its XMP or EXPO profile.
+
+30
+00:02:53,411 --> 00:03:05,433
+PC Gamer tested the same DDR5 kit at its rated 6000 and at the default 4800 on a Ryzen 9 9900X.
+
+31
+00:03:05,713 --> 00:03:17,433
+In Hogwarts Legacy at 1080p, the average went from 154 to 183, and the 1% lows went from 65 to 78.
+
+32
+00:03:17,713 --> 00:03:21,049
+At 4K, the averages were basically identical.
+
+33
+00:03:21,329 --> 00:03:28,357
+Memory speed helps the CPU's side of the relay, so it matters most when the CPU is the slower runner.
+
+34
+00:03:28,637 --> 00:03:34,075
+For our example, it smooths the dips and adds a few frames, landing in the mid 80s.
+
+35
+00:03:34,825 --> 00:03:39,149
+Now the myths, starting with the most common one: buy more RAM.
+
+36
+00:03:39,429 --> 00:03:48,031
+PC Gamer also ran 16 gigabytes against 32 gigabytes on the same machine with an RTX 5090.
+
+37
+00:03:48,311 --> 00:03:50,830
+Cyberpunk went from 83 to 84.
+
+38
+00:03:51,110 --> 00:03:54,097
+Black Myth Wukong was 76 either way.
+
+39
+00:03:54,377 --> 00:04:04,771
+Some games did gain: Escape from Tarkov's average rose from 97 to 109, and Flight Simulator stuttered less on takeoff and landing.
+
+40
+00:04:05,051 --> 00:04:10,482
+But if your game fits in 16 gigabytes, the extra memory just sits there unused.
+
+41
+00:04:10,762 --> 00:04:14,182
+More RAM fixes running out, not running slow.
+
+42
+00:04:14,932 --> 00:04:17,968
+Myth two: a faster drive raises your frame rate.
+
+43
+00:04:18,248 --> 00:04:21,572
+Storage feeds the game its files, not its frames.
+
+44
+00:04:21,852 --> 00:04:35,599
+In a Digital Citizen test of an SSD against a hard drive, Far Cry 5 ran 1 frame per second faster on the SSD, and their conclusion was that an SSD doesn't increase your frame rate.
+
+45
+00:04:35,879 --> 00:04:39,493
+What it does change is how long you wait on loading screens.
+
+46
+00:04:39,773 --> 00:04:43,167
+That's a real upgrade, just not an FPS upgrade.
+
+47
+00:04:43,917 --> 00:04:47,792
+Myth three: frame generation doubles your real performance.
+
+48
+00:04:48,072 --> 00:04:53,481
+Frame generation inserts an extra, predicted frame between two real ones.
+
+49
+00:04:53,761 --> 00:05:05,431
+AMD says it roughly doubles the frame rate, but it recommends at least 60 real frames per second before you turn it on, and says that below 30 it should be avoided entirely.
+
+50
+00:05:05,711 --> 00:05:10,118
+The reason is simple: the inserted frames don't respond to your mouse.
+
+51
+00:05:10,398 --> 00:05:19,205
+Your controls still react at the real rate, which is why NVIDIA requires its Reflex latency tool whenever its version is on.
+
+52
+00:05:19,485 --> 00:05:21,120
+It's smoothness, not speed.
+
+53
+00:05:21,870 --> 00:05:26,755
+Myth four is the booster app that promises free frames by clearing your memory.
+
+54
+00:05:27,035 --> 00:05:34,890
+Think back to the RAM test: doubling the memory barely changed the frame rate, so freeing a few gigabytes won't either.
+
+55
+00:05:35,170 --> 00:05:38,875
+Myth five is that lowering your resolution always helps.
+
+56
+00:05:39,155 --> 00:05:42,256
+It only helps when the GPU is the slower runner.
+
+57
+00:05:42,536 --> 00:05:53,670
+If the CPU needs 12 milliseconds to prepare each frame, you're capped at around 83 frames per second, no matter how few pixels the GPU has to draw.
+
+58
+00:05:54,420 --> 00:05:57,467
+So here's our example PC, back at the start.
+
+59
+00:05:57,747 --> 00:06:00,305
+Ultra to High took 48 to 58.
+
+60
+00:06:00,585 --> 00:06:02,476
+Upscaling took it to 78.
+
+61
+00:06:02,756 --> 00:06:05,728
+The memory profile pushed it into the mid 80s.
+
+62
+00:06:06,008 --> 00:06:10,938
+None of it cost money, and all of it works because it shortened the slower runner's lap.
+
+63
+00:06:11,218 --> 00:06:20,981
+Turn on frame generation now and the counter might read around 160, which looks great, but it'll still feel like the 80s underneath.
+
+64
+00:06:21,731 --> 00:06:27,629
+Here's the check you can run tonight: open a performance overlay and look at GPU usage.
+
+65
+00:06:27,909 --> 00:06:32,342
+If it sits near 99 percent, lower settings and use upscaling.
+
+66
+00:06:32,622 --> 00:06:42,135
+If it's well below that, your CPU or memory is the limit, so turn on XMP or EXPO, and lower resolution won't save you.
+
+67
+00:06:42,415 --> 00:06:49,755
+Change one thing at a time, and watch the frame time, not just the counter, so you know which change actually helped.
+
+68
+00:06:50,505 --> 00:06:59,630
+That second case has a name, a bottleneck, and next time we'll find out exactly how to tell whether your CPU is holding back your GPU.
+
+69
+00:06:59,910 --> 00:07:09,528
+If this video got you some free frames, subscribe so you don't miss it, and tell us in the comments what frame rate you're getting in your favorite game right now.
+
