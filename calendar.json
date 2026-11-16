@@ -84,15 +84,16 @@
     },
     {
       "slug": "09-bottlenecks-explained",
-      "publish": "2026-11-16T10:00:00-07:00",
+      "publish": "2026-11-16T12:10:00-07:00",
       "title": "Bottlenecks Explained: Is Your CPU Holding Back Your GPU?",
       "keyword": "pc bottleneck explained",
-      "status": "ready",
+      "status": "scheduled",
       "theme": "ocean",
       "length": "6:53",
-      "note": "YouTube API route unavailable this run (YT_CLIENT_ID/YT_CLIENT_SECRET/YT_REFRESH_TOKEN not set); Metricool closed for November.",
+      "note": "Uploaded via YouTube API in the 16:00-slot run on Nov 16, public immediately (10:00 slot had passed).",
       "mediaUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/09-bottlenecks-explained.mp4",
-      "thumbnailUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/09-bottlenecks-explained.jpg"
+      "thumbnailUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/09-bottlenecks-explained.jpg",
+      "youtubeUrl": "https://www.youtube.com/watch?v=u_trO1M6UvI"
     },
     {
       "slug": "10-power-supplies-explained",
