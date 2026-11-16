@@ -1,0 +1,11 @@
+Open Resource Monitor, and you might see almost no free memory. Don't panic. That's usually on purpose.
+
+Windows fills spare RAM with files and apps you've used, in case you need them. A service called SysMain learns your habits and loads things early. That's the standby cache.
+
+Task Manager lists it as Cached. It isn't counted as In use, and it still counts as available.
+
+When an app needs room, Windows drops cached data and hands that memory over. Empty RAM does nothing. Cached RAM can make the next launch faster.
+
+Check two numbers on the Performance tab. If In use sits near your total and Committed keeps climbing toward its limit, you're really short on memory.
+
+The full diagnosis is in our video, Why Your PC Is Slow.

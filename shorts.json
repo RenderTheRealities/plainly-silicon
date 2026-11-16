@@ -281,6 +281,14 @@
    "source": "02-how-a-gpu-works",
    "status": "scheduled",
    "youtubeUrl": "https://www.youtube.com/shorts/GY6rtDE3gY4"
+  },
+  {
+   "slug": "04s2-ram-standby-cache",
+   "theme": "sakura",
+   "title": "Almost No Free RAM? Windows Does That on Purpose #shorts",
+   "publish": "2026-11-21T12:00:00-07:00",
+   "source": "04-why-your-pc-is-slow",
+   "status": "ready"
   }
  ]
 }

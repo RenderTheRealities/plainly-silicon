@@ -1,0 +1,112 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   7.481
+  ],
+  [
+   8.231,
+   19.527
+  ],
+  [
+   20.277,
+   26.441
+  ],
+  [
+   27.191,
+   37.362
+  ],
+  [
+   38.112,
+   46.998
+  ],
+  [
+   47.748,
+   51.794
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    4.366,
+    "Open Resource Monitor, and you might see almost no free memory."
+   ],
+   [
+    4.646,
+    5.608,
+    "Don't panic."
+   ],
+   [
+    5.888,
+    7.481,
+    "That's usually on purpose."
+   ]
+  ],
+  [
+   [
+    8.231,
+    13.435,
+    "Windows fills spare RAM with files and apps you've used, in case you need them."
+   ],
+   [
+    13.715,
+    17.733,
+    "A service called SysMain learns your habits and loads things early."
+   ],
+   [
+    18.013,
+    19.527,
+    "That's the standby cache."
+   ]
+  ],
+  [
+   [
+    20.277,
+    22.213,
+    "Task Manager lists it as Cached."
+   ],
+   [
+    22.493,
+    26.441,
+    "It isn't counted as In use, and it still counts as available."
+   ]
+  ],
+  [
+   [
+    27.191,
+    32.121,
+    "When an app needs room, Windows drops cached data and hands that memory over."
+   ],
+   [
+    32.401,
+    34.188,
+    "Empty RAM does nothing."
+   ],
+   [
+    34.468,
+    37.362,
+    "Cached RAM can make the next launch faster."
+   ]
+  ],
+  [
+   [
+    38.112,
+    40.426,
+    "Check two numbers on the Performance tab."
+   ],
+   [
+    40.706,
+    46.998,
+    "If In use sits near your total and Committed keeps climbing toward its limit, you're really short on memory."
+   ]
+  ],
+  [
+   [
+    47.748,
+    51.794,
+    "The full diagnosis is in our video, Why Your PC Is Slow."
+   ]
+  ]
+ ]
+}

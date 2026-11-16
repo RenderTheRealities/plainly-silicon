@@ -1,0 +1,56 @@
+1
+00:00:00,300 --> 00:00:04,366
+Open Resource Monitor, and you might see almost no free memory.
+
+2
+00:00:04,646 --> 00:00:05,608
+Don't panic.
+
+3
+00:00:05,888 --> 00:00:07,481
+That's usually on purpose.
+
+4
+00:00:08,231 --> 00:00:13,435
+Windows fills spare RAM with files and apps you've used, in case you need them.
+
+5
+00:00:13,715 --> 00:00:17,733
+A service called SysMain learns your habits and loads things early.
+
+6
+00:00:18,013 --> 00:00:19,527
+That's the standby cache.
+
+7
+00:00:20,277 --> 00:00:22,213
+Task Manager lists it as Cached.
+
+8
+00:00:22,493 --> 00:00:26,441
+It isn't counted as In use, and it still counts as available.
+
+9
+00:00:27,191 --> 00:00:32,121
+When an app needs room, Windows drops cached data and hands that memory over.
+
+10
+00:00:32,401 --> 00:00:34,188
+Empty RAM does nothing.
+
+11
+00:00:34,468 --> 00:00:37,362
+Cached RAM can make the next launch faster.
+
+12
+00:00:38,112 --> 00:00:40,426
+Check two numbers on the Performance tab.
+
+13
+00:00:40,706 --> 00:00:46,998
+If In use sits near your total and Committed keeps climbing toward its limit, you're really short on memory.
+
+14
+00:00:47,748 --> 00:00:51,794
+The full diagnosis is in our video, Why Your PC Is Slow.
+
