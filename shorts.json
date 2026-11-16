@@ -160,7 +160,7 @@
   {
    "slug": "01s17-ryzen-95-degrees",
    "theme": "ember",
-   "title": "Is 95\u00b0C Too Hot for a Ryzen CPU? #shorts",
+   "title": "Is 95°C Too Hot for a Ryzen CPU? #shorts",
    "publish": "2026-11-07T07:09:00-07:00",
    "source": "standalone",
    "status": "published",
@@ -221,8 +221,9 @@
    "title": "CPU Cache Explained: Why RAM Is 100x Slower #shorts",
    "publish": "2026-11-14T12:00:00-07:00",
    "source": "06-how-a-cpu-runs-code",
-   "status": "ready",
-   "video": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/06s1-cpu-cache-levels.mp4"
+   "status": "scheduled",
+   "video": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/06s1-cpu-cache-levels.mp4",
+   "youtubeUrl": "https://www.youtube.com/shorts/SCJ5yoN0vR8"
   },
   {
    "slug": "03s1-laptop-ram-soldered",
