@@ -1,0 +1,11 @@
+Frame generation can double your FPS counter. So why does the game feel the same?
+
+The GPU renders two real frames, then builds a predicted frame that goes between them. Your screen gets twice the pictures.
+
+But only real frames come from the game, and that's where your mouse gets read. The inserted frame is a guess, so it can't react to anything you just did.
+
+60 real frames shown as 120 still respond like 60. Building that middle frame also means holding back the newest real one, adding a little delay. That's why NVIDIA pairs it with Reflex.
+
+AMD recommends at least 60 real frames per second first, and says avoid it below 30.
+
+It's smoothness, not speed. The real fixes are in our video, What Actually Raises FPS.

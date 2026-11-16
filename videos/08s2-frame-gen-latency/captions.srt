@@ -1,0 +1,48 @@
+1
+00:00:00,300 --> 00:00:03,408
+Frame generation can double your FPS counter.
+
+2
+00:00:03,688 --> 00:00:05,726
+So why does the game feel the same?
+
+3
+00:00:06,476 --> 00:00:12,286
+The GPU renders two real frames, then builds a predicted frame that goes between them.
+
+4
+00:00:12,566 --> 00:00:14,574
+Your screen gets twice the pictures.
+
+5
+00:00:15,324 --> 00:00:20,030
+But only real frames come from the game, and that's where your mouse gets read.
+
+6
+00:00:20,310 --> 00:00:24,811
+The inserted frame is a guess, so it can't react to anything you just did.
+
+7
+00:00:25,561 --> 00:00:30,575
+60 real frames shown as 120 still respond like 60.
+
+8
+00:00:30,855 --> 00:00:36,644
+Building that middle frame also means holding back the newest real one, adding a little delay.
+
+9
+00:00:36,924 --> 00:00:39,473
+That's why NVIDIA pairs it with Reflex.
+
+10
+00:00:40,223 --> 00:00:46,643
+AMD recommends at least 60 real frames per second first, and says avoid it below 30.
+
+11
+00:00:47,393 --> 00:00:49,029
+It's smoothness, not speed.
+
+12
+00:00:49,309 --> 00:00:53,652
+The real fixes are in our video, What Actually Raises FPS.
+

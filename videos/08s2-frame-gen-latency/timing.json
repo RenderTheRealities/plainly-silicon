@@ -1,0 +1,102 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   5.726
+  ],
+  [
+   6.476,
+   14.574
+  ],
+  [
+   15.324,
+   24.811
+  ],
+  [
+   25.561,
+   39.473
+  ],
+  [
+   40.223,
+   46.643
+  ],
+  [
+   47.393,
+   53.652
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    3.408,
+    "Frame generation can double your FPS counter."
+   ],
+   [
+    3.688,
+    5.726,
+    "So why does the game feel the same?"
+   ]
+  ],
+  [
+   [
+    6.476,
+    12.286,
+    "The GPU renders two real frames, then builds a predicted frame that goes between them."
+   ],
+   [
+    12.566,
+    14.574,
+    "Your screen gets twice the pictures."
+   ]
+  ],
+  [
+   [
+    15.324,
+    20.03,
+    "But only real frames come from the game, and that's where your mouse gets read."
+   ],
+   [
+    20.31,
+    24.811,
+    "The inserted frame is a guess, so it can't react to anything you just did."
+   ]
+  ],
+  [
+   [
+    25.561,
+    30.575,
+    "60 real frames shown as 120 still respond like 60."
+   ],
+   [
+    30.855,
+    36.644,
+    "Building that middle frame also means holding back the newest real one, adding a little delay."
+   ],
+   [
+    36.924,
+    39.473,
+    "That's why NVIDIA pairs it with Reflex."
+   ]
+  ],
+  [
+   [
+    40.223,
+    46.643,
+    "AMD recommends at least 60 real frames per second first, and says avoid it below 30."
+   ]
+  ],
+  [
+   [
+    47.393,
+    49.029,
+    "It's smoothness, not speed."
+   ],
+   [
+    49.309,
+    53.652,
+    "The real fixes are in our video, What Actually Raises FPS."
+   ]
+  ]
+ ]
+}

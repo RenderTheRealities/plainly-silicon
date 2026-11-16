@@ -264,6 +264,14 @@
    "source": "04-why-your-pc-is-slow",
    "status": "scheduled",
    "youtubeUrl": "https://www.youtube.com/shorts/dwJ0O23uMx4"
+  },
+  {
+   "slug": "08s2-frame-gen-latency",
+   "theme": "terminal",
+   "title": "Frame Generation Doubles FPS. Why Doesn't It Feel Faster? #shorts",
+   "publish": "2026-11-21T18:00:00-07:00",
+   "source": "08-what-raises-fps",
+   "status": "ready"
   }
  ]
 }
