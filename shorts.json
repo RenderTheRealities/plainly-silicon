@@ -229,10 +229,12 @@
    "slug": "03s1-laptop-ram-soldered",
    "theme": "graphite",
    "title": "Can Your Laptop Take More RAM? Check This First #shorts",
-   "publish": "2026-11-14T18:00:00-07:00",
+   "publish": "2026-11-15T22:25:00-07:00",
    "source": "03-every-type-of-ram",
-   "status": "ready",
-   "video": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/03s1-laptop-ram-soldered.mp4"
+   "status": "scheduled",
+   "video": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/03s1-laptop-ram-soldered.mp4",
+   "youtubeUrl": "https://www.youtube.com/shorts/wfQFbHfrDJQ",
+   "note": "Uploaded with an empty title (YouTube shows 'unknown'); set the title in YouTube Studio"
   },
   {
    "slug": "05s1-dont-defrag-an-ssd",
