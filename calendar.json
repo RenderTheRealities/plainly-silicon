@@ -75,11 +75,12 @@
     },
     {
       "slug": "08-what-raises-fps",
-      "publish": "2026-11-15T10:00:00-07:00",
+      "publish": "2026-11-15T22:20:00-07:00",
       "title": "What Actually Raises FPS (and 5 Myths That Don't)",
       "keyword": "how to optimize pc for gaming",
-      "status": "ready",
-      "theme": "arctic"
+      "status": "scheduled",
+      "theme": "arctic",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lPsuXNrw0ho"
     },
     {
       "slug": "09-bottlenecks-explained",
