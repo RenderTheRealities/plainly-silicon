@@ -1,0 +1,11 @@
+Your N V M e drive is about thirteen times faster than a Sata S S D. So why don't your games load any faster?
+
+Sata tops out around 550 megabytes per second. A P C I e four drive, like Samsung's 990 Pro, is rated at 7,450.
+
+Yet in TechSpot's tests, a Cyberpunk save reloaded in about the same time on every S S D, Sata included. Starfield loaded less than a second apart on P C I e five and three.
+
+The drive isn't the slow part anymore. Your processor still has to unpack the files and build the level.
+
+Games using Direct Storage hand that unpacking to the graphics card. For most others, any S S D is enough.
+
+The full race is in our video, S S D versus H D D versus N V M e.

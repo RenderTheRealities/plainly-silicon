@@ -316,6 +316,15 @@
    "source": "07-black-friday-pc-traps",
    "status": "scheduled",
    "youtubeUrl": "https://www.youtube.com/shorts/CMdAyOdSfrI"
+  },
+  {
+   "slug": "05s2-nvme-vs-sata-load-times",
+   "theme": "sand",
+   "title": "Why a Faster NVMe SSD Doesn't Load Games Faster #shorts",
+   "publish": "2026-11-20T12:00:00-07:00",
+   "source": "05-ssd-vs-hdd-vs-nvme",
+   "status": "scheduled",
+   "youtubeUrl": "https://www.youtube.com/shorts/duUtCwDQWvg"
   }
  ]
 }

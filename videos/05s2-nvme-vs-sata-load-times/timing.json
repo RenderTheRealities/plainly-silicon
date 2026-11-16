@@ -1,0 +1,97 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   7.967
+  ],
+  [
+   8.717,
+   21.048
+  ],
+  [
+   21.798,
+   34.759
+  ],
+  [
+   35.509,
+   41.934
+  ],
+  [
+   42.684,
+   49.99
+  ],
+  [
+   50.74,
+   56.389
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    5.492,
+    "Your N V M e drive is about thirteen times faster than a Sata S S D."
+   ],
+   [
+    5.772,
+    7.967,
+    "So why don't your games load any faster?"
+   ]
+  ],
+  [
+   [
+    8.717,
+    12.512,
+    "Sata tops out around 550 megabytes per second."
+   ],
+   [
+    12.792,
+    21.048,
+    "A P C I e four drive, like Samsung's 990 Pro, is rated at 7,450."
+   ]
+  ],
+  [
+   [
+    21.798,
+    29.695,
+    "Yet in TechSpot's tests, a Cyberpunk save reloaded in about the same time on every S S D, Sata included."
+   ],
+   [
+    29.975,
+    34.759,
+    "Starfield loaded less than a second apart on P C I e five and three."
+   ]
+  ],
+  [
+   [
+    35.509,
+    37.716,
+    "The drive isn't the slow part anymore."
+   ],
+   [
+    37.996,
+    41.934,
+    "Your processor still has to unpack the files and build the level."
+   ]
+  ],
+  [
+   [
+    42.684,
+    47.052,
+    "Games using Direct Storage hand that unpacking to the graphics card."
+   ],
+   [
+    47.332,
+    49.99,
+    "For most others, any S S D is enough."
+   ]
+  ],
+  [
+   [
+    50.74,
+    56.389,
+    "The full race is in our video, S S D versus H D D versus N V M e."
+   ]
+  ]
+ ]
+}
