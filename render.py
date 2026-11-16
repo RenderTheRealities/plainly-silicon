@@ -15,6 +15,8 @@ W, H, FPS = 1920, 1080, 30
 FD = "/usr/share/fonts/opentype/inter/"
 GF = "/usr/share/fonts/truetype/google-fonts/"
 DV = "/usr/share/fonts/truetype/dejavu/"
+CX_ = "/usr/share/fonts/truetype/crosextra/"
+JB = "/usr/share/fonts/truetype/jetbrains-mono/"
 
 # ---------- themes ----------
 # Every video picks a theme in VIDEO_DIR/theme.txt so videos don't look alike.
@@ -25,6 +27,10 @@ DV = "/usr/share/fonts/truetype/dejavu/"
 INTER = {"title": FD + "InterDisplay-Bold.otf", "semi": FD + "Inter-SemiBold.otf", "reg": FD + "Inter-Regular.otf"}
 POPPINS = {"title": GF + "Poppins-Bold.ttf", "semi": GF + "Poppins-Medium.ttf", "reg": GF + "Poppins-Regular.ttf"}
 LORA = {"title": (GF + "Lora-Variable.ttf", b"Bold"), "semi": FD + "Inter-SemiBold.otf", "reg": FD + "Inter-Regular.otf"}
+CALADEA = {"title": CX_ + "Caladea-Bold.ttf", "semi": CX_ + "Caladea-Bold.ttf", "reg": CX_ + "Caladea-Regular.ttf"}
+CARLITO = {"title": CX_ + "Carlito-Bold.ttf", "semi": CX_ + "Carlito-Bold.ttf", "reg": CX_ + "Carlito-Regular.ttf"}
+JETBRAINS = {"title": JB + "JetBrainsMono-ExtraBold.ttf", "semi": JB + "JetBrainsMono-SemiBold.ttf", "reg": JB + "JetBrainsMono-Regular.ttf"}
+INTER_HEAVY = {"title": FD + "InterDisplay-Black.otf", "semi": FD + "Inter-Bold.otf", "reg": FD + "Inter-Medium.otf"}
 MONO = {"title": DV + "DejaVuSansMono-Bold.ttf", "semi": DV + "DejaVuSansMono.ttf", "reg": DV + "DejaVuSansMono.ttf"}
 THEMES = {
     "circuit":   dict(NAVY=(11, 18, 32), PANEL=(17, 27, 46), GRID=(20, 31, 52), CYAN=(34, 211, 238), AMBER=(245, 158, 11),
@@ -63,6 +69,22 @@ THEMES = {
     "graphite":  dict(NAVY=(28, 30, 34), PANEL=(40, 43, 48), GRID=(48, 51, 57), CYAN=(226, 232, 240), AMBER=(239, 68, 68),
                       WHITE=(241, 245, 249), MUTED=(148, 155, 165), RED=(239, 68, 68), GREEN=(74, 222, 128),
                       SUB_BG=(12, 13, 15, 220), bg="dots", glow=False, fonts=LORA),
+    # added Nov 16, 2026 (all 12 originals had been used recently)
+    "crimson":   dict(NAVY=(46, 10, 20), PANEL=(68, 18, 32), GRID=(84, 26, 42), CYAN=(252, 211, 77), AMBER=(251, 113, 133),
+                      WHITE=(255, 241, 242), MUTED=(200, 150, 160), RED=(255, 90, 90), GREEN=(134, 239, 172),
+                      SUB_BG=(26, 4, 10, 220), bg="rings", glow=False, fonts=CALADEA),
+    "lab":       dict(NAVY=(250, 250, 250), PANEL=(255, 255, 255), GRID=(225, 225, 228), CYAN=(29, 78, 216), AMBER=(220, 38, 38),
+                      WHITE=(17, 17, 17), MUTED=(100, 100, 108), RED=(220, 38, 38), GREEN=(21, 128, 61),
+                      SUB_BG=(17, 17, 17, 230), SUB_FG=(255, 255, 255), bg="crosses", glow=False, fonts=CARLITO),
+    "sand":      dict(NAVY=(237, 226, 204), PANEL=(247, 240, 226), GRID=(214, 198, 168), CYAN=(15, 118, 110), AMBER=(180, 63, 34),
+                      WHITE=(54, 40, 28), MUTED=(120, 100, 80), RED=(185, 28, 28), GREEN=(63, 120, 40),
+                      SUB_BG=(54, 40, 28, 228), SUB_FG=(250, 244, 232), bg="hexes", glow=False, fonts=JETBRAINS),
+    "sakura":    dict(NAVY=(253, 236, 242), PANEL=(255, 248, 251), GRID=(246, 207, 222), CYAN=(134, 25, 143), AMBER=(13, 148, 136),
+                      WHITE=(59, 7, 48), MUTED=(140, 90, 120), RED=(190, 18, 60), GREEN=(21, 128, 61),
+                      SUB_BG=(59, 7, 48, 225), SUB_FG=(255, 240, 246), bg="waves", glow=False, fonts=POPPINS),
+    "tangerine": dict(NAVY=(255, 122, 26), PANEL=(255, 150, 70), GRID=(240, 100, 10), CYAN=(23, 23, 59), AMBER=(255, 255, 255),
+                      WHITE=(23, 23, 59), MUTED=(110, 50, 20), RED=(150, 0, 30), GREEN=(10, 90, 50),
+                      SUB_BG=(23, 23, 59, 230), SUB_FG=(255, 255, 255), bg="stripes", glow=False, fonts=INTER_HEAVY),
 }
 THEME = "circuit"
 SUB_FG = (255, 255, 255)
@@ -309,6 +331,29 @@ def background():
         for gy in range(H):
             f = gy / H
             d.line([(0, gy), (W, gy)], fill=tuple(int(top[i] + (bot[i] - top[i]) * f) for i in range(3)) + (255,))
+    elif BG_STYLE == "rings":
+        for r in range(80, max(W, H) * 2, 70):
+            d.ellipse([W / 2 - r, H * 0.42 - r, W / 2 + r, H * 0.42 + r], outline=GRID + (150,), width=2)
+    elif BG_STYLE == "crosses":
+        for gx in range(40, W, 80):
+            for gy in range(40, H, 80):
+                d.line([(gx - 7, gy), (gx + 7, gy)], fill=g, width=2)
+                d.line([(gx, gy - 7), (gx, gy + 7)], fill=g, width=2)
+    elif BG_STYLE == "hexes":
+        R = 46
+        for row, gy in enumerate(range(0, H + 2 * R, int(R * 1.5))):
+            for gx in range(0, W + 2 * R, int(R * 1.732)):
+                cx = gx + (R * 0.866 if row % 2 else 0)
+                d.polygon([(cx + R * math.cos(math.radians(60 * k + 30)), gy + R * math.sin(math.radians(60 * k + 30)))
+                           for k in range(6)], outline=GRID + (170,))
+    elif BG_STYLE == "waves":
+        for k, gy in enumerate(range(-40, H + 80, 70)):
+            pts = [(gx, gy + 18 * math.sin(gx / 120 + k)) for gx in range(0, W + 20, 20)]
+            d.line(pts, fill=GRID + (200,), width=3)
+    elif BG_STYLE == "stripes":
+        for k, gy in enumerate(range(0, H, 90)):
+            if k % 2:
+                d.rectangle([0, gy, W, gy + 90], fill=GRID + (255,))
     # "plain": solid background
     return bg
 
