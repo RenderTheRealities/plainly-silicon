@@ -66,11 +66,12 @@
     },
     {
       "slug": "07-black-friday-pc-traps",
-      "publish": "2026-11-14T16:00:00-07:00",
+      "publish": "2026-11-15T22:15:00-07:00",
       "title": "7 Black Friday PC Part Traps (and How to Spot a Real Deal)",
       "keyword": "pc parts black friday",
-      "status": "ready",
-      "theme": "retro"
+      "status": "scheduled",
+      "theme": "retro",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KutUk2MTViE"
     },
     {
       "slug": "08-what-raises-fps",
