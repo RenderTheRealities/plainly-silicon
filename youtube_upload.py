@@ -30,8 +30,8 @@ def token():
 
 def package(vdir):
     s = open(os.path.join(vdir, "package.md")).read()
-    desc = re.search(r"## Description\n\n(.*?)\n\n## ", s, re.S).group(1).strip()
-    m = re.search(r"## Tags\n\n(.*?)(\n\n|$)", s, re.S)
+    desc = re.search(r"## Description\n+(.*?)\n\n## ", s, re.S).group(1).strip()
+    m = re.search(r"## Tags\n+(.*?)(\n\n|$)", s, re.S)
     tags = [t.strip() for t in m.group(1).split(",")] if m else []
     return desc, tags
 
