@@ -100,9 +100,12 @@
       "publish": "2026-11-16T16:00:00-07:00",
       "title": "Power Supplies Explained: Watts, 80 Plus Ratings, and Why Cheap Ones Fail",
       "keyword": "psu explained",
-      "status": "planned",
+      "status": "scheduled",
       "theme": "ember",
-      "length": "7:02"
+      "length": "7:02",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fJiCtrVyq04",
+      "mediaUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/10-power-supplies-explained.mp4",
+      "thumbnailUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/10-power-supplies-explained.jpg"
     },
     {
       "slug": "11-why-vram-matters",
