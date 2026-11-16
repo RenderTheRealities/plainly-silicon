@@ -1,0 +1,92 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   6.738
+  ],
+  [
+   7.488,
+   18.712
+  ],
+  [
+   19.462,
+   32.234
+  ],
+  [
+   32.984,
+   40.223
+  ],
+  [
+   40.973,
+   50.809
+  ],
+  [
+   51.559,
+   56.496
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    6.738,
+    "Two graphics cards can both be sold as an RTX 30 50, and one is noticeably slower."
+   ]
+  ],
+  [
+   [
+    7.488,
+    15.388,
+    "The 8 gigabyte version has 2,560 CUDA cores on a 128-bit memory bus."
+   ],
+   [
+    15.668,
+    18.712,
+    "That moves 224 gigabytes per second."
+   ]
+  ],
+  [
+   [
+    19.462,
+    29.936,
+    "The 6 gigabyte version has 2,304 cores on a 96-bit bus, so its bandwidth drops to 168 gigabytes per second."
+   ],
+   [
+    30.216,
+    32.234,
+    "It even uses a smaller chip."
+   ]
+  ],
+  [
+   [
+    32.984,
+    36.738,
+    "It's built to draw 70 watts instead of 130."
+   ],
+   [
+    37.018,
+    40.223,
+    "Early benchmarks put it roughly twenty percent behind."
+   ]
+  ],
+  [
+   [
+    40.973,
+    45.477,
+    "The clue is often tiny, like a \"6G\" buried in the product title."
+   ],
+   [
+    45.757,
+    50.809,
+    "Read the full model name, then look up that exact name on the maker's spec page."
+   ]
+  ],
+  [
+   [
+    51.559,
+    56.496,
+    "The other six traps are in our video, 7 Black Friday PC Part Traps."
+   ]
+  ]
+ ]
+}

@@ -325,6 +325,15 @@
    "source": "05-ssd-vs-hdd-vs-nvme",
    "status": "scheduled",
    "youtubeUrl": "https://www.youtube.com/shorts/duUtCwDQWvg"
+  },
+  {
+   "slug": "07s2-rtx-3050-two-chips",
+   "theme": "lab",
+   "title": "One Name, Two GPUs: The RTX 3050 6GB Catch #shorts",
+   "publish": "2026-11-18T12:00:00-07:00",
+   "source": "07-black-friday-pc-traps",
+   "status": "scheduled",
+   "youtubeUrl": "https://www.youtube.com/shorts/BeOpZMSupmo"
   }
  ]
 }

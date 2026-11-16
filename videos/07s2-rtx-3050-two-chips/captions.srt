@@ -1,0 +1,40 @@
+1
+00:00:00,300 --> 00:00:06,738
+Two graphics cards can both be sold as an RTX 30 50, and one is noticeably slower.
+
+2
+00:00:07,488 --> 00:00:15,388
+The 8 gigabyte version has 2,560 CUDA cores on a 128-bit memory bus.
+
+3
+00:00:15,668 --> 00:00:18,712
+That moves 224 gigabytes per second.
+
+4
+00:00:19,462 --> 00:00:29,936
+The 6 gigabyte version has 2,304 cores on a 96-bit bus, so its bandwidth drops to 168 gigabytes per second.
+
+5
+00:00:30,216 --> 00:00:32,234
+It even uses a smaller chip.
+
+6
+00:00:32,984 --> 00:00:36,738
+It's built to draw 70 watts instead of 130.
+
+7
+00:00:37,018 --> 00:00:40,223
+Early benchmarks put it roughly twenty percent behind.
+
+8
+00:00:40,973 --> 00:00:45,477
+The clue is often tiny, like a "6G" buried in the product title.
+
+9
+00:00:45,757 --> 00:00:50,809
+Read the full model name, then look up that exact name on the maker's spec page.
+
+10
+00:00:51,559 --> 00:00:56,496
+The other six traps are in our video, 7 Black Friday PC Part Traps.
+

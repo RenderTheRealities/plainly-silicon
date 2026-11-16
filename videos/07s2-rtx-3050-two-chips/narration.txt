@@ -1,0 +1,11 @@
+Two graphics cards can both be sold as an RTX 30 50, and one is noticeably slower.
+
+The 8 gigabyte version has 2,560 CUDA cores on a 128-bit memory bus. That moves 224 gigabytes per second.
+
+The 6 gigabyte version has 2,304 cores on a 96-bit bus, so its bandwidth drops to 168 gigabytes per second. It even uses a smaller chip.
+
+It's built to draw 70 watts instead of 130. Early benchmarks put it roughly twenty percent behind.
+
+The clue is often tiny, like a "6G" buried in the product title. Read the full model name, then look up that exact name on the maker's spec page.
+
+The other six traps are in our video, 7 Black Friday PC Part Traps.
