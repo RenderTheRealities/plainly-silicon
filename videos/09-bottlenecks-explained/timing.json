@@ -1,0 +1,443 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   22.138
+  ],
+  [
+   22.888,
+   54.776
+  ],
+  [
+   55.526,
+   79.802
+  ],
+  [
+   80.552,
+   117.266
+  ],
+  [
+   118.016,
+   148.106
+  ],
+  [
+   148.856,
+   178.203
+  ],
+  [
+   178.953,
+   219.782
+  ],
+  [
+   220.532,
+   255.83
+  ],
+  [
+   256.58,
+   303.622
+  ],
+  [
+   304.372,
+   348.109
+  ],
+  [
+   348.859,
+   389.41
+  ],
+  [
+   390.16,
+   412.615
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    10.649,
+    "You can put a top-end graphics card into a PC and get only a little over half the frame rate it's capable of, because the processor feeding it can't keep up."
+   ],
+   [
+    10.929,
+    22.138,
+    "By the end of this video you'll know how to tell, in about a minute, whether your CPU or your GPU is the part setting your frame rate, and what to do about it without spending anything."
+   ]
+  ],
+  [
+   [
+    22.888,
+    25.799,
+    "A bottleneck is just the narrowest part of a pipe."
+   ],
+   [
+    26.079,
+    32.775,
+    "Water can only flow as fast as the tightest section allows, no matter how wide the rest of the pipe is."
+   ],
+   [
+    33.055,
+    34.651,
+    "A game works the same way."
+   ],
+   [
+    34.931,
+    37.388,
+    "For every frame, the processor goes first."
+   ],
+   [
+    37.668,
+    44.803,
+    "It runs the game logic, moves the characters, works out the physics, and writes a list of drawing instructions."
+   ],
+   [
+    45.083,
+    48.622,
+    "The graphics card takes that list and turns it into pixels."
+   ],
+   [
+    48.902,
+    52.898,
+    "Whichever of the two takes longer per frame sets your frame rate."
+   ],
+   [
+    53.178,
+    54.776,
+    "The other one simply waits."
+   ]
+  ],
+  [
+   [
+    55.526,
+    58.988,
+    "That means every PC has a bottleneck, all the time."
+   ],
+   [
+    59.268,
+    62.567,
+    "It isn't a fault, and it isn't something you can get rid of."
+   ],
+   [
+    62.847,
+    73.273,
+    "If your graphics card is the slower stage, that's actually the ideal case, because you're getting everything you paid for out of the most expensive part in the box."
+   ],
+   [
+    73.553,
+    77.172,
+    "So the useful question isn't whether you have a bottleneck."
+   ],
+   [
+    77.452,
+    79.802,
+    "It's which part it is, and by how much."
+   ]
+  ],
+  [
+   [
+    80.552,
+    84.84,
+    "To see this clearly, let's follow one real test from start to finish."
+   ],
+   [
+    85.12,
+    103.091,
+    "The hardware site TechSpot took a budget Intel Core i3 13100, a four core chip, and paired it with three graphics cards in turn: an RTX 3060, an RTX 3080, and an RTX 4090."
+   ],
+   [
+    103.371,
+    109.919,
+    "Then they ran the same tests with a Core i9 13900K for comparison."
+   ],
+   [
+    110.199,
+    113.609,
+    "The game was Watch Dogs Legion at very high settings."
+   ],
+   [
+    113.889,
+    115.527,
+    "Same game, same settings."
+   ],
+   [
+    115.807,
+    117.266,
+    "Only the parts change."
+   ]
+  ],
+  [
+   [
+    118.016,
+    122.485,
+    "Start with the RTX 3060 at 1080p."
+   ],
+   [
+    122.765,
+    129.502,
+    "With this card, the expensive Core i9 is just 3 percent faster than the little Core i3."
+   ],
+   [
+    129.782,
+    130.765,
+    "Three percent."
+   ],
+   [
+    131.045,
+    137.548,
+    "The graphics card is the narrow section of the pipe, so it doesn't matter how wide the processor side is."
+   ],
+   [
+    137.828,
+    142.352,
+    "Both CPUs finish their share of every frame early, and then they wait."
+   ],
+   [
+    142.632,
+    148.106,
+    "If you owned the Core i3 and this card, buying a new processor would be money wasted."
+   ]
+  ],
+  [
+   [
+    148.856,
+    153.242,
+    "Now swap in the RTX 3080, a much faster card."
+   ],
+   [
+    153.522,
+    156.782,
+    "Suddenly the Core i9 is 50 percent faster."
+   ],
+   [
+    157.062,
+    159.427,
+    "Nothing about either processor changed."
+   ],
+   [
+    159.707,
+    165.212,
+    "The graphics card simply got wide enough that the Core i3 became the narrowest point."
+   ],
+   [
+    165.492,
+    167.814,
+    "Same CPU, different bottleneck."
+   ],
+   [
+    168.094,
+    173.457,
+    "This is why a question like \"is my processor good enough\" has no answer on its own."
+   ],
+   [
+    173.737,
+    178.203,
+    "It always depends on what it's paired with, and on what you're asking it to run."
+   ]
+  ],
+  [
+   [
+    178.953,
+    182.848,
+    "With the RTX 4090, the gap gets extreme."
+   ],
+   [
+    183.128,
+    186.941,
+    "The Core i3 stops at 102 frames per second."
+   ],
+   [
+    187.221,
+    192.357,
+    "The Core i9 reaches 186, which is 82 percent faster."
+   ],
+   [
+    192.637,
+    195.008,
+    "And here's the part that surprises people."
+   ],
+   [
+    195.288,
+    204.884,
+    "Even at 4K, the i3 still holds the 4090 back to 99 frames per second, while the i9 gets 149."
+   ],
+   [
+    205.164,
+    216.129,
+    "Going from 1080p to 4K means four times as many pixels, and the Core i3's result barely moved, from 102 to 99."
+   ],
+   [
+    216.409,
+    219.782,
+    "That flat line is the fingerprint of a CPU limit."
+   ]
+  ],
+  [
+   [
+    220.532,
+    223.186,
+    "Why doesn't resolution matter to the processor?"
+   ],
+   [
+    223.466,
+    227.463,
+    "Because its job for each frame is the same at any resolution."
+   ],
+   [
+    227.743,
+    234.73,
+    "The same characters walk around, the same physics runs, and the same list of drawing instructions gets written."
+   ],
+   [
+    235.01,
+    238.453,
+    "Only the graphics card's job grows with more pixels."
+   ],
+   [
+    238.733,
+    246.493,
+    "So if raising the resolution barely changes your frame rate, the graphics card was waiting and the processor was the wall."
+   ],
+   [
+    246.773,
+    255.83,
+    "What does load the processor is the world itself: crowds of characters, moving vehicles, physics, long draw distances, and ray tracing."
+   ]
+  ],
+  [
+   [
+    256.58,
+    258.52,
+    "Here's how to check your own PC."
+   ],
+   [
+    258.8,
+    267.906,
+    "Turn on a performance overlay, like the one in MSI Afterburner or your graphics driver, and watch GPU usage while you play."
+   ],
+   [
+    268.186,
+    273.824,
+    "If it stays close to 100 percent, your graphics card is the limit, and that's fine."
+   ],
+   [
+    274.104,
+    281.564,
+    "If it sits well below that, and no frame cap or V-Sync is holding it back, your processor is the likely limit."
+   ],
+   [
+    281.844,
+    285.228,
+    "Don't be fooled when total CPU usage looks low."
+   ],
+   [
+    285.508,
+    292.451,
+    "Many games lean on just a few cores, so a few cores can be flat out while the overall number looks relaxed."
+   ],
+   [
+    292.731,
+    303.622,
+    "That's why a six core Ryzen 5600X performs about the same as a sixteen core 5950X in most games."
+   ]
+  ],
+  [
+   [
+    304.372,
+    311.739,
+    "You may have seen bottleneck calculator websites that give a single percentage for any CPU and GPU pair."
+   ],
+   [
+    312.019,
+    312.858,
+    "Skip them."
+   ],
+   [
+    313.138,
+    320.471,
+    "Nobody has tested every combination, and the real number changes with every game, resolution and setting."
+   ],
+   [
+    320.751,
+    326.825,
+    "You just watched the same Core i3 go from a 3 percent gap to an 82 percent gap."
+   ],
+   [
+    327.105,
+    331.106,
+    "Real benchmarks of the games you actually play tell you far more."
+   ],
+   [
+    331.386,
+    338.563,
+    "It's also why reviewers test processors at 1080p with the fastest graphics card they can get."
+   ],
+   [
+    338.843,
+    348.109,
+    "It takes the GPU out of the way, so you see the processor's real ceiling, which is the number you'll run into after your next graphics upgrade."
+   ]
+  ],
+  [
+   [
+    348.859,
+    350.298,
+    "So what do you do about it?"
+   ],
+   [
+    350.578,
+    357.503,
+    "If you're GPU limited, lower the heaviest settings or turn on upscaling, which renders fewer pixels."
+   ],
+   [
+    357.783,
+    360.775,
+    "If you're CPU limited, you get a small gift."
+   ],
+   [
+    361.055,
+    369.802,
+    "Your graphics card has spare room, so you can raise resolution, textures or lighting quality and your frame rate will barely drop."
+   ],
+   [
+    370.082,
+    375.567,
+    "Then turn down the settings that load the processor, like crowd density and view distance."
+   ],
+   [
+    375.847,
+    382.631,
+    "If your frame rate is already above your monitor's refresh rate, a frame cap smooths things out and saves power."
+   ],
+   [
+    382.911,
+    389.41,
+    "Only when the processor holds you well below the frame rate you want is a CPU upgrade worth the money."
+   ]
+  ],
+  [
+   [
+    390.16,
+    391.553,
+    "So remember the pipe."
+   ],
+   [
+    391.833,
+    398.993,
+    "The narrowest part sets the flow, and the cheapest fix always starts with finding that part before you buy anything."
+   ],
+   [
+    399.273,
+    405.425,
+    "Next time, we're opening up the part that feeds every other component in the case: the power supply."
+   ],
+   [
+    405.705,
+    410.654,
+    "You'll learn what watts and 80 Plus ratings really mean, and why cheap ones fail."
+   ],
+   [
+    410.934,
+    412.615,
+    "Subscribe so you don't miss it."
+   ]
+  ]
+ ]
+}

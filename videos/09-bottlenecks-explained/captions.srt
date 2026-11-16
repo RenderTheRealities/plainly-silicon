@@ -1,0 +1,292 @@
+1
+00:00:00,300 --> 00:00:10,649
+You can put a top-end graphics card into a PC and get only a little over half the frame rate it's capable of, because the processor feeding it can't keep up.
+
+2
+00:00:10,929 --> 00:00:22,138
+By the end of this video you'll know how to tell, in about a minute, whether your CPU or your GPU is the part setting your frame rate, and what to do about it without spending anything.
+
+3
+00:00:22,888 --> 00:00:25,799
+A bottleneck is just the narrowest part of a pipe.
+
+4
+00:00:26,079 --> 00:00:32,775
+Water can only flow as fast as the tightest section allows, no matter how wide the rest of the pipe is.
+
+5
+00:00:33,055 --> 00:00:34,651
+A game works the same way.
+
+6
+00:00:34,931 --> 00:00:37,388
+For every frame, the processor goes first.
+
+7
+00:00:37,668 --> 00:00:44,803
+It runs the game logic, moves the characters, works out the physics, and writes a list of drawing instructions.
+
+8
+00:00:45,083 --> 00:00:48,622
+The graphics card takes that list and turns it into pixels.
+
+9
+00:00:48,902 --> 00:00:52,898
+Whichever of the two takes longer per frame sets your frame rate.
+
+10
+00:00:53,178 --> 00:00:54,776
+The other one simply waits.
+
+11
+00:00:55,526 --> 00:00:58,988
+That means every PC has a bottleneck, all the time.
+
+12
+00:00:59,268 --> 00:01:02,567
+It isn't a fault, and it isn't something you can get rid of.
+
+13
+00:01:02,847 --> 00:01:13,273
+If your graphics card is the slower stage, that's actually the ideal case, because you're getting everything you paid for out of the most expensive part in the box.
+
+14
+00:01:13,553 --> 00:01:17,172
+So the useful question isn't whether you have a bottleneck.
+
+15
+00:01:17,452 --> 00:01:19,802
+It's which part it is, and by how much.
+
+16
+00:01:20,552 --> 00:01:24,840
+To see this clearly, let's follow one real test from start to finish.
+
+17
+00:01:25,120 --> 00:01:43,091
+The hardware site TechSpot took a budget Intel Core i3 13100, a four core chip, and paired it with three graphics cards in turn: an RTX 3060, an RTX 3080, and an RTX 4090.
+
+18
+00:01:43,371 --> 00:01:49,919
+Then they ran the same tests with a Core i9 13900K for comparison.
+
+19
+00:01:50,199 --> 00:01:53,609
+The game was Watch Dogs Legion at very high settings.
+
+20
+00:01:53,889 --> 00:01:55,527
+Same game, same settings.
+
+21
+00:01:55,807 --> 00:01:57,266
+Only the parts change.
+
+22
+00:01:58,016 --> 00:02:02,485
+Start with the RTX 3060 at 1080p.
+
+23
+00:02:02,765 --> 00:02:09,502
+With this card, the expensive Core i9 is just 3 percent faster than the little Core i3.
+
+24
+00:02:09,782 --> 00:02:10,765
+Three percent.
+
+25
+00:02:11,045 --> 00:02:17,548
+The graphics card is the narrow section of the pipe, so it doesn't matter how wide the processor side is.
+
+26
+00:02:17,828 --> 00:02:22,352
+Both CPUs finish their share of every frame early, and then they wait.
+
+27
+00:02:22,632 --> 00:02:28,106
+If you owned the Core i3 and this card, buying a new processor would be money wasted.
+
+28
+00:02:28,856 --> 00:02:33,242
+Now swap in the RTX 3080, a much faster card.
+
+29
+00:02:33,522 --> 00:02:36,782
+Suddenly the Core i9 is 50 percent faster.
+
+30
+00:02:37,062 --> 00:02:39,427
+Nothing about either processor changed.
+
+31
+00:02:39,707 --> 00:02:45,212
+The graphics card simply got wide enough that the Core i3 became the narrowest point.
+
+32
+00:02:45,492 --> 00:02:47,814
+Same CPU, different bottleneck.
+
+33
+00:02:48,094 --> 00:02:53,457
+This is why a question like "is my processor good enough" has no answer on its own.
+
+34
+00:02:53,737 --> 00:02:58,203
+It always depends on what it's paired with, and on what you're asking it to run.
+
+35
+00:02:58,953 --> 00:03:02,848
+With the RTX 4090, the gap gets extreme.
+
+36
+00:03:03,128 --> 00:03:06,941
+The Core i3 stops at 102 frames per second.
+
+37
+00:03:07,221 --> 00:03:12,357
+The Core i9 reaches 186, which is 82 percent faster.
+
+38
+00:03:12,637 --> 00:03:15,008
+And here's the part that surprises people.
+
+39
+00:03:15,288 --> 00:03:24,884
+Even at 4K, the i3 still holds the 4090 back to 99 frames per second, while the i9 gets 149.
+
+40
+00:03:25,164 --> 00:03:36,129
+Going from 1080p to 4K means four times as many pixels, and the Core i3's result barely moved, from 102 to 99.
+
+41
+00:03:36,409 --> 00:03:39,782
+That flat line is the fingerprint of a CPU limit.
+
+42
+00:03:40,532 --> 00:03:43,186
+Why doesn't resolution matter to the processor?
+
+43
+00:03:43,466 --> 00:03:47,463
+Because its job for each frame is the same at any resolution.
+
+44
+00:03:47,743 --> 00:03:54,730
+The same characters walk around, the same physics runs, and the same list of drawing instructions gets written.
+
+45
+00:03:55,010 --> 00:03:58,453
+Only the graphics card's job grows with more pixels.
+
+46
+00:03:58,733 --> 00:04:06,493
+So if raising the resolution barely changes your frame rate, the graphics card was waiting and the processor was the wall.
+
+47
+00:04:06,773 --> 00:04:15,830
+What does load the processor is the world itself: crowds of characters, moving vehicles, physics, long draw distances, and ray tracing.
+
+48
+00:04:16,580 --> 00:04:18,520
+Here's how to check your own PC.
+
+49
+00:04:18,800 --> 00:04:27,906
+Turn on a performance overlay, like the one in MSI Afterburner or your graphics driver, and watch GPU usage while you play.
+
+50
+00:04:28,186 --> 00:04:33,824
+If it stays close to 100 percent, your graphics card is the limit, and that's fine.
+
+51
+00:04:34,104 --> 00:04:41,564
+If it sits well below that, and no frame cap or V-Sync is holding it back, your processor is the likely limit.
+
+52
+00:04:41,844 --> 00:04:45,228
+Don't be fooled when total CPU usage looks low.
+
+53
+00:04:45,508 --> 00:04:52,451
+Many games lean on just a few cores, so a few cores can be flat out while the overall number looks relaxed.
+
+54
+00:04:52,731 --> 00:05:03,622
+That's why a six core Ryzen 5600X performs about the same as a sixteen core 5950X in most games.
+
+55
+00:05:04,372 --> 00:05:11,739
+You may have seen bottleneck calculator websites that give a single percentage for any CPU and GPU pair.
+
+56
+00:05:12,019 --> 00:05:12,858
+Skip them.
+
+57
+00:05:13,138 --> 00:05:20,471
+Nobody has tested every combination, and the real number changes with every game, resolution and setting.
+
+58
+00:05:20,751 --> 00:05:26,825
+You just watched the same Core i3 go from a 3 percent gap to an 82 percent gap.
+
+59
+00:05:27,105 --> 00:05:31,106
+Real benchmarks of the games you actually play tell you far more.
+
+60
+00:05:31,386 --> 00:05:38,563
+It's also why reviewers test processors at 1080p with the fastest graphics card they can get.
+
+61
+00:05:38,843 --> 00:05:48,109
+It takes the GPU out of the way, so you see the processor's real ceiling, which is the number you'll run into after your next graphics upgrade.
+
+62
+00:05:48,859 --> 00:05:50,298
+So what do you do about it?
+
+63
+00:05:50,578 --> 00:05:57,503
+If you're GPU limited, lower the heaviest settings or turn on upscaling, which renders fewer pixels.
+
+64
+00:05:57,783 --> 00:06:00,775
+If you're CPU limited, you get a small gift.
+
+65
+00:06:01,055 --> 00:06:09,802
+Your graphics card has spare room, so you can raise resolution, textures or lighting quality and your frame rate will barely drop.
+
+66
+00:06:10,082 --> 00:06:15,567
+Then turn down the settings that load the processor, like crowd density and view distance.
+
+67
+00:06:15,847 --> 00:06:22,631
+If your frame rate is already above your monitor's refresh rate, a frame cap smooths things out and saves power.
+
+68
+00:06:22,911 --> 00:06:29,410
+Only when the processor holds you well below the frame rate you want is a CPU upgrade worth the money.
+
+69
+00:06:30,160 --> 00:06:31,553
+So remember the pipe.
+
+70
+00:06:31,833 --> 00:06:38,993
+The narrowest part sets the flow, and the cheapest fix always starts with finding that part before you buy anything.
+
+71
+00:06:39,273 --> 00:06:45,425
+Next time, we're opening up the part that feeds every other component in the case: the power supply.
+
+72
+00:06:45,705 --> 00:06:50,654
+You'll learn what watts and 80 Plus ratings really mean, and why cheap ones fail.
+
+73
+00:06:50,934 --> 00:06:52,615
+Subscribe so you don't miss it.
+
