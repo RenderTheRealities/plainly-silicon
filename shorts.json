@@ -240,10 +240,11 @@
    "slug": "05s1-dont-defrag-an-ssd",
    "theme": "mint",
    "title": "Should You Defrag an SSD? Here's Why Not #shorts",
-   "publish": "2026-11-15T12:00:00-07:00",
+   "publish": "2026-11-16T12:00:00-07:00",
    "source": "05-ssd-vs-hdd-vs-nvme",
-   "status": "ready",
-   "video": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/05s1-dont-defrag-an-ssd.mp4"
+   "status": "scheduled",
+   "video": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/05s1-dont-defrag-an-ssd.mp4",
+   "youtubeUrl": "https://www.youtube.com/shorts/Sqc_-RSNgWk"
   },
   {
    "slug": "06s2-cores-vs-threads",
