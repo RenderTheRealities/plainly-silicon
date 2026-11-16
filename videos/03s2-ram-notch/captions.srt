@@ -1,0 +1,48 @@
+1
+00:00:00,300 --> 00:00:06,803
+DDR4 and DDR5 sticks both have 288 pins and the same length.
+
+2
+00:00:07,083 --> 00:00:09,164
+So why won't one fit the other's slot?
+
+3
+00:00:09,914 --> 00:00:11,789
+Look at the gap in the bottom edge.
+
+4
+00:00:12,069 --> 00:00:15,152
+That's the notch, and the slot has a matching ridge.
+
+5
+00:00:15,432 --> 00:00:18,399
+On DDR5, it sits in a different spot.
+
+6
+00:00:19,149 --> 00:00:20,646
+It's a key, on purpose.
+
+7
+00:00:20,926 --> 00:00:27,485
+The generations use different voltages and signals, so the wrong stick is blocked before it can do harm.
+
+8
+00:00:28,235 --> 00:00:33,372
+To check your board, look up its model and read the memory line on its spec page.
+
+9
+00:00:33,652 --> 00:00:36,406
+CPU-Z shows the type you already have.
+
+10
+00:00:37,156 --> 00:00:44,240
+Shortcut: AMD's AM5 boards take only DDR5, AM4 only DDR4.
+
+11
+00:00:44,520 --> 00:00:48,591
+Intel's twelfth to fourteenth gen boards come in both, so check.
+
+12
+00:00:49,341 --> 00:00:54,152
+Every generation is in our full video, Every Type of RAM Explained.
+
