@@ -97,10 +97,12 @@
     },
     {
       "slug": "10-power-supplies-explained",
-      "publish": "2026-11-30T12:00:00-07:00",
-      "title": "Power Supplies Explained: Watts, 80+ Ratings, and Why Cheap Ones Fail",
+      "publish": "2026-11-16T16:00:00-07:00",
+      "title": "Power Supplies Explained: Watts, 80 Plus Ratings, and Why Cheap Ones Fail",
       "keyword": "psu explained",
-      "status": "planned"
+      "status": "planned",
+      "theme": "ember",
+      "length": "7:02"
     },
     {
       "slug": "11-why-vram-matters",
@@ -163,6 +165,13 @@
       "publish": "2026-12-21T12:00:00-07:00",
       "title": "HDMI vs DisplayPort: Which Cable Your Monitor Actually Needs",
       "keyword": "hdmi vs displayport",
+      "status": "planned"
+    },
+    {
+      "slug": "20-ethernet-vs-wifi-gaming",
+      "publish": "2026-12-23T12:00:00-07:00",
+      "title": "Ethernet vs Wi-Fi for Gaming: Where Lag Really Comes From",
+      "keyword": "ethernet vs wifi for gaming",
       "status": "planned"
     }
   ]

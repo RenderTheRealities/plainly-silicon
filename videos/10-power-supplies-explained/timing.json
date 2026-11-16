@@ -1,0 +1,413 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   22.418
+  ],
+  [
+   23.168,
+   50.485
+  ],
+  [
+   51.235,
+   89.064
+  ],
+  [
+   89.814,
+   119.413
+  ],
+  [
+   120.163,
+   159.78
+  ],
+  [
+   160.53,
+   188.649
+  ],
+  [
+   189.399,
+   228.311
+  ],
+  [
+   229.061,
+   268.023
+  ],
+  [
+   268.773,
+   305.174
+  ],
+  [
+   305.924,
+   345.254
+  ],
+  [
+   346.004,
+   386.441
+  ],
+  [
+   387.191,
+   420.593
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    8.26,
+    "Your power supply is the only part of your PC that touches the wall, so every watt your games use passes through it first."
+   ],
+   [
+    8.54,
+    22.418,
+    "Today we'll follow 400 watts from the outlet to the graphics card, and along the way you'll learn what the watts on the label mean, what 80 Plus Gold really promises, and why cheap power supplies fail."
+   ]
+  ],
+  [
+   [
+    23.168,
+    24.318,
+    "Start at the outlet."
+   ],
+   [
+    24.598,
+    30.235,
+    "In North America, the wall gives you about 120 volts of alternating current."
+   ],
+   [
+    30.515,
+    35.232,
+    "The voltage swings up and down in a wave, 60 full cycles every second."
+   ],
+   [
+    35.512,
+    38.771,
+    "Your processor and graphics card want the opposite."
+   ],
+   [
+    39.051,
+    45.571,
+    "They need steady, direct current at 12 volts, with smaller amounts at 5 and 3.3 volts."
+   ],
+   [
+    45.851,
+    50.485,
+    "A power supply's whole job is turning that wave into flat, clean lines."
+   ]
+  ],
+  [
+   [
+    51.235,
+    61.503,
+    "The first stop is a filter that blocks electrical noise in both directions, so your PC doesn't pollute the wiring and the wiring doesn't disturb your PC."
+   ],
+   [
+    61.783,
+    69.359,
+    "Next comes a bridge rectifier, which flips the negative half of every wave upward, so current only flows one way."
+   ],
+   [
+    69.639,
+    78.895,
+    "Then a circuit called active power factor correction makes the supply draw current smoothly, in step with the voltage, instead of in sharp gulps."
+   ],
+   [
+    79.175,
+    84.495,
+    "80 Plus certified units must reach a power factor of at least 0.9."
+   ],
+   [
+    84.775,
+    89.064,
+    "A big capacitor then stores that energy, like a small reservoir."
+   ]
+  ],
+  [
+   [
+    89.814,
+    91.186,
+    "Here's the clever part."
+   ],
+   [
+    91.466,
+    99.616,
+    "Transistors switch that stored power on and off tens of thousands of times every second, chopping it into fast square pulses."
+   ],
+   [
+    99.896,
+    100.471,
+    "Why?"
+   ],
+   [
+    100.751,
+    108.238,
+    "Because those pulses feed a transformer, which steps the voltage down and keeps you electrically separated from the wall."
+   ],
+   [
+    108.518,
+    113.981,
+    "A transformer running at 60 cycles a second would need a big, heavy iron core."
+   ],
+   [
+    114.261,
+    119.413,
+    "Running it at a much higher frequency lets it shrink to something that fits in your hand."
+   ]
+  ],
+  [
+   [
+    120.163,
+    128.809,
+    "On the other side of the transformer, the pulses are rectified again, then smoothed by coils and capacitors into a steady 12 volts."
+   ],
+   [
+    129.089,
+    136.413,
+    "A control chip watches that output constantly and adjusts the switching to hold it steady when your load changes."
+   ],
+   [
+    136.693,
+    140.685,
+    "In a modern unit, almost everything comes out as 12 volts."
+   ],
+   [
+    140.965,
+    153.705,
+    "One 1200 watt model can deliver its full 1200 watts on the 12 volt rail, while 5 and 3.3 volts share just 120 watts."
+   ],
+   [
+    153.985,
+    159.78,
+    "Many units make those smaller voltages from the 12 volts with tiny converters of their own."
+   ]
+  ],
+  [
+   [
+    160.53,
+    164.721,
+    "No step in that chain is perfect, and every loss turns into heat."
+   ],
+   [
+    165.001,
+    166.789,
+    "That's what 80 Plus measures."
+   ],
+   [
+    167.069,
+    175.908,
+    "A tester loads the supply at 20, 50 and 100 percent of its rating and checks how much wall power reaches the outputs."
+   ],
+   [
+    176.188,
+    180.502,
+    "Basic 80 Plus means at least 80 percent at all three points."
+   ],
+   [
+    180.782,
+    188.649,
+    "Bronze needs 85 percent at half load, Gold needs 90, Platinum 92, and Titanium 94."
+   ]
+  ],
+  [
+   [
+    189.399,
+    191.511,
+    "Now back to our 400 watts."
+   ],
+   [
+    191.791,
+    201.013,
+    "A Gold unit at half load pulls about 444 watts from the wall to deliver it, and the extra 44 watts becomes heat."
+   ],
+   [
+    201.293,
+    206.551,
+    "A basic 80 Plus unit pulls about 500, wasting 100 watts."
+   ],
+   [
+    206.831,
+    211.953,
+    "On most power bills that difference is small, but the heat matters more than the money."
+   ],
+   [
+    212.233,
+    218.228,
+    "It has to leave through the fan, and as you'll see in a moment, heat is what wears a power supply out."
+   ],
+   [
+    218.508,
+    219.672,
+    "One warning, though."
+   ],
+   [
+    219.952,
+    222.117,
+    "80 Plus only tests efficiency."
+   ],
+   [
+    222.397,
+    228.311,
+    "It says nothing about how stable the voltages are or whether the unit will protect your parts."
+   ]
+  ],
+  [
+   [
+    229.061,
+    231.169,
+    "So what do the watts on the label mean?"
+   ],
+   [
+    231.449,
+    238.183,
+    "They're the most the supply can deliver continuously to your parts, not what it pulls from the wall all the time."
+   ],
+   [
+    238.463,
+    246.381,
+    "A 750 watt unit feeding our 400 watt PC still pulls only about 444."
+   ],
+   [
+    246.661,
+    258.218,
+    "To size one, add up your processor's and graphics card's rated power, add some for everything else, then pick a unit where that total lands around half to two thirds of the rating."
+   ],
+   [
+    258.498,
+    268.023,
+    "For our 400 watts, a 650 or 750 watt unit sits right in its most efficient zone, with room to spare."
+   ]
+  ],
+  [
+   [
+    268.773,
+    270.868,
+    "That spare room exists for a reason."
+   ],
+   [
+    271.148,
+    276.901,
+    "Modern graphics cards can spike far above their average draw for a few thousandths of a second."
+   ],
+   [
+    277.181,
+    282.106,
+    "Older supplies sometimes saw those spikes as a fault and shut down mid-game."
+   ],
+   [
+    282.386,
+    285.338,
+    "The ATX 3.0 standard fixed that."
+   ],
+   [
+    285.618,
+    298.024,
+    "A unit above 450 watts with the new graphics connector must survive 200 percent of its rating for 100 microseconds, and 120 percent for a tenth of a second."
+   ],
+   [
+    298.304,
+    305.174,
+    "That connector, now called 12V 2 by 6, can carry up to 600 watts on a single cable."
+   ]
+  ],
+  [
+   [
+    305.924,
+    307.674,
+    "Now, why do cheap ones fail?"
+   ],
+   [
+    307.954,
+    309.332,
+    "Look at the capacitors."
+   ],
+   [
+    309.612,
+    314.227,
+    "Their lifespan roughly doubles for every 10 degrees Celsius cooler they run."
+   ],
+   [
+    314.507,
+    325.037,
+    "A capacitor rated for 5,000 hours at 105 degrees lasts about 10,000 hours at 95, and 20,000 at 85."
+   ],
+   [
+    325.317,
+    334.9,
+    "A cheap unit saves money on exactly the things that keep it cool: smaller heatsinks, weaker fans, lower quality capacitors, and less headroom."
+   ],
+   [
+    335.18,
+    345.254,
+    "It runs hotter, its capacitors dry out sooner, and its 12 volts gets noisier and less stable as it ages, until one day the PC won't start."
+   ]
+  ],
+  [
+   [
+    346.004,
+    348.232,
+    "What happens when it fails matters most."
+   ],
+   [
+    348.512,
+    353.093,
+    "A good unit has protection circuits that cut the power when something goes wrong."
+   ],
+   [
+    353.373,
+    357.283,
+    "Over voltage and under voltage protection watch each output."
+   ],
+   [
+    357.563,
+    361.131,
+    "Over current and over power protection stop overloads."
+   ],
+   [
+    361.411,
+    369.285,
+    "One manufacturer sets its over power limit at about 115 to 135 percent of the rating."
+   ],
+   [
+    369.565,
+    376.136,
+    "Short circuit protection reacts to a shorted cable, and over temperature protection trips if the fan dies."
+   ],
+   [
+    376.416,
+    379.942,
+    "A unit missing them can pass a fault straight to your parts."
+   ],
+   [
+    380.222,
+    386.441,
+    "And because a label is just a sticker, look for independent reviews that actually load test the unit."
+   ]
+  ],
+  [
+   [
+    387.191,
+    390.311,
+    "So follow the 400 watts one last time."
+   ],
+   [
+    390.591,
+    400.975,
+    "Wall current gets filtered, flipped and smoothed, chopped into fast pulses, stepped down, smoothed again, and handed to your graphics card as steady 12 volts."
+   ],
+   [
+    401.255,
+    410.119,
+    "Pick a reviewed unit with full protections, size it so your load sits near the middle, and aim for Gold if you game for hours every day."
+   ],
+   [
+    410.399,
+    418.632,
+    "Next time, we're looking at the memory on your graphics card, and why running out of VRAM wrecks frame rates even on a fast GPU."
+   ],
+   [
+    418.912,
+    420.593,
+    "Subscribe so you don't miss it."
+   ]
+  ]
+ ]
+}
