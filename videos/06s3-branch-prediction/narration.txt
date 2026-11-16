@@ -1,0 +1,11 @@
+Your CPU runs code before it knows whether that code should run. Blame one tiny word: if.
+
+A core works like an assembly line, fetching new instructions while older ones finish. At an if, the line forks, and the answer isn't known until the comparison runs.
+
+So a branch predictor guesses from what that branch did recently, and the core races down the guessed path.
+
+Guess right, and no time is lost. Guess wrong, and that work is thrown out, the line is flushed, and fetching restarts on the correct path.
+
+On recent desktop chips, each wrong guess costs roughly fifteen to twenty clock cycles. That's why the same gigahertz can mean different speeds.
+
+The full assembly line is in our video, How a CPU Runs Your Code.

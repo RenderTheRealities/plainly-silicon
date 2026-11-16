@@ -334,6 +334,14 @@
    "source": "07-black-friday-pc-traps",
    "status": "scheduled",
    "youtubeUrl": "https://www.youtube.com/shorts/BeOpZMSupmo"
+  },
+  {
+   "slug": "06s3-branch-prediction",
+   "theme": "tangerine",
+   "title": "Your CPU Guesses Your Code Before It Knows #shorts",
+   "publish": "2026-11-20T18:00:00-07:00",
+   "source": "06-how-a-cpu-runs-code",
+   "status": "ready"
   }
  ]
 }
