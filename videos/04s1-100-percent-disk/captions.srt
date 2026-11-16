@@ -1,0 +1,56 @@
+1
+00:00:00,300 --> 00:00:03,278
+Task Manager says Disk, 100 percent.
+
+2
+00:00:03,558 --> 00:00:05,829
+Your drive isn't full, so what's maxed out?
+
+3
+00:00:06,579 --> 00:00:08,308
+That number is active time.
+
+4
+00:00:08,588 --> 00:00:11,193
+It's how much of the time your drive was busy.
+
+5
+00:00:11,473 --> 00:00:13,560
+It says nothing about free space.
+
+6
+00:00:14,310 --> 00:00:17,213
+A hard drive reads one scattered spot at a time.
+
+7
+00:00:17,493 --> 00:00:22,818
+Its arm swings to the right track, then waits for the platter to spin the data underneath.
+
+8
+00:00:23,098 --> 00:00:25,666
+That's roughly 13 milliseconds per read.
+
+9
+00:00:26,416 --> 00:00:31,071
+It manages only about 75 to 100 random reads per second.
+
+10
+00:00:31,351 --> 00:00:35,692
+When startup apps all want files at once, the line never empties.
+
+11
+00:00:35,972 --> 00:00:38,875
+Busy every moment means 100 percent.
+
+12
+00:00:39,625 --> 00:00:41,305
+An SSD has no arm.
+
+13
+00:00:41,585 --> 00:00:46,367
+It answers in well under a millisecond, so the same work barely registers.
+
+14
+00:00:47,117 --> 00:00:50,968
+Find the real culprit in our video, Why Your PC Is Slow.
+

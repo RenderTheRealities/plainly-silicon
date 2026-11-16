@@ -1,0 +1,112 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   5.829
+  ],
+  [
+   6.579,
+   13.56
+  ],
+  [
+   14.31,
+   25.666
+  ],
+  [
+   26.416,
+   38.875
+  ],
+  [
+   39.625,
+   46.367
+  ],
+  [
+   47.117,
+   50.968
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    3.278,
+    "Task Manager says Disk, 100 percent."
+   ],
+   [
+    3.558,
+    5.829,
+    "Your drive isn't full, so what's maxed out?"
+   ]
+  ],
+  [
+   [
+    6.579,
+    8.308,
+    "That number is active time."
+   ],
+   [
+    8.588,
+    11.193,
+    "It's how much of the time your drive was busy."
+   ],
+   [
+    11.473,
+    13.56,
+    "It says nothing about free space."
+   ]
+  ],
+  [
+   [
+    14.31,
+    17.213,
+    "A hard drive reads one scattered spot at a time."
+   ],
+   [
+    17.493,
+    22.818,
+    "Its arm swings to the right track, then waits for the platter to spin the data underneath."
+   ],
+   [
+    23.098,
+    25.666,
+    "That's roughly 13 milliseconds per read."
+   ]
+  ],
+  [
+   [
+    26.416,
+    31.071,
+    "It manages only about 75 to 100 random reads per second."
+   ],
+   [
+    31.351,
+    35.692,
+    "When startup apps all want files at once, the line never empties."
+   ],
+   [
+    35.972,
+    38.875,
+    "Busy every moment means 100 percent."
+   ]
+  ],
+  [
+   [
+    39.625,
+    41.305,
+    "An SSD has no arm."
+   ],
+   [
+    41.585,
+    46.367,
+    "It answers in well under a millisecond, so the same work barely registers."
+   ]
+  ],
+  [
+   [
+    47.117,
+    50.968,
+    "Find the real culprit in our video, Why Your PC Is Slow."
+   ]
+  ]
+ ]
+}

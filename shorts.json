@@ -255,6 +255,15 @@
    "status": "scheduled",
    "video": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/06s2-cores-vs-threads.mp4",
    "youtubeUrl": "https://www.youtube.com/shorts/GbDlILezeZ8"
+  },
+  {
+   "slug": "04s1-100-percent-disk",
+   "theme": "circuit",
+   "title": "Disk at 100% in Task Manager? It's Not About Space #shorts",
+   "publish": "2026-11-18T18:00:00-07:00",
+   "source": "04-why-your-pc-is-slow",
+   "status": "scheduled",
+   "youtubeUrl": "https://www.youtube.com/shorts/dwJ0O23uMx4"
   }
  ]
 }

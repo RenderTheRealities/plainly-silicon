@@ -1,0 +1,11 @@
+Task Manager says Disk, 100 percent. Your drive isn't full, so what's maxed out?
+
+That number is active time. It's how much of the time your drive was busy. It says nothing about free space.
+
+A hard drive reads one scattered spot at a time. Its arm swings to the right track, then waits for the platter to spin the data underneath. That's roughly 13 milliseconds per read.
+
+It manages only about 75 to 100 random reads per second. When startup apps all want files at once, the line never empties. Busy every moment means 100 percent.
+
+An SSD has no arm. It answers in well under a millisecond, so the same work barely registers.
+
+Find the real culprit in our video, Why Your PC Is Slow.
