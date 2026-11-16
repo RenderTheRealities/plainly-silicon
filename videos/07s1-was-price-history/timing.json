@@ -1,0 +1,87 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   6.321
+  ],
+  [
+   7.071,
+   14.486
+  ],
+  [
+   15.236,
+   27.387
+  ],
+  [
+   28.137,
+   31.427
+  ],
+  [
+   32.177,
+   43.079
+  ],
+  [
+   43.829,
+   48.628
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    6.321,
+    "That crossed-out \"was\" price on a Black Friday deal may be the least honest number on the page."
+   ]
+  ],
+  [
+   [
+    7.071,
+    14.486,
+    "A graphics card that says \"was 399, now 299\" feels like a hundred dollars off."
+   ]
+  ],
+  [
+   [
+    15.236,
+    21.655,
+    "Last year, the consumer group Which tracked 175 sale products from eight big retailers."
+   ],
+   [
+    21.935,
+    27.387,
+    "Eighty-three percent were the same price or cheaper at least once outside the sale."
+   ]
+  ],
+  [
+   [
+    28.137,
+    31.427,
+    "Not one was at its cheapest only on Black Friday."
+   ]
+  ],
+  [
+   [
+    32.177,
+    33.668,
+    "So ignore the sticker."
+   ],
+   [
+    33.948,
+    39.019,
+    "Check a price history tracker, like PCPartPicker or camelcamelcamel."
+   ],
+   [
+    39.299,
+    43.079,
+    "If it's been 299 since summer, you saved nothing."
+   ]
+  ],
+  [
+   [
+    43.829,
+    48.628,
+    "Six more traps are in our video, 7 Black Friday PC Part Traps."
+   ]
+  ]
+ ]
+}
