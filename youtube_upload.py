@@ -10,8 +10,9 @@ Prints JSON with the video id and URL.
 
 Secrets come ONLY from environment variables (never from the repo):
   YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN
+The refresh token must be granted the scopes youtube.upload and youtube.readonly.
 """
-import argparse, datetime as dt, json, os, re, sys, urllib.parse, urllib.request
+import argparse, datetime as dt, json, os, re, sys, urllib.error, urllib.parse, urllib.request
 
 API = "https://www.googleapis.com"
 
@@ -72,8 +73,17 @@ def main():
             urllib.request.urlopen(req); thumb_ok = True
         except urllib.error.HTTPError as e:
             thumb_ok = f"thumbnail failed: {e.code} {e.read()[:200]!r}"
+    # 4) read back what YouTube actually stored (needs the youtube.readonly scope; best effort)
+    checked = None
+    try:
+        r = urllib.request.urlopen(urllib.request.Request(f"{API}/youtube/v3/videos?part=status&id={vid}",
+                                                          headers={"Authorization": f"Bearer {tok}"}))
+        items = json.load(r).get("items", [])
+        checked = items[0]["status"] if items else "video not found"
+    except urllib.error.HTTPError as e:
+        checked = f"status check failed: {e.code}"
     url = f"https://www.youtube.com/{'shorts/' if a.short else 'watch?v='}{vid}"
-    print(json.dumps({"id": vid, "url": url, "status": status, "thumbnail": thumb_ok}, indent=1))
+    print(json.dumps({"id": vid, "url": url, "requested": status, "checked": checked, "thumbnail": thumb_ok}, indent=1))
 
 
 if __name__ == "__main__":

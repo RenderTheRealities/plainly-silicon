@@ -1,0 +1,3 @@
+Turned on by the channel owner on 2026-11-16.
+Google closed the YouTube API Services compliance review on 2026-11-10, saying videos uploaded via the API
+are not automatically marked as private. API keys live only in environment variables, never in this repo.
