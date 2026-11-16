@@ -1,0 +1,48 @@
+1
+00:00:00,300 --> 00:00:05,868
+One menu change can give you almost a quarter more frames per second, and you'll barely see it.
+
+2
+00:00:06,618 --> 00:00:11,133
+TechSpot tested Cyberpunk 2077 on both presets.
+
+3
+00:00:11,413 --> 00:00:15,592
+Dropping from Ultra to High gave twenty four percent more frames.
+
+4
+00:00:15,872 --> 00:00:19,011
+Side by side, the pictures looked almost the same.
+
+5
+00:00:19,761 --> 00:00:21,487
+So what does Ultra buy you?
+
+6
+00:00:21,767 --> 00:00:26,834
+In the current version, High mostly trims reflections, fog and crowd size.
+
+7
+00:00:27,114 --> 00:00:30,399
+You'd spot that in a paused screenshot, not mid fight.
+
+8
+00:00:31,149 --> 00:00:32,318
+The gain varies.
+
+9
+00:00:32,598 --> 00:00:36,189
+On that newer version, TechSpot measured fourteen percent.
+
+10
+00:00:36,469 --> 00:00:40,415
+Games whose presets differ in only a few settings barely change.
+
+11
+00:00:41,165 --> 00:00:46,396
+So start from High, then raise textures back up if your graphics card has the memory.
+
+12
+00:00:47,146 --> 00:00:54,348
+We take one PC from 48 frames to the mid 80s in our full video, What Actually Raises FPS.
+
