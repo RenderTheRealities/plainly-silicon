@@ -272,6 +272,15 @@
    "publish": "2026-11-21T18:00:00-07:00",
    "source": "08-what-raises-fps",
    "status": "ready"
+  },
+  {
+   "slug": "02s1-16-millisecond-frame",
+   "theme": "blueprint",
+   "title": "Your GPU Has 16 Milliseconds Per Frame #shorts",
+   "publish": "2026-11-17T18:00:00-07:00",
+   "source": "02-how-a-gpu-works",
+   "status": "scheduled",
+   "youtubeUrl": "https://www.youtube.com/shorts/GY6rtDE3gY4"
   }
  ]
 }

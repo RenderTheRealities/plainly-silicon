@@ -1,0 +1,97 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   8.882
+  ],
+  [
+   9.632,
+   17.676
+  ],
+  [
+   18.426,
+   30.569
+  ],
+  [
+   31.319,
+   39.078
+  ],
+  [
+   39.828,
+   47.64
+  ],
+  [
+   48.39,
+   53.613
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    6.418,
+    "Your graphics card gets about sixteen milliseconds to draw each frame at sixty frames per second."
+   ],
+   [
+    6.698,
+    8.882,
+    "Miss it, and the frame shows up late."
+   ]
+  ],
+  [
+   [
+    9.632,
+    12.437,
+    "That is just one second divided by sixty."
+   ],
+   [
+    12.717,
+    17.676,
+    "At a hundred and forty four hertz, the budget shrinks to under seven milliseconds."
+   ]
+  ],
+  [
+   [
+    18.426,
+    23.836,
+    "Inside that window, the CPU decides what's on screen and sends draw calls."
+   ],
+   [
+    24.116,
+    30.569,
+    "Then the GPU moves every vertex, finds which pixels each triangle covers, and colors them."
+   ]
+  ],
+  [
+   [
+    31.319,
+    35.762,
+    "At full HD, that's over two million pixels, every single frame."
+   ],
+   [
+    36.042,
+    39.078,
+    "Only then is the finished picture sent to your screen."
+   ]
+  ],
+  [
+   [
+    39.828,
+    41.533,
+    "And averages hide misses."
+   ],
+   [
+    41.813,
+    47.64,
+    "One frame that takes forty milliseconds feels like a hitch, even when the average looks fine."
+   ]
+  ],
+  [
+   [
+    48.39,
+    53.613,
+    "Watch one frame make the whole trip in our video, How a GPU Actually Works."
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,11 @@
+Your graphics card gets about sixteen milliseconds to draw each frame at sixty frames per second. Miss it, and the frame shows up late.
+
+That is just one second divided by sixty. At a hundred and forty four hertz, the budget shrinks to under seven milliseconds.
+
+Inside that window, the CPU decides what's on screen and sends draw calls. Then the GPU moves every vertex, finds which pixels each triangle covers, and colors them.
+
+At full HD, that's over two million pixels, every single frame. Only then is the finished picture sent to your screen.
+
+And averages hide misses. One frame that takes forty milliseconds feels like a hitch, even when the average looks fine.
+
+Watch one frame make the whole trip in our video, How a GPU Actually Works.

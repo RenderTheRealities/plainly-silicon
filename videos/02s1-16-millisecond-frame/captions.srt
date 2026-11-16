@@ -1,0 +1,44 @@
+1
+00:00:00,300 --> 00:00:06,418
+Your graphics card gets about sixteen milliseconds to draw each frame at sixty frames per second.
+
+2
+00:00:06,698 --> 00:00:08,882
+Miss it, and the frame shows up late.
+
+3
+00:00:09,632 --> 00:00:12,437
+That is just one second divided by sixty.
+
+4
+00:00:12,717 --> 00:00:17,676
+At a hundred and forty four hertz, the budget shrinks to under seven milliseconds.
+
+5
+00:00:18,426 --> 00:00:23,836
+Inside that window, the CPU decides what's on screen and sends draw calls.
+
+6
+00:00:24,116 --> 00:00:30,569
+Then the GPU moves every vertex, finds which pixels each triangle covers, and colors them.
+
+7
+00:00:31,319 --> 00:00:35,762
+At full HD, that's over two million pixels, every single frame.
+
+8
+00:00:36,042 --> 00:00:39,078
+Only then is the finished picture sent to your screen.
+
+9
+00:00:39,828 --> 00:00:41,533
+And averages hide misses.
+
+10
+00:00:41,813 --> 00:00:47,640
+One frame that takes forty milliseconds feels like a hitch, even when the average looks fine.
+
+11
+00:00:48,390 --> 00:00:53,613
+Watch one frame make the whole trip in our video, How a GPU Actually Works.
+
