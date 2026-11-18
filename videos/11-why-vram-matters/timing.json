@@ -1,0 +1,397 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   20.982
+  ],
+  [
+   21.732,
+   64.163
+  ],
+  [
+   64.913,
+   108.738
+  ],
+  [
+   109.488,
+   147.806
+  ],
+  [
+   148.556,
+   182.79
+  ],
+  [
+   183.54,
+   230.21
+  ],
+  [
+   230.96,
+   280.962
+  ],
+  [
+   281.712,
+   312.642
+  ],
+  [
+   313.392,
+   351.26
+  ],
+  [
+   352.01,
+   393.918
+  ],
+  [
+   394.668,
+   425.791
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    4.303,
+    "Two graphics cards with the exact same chip ran the same game."
+   ],
+   [
+    4.583,
+    10.991,
+    "One averaged 66 frames a second, the other managed 27, with dips down to 9."
+   ],
+   [
+    11.271,
+    20.982,
+    "The only difference was the amount of video memory on the card, and by the end of this video you'll know exactly why that happens, and how much you actually need."
+   ]
+  ],
+  [
+   [
+    21.732,
+    33.087,
+    "The cards were the RTX 5060 Ti, one with 8 gigabytes of VRAM and one with 16, tested by TechSpot in Dragon Age: The Veilguard."
+   ],
+   [
+    33.367,
+    39.936,
+    "VRAM is memory soldered right around the graphics chip, separate from the RAM your processor uses."
+   ],
+   [
+    40.216,
+    50.003,
+    "On this card it's GDDR7, a type of memory built for huge, wide transfers, connected over a 128 bit bus."
+   ],
+   [
+    50.283,
+    52.825,
+    "It exists because a GPU is hungry."
+   ],
+   [
+    53.105,
+    58.429,
+    "This card can read its own memory at about 448 gigabytes a second."
+   ],
+   [
+    58.709,
+    64.163,
+    "Everything the GPU needs to draw a frame has to sit in that memory, ready to grab."
+   ]
+  ],
+  [
+   [
+    64.913,
+    67.522,
+    "Think of VRAM as a suitcase, so let's pack it."
+   ],
+   [
+    67.802,
+    73.459,
+    "The biggest item by far is textures, the images wrapped over every surface in the game."
+   ],
+   [
+    73.739,
+    82.214,
+    "A single detailed texture, 4096 pixels on each side, would take 64 megabytes if it were stored raw."
+   ],
+   [
+    82.494,
+    90.599,
+    "Games compress it with a format called BC7, which uses one byte per pixel, so it drops to 16 megabytes."
+   ],
+   [
+    90.879,
+    96.219,
+    "Then the game adds smaller copies for distant objects, which costs about a third more."
+   ],
+   [
+    96.499,
+    102.549,
+    "And one material often uses several of these textures at once, for color, bumps and shine."
+   ],
+   [
+    102.829,
+    108.738,
+    "Ten materials like that, with three textures each, is already over 600 megabytes."
+   ]
+  ],
+  [
+   [
+    109.488,
+    119.544,
+    "Now multiply that by every rock, wall, face and weapon in view, and in the areas nearby, because the game loads them before you turn around."
+   ],
+   [
+    119.824,
+    122.069,
+    "After textures come the frame buffers."
+   ],
+   [
+    122.349,
+    134.224,
+    "One 1440p image is only about 15 megabytes, but modern games keep many of them: depth, motion, lighting, and older frames for upscaling."
+   ],
+   [
+    134.504,
+    144.765,
+    "Add the 3D models, the shader programs, and with ray tracing on, a whole extra map of the scene's geometry so light rays can find what they hit."
+   ],
+   [
+    145.045,
+    147.806,
+    "Frame generation needs its own room too."
+   ]
+  ],
+  [
+   [
+    148.556,
+    151.963,
+    "So why does this suddenly matter more than a few years ago?"
+   ],
+   [
+    152.243,
+    155.171,
+    "Because big games are built for the current consoles."
+   ],
+   [
+    155.451,
+    162.073,
+    "A PlayStation 5 has 16 gigabytes of fast memory, shared between its processor and graphics."
+   ],
+   [
+    162.353,
+    172.242,
+    "Developers plan their textures and effects around that budget, and the PC version's high settings often ask for more than 8 gigabytes on the card alone."
+   ],
+   [
+    172.522,
+    182.79,
+    "When PC Gamer tested recent games this year, the 16 gigabyte cards were using around 9 to 11, while the 8 gigabyte cards were nearly full."
+   ]
+  ],
+  [
+   [
+    183.54,
+    185.869,
+    "Here's what happens when the suitcase is full."
+   ],
+   [
+    186.149,
+    187.534,
+    "The game doesn't crash."
+   ],
+   [
+    187.814,
+    192.407,
+    "The driver moves some of the data out to your system RAM instead."
+   ],
+   [
+    192.687,
+    199.585,
+    "Now, whenever the GPU needs one of those textures, it has to fetch it across the PCI Express slot."
+   ],
+   [
+    199.865,
+    211.868,
+    "On the RTX 5060 Ti, which only wires up 8 lanes, a PCIe 4 slot gives about 32 gigabytes a second, counting both directions."
+   ],
+   [
+    212.148,
+    215.731,
+    "Compare that with 448 inside the card."
+   ],
+   [
+    216.011,
+    225.785,
+    "And the system RAM on the other end is slower too: dual channel DDR5 at 6000 peaks around 96 gigabytes a second."
+   ],
+   [
+    226.065,
+    230.21,
+    "It's like a chef whose ingredients are suddenly in a shop down the street."
+   ]
+  ],
+  [
+   [
+    230.96,
+    236.315,
+    "That's why running out of VRAM often shows up as stutter rather than a lower average."
+   ],
+   [
+    236.595,
+    238.721,
+    "Most frames still find what they need."
+   ],
+   [
+    239.001,
+    245.265,
+    "But every so often a frame has to wait for a texture to arrive, and that frame takes far longer."
+   ],
+   [
+    245.545,
+    250.047,
+    "At 60 frames a second, each frame gets about 16 milliseconds."
+   ],
+   [
+    250.327,
+    257.949,
+    "A frame that waits two or three times as long is a hitch you can feel, even if the counter in the corner barely moves."
+   ],
+   [
+    258.229,
+    264.359,
+    "Reviewers catch this with a number called the 1 percent low, the frame rate of the slowest frames."
+   ],
+   [
+    264.639,
+    273.999,
+    "In PC Gamer's Cyberpunk test at 1080p with medium ray tracing, both cards averaged 91 frames a second."
+   ],
+   [
+    274.279,
+    280.962,
+    "But the 1 percent lows were 63 on the 16 gigabyte card and only 44 on the 8."
+   ]
+  ],
+  [
+   [
+    281.712,
+    284.874,
+    "Your motherboard slot changes how bad the fall is."
+   ],
+   [
+    285.154,
+    292.52,
+    "That 27 frames a second at the start was on an older PCIe 3 slot, which halves the bandwidth again."
+   ],
+   [
+    292.8,
+    298.224,
+    "On PCIe 4, the 8 gigabyte card's 1 percent lows more than doubled."
+   ],
+   [
+    298.504,
+    302.761,
+    "On PCIe 5, its average rose another 12 percent."
+   ],
+   [
+    303.041,
+    307.998,
+    "But even there, the 16 gigabyte card was still 68 percent faster."
+   ],
+   [
+    308.278,
+    310.183,
+    "A faster slot softens the hit."
+   ],
+   [
+    310.463,
+    312.642,
+    "It can't replace memory on the card."
+   ]
+  ],
+  [
+   [
+    313.392,
+    315.145,
+    "It isn't the same in every game."
+   ],
+   [
+    315.425,
+    325.368,
+    "In The Last of Us Part 2, the 8 gigabyte card on PCIe 5 averaged 92 frames a second, level with the 16 gigabyte card."
+   ],
+   [
+    325.648,
+    335.414,
+    "In other games tested the gap was huge, and Indiana Jones and Monster Hunter Wilds struggled on 8 gigabytes no matter which slot was used."
+   ],
+   [
+    335.694,
+    343.077,
+    "What decides it is mostly four settings: texture quality, resolution, ray tracing and frame generation."
+   ],
+   [
+    343.357,
+    351.26,
+    "Textures are usually the biggest single user, so dropping texture quality one step is the quickest way to free memory."
+   ]
+  ],
+  [
+   [
+    352.01,
+    353.451,
+    "So how much do you need?"
+   ],
+   [
+    353.731,
+    362.909,
+    "PC Gamer's verdict was that 8 gigabytes is still enough for gaming in 2026, with caveats, and the caveats are the point."
+   ],
+   [
+    363.189,
+    374.471,
+    "If you already have an 8 gigabyte card, play at 1080p, keep textures at high instead of ultra, and go easy on ray tracing and frame generation."
+   ],
+   [
+    374.751,
+    385.478,
+    "If you're buying a new card to keep for years, 12 gigabytes is a sensible floor for 1440p, and 16 gives you room as games grow."
+   ],
+   [
+    385.758,
+    393.918,
+    "And check your slot: an 8 lane card in an older PCIe 3 board gets hit twice as hard when memory runs out."
+   ]
+  ],
+  [
+   [
+    394.668,
+    396.797,
+    "You can check your own card right now."
+   ],
+   [
+    397.077,
+    404.729,
+    "Open Task Manager, go to Performance, pick your GPU, and watch dedicated GPU memory while you play."
+   ],
+   [
+    405.009,
+    409.554,
+    "If it sits right at the limit and your game stutters, you've found your bottleneck."
+   ],
+   [
+    409.834,
+    417.846,
+    "Remember the suitcase: when it's full, the GPU waits on the shop down the street, and no amount of raw speed fixes that."
+   ],
+   [
+    418.126,
+    423.83,
+    "Next time, we're opening the case and cleaning a PC properly without breaking anything."
+   ],
+   [
+    424.11,
+    425.791,
+    "Subscribe so you don't miss it."
+   ]
+  ]
+ ]
+}

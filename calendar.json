@@ -109,10 +109,12 @@
     },
     {
       "slug": "11-why-vram-matters",
-      "publish": "2026-12-02T12:00:00-07:00",
-      "title": "Why VRAM Suddenly Matters So Much",
+      "publish": "2026-11-18T10:00:00-07:00",
+      "title": "Why VRAM Suddenly Matters So Much (8 GB vs 16 GB, Explained)",
       "keyword": "vram explained",
-      "status": "planned"
+      "status": "planned",
+      "theme": "graphite",
+      "length": "7:07"
     },
     {
       "slug": "12-clean-your-pc",
@@ -175,6 +177,13 @@
       "publish": "2026-12-23T12:00:00-07:00",
       "title": "Ethernet vs Wi-Fi for Gaming: Where Lag Really Comes From",
       "keyword": "ethernet vs wifi for gaming",
+      "status": "planned"
+    },
+    {
+      "slug": "21-shader-compilation-stutter",
+      "publish": "2026-12-28T12:00:00-07:00",
+      "title": "Why New PC Games Stutter: Shader Compilation Explained",
+      "keyword": "shader compilation stutter",
       "status": "planned"
     }
   ]
