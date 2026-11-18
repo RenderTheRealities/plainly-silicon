@@ -507,7 +507,7 @@ def s_check(x):
         # usage chart
         gx0, gy0, gx1, gy1 = 360, 360, 1560, 760
         x.rect([gx0, gy0, gx1, gy1], MUTED, a[1], 2, r=0, glow=False)
-        lim = gy0 + 30
+        lim = gy0 + 50
         x.d.line([(gx0, lim), (gx1, lim)], fill=col(RED, a[1]), width=2)
         x.text((gx1 - 10, lim - 8), "8.0 GB limit", "mono", 24, RED, a[1], anchor="rd")
         p = clamp(x.since(1) / 4.0)
@@ -518,7 +518,7 @@ def s_check(x):
             pts.append((gx0 + u * (gx1 - gx0), gy1 - (gy1 - lim) * min(v, 0.995)))
         if len(pts) > 1:
             x.line(pts, WHITE, a[1], 4, glow=False)
-        used = min(7.9, 2.8 + p * 10.4 * 0.5)
+        used = 8.0 * min(0.99, 0.35 + p * 1.3)
         x.text((1560, 290), f"{used:.1f} / 8.0 GB", "title", 40, RED if used > 7.5 else WHITE, a[1], anchor="ra")
         if a[2] > 0:
             label_box(x, 960, 820, "at the limit + stutter = your bottleneck", RED, a[2], 32)

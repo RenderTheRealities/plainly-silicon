@@ -112,9 +112,11 @@
       "publish": "2026-11-18T10:00:00-07:00",
       "title": "Why VRAM Suddenly Matters So Much (8 GB vs 16 GB, Explained)",
       "keyword": "vram explained",
-      "status": "planned",
+      "status": "ready",
       "theme": "graphite",
-      "length": "7:07"
+      "length": "7:07",
+      "mediaUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/11-why-vram-matters.mp4",
+      "thumbnailUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/11-why-vram-matters.jpg"
     },
     {
       "slug": "12-clean-your-pc",

@@ -1,0 +1,260 @@
+1
+00:00:00,300 --> 00:00:04,303
+Two graphics cards with the exact same chip ran the same game.
+
+2
+00:00:04,583 --> 00:00:10,991
+One averaged 66 frames a second, the other managed 27, with dips down to 9.
+
+3
+00:00:11,271 --> 00:00:20,982
+The only difference was the amount of video memory on the card, and by the end of this video you'll know exactly why that happens, and how much you actually need.
+
+4
+00:00:21,732 --> 00:00:33,087
+The cards were the RTX 5060 Ti, one with 8 gigabytes of VRAM and one with 16, tested by TechSpot in Dragon Age: The Veilguard.
+
+5
+00:00:33,367 --> 00:00:39,936
+VRAM is memory soldered right around the graphics chip, separate from the RAM your processor uses.
+
+6
+00:00:40,216 --> 00:00:50,003
+On this card it's GDDR7, a type of memory built for huge, wide transfers, connected over a 128 bit bus.
+
+7
+00:00:50,283 --> 00:00:52,825
+It exists because a GPU is hungry.
+
+8
+00:00:53,105 --> 00:00:58,429
+This card can read its own memory at about 448 gigabytes a second.
+
+9
+00:00:58,709 --> 00:01:04,163
+Everything the GPU needs to draw a frame has to sit in that memory, ready to grab.
+
+10
+00:01:04,913 --> 00:01:07,522
+Think of VRAM as a suitcase, so let's pack it.
+
+11
+00:01:07,802 --> 00:01:13,459
+The biggest item by far is textures, the images wrapped over every surface in the game.
+
+12
+00:01:13,739 --> 00:01:22,214
+A single detailed texture, 4096 pixels on each side, would take 64 megabytes if it were stored raw.
+
+13
+00:01:22,494 --> 00:01:30,599
+Games compress it with a format called BC7, which uses one byte per pixel, so it drops to 16 megabytes.
+
+14
+00:01:30,879 --> 00:01:36,219
+Then the game adds smaller copies for distant objects, which costs about a third more.
+
+15
+00:01:36,499 --> 00:01:42,549
+And one material often uses several of these textures at once, for color, bumps and shine.
+
+16
+00:01:42,829 --> 00:01:48,738
+Ten materials like that, with three textures each, is already over 600 megabytes.
+
+17
+00:01:49,488 --> 00:01:59,544
+Now multiply that by every rock, wall, face and weapon in view, and in the areas nearby, because the game loads them before you turn around.
+
+18
+00:01:59,824 --> 00:02:02,069
+After textures come the frame buffers.
+
+19
+00:02:02,349 --> 00:02:14,224
+One 1440p image is only about 15 megabytes, but modern games keep many of them: depth, motion, lighting, and older frames for upscaling.
+
+20
+00:02:14,504 --> 00:02:24,765
+Add the 3D models, the shader programs, and with ray tracing on, a whole extra map of the scene's geometry so light rays can find what they hit.
+
+21
+00:02:25,045 --> 00:02:27,806
+Frame generation needs its own room too.
+
+22
+00:02:28,556 --> 00:02:31,963
+So why does this suddenly matter more than a few years ago?
+
+23
+00:02:32,243 --> 00:02:35,171
+Because big games are built for the current consoles.
+
+24
+00:02:35,451 --> 00:02:42,073
+A PlayStation 5 has 16 gigabytes of fast memory, shared between its processor and graphics.
+
+25
+00:02:42,353 --> 00:02:52,242
+Developers plan their textures and effects around that budget, and the PC version's high settings often ask for more than 8 gigabytes on the card alone.
+
+26
+00:02:52,522 --> 00:03:02,790
+When PC Gamer tested recent games this year, the 16 gigabyte cards were using around 9 to 11, while the 8 gigabyte cards were nearly full.
+
+27
+00:03:03,540 --> 00:03:05,869
+Here's what happens when the suitcase is full.
+
+28
+00:03:06,149 --> 00:03:07,534
+The game doesn't crash.
+
+29
+00:03:07,814 --> 00:03:12,407
+The driver moves some of the data out to your system RAM instead.
+
+30
+00:03:12,687 --> 00:03:19,585
+Now, whenever the GPU needs one of those textures, it has to fetch it across the PCI Express slot.
+
+31
+00:03:19,865 --> 00:03:31,868
+On the RTX 5060 Ti, which only wires up 8 lanes, a PCIe 4 slot gives about 32 gigabytes a second, counting both directions.
+
+32
+00:03:32,148 --> 00:03:35,731
+Compare that with 448 inside the card.
+
+33
+00:03:36,011 --> 00:03:45,785
+And the system RAM on the other end is slower too: dual channel DDR5 at 6000 peaks around 96 gigabytes a second.
+
+34
+00:03:46,065 --> 00:03:50,210
+It's like a chef whose ingredients are suddenly in a shop down the street.
+
+35
+00:03:50,960 --> 00:03:56,315
+That's why running out of VRAM often shows up as stutter rather than a lower average.
+
+36
+00:03:56,595 --> 00:03:58,721
+Most frames still find what they need.
+
+37
+00:03:59,001 --> 00:04:05,265
+But every so often a frame has to wait for a texture to arrive, and that frame takes far longer.
+
+38
+00:04:05,545 --> 00:04:10,047
+At 60 frames a second, each frame gets about 16 milliseconds.
+
+39
+00:04:10,327 --> 00:04:17,949
+A frame that waits two or three times as long is a hitch you can feel, even if the counter in the corner barely moves.
+
+40
+00:04:18,229 --> 00:04:24,359
+Reviewers catch this with a number called the 1 percent low, the frame rate of the slowest frames.
+
+41
+00:04:24,639 --> 00:04:33,999
+In PC Gamer's Cyberpunk test at 1080p with medium ray tracing, both cards averaged 91 frames a second.
+
+42
+00:04:34,279 --> 00:04:40,962
+But the 1 percent lows were 63 on the 16 gigabyte card and only 44 on the 8.
+
+43
+00:04:41,712 --> 00:04:44,874
+Your motherboard slot changes how bad the fall is.
+
+44
+00:04:45,154 --> 00:04:52,520
+That 27 frames a second at the start was on an older PCIe 3 slot, which halves the bandwidth again.
+
+45
+00:04:52,800 --> 00:04:58,224
+On PCIe 4, the 8 gigabyte card's 1 percent lows more than doubled.
+
+46
+00:04:58,504 --> 00:05:02,761
+On PCIe 5, its average rose another 12 percent.
+
+47
+00:05:03,041 --> 00:05:07,998
+But even there, the 16 gigabyte card was still 68 percent faster.
+
+48
+00:05:08,278 --> 00:05:10,183
+A faster slot softens the hit.
+
+49
+00:05:10,463 --> 00:05:12,642
+It can't replace memory on the card.
+
+50
+00:05:13,392 --> 00:05:15,145
+It isn't the same in every game.
+
+51
+00:05:15,425 --> 00:05:25,368
+In The Last of Us Part 2, the 8 gigabyte card on PCIe 5 averaged 92 frames a second, level with the 16 gigabyte card.
+
+52
+00:05:25,648 --> 00:05:35,414
+In other games tested the gap was huge, and Indiana Jones and Monster Hunter Wilds struggled on 8 gigabytes no matter which slot was used.
+
+53
+00:05:35,694 --> 00:05:43,077
+What decides it is mostly four settings: texture quality, resolution, ray tracing and frame generation.
+
+54
+00:05:43,357 --> 00:05:51,260
+Textures are usually the biggest single user, so dropping texture quality one step is the quickest way to free memory.
+
+55
+00:05:52,010 --> 00:05:53,451
+So how much do you need?
+
+56
+00:05:53,731 --> 00:06:02,909
+PC Gamer's verdict was that 8 gigabytes is still enough for gaming in 2026, with caveats, and the caveats are the point.
+
+57
+00:06:03,189 --> 00:06:14,471
+If you already have an 8 gigabyte card, play at 1080p, keep textures at high instead of ultra, and go easy on ray tracing and frame generation.
+
+58
+00:06:14,751 --> 00:06:25,478
+If you're buying a new card to keep for years, 12 gigabytes is a sensible floor for 1440p, and 16 gives you room as games grow.
+
+59
+00:06:25,758 --> 00:06:33,918
+And check your slot: an 8 lane card in an older PCIe 3 board gets hit twice as hard when memory runs out.
+
+60
+00:06:34,668 --> 00:06:36,797
+You can check your own card right now.
+
+61
+00:06:37,077 --> 00:06:44,729
+Open Task Manager, go to Performance, pick your GPU, and watch dedicated GPU memory while you play.
+
+62
+00:06:45,009 --> 00:06:49,554
+If it sits right at the limit and your game stutters, you've found your bottleneck.
+
+63
+00:06:49,834 --> 00:06:57,846
+Remember the suitcase: when it's full, the GPU waits on the shop down the street, and no amount of raw speed fixes that.
+
+64
+00:06:58,126 --> 00:07:03,830
+Next time, we're opening the case and cleaning a PC properly without breaking anything.
+
+65
+00:07:04,110 --> 00:07:05,791
+Subscribe so you don't miss it.
+
