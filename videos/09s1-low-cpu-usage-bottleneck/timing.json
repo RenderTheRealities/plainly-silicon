@@ -1,0 +1,97 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   6.816
+  ],
+  [
+   7.566,
+   14.159
+  ],
+  [
+   14.909,
+   24.16
+  ],
+  [
+   24.91,
+   30.982
+  ],
+  [
+   31.732,
+   45.235
+  ],
+  [
+   45.985,
+   49.461
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    3.504,
+    "Task Manager says your processor is at 40 percent."
+   ],
+   [
+    3.784,
+    6.816,
+    "It can still be the part holding your frame rate back."
+   ]
+  ],
+  [
+   [
+    7.566,
+    11.673,
+    "That number is an average across every thread your processor has."
+   ],
+   [
+    11.953,
+    14.159,
+    "Games rarely spread their work evenly."
+   ]
+  ],
+  [
+   [
+    14.909,
+    17.807,
+    "A lot of each frame waits on one main thread."
+   ],
+   [
+    18.087,
+    24.16,
+    "On a 16 thread chip, one thread running flat out adds only about 6 percent to the total."
+   ]
+  ],
+  [
+   [
+    24.91,
+    30.982,
+    "So that one busy thread sets the pace, while the others sit mostly idle and pull the average down."
+   ]
+  ],
+  [
+   [
+    31.732,
+    33.684,
+    "Check GPU usage instead."
+   ],
+   [
+    33.964,
+    38.379,
+    "If it's pinned at 95 percent or more, the graphics card is the limit."
+   ],
+   [
+    38.659,
+    45.235,
+    "If it sits well below 90, with no frame cap or V-Sync, the processor is likely the wall."
+   ]
+  ],
+  [
+   [
+    45.985,
+    49.461,
+    "The full guide is in our video, Bottlenecks Explained."
+   ]
+  ]
+ ]
+}

@@ -1,349 +1,367 @@
 {
-  "shorts_per_day": 2,
-  "times": [
-    "12:00",
-    "18:00"
-  ],
-  "timezone": "America/Cambridge_Bay",
-  "shorts": [
-    {
-      "slug": "01s1-every-pc-part",
-      "theme": "blueprint",
-      "title": "Every PC Part Explained in Under a Minute #shorts",
-      "publish": "2026-11-03T03:15:00-07:00",
-      "source": "01-every-pc-component",
-      "status": "scheduled",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-5245755248572346950"
-    },
-    {
-      "slug": "01s2-ram-vs-storage",
-      "theme": "paper",
-      "title": "RAM vs Storage: Why Your PC Needs Both #shorts",
-      "publish": "2026-11-03T03:17:00-07:00",
-      "source": "01-every-pc-component",
-      "status": "scheduled",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-2354027853065400754"
-    },
-    {
-      "slug": "01s3-gpu-thousands-of-cores",
-      "theme": "terminal",
-      "title": "Why Your GPU Has Thousands of Cores #shorts",
-      "publish": "2026-11-03T03:19:00-07:00",
-      "source": "01-every-pc-component",
-      "status": "scheduled",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-1372206360290309065"
-    },
-    {
-      "slug": "01s4-best-upgrade-old-pc",
-      "theme": "sunset",
-      "title": "The One Upgrade That Revives an Old PC #shorts",
-      "publish": "2026-11-03T03:21:00-07:00",
-      "source": "01-every-pc-component",
-      "status": "scheduled",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-1602231477257680525"
-    },
-    {
-      "slug": "01s5-pc-slower-in-summer",
-      "theme": "mint",
-      "title": "Why Your PC Gets Slower in Summer #shorts",
-      "publish": "2026-11-03T03:23:00-07:00",
-      "source": "01-every-pc-component",
-      "status": "scheduled",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-3703900542235688107"
-    },
-    {
-      "slug": "01s7-1tb-shows-931gb",
-      "theme": "ocean",
-      "title": "Why Your 1 TB Drive Shows 931 GB #shorts",
-      "publish": "2026-11-03T17:52:00-07:00",
-      "source": "standalone",
-      "status": "scheduled",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-159767018462624265"
-    },
-    {
-      "slug": "01s6-gpus-not-just-graphics",
-      "theme": "ember",
-      "title": "GPUs Aren't Just for Graphics #shorts",
-      "publish": "2026-11-03T17:54:00-07:00",
-      "source": "standalone",
-      "status": "scheduled",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=4411950053407411688"
-    },
-    {
-      "slug": "01s8-plug-monitor-into-gpu",
-      "theme": "neon",
-      "title": "Is Your Monitor Plugged Into the Wrong Port? #shorts",
-      "publish": "2026-11-03T17:57:00-07:00",
-      "source": "standalone",
-      "status": "scheduled",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=1021270582977775015"
-    },
-    {
-      "slug": "01s9-monitor-stuck-at-60hz",
-      "theme": "arctic",
-      "title": "Your 144 Hz Monitor Might Be Stuck at 60 #shorts",
-      "publish": "2026-11-03T17:59:00-07:00",
-      "source": "standalone",
-      "status": "scheduled",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-2398154050314943121"
-    },
-    {
-      "slug": "01s10-dual-channel-ram",
-      "theme": "retro",
-      "title": "Why Two RAM Sticks Beat One #shorts",
-      "publish": "2026-11-07T06:55:00-07:00",
-      "source": "standalone",
-      "status": "published",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=7408543634511187247",
-      "youtubeUrl": "https://www.youtube.com/shorts/MXZFC-aeTRk"
-    },
-    {
-      "slug": "01s11-cmos-battery",
-      "theme": "graphite",
-      "title": "The Tiny Battery Inside Your PC #shorts",
-      "publish": "2026-11-07T06:57:00-07:00",
-      "source": "standalone",
-      "status": "published",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=3847773103811937011",
-      "youtubeUrl": "https://www.youtube.com/shorts/idn5jaZlcU4"
-    },
-    {
-      "slug": "01s12-what-ghz-means",
-      "theme": "blueprint",
-      "title": "What 4 GHz Actually Means #shorts",
-      "publish": "2026-11-07T06:59:00-07:00",
-      "source": "standalone",
-      "status": "published",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-2160611966541673359",
-      "youtubeUrl": "https://www.youtube.com/shorts/4dC_XYvz8MA"
-    },
-    {
-      "slug": "01s13-thermal-paste-amount",
-      "theme": "paper",
-      "title": "How Much Thermal Paste Should You Use? #shorts",
-      "publish": "2026-11-07T07:01:00-07:00",
-      "source": "standalone",
-      "status": "published",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-783203216692195603",
-      "youtubeUrl": "https://www.youtube.com/shorts/jeubgoxVY8g"
-    },
-    {
-      "slug": "01s14-psu-wattage-myth",
-      "theme": "terminal",
-      "title": "Your 850 W Power Supply Doesn't Use 850 W #shorts",
-      "publish": "2026-11-07T07:03:00-07:00",
-      "source": "standalone",
-      "status": "published",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-5462688516042896849",
-      "youtubeUrl": "https://www.youtube.com/shorts/Ioo98nWJ81o"
-    },
-    {
-      "slug": "01s15-nm-is-marketing",
-      "theme": "sunset",
-      "title": "3 nm Chips Aren't Actually 3 nm #shorts",
-      "publish": "2026-11-07T07:05:00-07:00",
-      "source": "standalone",
-      "status": "published",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-1525257833332260464",
-      "youtubeUrl": "https://www.youtube.com/shorts/_nJieW9jBfA"
-    },
-    {
-      "slug": "01s16-ram-default-speed",
-      "theme": "arctic",
-      "title": "Your RAM Is Probably Slower Than the Box Says #shorts",
-      "publish": "2026-11-07T07:07:00-07:00",
-      "source": "01-every-pc-component",
-      "status": "published",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-1720626683122268559",
-      "youtubeUrl": "https://www.youtube.com/shorts/XOUnoLxUz10"
-    },
-    {
-      "slug": "01s17-ryzen-95-degrees",
-      "theme": "ember",
-      "title": "Is 95°C Too Hot for a Ryzen CPU? #shorts",
-      "publish": "2026-11-07T07:09:00-07:00",
-      "source": "standalone",
-      "status": "published",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-4755846058635999873",
-      "youtubeUrl": "https://www.youtube.com/shorts/fwrX16y99Nk"
-    },
-    {
-      "slug": "01s18-m2-is-a-shape",
-      "theme": "retro",
-      "title": "M.2 Is a Shape, Not a Speed #shorts",
-      "publish": "2026-11-07T12:20:00-07:00",
-      "source": "standalone",
-      "status": "published",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-8187565850715336868",
-      "youtubeUrl": "https://www.youtube.com/shorts/b8rh1SlQbkk"
-    },
-    {
-      "slug": "01s19-gpu-power-cables",
-      "theme": "graphite",
-      "title": "Why Your Graphics Card Needs Extra Power Cables #shorts",
-      "publish": "2026-11-07T12:22:00-07:00",
-      "source": "standalone",
-      "status": "published",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=4259813450568712795",
-      "youtubeUrl": "https://www.youtube.com/shorts/-CJTjorPTiY"
-    },
-    {
-      "slug": "01s20-ssd-slows-when-full",
-      "theme": "ocean",
-      "title": "Why Your SSD Gets Slower When It's Full #shorts",
-      "publish": "2026-11-08T13:40:00-08:00",
-      "source": "standalone",
-      "status": "published",
-      "publishedVia": "YouTube Studio (by hand), Nov 8 2026"
-    },
-    {
-      "slug": "01s21-blue-usb-ports",
-      "theme": "blueprint",
-      "title": "Why Some USB Ports Are Blue #shorts",
-      "publish": "2026-11-08T13:40:00-08:00",
-      "source": "standalone",
-      "status": "published",
-      "publishedVia": "YouTube Studio (by hand), Nov 8 2026",
-      "youtubeUrl": "https://www.youtube.com/shorts/ubzLlQX1v70"
-    },
-    {
-      "slug": "01s22-tdp-isnt-power-draw",
-      "theme": "paper",
-      "title": "TDP Isn't How Much Power Your CPU Uses #shorts",
-      "publish": "2026-11-08T13:40:00-08:00",
-      "source": "standalone",
-      "status": "published",
-      "publishedVia": "YouTube Studio (by hand), Nov 8 2026"
-    },
-    {
-      "slug": "06s1-cpu-cache-levels",
-      "theme": "ember",
-      "title": "CPU Cache Explained: Why RAM Is 100x Slower #shorts",
-      "publish": "2026-11-14T12:00:00-07:00",
-      "source": "06-how-a-cpu-runs-code",
-      "status": "scheduled",
-      "video": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/06s1-cpu-cache-levels.mp4",
-      "youtubeUrl": "https://www.youtube.com/shorts/SCJ5yoN0vR8"
-    },
-    {
-      "slug": "03s1-laptop-ram-soldered",
-      "theme": "graphite",
-      "title": "Can Your Laptop Take More RAM? Check This First #shorts",
-      "publish": "2026-11-15T22:25:00-07:00",
-      "source": "03-every-type-of-ram",
-      "status": "scheduled",
-      "video": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/03s1-laptop-ram-soldered.mp4",
-      "youtubeUrl": "https://www.youtube.com/shorts/wfQFbHfrDJQ",
-      "note": "Uploaded with an empty title (YouTube shows 'unknown'); set the title in YouTube Studio"
-    },
-    {
-      "slug": "05s1-dont-defrag-an-ssd",
-      "theme": "mint",
-      "title": "Should You Defrag an SSD? Here's Why Not #shorts",
-      "publish": "2026-11-16T12:00:00-07:00",
-      "source": "05-ssd-vs-hdd-vs-nvme",
-      "status": "scheduled",
-      "video": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/05s1-dont-defrag-an-ssd.mp4",
-      "youtubeUrl": "https://www.youtube.com/shorts/Sqc_-RSNgWk"
-    },
-    {
-      "slug": "06s2-cores-vs-threads",
-      "theme": "neon",
-      "title": "Cores vs Threads: What Hyper-Threading Really Does #shorts",
-      "publish": "2026-11-16T18:00:00-07:00",
-      "source": "06-how-a-cpu-runs-code",
-      "status": "scheduled",
-      "video": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/06s2-cores-vs-threads.mp4",
-      "youtubeUrl": "https://www.youtube.com/shorts/GbDlILezeZ8"
-    },
-    {
-      "slug": "04s1-100-percent-disk",
-      "theme": "circuit",
-      "title": "Disk at 100% in Task Manager? It's Not About Space #shorts",
-      "publish": "2026-11-18T18:00:00-07:00",
-      "source": "04-why-your-pc-is-slow",
-      "status": "scheduled",
-      "youtubeUrl": "https://www.youtube.com/shorts/dwJ0O23uMx4"
-    },
-    {
-      "slug": "08s2-frame-gen-latency",
-      "theme": "terminal",
-      "title": "Frame Generation Doubles FPS. Why Doesn't It Feel Faster? #shorts",
-      "publish": "2026-11-21T18:00:00-07:00",
-      "source": "08-what-raises-fps",
-      "status": "ready"
-    },
-    {
-      "slug": "02s1-16-millisecond-frame",
-      "theme": "blueprint",
-      "title": "Your GPU Has 16 Milliseconds Per Frame #shorts",
-      "publish": "2026-11-17T18:00:00-07:00",
-      "source": "02-how-a-gpu-works",
-      "status": "scheduled",
-      "youtubeUrl": "https://www.youtube.com/shorts/GY6rtDE3gY4"
-    },
-    {
-      "slug": "04s2-ram-standby-cache",
-      "theme": "sakura",
-      "title": "Almost No Free RAM? Windows Does That on Purpose #shorts",
-      "publish": "2026-11-21T12:00:00-07:00",
-      "source": "04-why-your-pc-is-slow",
-      "status": "scheduled",
-      "youtubeUrl": "https://www.youtube.com/shorts/wTM-lMHR8YY"
-    },
-    {
-      "slug": "08s1-ultra-vs-high",
-      "theme": "sunset",
-      "title": "Ultra vs High: Free FPS You Won't Even Notice #shorts",
-      "publish": "2026-11-19T12:00:00-07:00",
-      "source": "08-what-raises-fps",
-      "status": "scheduled",
-      "youtubeUrl": "https://www.youtube.com/shorts/4ldMo0funu4"
-    },
-    {
-      "slug": "03s2-ram-notch",
-      "theme": "paper",
-      "title": "DDR4 vs DDR5: Why the Wrong RAM Won't Fit #shorts",
-      "publish": "2026-11-19T18:00:00-07:00",
-      "source": "03-every-type-of-ram",
-      "status": "scheduled",
-      "youtubeUrl": "https://www.youtube.com/shorts/6pAYa4B4_fY"
-    },
-    {
-      "slug": "07s1-was-price-history",
-      "theme": "crimson",
-      "title": "Is That Black Friday \"Was\" Price Real? Check This #shorts",
-      "publish": "2026-11-17T12:00:00-07:00",
-      "source": "07-black-friday-pc-traps",
-      "status": "scheduled",
-      "youtubeUrl": "https://www.youtube.com/shorts/CMdAyOdSfrI"
-    },
-    {
-      "slug": "05s2-nvme-vs-sata-load-times",
-      "theme": "sand",
-      "title": "Why a Faster NVMe SSD Doesn't Load Games Faster #shorts",
-      "publish": "2026-11-20T12:00:00-07:00",
-      "source": "05-ssd-vs-hdd-vs-nvme",
-      "status": "scheduled",
-      "youtubeUrl": "https://www.youtube.com/shorts/duUtCwDQWvg"
-    },
-    {
-      "slug": "07s2-rtx-3050-two-chips",
-      "theme": "lab",
-      "title": "One Name, Two GPUs: The RTX 3050 6GB Catch #shorts",
-      "publish": "2026-11-18T12:00:00-07:00",
-      "source": "07-black-friday-pc-traps",
-      "status": "scheduled",
-      "youtubeUrl": "https://www.youtube.com/shorts/BeOpZMSupmo"
-    },
-    {
-      "slug": "06s3-branch-prediction",
-      "theme": "tangerine",
-      "title": "Your CPU Guesses Your Code Before It Knows #shorts",
-      "publish": "2026-11-20T18:00:00-07:00",
-      "source": "06-how-a-cpu-runs-code",
-      "status": "scheduled",
-      "youtubeUrl": "https://www.youtube.com/shorts/-1pgOBFgQ6A"
-    }
-  ]
+ "shorts_per_day": 2,
+ "times": [
+  "12:00",
+  "18:00"
+ ],
+ "timezone": "America/Cambridge_Bay",
+ "shorts": [
+  {
+   "slug": "01s1-every-pc-part",
+   "theme": "blueprint",
+   "title": "Every PC Part Explained in Under a Minute #shorts",
+   "publish": "2026-11-03T03:15:00-07:00",
+   "source": "01-every-pc-component",
+   "status": "scheduled",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-5245755248572346950"
+  },
+  {
+   "slug": "01s2-ram-vs-storage",
+   "theme": "paper",
+   "title": "RAM vs Storage: Why Your PC Needs Both #shorts",
+   "publish": "2026-11-03T03:17:00-07:00",
+   "source": "01-every-pc-component",
+   "status": "scheduled",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-2354027853065400754"
+  },
+  {
+   "slug": "01s3-gpu-thousands-of-cores",
+   "theme": "terminal",
+   "title": "Why Your GPU Has Thousands of Cores #shorts",
+   "publish": "2026-11-03T03:19:00-07:00",
+   "source": "01-every-pc-component",
+   "status": "scheduled",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-1372206360290309065"
+  },
+  {
+   "slug": "01s4-best-upgrade-old-pc",
+   "theme": "sunset",
+   "title": "The One Upgrade That Revives an Old PC #shorts",
+   "publish": "2026-11-03T03:21:00-07:00",
+   "source": "01-every-pc-component",
+   "status": "scheduled",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-1602231477257680525"
+  },
+  {
+   "slug": "01s5-pc-slower-in-summer",
+   "theme": "mint",
+   "title": "Why Your PC Gets Slower in Summer #shorts",
+   "publish": "2026-11-03T03:23:00-07:00",
+   "source": "01-every-pc-component",
+   "status": "scheduled",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-3703900542235688107"
+  },
+  {
+   "slug": "01s7-1tb-shows-931gb",
+   "theme": "ocean",
+   "title": "Why Your 1 TB Drive Shows 931 GB #shorts",
+   "publish": "2026-11-03T17:52:00-07:00",
+   "source": "standalone",
+   "status": "scheduled",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-159767018462624265"
+  },
+  {
+   "slug": "01s6-gpus-not-just-graphics",
+   "theme": "ember",
+   "title": "GPUs Aren't Just for Graphics #shorts",
+   "publish": "2026-11-03T17:54:00-07:00",
+   "source": "standalone",
+   "status": "scheduled",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=4411950053407411688"
+  },
+  {
+   "slug": "01s8-plug-monitor-into-gpu",
+   "theme": "neon",
+   "title": "Is Your Monitor Plugged Into the Wrong Port? #shorts",
+   "publish": "2026-11-03T17:57:00-07:00",
+   "source": "standalone",
+   "status": "scheduled",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=1021270582977775015"
+  },
+  {
+   "slug": "01s9-monitor-stuck-at-60hz",
+   "theme": "arctic",
+   "title": "Your 144 Hz Monitor Might Be Stuck at 60 #shorts",
+   "publish": "2026-11-03T17:59:00-07:00",
+   "source": "standalone",
+   "status": "scheduled",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-2398154050314943121"
+  },
+  {
+   "slug": "01s10-dual-channel-ram",
+   "theme": "retro",
+   "title": "Why Two RAM Sticks Beat One #shorts",
+   "publish": "2026-11-07T06:55:00-07:00",
+   "source": "standalone",
+   "status": "published",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=7408543634511187247",
+   "youtubeUrl": "https://www.youtube.com/shorts/MXZFC-aeTRk"
+  },
+  {
+   "slug": "01s11-cmos-battery",
+   "theme": "graphite",
+   "title": "The Tiny Battery Inside Your PC #shorts",
+   "publish": "2026-11-07T06:57:00-07:00",
+   "source": "standalone",
+   "status": "published",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=3847773103811937011",
+   "youtubeUrl": "https://www.youtube.com/shorts/idn5jaZlcU4"
+  },
+  {
+   "slug": "01s12-what-ghz-means",
+   "theme": "blueprint",
+   "title": "What 4 GHz Actually Means #shorts",
+   "publish": "2026-11-07T06:59:00-07:00",
+   "source": "standalone",
+   "status": "published",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-2160611966541673359",
+   "youtubeUrl": "https://www.youtube.com/shorts/4dC_XYvz8MA"
+  },
+  {
+   "slug": "01s13-thermal-paste-amount",
+   "theme": "paper",
+   "title": "How Much Thermal Paste Should You Use? #shorts",
+   "publish": "2026-11-07T07:01:00-07:00",
+   "source": "standalone",
+   "status": "published",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-783203216692195603",
+   "youtubeUrl": "https://www.youtube.com/shorts/jeubgoxVY8g"
+  },
+  {
+   "slug": "01s14-psu-wattage-myth",
+   "theme": "terminal",
+   "title": "Your 850 W Power Supply Doesn't Use 850 W #shorts",
+   "publish": "2026-11-07T07:03:00-07:00",
+   "source": "standalone",
+   "status": "published",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-5462688516042896849",
+   "youtubeUrl": "https://www.youtube.com/shorts/Ioo98nWJ81o"
+  },
+  {
+   "slug": "01s15-nm-is-marketing",
+   "theme": "sunset",
+   "title": "3 nm Chips Aren't Actually 3 nm #shorts",
+   "publish": "2026-11-07T07:05:00-07:00",
+   "source": "standalone",
+   "status": "published",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-1525257833332260464",
+   "youtubeUrl": "https://www.youtube.com/shorts/_nJieW9jBfA"
+  },
+  {
+   "slug": "01s16-ram-default-speed",
+   "theme": "arctic",
+   "title": "Your RAM Is Probably Slower Than the Box Says #shorts",
+   "publish": "2026-11-07T07:07:00-07:00",
+   "source": "01-every-pc-component",
+   "status": "published",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-1720626683122268559",
+   "youtubeUrl": "https://www.youtube.com/shorts/XOUnoLxUz10"
+  },
+  {
+   "slug": "01s17-ryzen-95-degrees",
+   "theme": "ember",
+   "title": "Is 95°C Too Hot for a Ryzen CPU? #shorts",
+   "publish": "2026-11-07T07:09:00-07:00",
+   "source": "standalone",
+   "status": "published",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-4755846058635999873",
+   "youtubeUrl": "https://www.youtube.com/shorts/fwrX16y99Nk"
+  },
+  {
+   "slug": "01s18-m2-is-a-shape",
+   "theme": "retro",
+   "title": "M.2 Is a Shape, Not a Speed #shorts",
+   "publish": "2026-11-07T12:20:00-07:00",
+   "source": "standalone",
+   "status": "published",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=-8187565850715336868",
+   "youtubeUrl": "https://www.youtube.com/shorts/b8rh1SlQbkk"
+  },
+  {
+   "slug": "01s19-gpu-power-cables",
+   "theme": "graphite",
+   "title": "Why Your Graphics Card Needs Extra Power Cables #shorts",
+   "publish": "2026-11-07T12:22:00-07:00",
+   "source": "standalone",
+   "status": "published",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=4259813450568712795",
+   "youtubeUrl": "https://www.youtube.com/shorts/-CJTjorPTiY"
+  },
+  {
+   "slug": "01s20-ssd-slows-when-full",
+   "theme": "ocean",
+   "title": "Why Your SSD Gets Slower When It's Full #shorts",
+   "publish": "2026-11-08T13:40:00-08:00",
+   "source": "standalone",
+   "status": "published",
+   "publishedVia": "YouTube Studio (by hand), Nov 8 2026"
+  },
+  {
+   "slug": "01s21-blue-usb-ports",
+   "theme": "blueprint",
+   "title": "Why Some USB Ports Are Blue #shorts",
+   "publish": "2026-11-08T13:40:00-08:00",
+   "source": "standalone",
+   "status": "published",
+   "publishedVia": "YouTube Studio (by hand), Nov 8 2026",
+   "youtubeUrl": "https://www.youtube.com/shorts/ubzLlQX1v70"
+  },
+  {
+   "slug": "01s22-tdp-isnt-power-draw",
+   "theme": "paper",
+   "title": "TDP Isn't How Much Power Your CPU Uses #shorts",
+   "publish": "2026-11-08T13:40:00-08:00",
+   "source": "standalone",
+   "status": "published",
+   "publishedVia": "YouTube Studio (by hand), Nov 8 2026"
+  },
+  {
+   "slug": "06s1-cpu-cache-levels",
+   "theme": "ember",
+   "title": "CPU Cache Explained: Why RAM Is 100x Slower #shorts",
+   "publish": "2026-11-14T12:00:00-07:00",
+   "source": "06-how-a-cpu-runs-code",
+   "status": "scheduled",
+   "video": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/06s1-cpu-cache-levels.mp4",
+   "youtubeUrl": "https://www.youtube.com/shorts/SCJ5yoN0vR8"
+  },
+  {
+   "slug": "03s1-laptop-ram-soldered",
+   "theme": "graphite",
+   "title": "Can Your Laptop Take More RAM? Check This First #shorts",
+   "publish": "2026-11-15T22:25:00-07:00",
+   "source": "03-every-type-of-ram",
+   "status": "scheduled",
+   "video": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/03s1-laptop-ram-soldered.mp4",
+   "youtubeUrl": "https://www.youtube.com/shorts/wfQFbHfrDJQ",
+   "note": "Uploaded with an empty title (YouTube shows 'unknown'); set the title in YouTube Studio"
+  },
+  {
+   "slug": "05s1-dont-defrag-an-ssd",
+   "theme": "mint",
+   "title": "Should You Defrag an SSD? Here's Why Not #shorts",
+   "publish": "2026-11-16T12:00:00-07:00",
+   "source": "05-ssd-vs-hdd-vs-nvme",
+   "status": "scheduled",
+   "video": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/05s1-dont-defrag-an-ssd.mp4",
+   "youtubeUrl": "https://www.youtube.com/shorts/Sqc_-RSNgWk"
+  },
+  {
+   "slug": "06s2-cores-vs-threads",
+   "theme": "neon",
+   "title": "Cores vs Threads: What Hyper-Threading Really Does #shorts",
+   "publish": "2026-11-16T18:00:00-07:00",
+   "source": "06-how-a-cpu-runs-code",
+   "status": "scheduled",
+   "video": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/06s2-cores-vs-threads.mp4",
+   "youtubeUrl": "https://www.youtube.com/shorts/GbDlILezeZ8"
+  },
+  {
+   "slug": "04s1-100-percent-disk",
+   "theme": "circuit",
+   "title": "Disk at 100% in Task Manager? It's Not About Space #shorts",
+   "publish": "2026-11-18T18:00:00-07:00",
+   "source": "04-why-your-pc-is-slow",
+   "status": "scheduled",
+   "youtubeUrl": "https://www.youtube.com/shorts/dwJ0O23uMx4"
+  },
+  {
+   "slug": "08s2-frame-gen-latency",
+   "theme": "terminal",
+   "title": "Frame Generation Doubles FPS. Why Doesn't It Feel Faster? #shorts",
+   "publish": "2026-11-21T18:00:00-07:00",
+   "source": "08-what-raises-fps",
+   "status": "ready"
+  },
+  {
+   "slug": "02s1-16-millisecond-frame",
+   "theme": "blueprint",
+   "title": "Your GPU Has 16 Milliseconds Per Frame #shorts",
+   "publish": "2026-11-17T18:00:00-07:00",
+   "source": "02-how-a-gpu-works",
+   "status": "scheduled",
+   "youtubeUrl": "https://www.youtube.com/shorts/GY6rtDE3gY4"
+  },
+  {
+   "slug": "04s2-ram-standby-cache",
+   "theme": "sakura",
+   "title": "Almost No Free RAM? Windows Does That on Purpose #shorts",
+   "publish": "2026-11-21T12:00:00-07:00",
+   "source": "04-why-your-pc-is-slow",
+   "status": "scheduled",
+   "youtubeUrl": "https://www.youtube.com/shorts/wTM-lMHR8YY"
+  },
+  {
+   "slug": "08s1-ultra-vs-high",
+   "theme": "sunset",
+   "title": "Ultra vs High: Free FPS You Won't Even Notice #shorts",
+   "publish": "2026-11-19T12:00:00-07:00",
+   "source": "08-what-raises-fps",
+   "status": "scheduled",
+   "youtubeUrl": "https://www.youtube.com/shorts/4ldMo0funu4"
+  },
+  {
+   "slug": "03s2-ram-notch",
+   "theme": "paper",
+   "title": "DDR4 vs DDR5: Why the Wrong RAM Won't Fit #shorts",
+   "publish": "2026-11-19T18:00:00-07:00",
+   "source": "03-every-type-of-ram",
+   "status": "scheduled",
+   "youtubeUrl": "https://www.youtube.com/shorts/6pAYa4B4_fY"
+  },
+  {
+   "slug": "07s1-was-price-history",
+   "theme": "crimson",
+   "title": "Is That Black Friday \"Was\" Price Real? Check This #shorts",
+   "publish": "2026-11-17T12:00:00-07:00",
+   "source": "07-black-friday-pc-traps",
+   "status": "scheduled",
+   "youtubeUrl": "https://www.youtube.com/shorts/CMdAyOdSfrI"
+  },
+  {
+   "slug": "05s2-nvme-vs-sata-load-times",
+   "theme": "sand",
+   "title": "Why a Faster NVMe SSD Doesn't Load Games Faster #shorts",
+   "publish": "2026-11-20T12:00:00-07:00",
+   "source": "05-ssd-vs-hdd-vs-nvme",
+   "status": "scheduled",
+   "youtubeUrl": "https://www.youtube.com/shorts/duUtCwDQWvg"
+  },
+  {
+   "slug": "07s2-rtx-3050-two-chips",
+   "theme": "lab",
+   "title": "One Name, Two GPUs: The RTX 3050 6GB Catch #shorts",
+   "publish": "2026-11-18T12:00:00-07:00",
+   "source": "07-black-friday-pc-traps",
+   "status": "scheduled",
+   "youtubeUrl": "https://www.youtube.com/shorts/BeOpZMSupmo"
+  },
+  {
+   "slug": "06s3-branch-prediction",
+   "theme": "tangerine",
+   "title": "Your CPU Guesses Your Code Before It Knows #shorts",
+   "publish": "2026-11-20T18:00:00-07:00",
+   "source": "06-how-a-cpu-runs-code",
+   "status": "scheduled",
+   "youtubeUrl": "https://www.youtube.com/shorts/-1pgOBFgQ6A"
+  },
+  {
+   "slug": "09s1-low-cpu-usage-bottleneck",
+   "theme": "arctic",
+   "title": "Low CPU Usage but Still a CPU Bottleneck? Here's Why #shorts",
+   "publish": "2026-11-22T12:00:00-07:00",
+   "source": "09-bottlenecks-explained",
+   "status": "ready",
+   "mediaUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/09s1-low-cpu-usage-bottleneck.mp4"
+  },
+  {
+   "slug": "10s1-capacitor-heat-rule",
+   "theme": "retro",
+   "title": "Why Cheap Power Supplies Die Early: The 10 Degree Rule #shorts",
+   "publish": "2026-11-22T18:00:00-07:00",
+   "source": "10-power-supplies-explained",
+   "status": "ready",
+   "mediaUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/10s1-capacitor-heat-rule.mp4"
+  }
+ ]
 }

@@ -1,0 +1,11 @@
+In a cheap power supply, one of the first parts to wear out is a small can called an electrolytic capacitor.
+
+These capacitors smooth the power your PC runs on. Each one is rated for a number of hours at a set temperature, like 5,000 hours at 105 degrees Celsius.
+
+The rule of thumb is simple. Every 10 degrees cooler roughly doubles that life. At 95 degrees, about 10,000 hours. At 85, about 20,000.
+
+It works the other way too. Run it hotter and its life shrinks just as fast.
+
+That's why cheap units tend to die early. Smaller heatsinks and weaker fans let the capacitors run hotter, so they wear out sooner.
+
+Keep yours cool with clean dust filters and room to breathe. The full story is in our video, Power Supplies Explained.

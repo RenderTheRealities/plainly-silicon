@@ -1,0 +1,11 @@
+Task Manager says your processor is at 40 percent. It can still be the part holding your frame rate back.
+
+That number is an average across every thread your processor has. Games rarely spread their work evenly.
+
+A lot of each frame waits on one main thread. On a 16 thread chip, one thread running flat out adds only about 6 percent to the total.
+
+So that one busy thread sets the pace, while the others sit mostly idle and pull the average down.
+
+Check GPU usage instead. If it's pinned at 95 percent or more, the graphics card is the limit. If it sits well below 90, with no frame cap or V-Sync, the processor is likely the wall.
+
+The full guide is in our video, Bottlenecks Explained.
