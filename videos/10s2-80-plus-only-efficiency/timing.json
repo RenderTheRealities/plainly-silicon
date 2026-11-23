@@ -1,0 +1,112 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   7.045
+  ],
+  [
+   7.795,
+   14.524
+  ],
+  [
+   15.274,
+   25.761
+  ],
+  [
+   26.511,
+   39.505
+  ],
+  [
+   40.255,
+   48.546
+  ],
+  [
+   49.296,
+   53.025
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    5.396,
+    "That 80 Plus Gold sticker on your power supply measures exactly one thing."
+   ],
+   [
+    5.676,
+    7.045,
+    "And it isn't quality."
+   ]
+  ],
+  [
+   [
+    7.795,
+    9.26,
+    "It measures efficiency."
+   ],
+   [
+    9.54,
+    12.809,
+    "That's how much wall power actually reaches your parts."
+   ],
+   [
+    13.088,
+    14.524,
+    "The rest turns into heat."
+   ]
+  ],
+  [
+   [
+    15.274,
+    20.312,
+    "Testers load the unit at 20, 50 and 100 percent of its rating."
+   ],
+   [
+    20.592,
+    23.883,
+    "Gold needs 90 percent efficiency at half load."
+   ],
+   [
+    24.163,
+    25.761,
+    "Bronze needs 85."
+   ]
+  ],
+  [
+   [
+    26.511,
+    28.254,
+    "Here's what the badge leaves out."
+   ],
+   [
+    28.534,
+    36.409,
+    "How steady the voltages stay, how much ripple noise gets through, and the protections that save your parts when something fails."
+   ],
+   [
+    36.689,
+    39.505,
+    "Makers can even send in hand-picked samples."
+   ]
+  ],
+  [
+   [
+    40.255,
+    43.52,
+    "So a badly built unit can still wear a Gold badge."
+   ],
+   [
+    43.8,
+    48.546,
+    "Before you buy, look for an independent review that actually load tests it."
+   ]
+  ],
+  [
+   [
+    49.296,
+    53.025,
+    "The full story is in our video, Power Supplies Explained."
+   ]
+  ]
+ ]
+}

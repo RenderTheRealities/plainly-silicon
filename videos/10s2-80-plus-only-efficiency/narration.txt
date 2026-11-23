@@ -1,0 +1,11 @@
+That 80 Plus Gold sticker on your power supply measures exactly one thing. And it isn't quality.
+
+It measures efficiency. That's how much wall power actually reaches your parts. The rest turns into heat.
+
+Testers load the unit at 20, 50 and 100 percent of its rating. Gold needs 90 percent efficiency at half load. Bronze needs 85.
+
+Here's what the badge leaves out. How steady the voltages stay, how much ripple noise gets through, and the protections that save your parts when something fails. Makers can even send in hand-picked samples.
+
+So a badly built unit can still wear a Gold badge. Before you buy, look for an independent review that actually load tests it.
+
+The full story is in our video, Power Supplies Explained.

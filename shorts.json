@@ -362,6 +362,24 @@
    "source": "10-power-supplies-explained",
    "status": "ready",
    "mediaUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/10s1-capacitor-heat-rule.mp4"
+  },
+  {
+   "slug": "09s2-why-cpu-tests-1080p",
+   "theme": "ocean",
+   "title": "Why CPU Reviews Test at 1080p With the Fastest GPU #shorts",
+   "publish": "2026-11-23T12:00:00-07:00",
+   "source": "09-bottlenecks-explained",
+   "status": "ready",
+   "mediaUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/09s2-why-cpu-tests-1080p.mp4"
+  },
+  {
+   "slug": "10s2-80-plus-only-efficiency",
+   "theme": "lab",
+   "title": "80 Plus Gold Isn't a Quality Rating. Here's What It Tests #shorts",
+   "publish": "2026-11-23T18:00:00-07:00",
+   "source": "10-power-supplies-explained",
+   "status": "ready",
+   "mediaUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/10s2-80-plus-only-efficiency.mp4"
   }
  ]
 }

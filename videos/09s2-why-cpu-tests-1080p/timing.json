@@ -1,0 +1,97 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   8.689
+  ],
+  [
+   9.439,
+   15.846
+  ],
+  [
+   16.596,
+   28.978
+  ],
+  [
+   29.728,
+   39.285
+  ],
+  [
+   40.035,
+   50.587
+  ],
+  [
+   51.337,
+   55.012
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    7.285,
+    "Why do processor reviews test games at 1080p on the fastest graphics card they can get?"
+   ],
+   [
+    7.565,
+    8.689,
+    "It's on purpose."
+   ]
+  ],
+  [
+   [
+    9.439,
+    13.534,
+    "Each frame, the processor goes first, then the graphics card draws it."
+   ],
+   [
+    13.814,
+    15.846,
+    "The slower one sets your frame rate."
+   ]
+  ],
+  [
+   [
+    16.596,
+    24.992,
+    "With an RTX 3060, TechSpot found a Core i9 just 3 percent faster than a budget Core i3."
+   ],
+   [
+    25.273,
+    28.978,
+    "The graphics card was the wall, so both processors waited."
+   ]
+  ],
+  [
+   [
+    29.728,
+    34.783,
+    "Swap in an RTX 4090 and the gap jumps to 82 percent."
+   ],
+   [
+    35.063,
+    39.285,
+    "That's 186 frames per second against 102."
+   ]
+  ],
+  [
+   [
+    40.035,
+    45.039,
+    "Low resolution on a huge graphics card gets the GPU out of the way."
+   ],
+   [
+    45.319,
+    50.587,
+    "What's left is the processor's real ceiling, the one you'll hit after your next upgrade."
+   ]
+  ],
+  [
+   [
+    51.337,
+    55.012,
+    "The full breakdown is in our video, Bottlenecks Explained."
+   ]
+  ]
+ ]
+}

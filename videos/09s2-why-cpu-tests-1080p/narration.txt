@@ -1,0 +1,11 @@
+Why do processor reviews test games at 1080p on the fastest graphics card they can get? It's on purpose.
+
+Each frame, the processor goes first, then the graphics card draws it. The slower one sets your frame rate.
+
+With an RTX 3060, TechSpot found a Core i9 just 3 percent faster than a budget Core i3. The graphics card was the wall, so both processors waited.
+
+Swap in an RTX 4090 and the gap jumps to 82 percent. That's 186 frames per second against 102.
+
+Low resolution on a huge graphics card gets the GPU out of the way. What's left is the processor's real ceiling, the one you'll hit after your next upgrade.
+
+The full breakdown is in our video, Bottlenecks Explained.
