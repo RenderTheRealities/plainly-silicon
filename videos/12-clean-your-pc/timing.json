@@ -1,0 +1,453 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   22.905
+  ],
+  [
+   23.655,
+   54.173
+  ],
+  [
+   54.923,
+   90.813
+  ],
+  [
+   91.563,
+   126.977
+  ],
+  [
+   127.727,
+   157.986
+  ],
+  [
+   158.736,
+   192.79
+  ],
+  [
+   193.54,
+   224.246
+  ],
+  [
+   224.996,
+   257.572
+  ],
+  [
+   258.322,
+   286.633
+  ],
+  [
+   287.383,
+   312.647
+  ],
+  [
+   313.397,
+   347.797
+  ],
+  [
+   348.547,
+   366.001
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    5.488,
+    "One tester left a gaming PC alone for six months, then cleaned out the dust."
+   ],
+   [
+    5.768,
+    13.778,
+    "The processor ran 11 degrees cooler in games, and the graphics card about 4 degrees cooler, with nothing else changed."
+   ],
+   [
+    14.058,
+    22.905,
+    "In the next few minutes we'll clean one dusty PC together, in the right order, and I'll show you the three ways people break hardware while doing it."
+   ]
+  ],
+  [
+   [
+    23.655,
+    25.426,
+    "Here's why dust matters at all."
+   ],
+   [
+    25.706,
+    31.123,
+    "Every fan in your case pulls air across thin metal fins, and the heat leaves with that air."
+   ],
+   [
+    31.403,
+    35.44,
+    "Dust settles on the fins and in the filters like a felt blanket."
+   ],
+   [
+    35.72,
+    38.33,
+    "Less air gets through, so the chips get hotter."
+   ],
+   [
+    38.61,
+    43.004,
+    "Modern processors and graphics cards don't just get warm and carry on."
+   ],
+   [
+    43.284,
+    49.155,
+    "They protect themselves by lowering their boost clocks, which means fewer frames and louder fans."
+   ],
+   [
+    49.435,
+    54.173,
+    "So a dusty PC is often a slower PC, not just a dirtier one."
+   ]
+  ],
+  [
+   [
+    54.923,
+    59.48,
+    "Our PC is a normal tower that's been running for a year in a bedroom."
+   ],
+   [
+    59.76,
+    62.373,
+    "Before we touch it, shut it down from Windows."
+   ],
+   [
+    62.653,
+    70.531,
+    "Then flip the switch on the back of the power supply to the off position, the side marked with a circle, and pull the power cord out."
+   ],
+   [
+    70.811,
+    75.263,
+    "With the cord out, press and hold the power button for about 30 seconds."
+   ],
+   [
+    75.543,
+    78.9,
+    "That drains the little bit of charge still sitting in the system."
+   ],
+   [
+    79.18,
+    83.081,
+    "Now carry the PC somewhere with a hard floor and some airflow."
+   ],
+   [
+    83.361,
+    90.813,
+    "A garage, a balcony or a table by an open window is perfect, because the dust is about to go everywhere."
+   ]
+  ],
+  [
+   [
+    91.563,
+    94.202,
+    "The first way people break a PC is static."
+   ],
+   [
+    94.482,
+    100.432,
+    "Your body can carry a charge you never feel, and a spark you can't even see can damage a chip."
+   ],
+   [
+    100.712,
+    107.109,
+    "So stand on a hard floor, not carpet, and touch the bare metal of the case before you reach inside."
+   ],
+   [
+    107.389,
+    109.692,
+    "Touch it again now and then while you work."
+   ],
+   [
+    109.972,
+    114.463,
+    "An antistatic wrist strap clipped to the case is even better, and it's cheap."
+   ],
+   [
+    114.743,
+    119.801,
+    "This is also why a household vacuum cleaner should never go inside the case."
+   ],
+   [
+    120.081,
+    126.977,
+    "Its plastic nozzle builds up static as air rushes through it, and it's easy to knock a small part off the board."
+   ]
+  ],
+  [
+   [
+    127.727,
+    130.721,
+    "Start with the easy wins: the dust filters."
+   ],
+   [
+    131.001,
+    137.292,
+    "Most cases have a mesh filter at the front, one under the power supply, and often one on top."
+   ],
+   [
+    137.572,
+    140.396,
+    "They usually slide out or pull off with magnets."
+   ],
+   [
+    140.676,
+    144.72,
+    "Here the vacuum is fine, because the filter is out of the PC."
+   ],
+   [
+    145.0,
+    148.24,
+    "Most mesh filters can also be rinsed under the tap."
+   ],
+   [
+    148.52,
+    152.59,
+    "If you wash one, let it dry completely before it goes back in."
+   ],
+   [
+    152.87,
+    157.986,
+    "Water and electronics only mix when you give them a chance, so don't rush this part."
+   ]
+  ],
+  [
+   [
+    158.736,
+    162.555,
+    "Now the compressed air, and the second way people break things."
+   ],
+   [
+    162.835,
+    169.017,
+    "Point the air at a fan and it spins like a pinwheel, far faster than it was ever built to run."
+   ],
+   [
+    169.297,
+    172.438,
+    "That can wear out its bearings or even crack a blade."
+   ],
+   [
+    172.718,
+    177.971,
+    "So hold every fan still with a finger or a plastic tool before you blow on it."
+   ],
+   [
+    178.251,
+    184.669,
+    "Use short bursts, not one long blast, and keep the nozzle about 5 to 10 centimetres away."
+   ],
+   [
+    184.949,
+    186.489,
+    "Keep the can upright, too."
+   ],
+   [
+    186.769,
+    192.79,
+    "Tip it sideways or upside down and it can spit freezing liquid propellant onto your parts."
+   ]
+  ],
+  [
+   [
+    193.54,
+    194.653,
+    "The order matters."
+   ],
+   [
+    194.933,
+    202.607,
+    "Work from the top of the case down, so loose dust falls toward the bottom and out, not onto parts you've already cleaned."
+   ],
+   [
+    202.887,
+    209.044,
+    "On the processor cooler and the graphics card, blow from the side where the air normally leaves the heatsink."
+   ],
+   [
+    209.324,
+    214.691,
+    "That pushes dust back out the way it came in, instead of packing it deeper into the fins."
+   ],
+   [
+    214.971,
+    220.246,
+    "Clean the case fans, then the cooler, then the graphics card, then the floor of the case."
+   ],
+   [
+    220.526,
+    224.246,
+    "Ten minutes of this and you'll see the difference with your own eyes."
+   ]
+  ],
+  [
+   [
+    224.996,
+    228.053,
+    "The third way people break things is going too deep."
+   ],
+   [
+    228.333,
+    230.229,
+    "Never open the power supply."
+   ],
+   [
+    230.509,
+    237.506,
+    "Its capacitors can hold a dangerous charge even after it's unplugged, and there's nothing inside you need to clean."
+   ],
+   [
+    237.786,
+    240.291,
+    "Just blow through its vents from the outside."
+   ],
+   [
+    240.571,
+    242.925,
+    "Don't take the graphics card apart either."
+   ],
+   [
+    243.205,
+    252.012,
+    "And don't take the processor cooler off just to dust it, because if you lift it, the thermal paste underneath has to be cleaned off and replaced."
+   ],
+   [
+    252.292,
+    255.119,
+    "On the motherboard and the memory, use air only."
+   ],
+   [
+    255.399,
+    257.572,
+    "Brushes can snag tiny parts there."
+   ]
+  ],
+  [
+   [
+    258.322,
+    262.963,
+    "Some dust turns into sticky grime, especially near smokers or kitchens."
+   ],
+   [
+    263.243,
+    271.029,
+    "For that, put a little isopropyl alcohol on a cotton swab or a microfibre cloth, wipe, and let it evaporate."
+   ],
+   [
+    271.309,
+    273.996,
+    "Never spray anything directly into the case."
+   ],
+   [
+    274.276,
+    281.068,
+    "Skip household cleaners with bleach or ammonia, and skip paper towels, which shed fibres and scratch."
+   ],
+   [
+    281.348,
+    283.079,
+    "And wear a simple dust mask."
+   ],
+   [
+    283.359,
+    286.633,
+    "A year of dust is not something you want in your lungs."
+   ]
+  ],
+  [
+   [
+    287.383,
+    291.872,
+    "Before you put the side panel back on, plug the PC in and turn it on."
+   ],
+   [
+    292.152,
+    293.453,
+    "Look at every fan."
+   ],
+   [
+    293.733,
+    296.896,
+    "Each one should spin, and none should rattle or wobble."
+   ],
+   [
+    297.176,
+    301.229,
+    "A fan that stays still might have a loose cable you knocked while cleaning."
+   ],
+   [
+    301.509,
+    304.999,
+    "Then close it up and play the same game you played before."
+   ],
+   [
+    305.279,
+    308.905,
+    "Watch the temperatures with a free monitoring tool and compare."
+   ],
+   [
+    309.185,
+    312.647,
+    "For that tester, this is where the 11 degrees showed up."
+   ]
+  ],
+  [
+   [
+    313.397,
+    320.982,
+    "To keep it clean for longer, check the filters every month or two, and do a full clean like this every three to six months."
+   ],
+   [
+    321.262,
+    325.655,
+    "With pets, smokers or a dusty room, make it every two to three months."
+   ],
+   [
+    325.935,
+    328.293,
+    "Keep the tower off the carpet if you can."
+   ],
+   [
+    328.573,
+    334.721,
+    "And set your fans for slight positive pressure, which means more fans pulling air in than pushing it out."
+   ],
+   [
+    335.001,
+    342.643,
+    "A common setup is two or three intake fans at the front, each behind a filter, and one exhaust fan at the back."
+   ],
+   [
+    342.923,
+    347.797,
+    "Then most air enters through the filters, and less dust sneaks in through every gap."
+   ]
+  ],
+  [
+   [
+    348.547,
+    352.4,
+    "Now your PC is clean and cool, so press the power button."
+   ],
+   [
+    352.68,
+    357.908,
+    "But what actually happens in the second after you press it, before Windows even starts?"
+   ],
+   [
+    358.188,
+    362.646,
+    "That's the next video: the boot process, explained one step at a time."
+   ],
+   [
+    362.926,
+    366.001,
+    "Subscribe so you don't miss it, and I'll see you there."
+   ]
+  ]
+ ]
+}
