@@ -123,8 +123,11 @@
       "publish": "2026-11-23T10:00:00-07:00",
       "title": "How to Clean Your PC Without Breaking It",
       "keyword": "how to clean pc",
-      "status": "planned",
-      "theme": "mint"
+      "status": "ready",
+      "theme": "mint",
+      "length": "6:07",
+      "mediaUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/12-clean-your-pc.mp4",
+      "thumbnailUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/12-clean-your-pc.jpg"
     },
     {
       "slug": "13-boot-process",
