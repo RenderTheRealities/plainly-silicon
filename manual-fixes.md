@@ -182,5 +182,5 @@ Re-authorize the YouTube token with the extra scope `https://www.googleapis.com/
 
 <!-- Each run adds a line per upload: first comment to pin, Related video for Shorts, end-screen update for long videos. -->
 - [ ] 2026-11-28 23-best-budget-gpu https://youtu.be/iM69YHi2yAQ (public Sat 10:00): pin first comment "What GPU are you running right now, and what did you pay for it?"; point 12-clean-your-pc's end screen (https://youtu.be/59PTTAVoZXM) at this video; add this video's end screen (Subscribe + "Most recent upload")
-- [ ] NOW: move 23-best-budget-gpu https://youtu.be/iM69YHi2yAQ from Sat Nov 28 10:00 to **Sat Nov 28 5:00 AM** (Studio → Content → the video → Visibility → Schedule). The API token can't change publish times.
+- [ ] By Fri Nov 27: **DELETE the old private upload of 23** https://youtu.be/iM69YHi2yAQ (Studio → Content → ⋮ → Delete forever). A new version with the subscribe ask uploads automatically just after midnight Nov 25, scheduled for Sat Nov 28 5:00 AM; if the old one isn't deleted it also goes public Sat 10:00 as a duplicate.
 - [ ] Optional: Short 10s1 ("Why Cheap Power Supplies Die Early") is set to publish 12:00 Nov 25 by the vidIQ reminder on your MacBook. To move it to 5:00 AM, approve the updated reminder in a Claude conversation on that Mac, or change it in vidIQ.
