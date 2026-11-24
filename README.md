@@ -1,6 +1,6 @@
 # Plainly Silicon
 
-Pipeline for the Plainly Silicon YouTube channel (@plainlysilicon): animated PC hardware explainers, made and scheduled automatically at no cost. Cadence: 1 long video every Saturday, 2 Shorts a day.
+Pipeline for the Plainly Silicon YouTube channel (@plainlysilicon): animated PC hardware explainers, made and scheduled automatically at no cost. Cadence: 1 long video every Saturday, 2 Shorts a day, everything published at 05:00 (-07:00).
 
 - `AGENT.md` is the step-by-step playbook each scheduled run follows.
 - `calendar.json` lists upcoming videos and their status.
