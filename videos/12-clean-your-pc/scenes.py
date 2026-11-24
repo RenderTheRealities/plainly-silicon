@@ -721,24 +721,16 @@ def s_outro(x):
     x.circle(560, 500, r * 0.45, CYAN, a0, 12)
     x.d.rectangle([560 - 22, 500 - r * 0.6, 560 + 22, 500 - r * 0.2], fill=PANEL + (255,))
     x.line([(560, 500 - r * 0.6), (560, 500 - r * 0.05)], CYAN, a0, 12, glow=False)
+    note(x, (560, 730), "clean and cool", a0, CYAN, 36, kind="title")
     a1 = x.b(1)
-    steps = ["press", "?", "?", "?", "Windows"]
-    for i, s in enumerate(steps):
-        pa = ease((x.since(1) - i * 0.35) / 0.35) * a1
-        cx = 920 + i * 200
-        x.rect([cx - 80, 300, cx + 80, 400], AMBER if s == "?" else CYAN, pa, 4, r=20, fill=NAVY + (255,), glow=False)
-        note(x, (cx, 350), s, pa, AMBER if s == "?" else CYAN, 40 if s == "?" else 26, kind="title")
-        if i < 4:
-            arrow(x, (cx + 85, 350), (cx + 115, 350), MUTED, pa, 4, 12)
-    a2 = x.b(2)
-    card(x, [880, 480, 1780, 720], a2, CYAN)
-    note(x, (920, 530), "NEXT VIDEO", a2, CYAN, 28, anchor="lm", kind="title")
-    note(x, (920, 600), "What happens when you", a2, WHITE, 44, anchor="lm", kind="title")
-    note(x, (920, 660), "press the power button", a2, WHITE, 44, anchor="lm", kind="title")
-    a3 = x.b(3)
-    x.d.rounded_rectangle([1080, 780, 1580, 860], radius=40, fill=col(RED, a3))
-    note(x, (1330, 820), "Subscribe", a3, NAVY, 44, kind="title")
-
+    card(x, [880, 300, 1780, 620], a1, AMBER)
+    note(x, (920, 350), "THIS SATURDAY", a1, AMBER, 28, anchor="lm", kind="title")
+    note(x, (920, 430), "Every budget graphics", a1, WHITE, 48, anchor="lm", kind="title")
+    note(x, (920, 495), "card, ranked", a1, WHITE, 48, anchor="lm", kind="title")
+    for k, (t, c) in enumerate([("S", GREEN), ("A", CYAN), ("B", AMBER), ("SKIP", RED)]):
+        pa = ease((x.since(1) - 0.6 - k * 0.2) / 0.3) * a1
+        x.d.rounded_rectangle([920 + k * 200, 545, 920 + k * 200 + 170, 595], radius=12, fill=col(c, pa))
+        note(x, (1005 + k * 200, 570), t, pa, NAVY, 30, kind="title")
 
 SCENES = [
     ("Six months of dust", s_hook),
@@ -752,5 +744,5 @@ SCENES = [
     ("Sticky grime", s_grime),
     ("Test before closing", s_test),
     ("Keep it clean longer", s_keep_clean),
-    ("Next: the boot process", s_outro),
+    ("This Saturday: budget GPUs", s_outro),
 ]

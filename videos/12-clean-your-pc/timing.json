@@ -14,39 +14,39 @@
   ],
   [
    91.563,
-   126.977
+   141.426
   ],
   [
-   127.727,
-   157.986
+   142.176,
+   172.436
   ],
   [
-   158.736,
-   192.79
+   173.186,
+   207.239
   ],
   [
-   193.54,
-   224.246
+   207.989,
+   238.696
   ],
   [
-   224.996,
-   257.572
+   239.446,
+   272.022
   ],
   [
-   258.322,
-   286.633
+   272.772,
+   301.083
   ],
   [
-   287.383,
-   312.647
+   301.833,
+   327.097
   ],
   [
-   313.397,
-   347.797
+   327.847,
+   362.246
   ],
   [
-   348.547,
-   366.001
+   362.996,
+   381.382
   ]
  ],
  "sentences": [
@@ -176,277 +176,282 @@
     120.081,
     126.977,
     "Its plastic nozzle builds up static as air rushes through it, and it's easy to knock a small part off the board."
+   ],
+   [
+    127.257,
+    135.632,
+    "Quick favor before we start cleaning: over 99 percent of the watch time on this channel comes from people who aren't subscribed."
+   ],
+   [
+    135.912,
+    141.426,
+    "If this saves your PC, subscribing is free, and it tells me to keep making these."
    ]
   ],
   [
    [
-    127.727,
-    130.721,
+    142.176,
+    145.171,
     "Start with the easy wins: the dust filters."
    ],
    [
-    131.001,
-    137.292,
+    145.451,
+    151.741,
     "Most cases have a mesh filter at the front, one under the power supply, and often one on top."
    ],
    [
-    137.572,
-    140.396,
+    152.021,
+    154.846,
     "They usually slide out or pull off with magnets."
    ],
    [
-    140.676,
-    144.72,
+    155.126,
+    159.17,
     "Here the vacuum is fine, because the filter is out of the PC."
    ],
    [
-    145.0,
-    148.24,
+    159.45,
+    162.689,
     "Most mesh filters can also be rinsed under the tap."
    ],
    [
-    148.52,
-    152.59,
+    162.969,
+    167.04,
     "If you wash one, let it dry completely before it goes back in."
    ],
    [
-    152.87,
-    157.986,
+    167.32,
+    172.436,
     "Water and electronics only mix when you give them a chance, so don't rush this part."
    ]
   ],
   [
    [
-    158.736,
-    162.555,
+    173.186,
+    177.005,
     "Now the compressed air, and the second way people break things."
    ],
    [
-    162.835,
-    169.017,
+    177.285,
+    183.466,
     "Point the air at a fan and it spins like a pinwheel, far faster than it was ever built to run."
    ],
    [
-    169.297,
-    172.438,
+    183.746,
+    186.888,
     "That can wear out its bearings or even crack a blade."
    ],
    [
-    172.718,
-    177.971,
+    187.168,
+    192.42,
     "So hold every fan still with a finger or a plastic tool before you blow on it."
    ],
    [
-    178.251,
-    184.669,
+    192.7,
+    199.118,
     "Use short bursts, not one long blast, and keep the nozzle about 5 to 10 centimetres away."
    ],
    [
-    184.949,
-    186.489,
+    199.398,
+    200.938,
     "Keep the can upright, too."
    ],
    [
-    186.769,
-    192.79,
+    201.218,
+    207.239,
     "Tip it sideways or upside down and it can spit freezing liquid propellant onto your parts."
    ]
   ],
   [
    [
-    193.54,
-    194.653,
+    207.989,
+    209.103,
     "The order matters."
    ],
    [
-    194.933,
-    202.607,
+    209.383,
+    217.056,
     "Work from the top of the case down, so loose dust falls toward the bottom and out, not onto parts you've already cleaned."
    ],
    [
-    202.887,
-    209.044,
+    217.336,
+    223.494,
     "On the processor cooler and the graphics card, blow from the side where the air normally leaves the heatsink."
    ],
    [
-    209.324,
-    214.691,
+    223.774,
+    229.14,
     "That pushes dust back out the way it came in, instead of packing it deeper into the fins."
    ],
    [
-    214.971,
-    220.246,
+    229.42,
+    234.695,
     "Clean the case fans, then the cooler, then the graphics card, then the floor of the case."
    ],
    [
-    220.526,
-    224.246,
+    234.975,
+    238.696,
     "Ten minutes of this and you'll see the difference with your own eyes."
    ]
   ],
   [
    [
-    224.996,
-    228.053,
+    239.446,
+    242.503,
     "The third way people break things is going too deep."
    ],
    [
-    228.333,
-    230.229,
+    242.783,
+    244.679,
     "Never open the power supply."
    ],
    [
-    230.509,
-    237.506,
+    244.959,
+    251.956,
     "Its capacitors can hold a dangerous charge even after it's unplugged, and there's nothing inside you need to clean."
    ],
    [
-    237.786,
-    240.291,
+    252.236,
+    254.741,
     "Just blow through its vents from the outside."
    ],
    [
-    240.571,
-    242.925,
+    255.021,
+    257.375,
     "Don't take the graphics card apart either."
    ],
    [
-    243.205,
-    252.012,
+    257.655,
+    266.462,
     "And don't take the processor cooler off just to dust it, because if you lift it, the thermal paste underneath has to be cleaned off and replaced."
    ],
    [
-    252.292,
-    255.119,
+    266.742,
+    269.569,
     "On the motherboard and the memory, use air only."
    ],
    [
-    255.399,
-    257.572,
+    269.849,
+    272.022,
     "Brushes can snag tiny parts there."
    ]
   ],
   [
    [
-    258.322,
-    262.963,
+    272.772,
+    277.413,
     "Some dust turns into sticky grime, especially near smokers or kitchens."
    ],
    [
-    263.243,
-    271.029,
+    277.693,
+    285.479,
     "For that, put a little isopropyl alcohol on a cotton swab or a microfibre cloth, wipe, and let it evaporate."
    ],
    [
-    271.309,
-    273.996,
+    285.759,
+    288.445,
     "Never spray anything directly into the case."
    ],
    [
-    274.276,
-    281.068,
+    288.725,
+    295.518,
     "Skip household cleaners with bleach or ammonia, and skip paper towels, which shed fibres and scratch."
    ],
    [
-    281.348,
-    283.079,
+    295.798,
+    297.529,
     "And wear a simple dust mask."
    ],
    [
-    283.359,
-    286.633,
+    297.809,
+    301.083,
     "A year of dust is not something you want in your lungs."
    ]
   ],
   [
    [
-    287.383,
-    291.872,
+    301.833,
+    306.322,
     "Before you put the side panel back on, plug the PC in and turn it on."
    ],
    [
-    292.152,
-    293.453,
+    306.602,
+    307.903,
     "Look at every fan."
    ],
    [
-    293.733,
-    296.896,
+    308.183,
+    311.345,
     "Each one should spin, and none should rattle or wobble."
    ],
    [
-    297.176,
-    301.229,
+    311.625,
+    315.679,
     "A fan that stays still might have a loose cable you knocked while cleaning."
    ],
    [
-    301.509,
-    304.999,
+    315.959,
+    319.449,
     "Then close it up and play the same game you played before."
    ],
    [
-    305.279,
-    308.905,
+    319.729,
+    323.355,
     "Watch the temperatures with a free monitoring tool and compare."
    ],
    [
-    309.185,
-    312.647,
+    323.635,
+    327.097,
     "For that tester, this is where the 11 degrees showed up."
    ]
   ],
   [
    [
-    313.397,
-    320.982,
+    327.847,
+    335.431,
     "To keep it clean for longer, check the filters every month or two, and do a full clean like this every three to six months."
    ],
    [
-    321.262,
-    325.655,
+    335.711,
+    340.105,
     "With pets, smokers or a dusty room, make it every two to three months."
    ],
    [
-    325.935,
-    328.293,
+    340.385,
+    342.743,
     "Keep the tower off the carpet if you can."
    ],
    [
-    328.573,
-    334.721,
+    343.023,
+    349.171,
     "And set your fans for slight positive pressure, which means more fans pulling air in than pushing it out."
    ],
    [
-    335.001,
-    342.643,
+    349.451,
+    357.093,
     "A common setup is two or three intake fans at the front, each behind a filter, and one exhaust fan at the back."
    ],
    [
-    342.923,
-    347.797,
+    357.373,
+    362.246,
     "Then most air enters through the filters, and less dust sneaks in through every gap."
    ]
   ],
   [
    [
-    348.547,
-    352.4,
-    "Now your PC is clean and cool, so press the power button."
+    362.996,
+    365.112,
+    "Now your PC is clean and cool."
    ],
    [
-    352.68,
-    357.908,
-    "But what actually happens in the second after you press it, before Windows even starts?"
+    365.392,
+    373.509,
+    "And if you're wondering which graphics card deserves that clean case, this Saturday we rank every budget card you can buy right now."
    ],
    [
-    358.188,
-    362.646,
-    "That's the next video: the boot process, explained one step at a time."
-   ],
-   [
-    362.926,
-    366.001,
-    "Subscribe so you don't miss it, and I'll see you there."
+    373.789,
+    381.382,
+    "If this helped, share it with a friend whose PC sounds like a jet engine, subscribe, and comment your questions below."
    ]
   ]
  ]

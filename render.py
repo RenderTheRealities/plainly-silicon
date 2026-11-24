@@ -3,7 +3,12 @@
 Usage:
   python3 render.py VIDEO_DIR frames  T1 T2 ...   # write preview PNGs at times (s)
   python3 render.py VIDEO_DIR render               # full render -> VIDEO_DIR/video_silent.mp4
-  python3 render.py VIDEO_DIR mux                  # narration + outro sting -> VIDEO_DIR/final.mp4
+  python3 render.py VIDEO_DIR mux                  # narration + intro + outro sting -> VIDEO_DIR/final.mp4
+  python3 render.py VIDEO_DIR chapters             # YouTube chapters (M:SS) in final-video time
+
+Timeline of every video: cold open (paragraph 1, the hook/topic) -> branded intro (INTRO s) ->
+the rest of the content -> outro sting (STING s). "frames" times and printed scene starts are in
+final-video time, intro included.
 
 VIDEO_DIR holds narration.txt and timing.json:
   {"paragraphs": [[start, end], ...]}   one entry per paragraph, seconds in the final audio
@@ -94,12 +99,14 @@ BRAND_TITLE_FONT = FD + "InterDisplay-Black.otf"   # chapter labels, Shorts head
 BRAND_MARK_FONT = FD + "InterDisplay-Bold.otf"
 BRAND_BG, BRAND_CYAN, BRAND_AMBER, BRAND_WHITE = (11, 18, 32), (34, 211, 238), (245, 158, 11), (240, 242, 245)
 STING = 0.5  # seconds of outro sting appended after the narration
+INTRO_LONG, INTRO_SHORT = 1.0, 0.6  # branded intro after the cold open (paragraph 1)
 # The one subscribe ask per video, built on the channel's own numbers. YouTube Studio, last 28 days to
 # Nov 24, 2026: 99.1% of watch time came from viewers who aren't subscribed. Update when Studio changes.
 SUB_STAT = "99%"
 SUB_MSG = f"{SUB_STAT} of watch time here is from people who aren't subscribed. It's free: subscribe"
 SUB_MSG_SHORT = (f"{SUB_STAT} of watch time is from", "non-subscribers. It's free!")
 SUB_T = None  # (start, end) of the spoken subscribe sentence, found in load()
+OUT_T = None  # (start, end) of the spoken outro ("share ... subscribe ... comment"), found in load()
 
 THEME = "circuit"
 SUB_FG = (255, 255, 255)
@@ -293,7 +300,7 @@ def load(vdir):
             d = len(p) / cps
             spans.append([t, t + d])
             t += d + 0.6
-    total = spans[-1][1] + 1.5
+    total = spans[-1][1] + (0.6 if H > W else 1.5)  # Shorts: short tail, every second counts
     scenes = []
     for i, p in enumerate(paras):
         start = spans[i][0] if i else 0.0
@@ -318,14 +325,16 @@ def load(vdir):
             beats[0] = min(beats[0], -0.6)  # Shorts: the first visual is fully drawn at frame 0, no fade-in
         scenes.append(dict(start=start, end=end, beats=beats, subs=subs, title=SCENES[i][0], fn=SCENES[i][1]))
     # the spoken subscribe ask: the sentence that mentions "percent" and "subscribed"
-    global SUB_T
-    SUB_T = None
+    global SUB_T, OUT_T
+    SUB_T = OUT_T = None
     for sc in scenes:
         for k, (a, b, txt) in enumerate(sc["subs"]):
             low = txt.lower()
             if "percent" in low and "subscribed" in low:
                 # keep the card up through the next sentence of the ask, if there is one
                 SUB_T = (a, sc["subs"][k + 1][1] if k + 1 < len(sc["subs"]) else b)
+            if "share" in low and "subscribe" in low:
+                OUT_T = (a, total)
     return scenes, total
 
 
@@ -435,6 +444,78 @@ def sting_frame(t):
     return img
 
 
+def outro_card(img, d, t):
+    """Share / Subscribe / Comment buttons, popping in one by one while the spoken outro plays."""
+    vertical = H > W
+    items = [("SHARE", BRAND_CYAN), ("SUBSCRIBE", RED), ("COMMENT", BRAND_AMBER)]
+    f = font("brand", 40)
+    if vertical:  # a row between the visuals (y < 1250) and the subtitles
+        f = font("brand", 36)
+        bw, bh, gap = 310, 84, 15
+    else:
+        bw, bh, gap = 330, 90, 30
+    x0 = (W - (3 * bw + 2 * gap)) / 2
+    pos = [(x0 + i * (bw + gap), 1290 if vertical else 790) for i in range(3)]
+    for i, ((label, c), (x, y)) in enumerate(zip(items, pos)):
+        p = ease((t - i * 0.35) / 0.3)
+        if p <= 0:
+            continue
+        sc = 0.85 + 0.15 * p
+        cx, cy = x + bw / 2, y + bh / 2
+        w2, h2 = bw * sc / 2, bh * sc / 2
+        d.rounded_rectangle([cx - w2, cy - h2, cx + w2, cy + h2], radius=h2, fill=c + (int(255 * p),))
+        d.text((cx, cy), label, font=f, fill=(255, 255, 255, int(255 * p)) if label == "SUBSCRIBE" else BRAND_BG + (int(255 * p),), anchor="mm")
+
+
+def intro_frame(t, dur):
+    """Branded intro between the cold open and the content: brand colors only, identical in every video."""
+    img = Image.new("RGB", (W, H), BRAND_BG)
+    d = ImageDraw.Draw(img, "RGBA")
+    p = ease(t / (dur * 0.55))
+    out = ease((t - dur * 0.8) / (dur * 0.2))
+    u = min(W, H)
+    ls = int(u * 0.13)
+    f = font("brand", int(u * 0.068))
+    msg = "PLAINLY SILICON"
+    tw = d.textlength(msg, font=f)
+    x0 = W / 2 - (ls + 30 + tw) / 2
+    cy = H / 2
+    logo = LOGO_FULL.resize((ls, ls))
+    img.paste(logo, (int(x0 - (1 - p) * 200), int(cy - ls / 2)), logo)
+    d.text((x0 + ls + 30, cy), msg, font=f, fill=BRAND_WHITE + (int(255 * p),), anchor="lm")
+    d.rectangle([x0, cy + ls / 2 + 24, x0 + (ls + 30 + tw) * p, cy + ls / 2 + 32], fill=BRAND_CYAN + (255,))
+    if out > 0:
+        img.paste(BRAND_BG, (0, 0, W, H), Image.new("L", (W, H), int(255 * out)))
+    return img
+
+
+def intro_len():
+    return INTRO_SHORT if H > W else INTRO_LONG
+
+
+def intro_at(scenes):
+    """Narration time where the intro is inserted: the start of paragraph 2."""
+    return scenes[1]["start"] if len(scenes) > 1 else None
+
+
+def to_out(scenes, t):
+    """Narration time -> final-video time."""
+    ins = intro_at(scenes)
+    return t + intro_len() if ins is not None and t >= ins else t
+
+
+def out_frame(scenes, total, T):
+    """Frame at final-video time T (cold open, intro, content, sting)."""
+    ins = intro_at(scenes)
+    if ins is not None and T >= ins:
+        if T < ins + intro_len():
+            if LOGO_FULL is None:
+                frame(scenes, total, 0)  # loads the logo
+            return intro_frame(T - ins, intro_len())
+        T -= intro_len()
+    return frame(scenes, total, T)
+
+
 LOGO_SMALL = LOGO_FULL = None
 
 
@@ -495,6 +576,8 @@ def frame(scenes, total, T):
         d.rounded_rectangle([W / 2 - tw / 2 - 26, y - 14, W / 2 + tw / 2 + 26, y + lh * len(lines) + 6], radius=16, fill=SUB_BG)
         for k, l in enumerate(lines):
             d.text((W / 2, y + k * lh), l, font=f, fill=SUB_FG + (255,), anchor="ma")
+    if OUT_T and OUT_T[0] - 0.1 <= T:
+        outro_card(img, d, T - OUT_T[0])
     if not vertical:
         d.rectangle([0, H - 6, W * T / total, H], fill=CYAN + (255,))
     mark_left = corner_mark(img, d)
@@ -518,18 +601,24 @@ def main():
     if mode == "frames":
         for ts in sys.argv[3:]:
             T = float(ts)
-            frame(scenes, total, T).save(os.path.join(vdir, f"preview_{T:07.2f}.png"))
-        print("scene starts:", [round(s["start"], 1) for s in scenes], "total", round(total, 1))
+            out_frame(scenes, total, T).save(os.path.join(vdir, f"preview_{T:07.2f}.png"))
+        print("scene starts:", [round(to_out(scenes, s["start"]), 1) for s in scenes],
+              "intro at", round(intro_at(scenes) or 0, 1), "total", round(to_out(scenes, total) + STING, 1))
+        return
+    if mode == "chapters":
+        for i, sc in enumerate(scenes):
+            t = 0 if i == 0 else to_out(scenes, sc["start"])
+            print(f"{int(t // 60)}:{int(t % 60):02d} {sc['title']}")
         return
     if mode == "render":
         out = os.path.join(vdir, "video_silent.mp4")
         tmp = os.path.join(vdir, "video_silent.tmp.mp4")
-        n = int(math.ceil((total + STING) * FPS))
+        n = int(math.ceil((to_out(scenes, total) + STING) * FPS))
         p = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
                               "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-preset", "veryfast",
                               "-crf", "20", "-pix_fmt", "yuv420p", tmp], stdin=subprocess.PIPE)
         for i in range(n):
-            p.stdin.write(frame(scenes, total, i / FPS).tobytes())
+            p.stdin.write(out_frame(scenes, total, i / FPS).tobytes())
             if i % 900 == 0:
                 print(f"{i}/{n}", flush=True)
         p.stdin.close()
@@ -544,20 +633,26 @@ def main():
             k = 1
             for sc in scenes:
                 for a, b, s in sc["subs"]:
-                    f.write(f"{k}\n{ts_(a)} --> {ts_(b)}\n{s}\n\n"); k += 1
+                    f.write(f"{k}\n{ts_(to_out(scenes, a))} --> {ts_(to_out(scenes, b))}\n{s}\n\n"); k += 1
 
 
     if mode == "mux":
         # narration padded to the end of the last scene, then the brand sting tone, then mux with the video
         sting = ("aevalsrc='0.35*(sin(2*PI*660*t)*lt(t,0.14)+sin(2*PI*990*t)*gte(t,0.14))"
                  "*exp(-7*(t-0.14*gte(t,0.14)))':s=48000:d=" + str(STING))
+        ins, il = intro_at(scenes) or 0.0, intro_len()
+        intro = ("aevalsrc='0.3*(sin(2*PI*990*t)*lt(t,0.12)+sin(2*PI*1320*t)*gte(t,0.12))"
+                 f"*exp(-5*(t-0.12*gte(t,0.12)))':s=48000:d={il}")
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", os.path.join(vdir, "video_silent.mp4"),
-                        "-i", os.path.join(vdir, "narration.m4a"), "-f", "lavfi", "-i", sting,
-                        "-filter_complex", f"[1:a]aresample=48000,aformat=channel_layouts=mono,apad=whole_dur={total:.3f},atrim=0:{total:.3f}[n];"
-                        "[2:a]aformat=channel_layouts=mono[s];[n][s]concat=n=2:v=0:a=1[a]",
+                        "-i", os.path.join(vdir, "narration.m4a"), "-f", "lavfi", "-i", sting, "-f", "lavfi", "-i", intro,
+                        "-filter_complex",
+                        f"[1:a]aresample=48000,aformat=channel_layouts=mono,apad=whole_dur={total:.3f},atrim=0:{total:.3f},asplit=2[n1][n2];"
+                        f"[n1]atrim=0:{ins:.3f},asetpts=N/SR/TB[a1];[n2]atrim={ins:.3f},asetpts=N/SR/TB[a2];"
+                        "[3:a]aformat=channel_layouts=mono[i];[2:a]aformat=channel_layouts=mono[s];"
+                        "[a1][i][a2][s]concat=n=4:v=0:a=1[a]",
                         "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
                         "-movflags", "+faststart", os.path.join(vdir, "final.mp4")], check=True)
-        print("done", os.path.join(vdir, "final.mp4"), "duration", round(total + STING, 2))
+        print("done", os.path.join(vdir, "final.mp4"), "duration", round(to_out(scenes, total) + STING, 2))
 
 
 if __name__ == "__main__":

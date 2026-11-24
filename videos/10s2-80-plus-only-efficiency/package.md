@@ -1,8 +1,8 @@
 # 80 Plus Gold Isn't a Quality Rating. Here's What It Tests #shorts
 
 ## Description
+Full video: https://www.youtube.com/watch?v=fJiCtrVyq04
 The 80 Plus badge on a power supply only certifies efficiency at 20, 50 and 100 percent load. It doesn't test voltage stability, ripple or protections, so check a load-tested review before you buy.
-Full video: Power Supplies Explained: Watts, 80 Plus Ratings, and Why Cheap Ones Fail
 #shorts #pchardware #powersupply
 
 ## Tags

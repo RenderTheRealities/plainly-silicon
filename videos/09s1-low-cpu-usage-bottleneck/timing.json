@@ -1,96 +1,106 @@
 {
  "paragraphs": [
   [
-   0.3,
-   6.816
+   0.02,
+   6.536
   ],
   [
-   7.566,
-   14.159
+   7.286,
+   13.879
   ],
   [
-   14.909,
-   24.16
+   14.629,
+   23.88
   ],
   [
-   24.91,
-   30.982
+   24.63,
+   30.702
   ],
   [
-   31.732,
-   45.235
+   31.452,
+   44.955
   ],
   [
-   45.985,
-   49.461
+   45.705,
+   56.094
   ]
  ],
  "sentences": [
   [
    [
-    0.3,
-    3.504,
+    0.02,
+    3.224,
     "Task Manager says your processor is at 40 percent."
    ],
    [
-    3.784,
-    6.816,
+    3.504,
+    6.536,
     "It can still be the part holding your frame rate back."
    ]
   ],
   [
    [
-    7.566,
-    11.673,
+    7.286,
+    11.393,
     "That number is an average across every thread your processor has."
    ],
    [
-    11.953,
-    14.159,
+    11.673,
+    13.879,
     "Games rarely spread their work evenly."
    ]
   ],
   [
    [
-    14.909,
-    17.807,
+    14.629,
+    17.527,
     "A lot of each frame waits on one main thread."
    ],
    [
-    18.087,
-    24.16,
+    17.807,
+    23.88,
     "On a 16 thread chip, one thread running flat out adds only about 6 percent to the total."
    ]
   ],
   [
    [
-    24.91,
-    30.982,
+    24.63,
+    30.702,
     "So that one busy thread sets the pace, while the others sit mostly idle and pull the average down."
    ]
   ],
   [
    [
-    31.732,
-    33.684,
+    31.452,
+    33.404,
     "Check GPU usage instead."
    ],
    [
-    33.964,
-    38.379,
+    33.684,
+    38.099,
     "If it's pinned at 95 percent or more, the graphics card is the limit."
    ],
    [
-    38.659,
-    45.235,
+    38.379,
+    44.955,
     "If it sits well below 90, with no frame cap or V-Sync, the processor is likely the wall."
    ]
   ],
   [
    [
-    45.985,
-    49.461,
-    "The full guide is in our video, Bottlenecks Explained."
+    45.705,
+    48.489,
+    "But GPU usage is only half the test."
+   ],
+   [
+    48.769,
+    53.017,
+    "The full one-minute check is in Bottlenecks Explained, linked below."
+   ],
+   [
+    53.297,
+    56.094,
+    "Share this, subscribe, and comment your questions."
    ]
   ]
  ]

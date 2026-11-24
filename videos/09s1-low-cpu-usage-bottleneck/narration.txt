@@ -8,4 +8,4 @@ So that one busy thread sets the pace, while the others sit mostly idle and pull
 
 Check GPU usage instead. If it's pinned at 95 percent or more, the graphics card is the limit. If it sits well below 90, with no frame cap or V-Sync, the processor is likely the wall.
 
-The full guide is in our video, Bottlenecks Explained.
+But GPU usage is only half the test. The full one-minute check is in Bottlenecks Explained, linked below. Share this, subscribe, and comment your questions.

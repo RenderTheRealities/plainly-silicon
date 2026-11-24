@@ -1,8 +1,8 @@
 # Low CPU Usage but Still a CPU Bottleneck? Here's Why #shorts
 
 ## Description
+Full video: https://www.youtube.com/watch?v=u_trO1M6UvI
 Total CPU usage is an average across every thread, so one maxed-out main thread can limit your frame rate while Task Manager shows a low number. GPU usage is the better tell.
-Full video: Bottlenecks Explained: Is Your CPU Holding Back Your GPU?
 #shorts #pcgaming #pchardware
 
 ## Tags
