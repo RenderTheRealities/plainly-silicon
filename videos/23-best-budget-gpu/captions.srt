@@ -1,0 +1,324 @@
+1
+00:00:00,300 --> 00:00:06,387
+The best value gaming graphics card this Black Friday isn't made by Nvidia or AMD.
+
+2
+00:00:06,667 --> 00:00:11,951
+And one of the cards you'll see in a lot of deal banners this week belongs in the skip tier.
+
+3
+00:00:12,231 --> 00:00:23,019
+We're going to rank every budget graphics card you can actually buy at the end of November 2026, using one number: how many dollars you pay for each frame.
+
+4
+00:00:23,299 --> 00:00:28,447
+By the end, you'll know which card to buy, and the exact price where you should walk away.
+
+5
+00:00:29,197 --> 00:00:31,093
+First, why this year is strange.
+
+6
+00:00:31,373 --> 00:00:36,825
+Every card in this video sells for more today than it did at launch, some for more than double.
+
+7
+00:00:37,105 --> 00:00:46,277
+AI data centers are buying memory as fast as it can be made, and chipmakers have shifted production toward the memory those servers use.
+
+8
+00:00:46,557 --> 00:00:49,718
+That leaves less of the memory gaming cards need.
+
+9
+00:00:49,998 --> 00:01:02,171
+Nvidia has reportedly raised prices to its board partners several times this year, and AMD reportedly told partners to expect about ten percent more for the last quarter.
+
+10
+00:01:02,451 --> 00:01:04,228
+So launch prices are history.
+
+11
+00:01:04,508 --> 00:01:08,893
+We'll use what US stores were actually listing in the middle of November.
+
+12
+00:01:09,643 --> 00:01:11,262
+Here's how the ranking works.
+
+13
+00:01:11,542 --> 00:01:18,863
+Every card gets a speed score at 1080p, where the RTX 50 60 counts as 100.
+
+14
+00:01:19,143 --> 00:01:26,974
+The scores come from averaging several independent reviews, and they're rounded, so treat a gap of a few points as a tie.
+
+15
+00:01:27,254 --> 00:01:30,024
+Then we divide each card's price by its score.
+
+16
+00:01:30,304 --> 00:01:33,221
+That gives dollars per point, and lower is better.
+
+17
+00:01:33,501 --> 00:01:40,957
+Prices change every day, so for every card you'll also get a walk-away price, the point where it stops being worth it.
+
+18
+00:01:41,707 --> 00:01:43,393
+The lineup has six cards.
+
+19
+00:01:43,673 --> 00:01:51,841
+Intel's Arc B570 with 10 gigabytes of video memory, and the Arc B580 with 12.
+
+20
+00:01:52,121 --> 00:01:58,115
+Nvidia's RTX 50 50 and RTX 50 60, both with 8 gigabytes.
+
+21
+00:01:58,395 --> 00:02:05,024
+AMD's Radeon RX 90 60 XT, sold with either 8 or 16 gigabytes.
+
+22
+00:02:05,304 --> 00:02:11,721
+And one more that keeps sneaking into Black Friday deals, the RTX 30 50 with 6 gigabytes.
+
+23
+00:02:12,001 --> 00:02:13,366
+Let's start at the bottom.
+
+24
+00:02:14,116 --> 00:02:18,276
+Skip tier, card one: the RTX 30 50 6 gigabyte.
+
+25
+00:02:18,556 --> 00:02:37,789
+It carries the same name as the 8 gigabyte RTX 30 50, but it has fewer cores, 2,304 instead of 2,560, on a narrower memory bus, so it moves 168 gigabytes per second instead of 224.
+
+26
+00:02:38,069 --> 00:02:49,745
+It's built to draw just 70 watts, and early benchmarks put it about twenty percent behind the 8 gigabyte version, which was already the entry-level card of its generation.
+
+27
+00:02:50,025 --> 00:02:56,235
+If a cheap prebuilt lists an RTX 30 50 with 6 gigabytes, that's where the money was saved.
+
+28
+00:02:56,985 --> 00:03:02,209
+Skip tier, card two, and this one surprises people: the RTX 50 50.
+
+29
+00:03:02,489 --> 00:03:03,823
+It isn't a bad chip.
+
+30
+00:03:04,103 --> 00:03:17,585
+It scores about 78, roughly the same as Intel's cheaper B570, and TechSpot measured the Arc B580 about fourteen percent faster across sixteen games.
+
+31
+00:03:17,865 --> 00:03:19,504
+The problem is the price.
+
+32
+00:03:19,784 --> 00:03:26,039
+It launched at 249 dollars, and in mid November Best Buy listed it at 400.
+
+33
+00:03:26,319 --> 00:03:31,951
+That's about 5 dollars and 13 cents per point, with only 8 gigabytes of memory.
+
+34
+00:03:32,231 --> 00:03:42,167
+Walk-away price: anything above what the B570 costs, because the B570 matches it and gives you 2 more gigabytes.
+
+35
+00:03:42,917 --> 00:03:48,942
+B tier: the RTX 50 60 and the 8 gigabyte RX 90 60 XT.
+
+36
+00:03:49,222 --> 00:03:51,970
+Together they set our yardstick of 100.
+
+37
+00:03:52,250 --> 00:04:09,256
+In TechPowerUp's testing the 16 gigabyte Radeon was about three and a half percent faster than the RTX 50 60 at 1080p, and the 8 gigabyte version about five percent slower than the 16, so these two are a tie.
+
+38
+00:04:09,536 --> 00:04:18,307
+The RTX 50 60 launched at 299 dollars and was listed around 500 on Amazon in mid November.
+
+39
+00:04:18,587 --> 00:04:20,926
+That's exactly 5 dollars per point.
+
+40
+00:04:21,206 --> 00:04:31,486
+Both have 8 gigabytes, which still works at 1080p, but costs you real frames at 1440p with ultra textures.
+
+41
+00:04:31,766 --> 00:04:38,509
+Verdict: if you want one of these, buy whichever is cheaper on the day, and don't pay more than 400.
+
+42
+00:04:39,259 --> 00:04:45,590
+Now the most interesting card in the list: the RX 90 60 XT with 16 gigabytes.
+
+43
+00:04:45,870 --> 00:04:53,731
+It's the fastest card here, at about 105, and it's the cheapest way to get 16 gigabytes of video memory.
+
+44
+00:04:54,011 --> 00:04:56,704
+It launched at 349 dollars.
+
+45
+00:04:56,984 --> 00:05:00,797
+In mid November, Newegg listed one at 750.
+
+46
+00:05:01,077 --> 00:05:07,053
+That's over 7 dollars per point, the worst value on this list, for the best card on this list.
+
+47
+00:05:07,333 --> 00:05:09,183
+Great card, terrible price.
+
+48
+00:05:09,463 --> 00:05:12,754
+Its walk-away price is 420 dollars.
+
+49
+00:05:13,034 --> 00:05:19,238
+At or below that, it's the one I'd buy, because 16 gigabytes keeps it useful for years.
+
+50
+00:05:19,988 --> 00:05:22,733
+A tier: Intel's Arc B580.
+
+51
+00:05:23,013 --> 00:05:30,679
+It scores about 88, so it's a bit slower than the RTX 50 60, but it has 12 gigabytes of memory.
+
+52
+00:05:30,959 --> 00:05:38,771
+It launched at 249 dollars, and in November it's been averaging around 390 at US stores.
+
+53
+00:05:39,051 --> 00:05:42,466
+That's about 4 dollars and 43 cents per point.
+
+54
+00:05:42,746 --> 00:05:50,279
+Cheaper per frame than every Nvidia and AMD card on this list, with more memory than any 8 gigabyte card.
+
+55
+00:05:51,029 --> 00:05:56,772
+And S tier, the best value this Black Friday: Intel's Arc B570.
+
+56
+00:05:57,052 --> 00:06:09,053
+It scores about 78, the same as the RTX 50 50, and in reviews it landed within about seven percent of the RTX 40 60 at 1080p.
+
+57
+00:06:09,333 --> 00:06:11,261
+It has 10 gigabytes of memory.
+
+58
+00:06:11,541 --> 00:06:18,217
+It launched at 219 dollars, and on November 18th Newegg listed it at 289.
+
+59
+00:06:18,497 --> 00:06:24,112
+That works out to about 3 dollars and 71 cents per point, the lowest on the board.
+
+60
+00:06:24,392 --> 00:06:30,288
+It costs 111 dollars less than the RTX 50 50 for the same speed.
+
+61
+00:06:31,038 --> 00:06:35,021
+But there's a catch, and it decides whether Intel is right for you.
+
+62
+00:06:35,301 --> 00:06:43,838
+Arc cards need a feature called Resizable BAR switched on in your motherboard's settings, or they lose a lot of performance.
+
+63
+00:06:44,118 --> 00:06:51,219
+And on older processors, Intel's driver has needed more CPU time than AMD's or Nvidia's.
+
+64
+00:06:51,499 --> 00:07:00,875
+When TechSpot paired the B580 with a Ryzen 5 2600, it ran about twenty percent slower than it should have.
+
+65
+00:07:01,155 --> 00:07:05,089
+Newer drivers improved this, but some games are still affected.
+
+66
+00:07:05,369 --> 00:07:17,851
+So if your PC is several years old, or your board doesn't offer Resizable BAR, skip Arc and pick the RX 90 60 XT or the RTX 50 60 instead.
+
+67
+00:07:18,601 --> 00:07:21,986
+Here's how to judge any Black Friday deal in ten seconds.
+
+68
+00:07:22,266 --> 00:07:24,698
+Aim for 4 dollars per point or less.
+
+69
+00:07:24,978 --> 00:07:30,891
+That means the B570 is a good deal under about 310 dollars.
+
+70
+00:07:31,171 --> 00:07:34,468
+The B580 under 350.
+
+71
+00:07:34,748 --> 00:07:39,868
+The RTX 50 60 or the 8 gigabyte Radeon under 400.
+
+72
+00:07:40,148 --> 00:07:44,041
+And the 16 gigabyte Radeon under 420.
+
+73
+00:07:44,321 --> 00:07:50,917
+If a card misses its number, it isn't a deal, no matter what the banner says the original price was.
+
+74
+00:07:51,667 --> 00:07:53,049
+So here's the verdict.
+
+75
+00:07:53,329 --> 00:08:01,424
+If your PC is from the last few years and you play at 1080p, buy the Arc B570.
+
+76
+00:08:01,704 --> 00:08:07,005
+Step up to the B580 only if you find it under 350.
+
+77
+00:08:07,285 --> 00:08:13,652
+Skip the RTX 50 50 and the 6 gigabyte RTX 30 50 at today's prices.
+
+78
+00:08:13,932 --> 00:08:21,807
+And if a 16 gigabyte RX 90 60 XT ever drops near 420 dollars, buy it on the spot.
+
+79
+00:08:22,087 --> 00:08:24,402
+It's the card that will last the longest.
+
+80
+00:08:25,152 --> 00:08:34,091
+Next Saturday: DDR4 or DDR5 in 2026, and why this year's memory prices changed the answer.
+
+81
+00:08:34,371 --> 00:08:39,062
+There's a new verdict every Saturday, so subscribe and you'll catch the next one.
+

@@ -181,3 +181,4 @@ Re-authorize the YouTube token with the extra scope `https://www.googleapis.com/
 ## Ongoing (added by the scheduled runs)
 
 <!-- Each run adds a line per upload: first comment to pin, Related video for Shorts, end-screen update for long videos. -->
+- [ ] 2026-11-28 23-best-budget-gpu https://youtu.be/iM69YHi2yAQ (public Sat 10:00): pin first comment "What GPU are you running right now, and what did you pay for it?"; point 12-clean-your-pc's end screen (https://youtu.be/59PTTAVoZXM) at this video; add this video's end screen (Subscribe + "Most recent upload")
