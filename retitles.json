@@ -1,0 +1,497 @@
+{
+ "note": "Changes to existing uploads for the Nov 24, 2026 growth plan. The YouTube token only has the youtube.upload + youtube.readonly scopes, so these are applied by hand (manual-fixes.md) or by `python3 youtube_update.py apply` once the token also has youtube.force-ssl. To revert, set the old_* values back (`python3 youtube_update.py revert`). status: pending -> applied -> reverted.",
+ "long_videos": [
+  {
+   "id": "fJiCtrVyq04",
+   "slug": "10-power-supplies-explained",
+   "views_2026_11_24": 5,
+   "old_title": "Power Supplies Explained: Watts, 80 Plus Ratings, and Why Cheap Ones Fail",
+   "new_title": "80 Plus Gold Doesn't Mean a Good Power Supply",
+   "old_description": "Every watt your PC uses passes through the power supply first. We follow 400 watts from the wall outlet to the graphics card to show what the watts on the label mean, what 80 Plus Gold really promises, and why cheap power supplies fail.\n\nChapters\n0:00 Follow 400 watts\n0:23 Wall power vs what parts need\n0:51 Filter, rectify, correct, store\n1:29 Why it switches so fast\n2:00 Making steady 12 volts\n2:40 What 80 Plus measures\n3:09 Gold vs basic: where 400 W goes\n3:49 What the watts on the label mean\n4:28 GPU power spikes and ATX 3.0\n5:05 Why cheap ones fail\n5:46 Protections and honest labels\n6:27 Recap and up next\n\nWatch next: https://www.youtube.com/watch?v=u_trO1M6UvI\n\nSubscribe: https://www.youtube.com/@plainlysilicon?sub_confirmation=1\n\nThe 400 W build (CPU 120 W, GPU 220 W, rest 60 W) is an illustrative example; wall draw is 400 W divided by efficiency.\n\nSources:\n- HardwareSecrets, \"Understanding the 80 Plus Certification\" (115 V internal requirements at 20/50/100% load; power factor): https://hardwaresecrets.com/understanding-the-80-plus-certification/3/\n- Tom's Hardware, \"What Do 80 PLUS Bronze, Silver, Gold & Titanium Signify?\": https://www.tomshardware.com/news/what-80-plus-levels-mean,36721.html\n- PC Gamer, \"How PC Power Supplies Work\": https://www.pcgamer.com/how-pc-power-supplies-work/\n- HardwareSecrets, \"Anatomy of Switching Power Supplies\": https://hardwaresecrets.com/anatomy-of-switching-power-supplies/2/\n- Hardware Busters, NZXT C1200 review (12 V up to 1200 W; 5 V and 3.3 V combined 120 W): https://hwbusters.com/psus/nzxt-c1200-platinum-atx-v3-1-psu-review/2/\n- Tom's Hardware, \"Intel's ATX v3.0 PSU Standard Has More Power for GPUs\" (power excursions 200% for 100 µs to 120% for 100 ms): https://www.tomshardware.com/news/intel-atx-v3-psu-standard/2\n- Seasonic, \"Native 12V-2x6 cable guide\" (600 W GPU cable): https://seasonic.com/insights/seasonic-native-12v-2x6-cable-guide/\n- Power Systems Design, \"Electrolytic capacitor lifetime in power supplies\" (life doubles per 10 °C; 5,000 h at 105 °C example): https://www.powersystemsdesign.com/articles/electrolytic-capacitor-lifetime-in-power-supplies/32/9589\n- Corsair, \"PSU protections explained\" (OVP, UVP, OCP, OPP at roughly 115-135%, SCP, OTP): https://www.corsair.com/us/sl/explorer/diy-builder/power-supply-units/psu-protections-explained/\n\n#pchardware #techexplained",
+   "new_description": "An 80 Plus Gold sticker tells you about efficiency, not whether a power supply is built well. Follow 400 watts from the wall to your graphics card and learn what the label really promises, how many watts you need, and why cheap units fail first.\n\nChapters\n0:00 Follow 400 watts\n0:23 Wall power vs what parts need\n0:51 Filter, rectify, correct, store\n1:29 Why it switches so fast\n2:00 Making steady 12 volts\n2:40 What 80 Plus measures\n3:09 Gold vs basic: where 400 W goes\n3:49 What the watts on the label mean\n4:28 GPU power spikes and ATX 3.0\n5:05 Why cheap ones fail\n5:46 Protections and honest labels\n6:27 Recap and up next\n\nWatch next: https://www.youtube.com/watch?v=u_trO1M6UvI\n\nSubscribe: https://www.youtube.com/@plainlysilicon?sub_confirmation=1\n\nThe 400 W build (CPU 120 W, GPU 220 W, rest 60 W) is an illustrative example; wall draw is 400 W divided by efficiency.\n\nSources:\n- HardwareSecrets, \"Understanding the 80 Plus Certification\" (115 V internal requirements at 20/50/100% load; power factor): https://hardwaresecrets.com/understanding-the-80-plus-certification/3/\n- Tom's Hardware, \"What Do 80 PLUS Bronze, Silver, Gold & Titanium Signify?\": https://www.tomshardware.com/news/what-80-plus-levels-mean,36721.html\n- PC Gamer, \"How PC Power Supplies Work\": https://www.pcgamer.com/how-pc-power-supplies-work/\n- HardwareSecrets, \"Anatomy of Switching Power Supplies\": https://hardwaresecrets.com/anatomy-of-switching-power-supplies/2/\n- Hardware Busters, NZXT C1200 review (12 V up to 1200 W; 5 V and 3.3 V combined 120 W): https://hwbusters.com/psus/nzxt-c1200-platinum-atx-v3-1-psu-review/2/\n- Tom's Hardware, \"Intel's ATX v3.0 PSU Standard Has More Power for GPUs\" (power excursions 200% for 100 µs to 120% for 100 ms): https://www.tomshardware.com/news/intel-atx-v3-psu-standard/2\n- Seasonic, \"Native 12V-2x6 cable guide\" (600 W GPU cable): https://seasonic.com/insights/seasonic-native-12v-2x6-cable-guide/\n- Power Systems Design, \"Electrolytic capacitor lifetime in power supplies\" (life doubles per 10 °C; 5,000 h at 105 °C example): https://www.powersystemsdesign.com/articles/electrolytic-capacitor-lifetime-in-power-supplies/32/9589\n- Corsair, \"PSU protections explained\" (OVP, UVP, OCP, OPP at roughly 115-135%, SCP, OTP): https://www.corsair.com/us/sl/explorer/diy-builder/power-supply-units/psu-protections-explained/\n\n#pchardware #techexplained",
+   "status": "pending"
+  },
+  {
+   "id": "8zRSmxnJTIA",
+   "slug": "04-why-your-pc-is-slow",
+   "views_2026_11_24": 8,
+   "old_title": "Why Your PC Is Slow — and Why More RAM Usually Isn't the Fix",
+   "new_title": "Slow PC? More RAM Probably Won't Fix It",
+   "old_description": "Your PC is slow and everyone says \"buy more RAM\", but one free tool already on your PC can show you the real bottleneck first. We diagnose one slow desktop step by step with Task Manager: what 100% disk actually means, why hard drives choke, startup apps, the page file, how to tell if you're really short on RAM, CPU hogs, thermal throttling and the GPU column.\n\nChapters\n0:00 A slow PC\n0:32 Open Task Manager\n1:09 Read the columns\n1:36 What 100% disk means\n2:09 Why hard drives choke\n2:54 Startup apps\n3:37 When RAM fills up\n4:19 Is RAM really full?\n4:58 When more RAM helps\n5:27 CPU and heat\n6:14 Gamers: the GPU column\n6:41 The verdict\n7:10 Up next\n\nWatch next: https://www.youtube.com/watch?v=IlvT-Sk3UiQ\nSubscribe: https://www.youtube.com/@PlainlySilicon?sub_confirmation=1\n\nSources:\n- Microsoft Learn, Introduction to page files: https://learn.microsoft.com/windows/client-management/introduction-page-file\n- Microsoft Support, Configure Startup applications in Windows: https://support.microsoft.com/topic/3d219555-bc76-449d-ab89-0d2dd6307164\n- Windows Central, How to monitor drive activity on Windows 11: https://www.windowscentral.com/software-apps/windows-11/how-to-monitor-drive-activity-on-windows-11\n- Digital Citizen, Task Manager processes: https://www.digitalcitizen.life/task-manager-manage-processes/\n- HP Tech Takes, How to use Task Manager like a pro: https://www.hp.com/hk-en/tech-takes/software/how-to/how-to-use-task-manager-like-a-pro.html\n- HP Tech Takes, How much RAM do I need: https://www.hp.com/us-en/tech-takes/components/buyers-guide/how-much-ram-do-i-need-every-use.html\n- ADHDecode, HDD performance characteristics: https://adhdecode.com/storage-systems/storage-hardware-hdds/hdd-performance-characteristics/\n- StarWind, IOPS, the key to storage performance: https://www.starwindsoftware.com/blog/iops-key-to-storage-performance/\n- Eleven Forum, Memory compression in Windows 10 and 11: https://www.elevenforum.com/t/enable-or-disable-memory-compression-in-windows-10-and-windows-11.3555/\n- Puget Systems, All about thermal throttling: https://www.pugetsystems.com/support/guides/thermal-throttling/\n- MSI, Checking CPU speed in Task Manager: https://us.msi.com/support/technical_details/NB_Perf_CPU_Speed\n- Evetech, Low GPU usage in games: https://evezone.evetech.co.za/quick-bytes/how-to-fix-low-gpu-usage-in-games-bottleneck-driver-fixes\n\n#pchardware #techexplained",
+   "new_description": "Everyone says buy more RAM. Before you spend anything, use one free tool already on your PC to find the part that is actually slowing it down, and fix that instead.\n\nChapters\n0:00 A slow PC\n0:32 Open Task Manager\n1:09 Read the columns\n1:36 What 100% disk means\n2:09 Why hard drives choke\n2:54 Startup apps\n3:37 When RAM fills up\n4:19 Is RAM really full?\n4:58 When more RAM helps\n5:27 CPU and heat\n6:14 Gamers: the GPU column\n6:41 The verdict\n7:10 Up next\n\nWatch next: https://www.youtube.com/watch?v=IlvT-Sk3UiQ\nSubscribe: https://www.youtube.com/@PlainlySilicon?sub_confirmation=1\n\nSources:\n- Microsoft Learn, Introduction to page files: https://learn.microsoft.com/windows/client-management/introduction-page-file\n- Microsoft Support, Configure Startup applications in Windows: https://support.microsoft.com/topic/3d219555-bc76-449d-ab89-0d2dd6307164\n- Windows Central, How to monitor drive activity on Windows 11: https://www.windowscentral.com/software-apps/windows-11/how-to-monitor-drive-activity-on-windows-11\n- Digital Citizen, Task Manager processes: https://www.digitalcitizen.life/task-manager-manage-processes/\n- HP Tech Takes, How to use Task Manager like a pro: https://www.hp.com/hk-en/tech-takes/software/how-to/how-to-use-task-manager-like-a-pro.html\n- HP Tech Takes, How much RAM do I need: https://www.hp.com/us-en/tech-takes/components/buyers-guide/how-much-ram-do-i-need-every-use.html\n- ADHDecode, HDD performance characteristics: https://adhdecode.com/storage-systems/storage-hardware-hdds/hdd-performance-characteristics/\n- StarWind, IOPS, the key to storage performance: https://www.starwindsoftware.com/blog/iops-key-to-storage-performance/\n- Eleven Forum, Memory compression in Windows 10 and 11: https://www.elevenforum.com/t/enable-or-disable-memory-compression-in-windows-10-and-windows-11.3555/\n- Puget Systems, All about thermal throttling: https://www.pugetsystems.com/support/guides/thermal-throttling/\n- MSI, Checking CPU speed in Task Manager: https://us.msi.com/support/technical_details/NB_Perf_CPU_Speed\n- Evetech, Low GPU usage in games: https://evezone.evetech.co.za/quick-bytes/how-to-fix-low-gpu-usage-in-games-bottleneck-driver-fixes\n\n#pchardware #techexplained",
+   "status": "pending"
+  },
+  {
+   "id": "u_trO1M6UvI",
+   "slug": "09-bottlenecks-explained",
+   "views_2026_11_24": 9,
+   "old_title": "Bottlenecks Explained: Is Your CPU Holding Back Your GPU?",
+   "new_title": "Is Your CPU Holding Back Your GPU? 1-Minute Test",
+   "old_description": "The same graphics card can run at 102 or 186 FPS depending on the processor feeding it. Here's how to tell whether your CPU or your GPU sets your frame rate, how to check your own PC in a minute, and what to do about it for free.\n\nChapters\n0:00 Half the frame rate\n0:22 What a bottleneck is\n0:55 Every PC has one\n1:20 One CPU, three GPUs\n1:58 RTX 3060: GPU-limited\n2:28 RTX 3080: the limit moves\n2:59 RTX 4090: 1080p vs 4K\n3:40 Why resolution doesn't load the CPU\n4:16 Check your own PC\n5:04 Bottleneck calculators and CPU reviews\n5:48 Free fixes for each case\n6:30 Up next\n\nWatch next: https://www.youtube.com/watch?v=lPsuXNrw0ho\n\nSubscribe: https://www.youtube.com/@plainlysilicon?sub_confirmation=1\n\nThe \"3%\" and \"50%\" bars are drawn relative to the Core i3 (= 100) because the source gives percentages, not frame rates, for those two cards.\n\nSources:\n- TechSpot, \"CPU Benchmarks Explained\" (Watch Dogs: Legion, Very High; Core i3-13100 vs Core i9-13900K: RTX 3060 3%, RTX 3080 50%, RTX 4090 102 vs 186 FPS at 1080p and 99 vs 149 FPS at 4K; why CPUs are tested at 1080p): https://www.techspot.com/article/2618-cpu-benchmarks-explained/\n- rTS Wiki, \"Bottlenecking\" (GPU usage near 100% means GPU-limited; CPU load from physics and characters, not resolution; 5600X vs 5950X; single-number websites are unreliable; frame caps): https://rtech.support/learning/bottlenecking/\n- CGDirector, \"Best PC Bottleneck Calculators: Do they even work?\" (bottleneck percentage isn't an actionable metric): https://www.cgdirector.com/best-pc-bottleneck-calculators/\n\n#pchardware #techexplained",
+   "new_description": "A top-end graphics card can lose almost half its frame rate to a slow processor. Here's how to tell in about a minute whether your CPU or your GPU is setting your FPS, and what to do about it for free.\n\nChapters\n0:00 Half the frame rate\n0:22 What a bottleneck is\n0:55 Every PC has one\n1:20 One CPU, three GPUs\n1:58 RTX 3060: GPU-limited\n2:28 RTX 3080: the limit moves\n2:59 RTX 4090: 1080p vs 4K\n3:40 Why resolution doesn't load the CPU\n4:16 Check your own PC\n5:04 Bottleneck calculators and CPU reviews\n5:48 Free fixes for each case\n6:30 Up next\n\nWatch next: https://www.youtube.com/watch?v=lPsuXNrw0ho\n\nSubscribe: https://www.youtube.com/@plainlysilicon?sub_confirmation=1\n\nThe \"3%\" and \"50%\" bars are drawn relative to the Core i3 (= 100) because the source gives percentages, not frame rates, for those two cards.\n\nSources:\n- TechSpot, \"CPU Benchmarks Explained\" (Watch Dogs: Legion, Very High; Core i3-13100 vs Core i9-13900K: RTX 3060 3%, RTX 3080 50%, RTX 4090 102 vs 186 FPS at 1080p and 99 vs 149 FPS at 4K; why CPUs are tested at 1080p): https://www.techspot.com/article/2618-cpu-benchmarks-explained/\n- rTS Wiki, \"Bottlenecking\" (GPU usage near 100% means GPU-limited; CPU load from physics and characters, not resolution; 5600X vs 5950X; single-number websites are unreliable; frame caps): https://rtech.support/learning/bottlenecking/\n- CGDirector, \"Best PC Bottleneck Calculators: Do they even work?\" (bottleneck percentage isn't an actionable metric): https://www.cgdirector.com/best-pc-bottleneck-calculators/\n\n#pchardware #techexplained",
+   "status": "pending"
+  },
+  {
+   "id": "fau-c6M-M9I",
+   "slug": "05-ssd-vs-hdd-vs-nvme",
+   "views_2026_11_24": 12,
+   "old_title": "SSD vs HDD vs NVMe: What Really Makes Games Load Faster",
+   "new_title": "HDD to SSD Is Huge. SSD to NVMe Barely Matters",
+   "old_description": "Same game, same PC: Cyberpunk 2077 loaded in 6 seconds from an SSD and 63 seconds from a hard drive, yet in many games a much faster NVMe drive saves a second or less. We follow one load screen through a hard drive, a SATA SSD and PCIe 3.0, 4.0 and 5.0 NVMe drives to show exactly where your waiting time goes, and when a faster drive is actually worth it.\n\nChapters\n0:00 One load screen, two drives\n0:29 What a load screen asks for\n1:05 Inside a hard drive\n1:42 The hard drive queue\n2:23 SATA SSD: flash and a cable\n3:01 The big jump\n3:29 NVMe and PCIe lanes\n4:23 Why faster isn't faster\n5:09 Where SATA shows its age\n5:42 DirectStorage\n6:22 The final race\n7:01 Up next\n\nWatch next: https://www.youtube.com/watch?v=IlvT-Sk3UiQ\nSubscribe: https://www.youtube.com/@PlainlySilicon?sub_confirmation=1\n\nSources:\n- PCWorld, The truth about PC gaming on SSDs vs HDDs, tested (2025): https://www.pcworld.com/article/2612388/the-truth-about-pc-gaming-on-ssds-vs-hdds-tested.html\n- TechSpot, SSD gaming comparison, load times: https://www.techspot.com/article/3023-ssd-gaming-comparison-load-times/\n- PCWorld, Tested: Microsoft's DirectStorage tech (Forspoken, 2023): https://www.pcworld.com/article/1486755/tested-microsofts-directstorage-tech-signals-the-sunset-of-sata-ssds.html\n- Legit Reviews, Game load time benchmarking, six SSDs and one HDD (2018): https://www.legitreviews.com/game-load-time-benchmarking-shootout-six-ssds-one-hdd_204468\n- Microsoft DirectX Developer Blog, DirectStorage is coming to PC: https://devblogs.microsoft.com/directx/directstorage-is-coming-to-pc/\n- Seagate BarraCuda 3.5 HDD data sheet: https://www.seagate.com/content/dam/seagate/en/content-fragments/products/datasheets/barracuda-3-5-hdd/barracuda-3-5-hdd-DS17-2-2603US-en_US.pdf\n- Tom's Hardware, The Storage Guide (rotational latency): https://www.tomshardware.com/reviews/storage-guide,33-2.html\n- Stellar, Components of access time and data transfer rate: https://www.stellarinfo.co.in/hdd/components-of-access-time-and-data-transfer-rate.php\n- How-To Geek, What is the actual speed of SATA 3?: https://www.howtogeek.com/219685/what-is-the-actual-speed-of-sata-3/\n- Tom's Hardware, Samsung 970 EVO Plus review: https://www.tomshardware.com/reviews/samsung-970-evo-plus-ssd,5608.html\n- Samsung Newsroom, 990 PRO announcement: https://news.samsung.com/global/samsung-electronics-unveils-high-performance-990-pro-ssd-optimized-for-gaming-and-creative-applications\n- PC Perspective, Samsung 9100 PRO review: https://pcper.com/2025/03/samsung-9100-pro-pcie-5-0-nvme-ssd-review/\n- CubePath, SSD vs NVMe vs HDD performance: https://cubepath.com/docs/comparison-guide/ssd-vs-nvme-vs-hdd-performance-and-use-cases\n\n#pchardware #techexplained",
+   "new_description": "In one test a game loaded in 6 seconds from an SSD and 63 from a hard drive, yet a drive several times faster than another barely changed load times. Here's where your load-screen time really goes, and which drive upgrade is worth paying for.\n\nChapters\n0:00 One load screen, two drives\n0:29 What a load screen asks for\n1:05 Inside a hard drive\n1:42 The hard drive queue\n2:23 SATA SSD: flash and a cable\n3:01 The big jump\n3:29 NVMe and PCIe lanes\n4:23 Why faster isn't faster\n5:09 Where SATA shows its age\n5:42 DirectStorage\n6:22 The final race\n7:01 Up next\n\nWatch next: https://www.youtube.com/watch?v=IlvT-Sk3UiQ\nSubscribe: https://www.youtube.com/@PlainlySilicon?sub_confirmation=1\n\nSources:\n- PCWorld, The truth about PC gaming on SSDs vs HDDs, tested (2025): https://www.pcworld.com/article/2612388/the-truth-about-pc-gaming-on-ssds-vs-hdds-tested.html\n- TechSpot, SSD gaming comparison, load times: https://www.techspot.com/article/3023-ssd-gaming-comparison-load-times/\n- PCWorld, Tested: Microsoft's DirectStorage tech (Forspoken, 2023): https://www.pcworld.com/article/1486755/tested-microsofts-directstorage-tech-signals-the-sunset-of-sata-ssds.html\n- Legit Reviews, Game load time benchmarking, six SSDs and one HDD (2018): https://www.legitreviews.com/game-load-time-benchmarking-shootout-six-ssds-one-hdd_204468\n- Microsoft DirectX Developer Blog, DirectStorage is coming to PC: https://devblogs.microsoft.com/directx/directstorage-is-coming-to-pc/\n- Seagate BarraCuda 3.5 HDD data sheet: https://www.seagate.com/content/dam/seagate/en/content-fragments/products/datasheets/barracuda-3-5-hdd/barracuda-3-5-hdd-DS17-2-2603US-en_US.pdf\n- Tom's Hardware, The Storage Guide (rotational latency): https://www.tomshardware.com/reviews/storage-guide,33-2.html\n- Stellar, Components of access time and data transfer rate: https://www.stellarinfo.co.in/hdd/components-of-access-time-and-data-transfer-rate.php\n- How-To Geek, What is the actual speed of SATA 3?: https://www.howtogeek.com/219685/what-is-the-actual-speed-of-sata-3/\n- Tom's Hardware, Samsung 970 EVO Plus review: https://www.tomshardware.com/reviews/samsung-970-evo-plus-ssd,5608.html\n- Samsung Newsroom, 990 PRO announcement: https://news.samsung.com/global/samsung-electronics-unveils-high-performance-990-pro-ssd-optimized-for-gaming-and-creative-applications\n- PC Perspective, Samsung 9100 PRO review: https://pcper.com/2025/03/samsung-9100-pro-pcie-5-0-nvme-ssd-review/\n- CubePath, SSD vs NVMe vs HDD performance: https://cubepath.com/docs/comparison-guide/ssd-vs-nvme-vs-hdd-performance-and-use-cases\n\n#pchardware #techexplained",
+   "status": "pending"
+  },
+  {
+   "id": "KLsnJ17daJE",
+   "slug": "03-every-type-of-ram",
+   "views_2026_11_24": 13,
+   "old_title": "Every Type of RAM Explained: DDR3 to DDR5",
+   "new_title": "Will This RAM Fit Your PC? DDR3 vs DDR4 vs DDR5",
+   "old_description": "Will an old stick of RAM fit your new motherboard, and would it even work? We follow one DDR3 stick through DDR4 and DDR5, then into laptops (SO-DIMM), thin laptops (soldered LPDDR) and graphics cards (GDDR), so you can tell any memory apart and know why the generations can't be swapped.\n\nChapters\n0:00 Will it fit?\n0:30 What DDR means (MT/s vs MHz)\n1:17 DDR3\n1:51 DDR4\n2:27 The notch is a key\n3:09 DDR5\n3:46 Two 32-bit subchannels\n4:29 Power chip and on-die ECC\n5:13 Laptops: SO-DIMM\n5:47 LPDDR and GDDR\n6:40 Back to the stick\n7:22 Up next\n\nWatch next: https://www.youtube.com/watch?v=IlvT-Sk3UiQ\nSubscribe: https://www.youtube.com/@PlainlySilicon?sub_confirmation=1\n\nSources:\n- Kingston, DDR5 overview: https://www.kingston.com/en/memory/ddr5-overview\n- Wikipedia, DDR3 SDRAM: https://en.wikipedia.org/wiki/DDR3_SDRAM\n- Wikipedia, DDR4 SDRAM: https://en.wikipedia.org/wiki/DDR4_SDRAM\n- Wikipedia, DDR5 SDRAM: https://en.wikipedia.org/wiki/DDR5_SDRAM\n- Wikipedia, DIMM: https://en.wikipedia.org/wiki/DIMM\n- Micro Center, Anatomy of RAM for desktop computers: https://www.microcenter.com/tech_center/article/11167/anatomy-of-ram-for-desktop-computers\n- PCWorld, Meet LPCAMM2: https://www.pcworld.com/article/2326887/meet-lpcamm2-the-fast-and-efficient-new-laptop-ram-of-the-future.html\n- Rambus, All you need to know about GDDR7: https://www.rambus.com/blogs/all-you-need-to-know-about-gddr7/\n\n#pchardware #techexplained",
+   "new_description": "Old RAM stick, new motherboard: will it fit, and would it work? Learn to read any memory stick, laptop or graphics card and know exactly which kind of RAM it takes.\n\nChapters\n0:00 Will it fit?\n0:30 What DDR means (MT/s vs MHz)\n1:17 DDR3\n1:51 DDR4\n2:27 The notch is a key\n3:09 DDR5\n3:46 Two 32-bit subchannels\n4:29 Power chip and on-die ECC\n5:13 Laptops: SO-DIMM\n5:47 LPDDR and GDDR\n6:40 Back to the stick\n7:22 Up next\n\nWatch next: https://www.youtube.com/watch?v=IlvT-Sk3UiQ\nSubscribe: https://www.youtube.com/@PlainlySilicon?sub_confirmation=1\n\nSources:\n- Kingston, DDR5 overview: https://www.kingston.com/en/memory/ddr5-overview\n- Wikipedia, DDR3 SDRAM: https://en.wikipedia.org/wiki/DDR3_SDRAM\n- Wikipedia, DDR4 SDRAM: https://en.wikipedia.org/wiki/DDR4_SDRAM\n- Wikipedia, DDR5 SDRAM: https://en.wikipedia.org/wiki/DDR5_SDRAM\n- Wikipedia, DIMM: https://en.wikipedia.org/wiki/DIMM\n- Micro Center, Anatomy of RAM for desktop computers: https://www.microcenter.com/tech_center/article/11167/anatomy-of-ram-for-desktop-computers\n- PCWorld, Meet LPCAMM2: https://www.pcworld.com/article/2326887/meet-lpcamm2-the-fast-and-efficient-new-laptop-ram-of-the-future.html\n- Rambus, All you need to know about GDDR7: https://www.rambus.com/blogs/all-you-need-to-know-about-gddr7/\n\n#pchardware #techexplained",
+   "status": "pending"
+  },
+  {
+   "id": "lPsuXNrw0ho",
+   "slug": "08-what-raises-fps",
+   "views_2026_11_24": 42,
+   "old_title": "What Actually Raises FPS (and 5 Myths That Don't)",
+   "new_title": "48 FPS to the Mid 80s Without Buying a Part",
+   "old_description": "One example PC goes from 48 to the mid 80s FPS without buying a single part, and we test five popular tricks that barely move the number: more RAM, a faster SSD, frame generation, booster apps and always lowering resolution.\n\nChapters\n0:00 One PC, 48 FPS\n0:21 A frame is a relay race (CPU vs GPU)\n0:52 Fix 1: Ultra to High\n1:31 Fix 1: the result (and textures)\n1:59 Fix 2: upscaling (DLSS, FSR, XeSS)\n2:42 Fix 3: the XMP / EXPO memory profile\n3:34 Myth 1: more RAM\n4:14 Myth 2: a faster drive\n4:43 Myth 3: frame generation\n5:21 Myths 4 and 5: booster apps, lower resolution\n5:54 Back to the example PC\n6:21 The check you can run tonight\n6:50 Up next\n\nWatch next: https://www.youtube.com/watch?v=oouhEJk4AVM\n\nSubscribe: https://www.youtube.com/@plainlysilicon?sub_confirmation=1\n\nThe example PC and its frame rates (48, 58, 78, mid 80s, about 160 with frame generation) are an illustration, not a measured system. All benchmark figures come from the sources below.\n\nSources:\n- TechSpot, \"Ultra vs. High Settings in PC Games\" (Ultra to High typically 15 to 25 percent; Cyberpunk 2077 24 percent; Microsoft Flight Simulator 4K 45 to 57 FPS): https://www.techspot.com/article/2338-ultra-vs-high-settings/\n- Unity HDRP documentation, DLSS quality modes (render percentage 67 / 58 / 50 / 33 percent): https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@17.3/manual/deep-learning-super-sampling-in-hdrp.html\n- PC Gamer, slow vs fast DDR5 (DDR5-6000 EXPO vs 4800, Ryzen 9 9900X, RTX 5090; Hogwarts Legacy 1080p 183/78 vs 154/65; 4K 130 vs 131): https://www.pcgamer.com/hardware/memory/rampocalypse-be-damned-ive-tested-a-range-of-games-to-see-if-slow-ddr5-will-ruin-my-gaming-experience\n- PC Gamer, 16 GB vs 32 GB (Cyberpunk 2077 83 vs 84, Black Myth: Wukong 76 vs 76, Escape from Tarkov 97 vs 109, MSFS 2024 stutter): https://www.pcgamer.com/hardware/memory/my-testing-shows-that-16-gb-of-system-memory-is-still-absolutely-fine-for-todays-pc-games-but-there-are-some-caveats-to-it-all\n- Digital Citizen, SSD vs HDD frame rates (Far Cry 5, 1 FPS difference): https://www.digitalcitizen.life/ssd-vs-hdd-higher-frame-rates-games/\n- AMD GPUOpen, FSR Frame Generation (roughly doubles frame rate; minimum 60 FPS pre-interpolation recommended; avoid sub-30): https://gpuopen.com/amd-fsr-framegeneration/\n- HotHardware, DLSS 4.5 Dynamic Multi Frame Generation tested (DLSS FG mandates NVIDIA Reflex; responsiveness tied to base frame rate): https://hothardware.com/news/nvidia-dlss-45-dynamic-mfg-tested\n\n#pchardware #techexplained",
+   "new_description": "One gaming PC goes from 48 fps to the mid 80s without buying anything, and five popular tricks people swear by barely move the number. Here's where your time is actually worth spending.\n\nChapters\n0:00 One PC, 48 FPS\n0:21 A frame is a relay race (CPU vs GPU)\n0:52 Fix 1: Ultra to High\n1:31 Fix 1: the result (and textures)\n1:59 Fix 2: upscaling (DLSS, FSR, XeSS)\n2:42 Fix 3: the XMP / EXPO memory profile\n3:34 Myth 1: more RAM\n4:14 Myth 2: a faster drive\n4:43 Myth 3: frame generation\n5:21 Myths 4 and 5: booster apps, lower resolution\n5:54 Back to the example PC\n6:21 The check you can run tonight\n6:50 Up next\n\nWatch next: https://www.youtube.com/watch?v=oouhEJk4AVM\n\nSubscribe: https://www.youtube.com/@plainlysilicon?sub_confirmation=1\n\nThe example PC and its frame rates (48, 58, 78, mid 80s, about 160 with frame generation) are an illustration, not a measured system. All benchmark figures come from the sources below.\n\nSources:\n- TechSpot, \"Ultra vs. High Settings in PC Games\" (Ultra to High typically 15 to 25 percent; Cyberpunk 2077 24 percent; Microsoft Flight Simulator 4K 45 to 57 FPS): https://www.techspot.com/article/2338-ultra-vs-high-settings/\n- Unity HDRP documentation, DLSS quality modes (render percentage 67 / 58 / 50 / 33 percent): https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@17.3/manual/deep-learning-super-sampling-in-hdrp.html\n- PC Gamer, slow vs fast DDR5 (DDR5-6000 EXPO vs 4800, Ryzen 9 9900X, RTX 5090; Hogwarts Legacy 1080p 183/78 vs 154/65; 4K 130 vs 131): https://www.pcgamer.com/hardware/memory/rampocalypse-be-damned-ive-tested-a-range-of-games-to-see-if-slow-ddr5-will-ruin-my-gaming-experience\n- PC Gamer, 16 GB vs 32 GB (Cyberpunk 2077 83 vs 84, Black Myth: Wukong 76 vs 76, Escape from Tarkov 97 vs 109, MSFS 2024 stutter): https://www.pcgamer.com/hardware/memory/my-testing-shows-that-16-gb-of-system-memory-is-still-absolutely-fine-for-todays-pc-games-but-there-are-some-caveats-to-it-all\n- Digital Citizen, SSD vs HDD frame rates (Far Cry 5, 1 FPS difference): https://www.digitalcitizen.life/ssd-vs-hdd-higher-frame-rates-games/\n- AMD GPUOpen, FSR Frame Generation (roughly doubles frame rate; minimum 60 FPS pre-interpolation recommended; avoid sub-30): https://gpuopen.com/amd-fsr-framegeneration/\n- HotHardware, DLSS 4.5 Dynamic Multi Frame Generation tested (DLSS FG mandates NVIDIA Reflex; responsiveness tied to base frame rate): https://hothardware.com/news/nvidia-dlss-45-dynamic-mfg-tested\n\n#pchardware #techexplained",
+   "status": "pending"
+  },
+  {
+   "id": "KutUk2MTViE",
+   "slug": "07-black-friday-pc-traps",
+   "views_2026_11_24": 58,
+   "old_title": "7 Black Friday PC Part Traps (and How to Spot a Real Deal)",
+   "new_title": "That Black Friday PC Deal Might Not Be a Deal",
+   "old_description": "A Black Friday cart that says you saved $420 might have saved you almost nothing. We push one example cart through seven traps: inflated \"was\" prices, same-name GPUs with different chips, silent SSD part swaps, laptop GPU power limits, prebuilts with mystery parts, countdown timers and marketplace sellers, then turn it into a one-minute check you can use on any PC deal.\n\nChapters\n0:00 One cart, seven traps\n0:34 Trap 1: the \"was\" price\n1:33 Trap 2: same name, different chip (RTX 3050 6GB vs 8GB)\n2:27 Trap 3: the silent swap (Crucial P2 TLC to QLC)\n3:14 Trap 4: laptop GPU power (35 to 115 W)\n3:59 Trap 5: prebuilt mystery parts (single-channel RAM, unnamed PSU)\n4:47 Trap 6: countdown timers and \"only 3 left\"\n5:24 Trap 7: who's actually selling it\n6:02 Re-running the cart\n6:38 The one-minute check\n7:17 Up next\n\nWatch next: https://www.youtube.com/watch?v=fau-c6M-M9I\n\nSubscribe: https://www.youtube.com/@plainlysilicon?sub_confirmation=1\n\nThe cart, its prices and the frame rates in the laptop scene are an illustration, not real listings.\n\nSources:\n- Which?, \"Don't believe the hype: most Black Friday deals the same price or cheaper at other times of the year\" (Nov 2025; 175 products, 8 retailers; 83% same price or cheaper at least once outside the sale; none cheapest only on Black Friday): https://www.which.co.uk/policy-and-insight/article/dont-believe-the-hype-most-black-friday-deals-the-same-price-or-cheaper-at-other-times-of-the-year-which-finds-a3TbD5x5KADs\n- FTC Guides Against Deceptive Pricing, 16 CFR 233.1 (former price comparisons): https://www.law.cornell.edu/cfr/text/16/233.1\n- HotHardware, NVIDIA quietly launches 6GB GeForce RTX 3050 (2,304 vs 2,560 CUDA cores, 96-bit vs 128-bit, 168 vs 224 GB/s, 70 W vs 130 W): https://hothardware.com/news/nvidia-launches-6gb-geforce-rtx-3050\n- Tom's Hardware, Re-testing Crucial's P2 SSD after QLC downgrade (2021; same name and number; sustained writes about 40 MBps): https://www.tomshardware.com/features/crucial-p2-ssd-qlc-flash-swap-downgrade\n- Notebookcheck, NVIDIA GeForce RTX 4060 Laptop GPU (TGP configurable 35 to 115 W plus Dynamic Boost): https://www.notebookcheck.net/NVIDIA-GeForce-RTX-4060-Laptop-GPU-Benchmarks-and-Specs.675692.0.html\n- NVIDIA, GeForce RTX 40 Series laptop power and efficiency: https://www.nvidia.com/en-sg/geforce/news/geforce-rtx-40-series-laptop-power-and-efficiency\n- FTC staff report \"Bringing Dark Patterns to Light\" (2022), summarized by Venable: https://www.venable.com/insights/blogs/2022/09/the-ftc-brings-more-light-to-dark-patterns-in-new\n- Amazon, \"Zero to 60: The acceleration of independent sellers in our store\" (2020): https://www.aboutamazon.com/news/how-amazon-works/zero-to-60-the-acceleration-of-independent-sellers-in-our-store\n\n#pchardware #techexplained",
+   "new_description": "A cart that says you saved 400 dollars might have saved almost nothing. Push one shopping cart through seven common traps and learn to check any PC deal in about a minute, through Cyber Monday and beyond.\n\nChapters\n0:00 One cart, seven traps\n0:34 Trap 1: the \"was\" price\n1:33 Trap 2: same name, different chip (RTX 3050 6GB vs 8GB)\n2:27 Trap 3: the silent swap (Crucial P2 TLC to QLC)\n3:14 Trap 4: laptop GPU power (35 to 115 W)\n3:59 Trap 5: prebuilt mystery parts (single-channel RAM, unnamed PSU)\n4:47 Trap 6: countdown timers and \"only 3 left\"\n5:24 Trap 7: who's actually selling it\n6:02 Re-running the cart\n6:38 The one-minute check\n7:17 Up next\n\nWatch next: https://www.youtube.com/watch?v=fau-c6M-M9I\n\nSubscribe: https://www.youtube.com/@plainlysilicon?sub_confirmation=1\n\nThe cart, its prices and the frame rates in the laptop scene are an illustration, not real listings.\n\nSources:\n- Which?, \"Don't believe the hype: most Black Friday deals the same price or cheaper at other times of the year\" (Nov 2025; 175 products, 8 retailers; 83% same price or cheaper at least once outside the sale; none cheapest only on Black Friday): https://www.which.co.uk/policy-and-insight/article/dont-believe-the-hype-most-black-friday-deals-the-same-price-or-cheaper-at-other-times-of-the-year-which-finds-a3TbD5x5KADs\n- FTC Guides Against Deceptive Pricing, 16 CFR 233.1 (former price comparisons): https://www.law.cornell.edu/cfr/text/16/233.1\n- HotHardware, NVIDIA quietly launches 6GB GeForce RTX 3050 (2,304 vs 2,560 CUDA cores, 96-bit vs 128-bit, 168 vs 224 GB/s, 70 W vs 130 W): https://hothardware.com/news/nvidia-launches-6gb-geforce-rtx-3050\n- Tom's Hardware, Re-testing Crucial's P2 SSD after QLC downgrade (2021; same name and number; sustained writes about 40 MBps): https://www.tomshardware.com/features/crucial-p2-ssd-qlc-flash-swap-downgrade\n- Notebookcheck, NVIDIA GeForce RTX 4060 Laptop GPU (TGP configurable 35 to 115 W plus Dynamic Boost): https://www.notebookcheck.net/NVIDIA-GeForce-RTX-4060-Laptop-GPU-Benchmarks-and-Specs.675692.0.html\n- NVIDIA, GeForce RTX 40 Series laptop power and efficiency: https://www.nvidia.com/en-sg/geforce/news/geforce-rtx-40-series-laptop-power-and-efficiency\n- FTC staff report \"Bringing Dark Patterns to Light\" (2022), summarized by Venable: https://www.venable.com/insights/blogs/2022/09/the-ftc-brings-more-light-to-dark-patterns-in-new\n- Amazon, \"Zero to 60: The acceleration of independent sellers in our store\" (2020): https://www.aboutamazon.com/news/how-amazon-works/zero-to-60-the-acceleration-of-independent-sellers-in-our-store\n\n#pchardware #techexplained",
+   "status": "pending"
+  },
+  {
+   "id": "O14uJcxMIvU",
+   "slug": "06-how-a-cpu-runs-code",
+   "views_2026_11_24": 79,
+   "old_title": "How a CPU Runs Your Code, One Clock Cycle at a Time",
+   "new_title": "Why Your CPU Waits Hundreds of Cycles to Add 10",
+   "old_description": "When your game adds ten points to your score, your CPU can do the math in one clock tick, or wait hundreds of ticks for the data. This animated explainer follows that one line of code through a processor core, cycle by cycle: fetch, decode into micro-ops, registers and the ALU, pipelining, out-of-order execution, cache latency, branch prediction and IPC.\n\nChapters\n0:00 Ten points, one core\n0:22 From code to instructions\n0:49 The clock: 5 GHz and 0.2 ns per tick\n1:21 Fetch\n1:45 Decode into micro-ops\n2:17 Registers and the ALU\n2:52 Pipelining\n3:20 Out-of-order execution\n3:55 The cache ladder: L1, L2, L3, RAM\n4:29 Branch prediction and mispredictions\n5:05 IPC: work per tick\n5:45 The ten points, replayed\n6:14 Up next\n\nWatch next: https://www.youtube.com/watch?v=IlvT-Sk3UiQ\n\nSubscribe: https://www.youtube.com/@PlainlySilicon?sub_confirmation=1\n\nSources:\n- Chips and Cheese, AMD's Zen 4 Part 2: Memory Subsystem (L1D 4 cycles, L2 14 cycles, ~73 ns DRAM, 5.7 GHz boost): https://chipsandcheese.com/p/amds-zen-4-part-2-memory-subsystem-and-conclusion\n- TechPowerUp, AMD Zen 4 cache sizes and latencies (L2 14 cycles, L3 50 cycles): https://www.techpowerup.com/298338/amd-zen-4-dies-transistor-counts-cache-sizes-and-latencies-detailed\n- Chips and Cheese, AMD's Zen 4 Part 1: Frontend and Execution Engine (320-entry reorder buffer, micro-op cache): https://chipsandcheese.com/p/amds-zen-4-part-1-frontend-and-execution-engine\n- Chips and Cheese, Running Gaming Workloads through AMD's Zen 5 (448-entry ROB, 8-wide rename, 32 KB L1i, games are low-IPC): https://chipsandcheese.com/p/running-gaming-workloads-through\n- 7-cpu.com, AMD Zen 2 (branch misprediction penalty 18 cycles): https://7-cpu.com/cpu/Zen2.html\n- Stack Overflow, How much does a mispredicted conditional branch cost (Skylake ~16.5-20 cycles, Haswell 16-20): https://stackoverflow.com/questions/76839219/how-much-does-a-mispredicted-conditional-branch-cost\n- uops.info, ADD (register) latency and throughput on Zen 4 and Alder Lake: https://uops.info/html-instr/ADD_01_R64_R64.html\n- Stack Overflow, What happens when adding to memory from a register (add to memory = load + ALU add + store): https://stackoverflow.com/questions/36390747/what-happens-when-adding-to-memory-from-a-register\n- Baeldung, The Fetch-Execute Cycle: https://www.baeldung.com/cs/fetch-execute-cycle\n- Wikipedia: Instruction pipelining, Out-of-order execution, Branch predictor, Instructions per cycle, x86-64 (16 general-purpose 64-bit registers)\n- Hackaday, Visualizing a nanosecond (Grace Hopper's 11.8-inch wire): https://hackaday.com/2012/02/27/visualizing-a-nanosecond/\n\n#pchardware #techexplained",
+   "new_description": "Your processor can do the math in one clock tick, or sit waiting for hundreds. Follow one line of game code through a CPU core, cycle by cycle, and see exactly where the time goes.\n\nChapters\n0:00 Ten points, one core\n0:22 From code to instructions\n0:49 The clock: 5 GHz and 0.2 ns per tick\n1:21 Fetch\n1:45 Decode into micro-ops\n2:17 Registers and the ALU\n2:52 Pipelining\n3:20 Out-of-order execution\n3:55 The cache ladder: L1, L2, L3, RAM\n4:29 Branch prediction and mispredictions\n5:05 IPC: work per tick\n5:45 The ten points, replayed\n6:14 Up next\n\nWatch next: https://www.youtube.com/watch?v=IlvT-Sk3UiQ\n\nSubscribe: https://www.youtube.com/@PlainlySilicon?sub_confirmation=1\n\nSources:\n- Chips and Cheese, AMD's Zen 4 Part 2: Memory Subsystem (L1D 4 cycles, L2 14 cycles, ~73 ns DRAM, 5.7 GHz boost): https://chipsandcheese.com/p/amds-zen-4-part-2-memory-subsystem-and-conclusion\n- TechPowerUp, AMD Zen 4 cache sizes and latencies (L2 14 cycles, L3 50 cycles): https://www.techpowerup.com/298338/amd-zen-4-dies-transistor-counts-cache-sizes-and-latencies-detailed\n- Chips and Cheese, AMD's Zen 4 Part 1: Frontend and Execution Engine (320-entry reorder buffer, micro-op cache): https://chipsandcheese.com/p/amds-zen-4-part-1-frontend-and-execution-engine\n- Chips and Cheese, Running Gaming Workloads through AMD's Zen 5 (448-entry ROB, 8-wide rename, 32 KB L1i, games are low-IPC): https://chipsandcheese.com/p/running-gaming-workloads-through\n- 7-cpu.com, AMD Zen 2 (branch misprediction penalty 18 cycles): https://7-cpu.com/cpu/Zen2.html\n- Stack Overflow, How much does a mispredicted conditional branch cost (Skylake ~16.5-20 cycles, Haswell 16-20): https://stackoverflow.com/questions/76839219/how-much-does-a-mispredicted-conditional-branch-cost\n- uops.info, ADD (register) latency and throughput on Zen 4 and Alder Lake: https://uops.info/html-instr/ADD_01_R64_R64.html\n- Stack Overflow, What happens when adding to memory from a register (add to memory = load + ALU add + store): https://stackoverflow.com/questions/36390747/what-happens-when-adding-to-memory-from-a-register\n- Baeldung, The Fetch-Execute Cycle: https://www.baeldung.com/cs/fetch-execute-cycle\n- Wikipedia: Instruction pipelining, Out-of-order execution, Branch predictor, Instructions per cycle, x86-64 (16 general-purpose 64-bit registers)\n- Hackaday, Visualizing a nanosecond (Grace Hopper's 11.8-inch wire): https://hackaday.com/2012/02/27/visualizing-a-nanosecond/\n\n#pchardware #techexplained",
+   "status": "pending"
+  },
+  {
+   "id": "gnxWsFC82yU",
+   "slug": "11-why-vram-matters",
+   "views_2026_11_24": 102,
+   "old_title": "Why VRAM Suddenly Matters So Much (8 GB vs 16 GB, Explained)",
+   "new_title": "Same GPU, 66 FPS vs 27: The Difference Is VRAM",
+   "old_description": "Two graphics cards with the same chip: one averaged 66 fps, the other 27. The only difference was VRAM. Here's what fills your graphics card's memory, what happens when it runs out, and how much you actually need.\n\nChapters\n0:00 Same chip, different results\n0:21 What VRAM is\n1:04 Packing one texture\n1:49 Everything else in VRAM\n2:28 Why now: consoles set the budget\n3:03 When VRAM runs out\n3:51 Stutter and 1% lows\n4:41 Your PCIe slot matters\n5:13 It depends on the game\n5:52 How much VRAM you need\n6:34 Check your own card\n\nWatch next: https://www.youtube.com/watch?v=oouhEJk4AVM\n\nSubscribe: https://www.youtube.com/@plainlysilicon?sub_confirmation=1\n\nTest results are from the reviews below (RTX 5060 Ti 8 GB vs 16 GB); the \"VRAM it costs\" bars in chapter 9 are illustrative. Texture sizes are worked out from the formats' bits per pixel.\n\nSources:\n- TechSpot, \"Nvidia RTX 5060 Ti PCIe benchmark: 8GB vs 16GB\": https://www.techspot.com/review/3004-nvidia-rtx-5060-ti-pcie-benchmark/\n- PC Gamer, 8 GB GPUs real-world testing (2026): https://www.pcgamer.com/hardware/graphics-cards/my-real-world-testing-shows-8-gb-gpus-are-still-enough-for-gaming-in-2026-but-im-surprised-at-just-how-much-faster-the-16-gb-versions-are\n- Tom's Hardware, \"PS5 Specs Revealed\": https://www.tomshardware.com/news/ps5-specs-revealed-cpu-gpu\n- Resonite Wiki, \"Texture compression formats\": https://wiki.resonite.com/Texture_compression_formats\n- Unity Manual, \"Texture compression formats\": https://docs-alpha.unity3d.com/2023.2/Documentation/Manual/texture-compression-formats.html\n\n#pchardware #techexplained",
+   "new_description": "Two graphics cards with the same chip: one averaged 66 fps, the other 27. The only difference was video memory. Here's what fills it, what happens when it runs out, and how much you actually need.\n\nChapters\n0:00 Same chip, different results\n0:21 What VRAM is\n1:04 Packing one texture\n1:49 Everything else in VRAM\n2:28 Why now: consoles set the budget\n3:03 When VRAM runs out\n3:51 Stutter and 1% lows\n4:41 Your PCIe slot matters\n5:13 It depends on the game\n5:52 How much VRAM you need\n6:34 Check your own card\n\nWatch next: https://www.youtube.com/watch?v=oouhEJk4AVM\n\nSubscribe: https://www.youtube.com/@plainlysilicon?sub_confirmation=1\n\nTest results are from the reviews below (RTX 5060 Ti 8 GB vs 16 GB); the \"VRAM it costs\" bars in chapter 9 are illustrative. Texture sizes are worked out from the formats' bits per pixel.\n\nSources:\n- TechSpot, \"Nvidia RTX 5060 Ti PCIe benchmark: 8GB vs 16GB\": https://www.techspot.com/review/3004-nvidia-rtx-5060-ti-pcie-benchmark/\n- PC Gamer, 8 GB GPUs real-world testing (2026): https://www.pcgamer.com/hardware/graphics-cards/my-real-world-testing-shows-8-gb-gpus-are-still-enough-for-gaming-in-2026-but-im-surprised-at-just-how-much-faster-the-16-gb-versions-are\n- Tom's Hardware, \"PS5 Specs Revealed\": https://www.tomshardware.com/news/ps5-specs-revealed-cpu-gpu\n- Resonite Wiki, \"Texture compression formats\": https://wiki.resonite.com/Texture_compression_formats\n- Unity Manual, \"Texture compression formats\": https://docs-alpha.unity3d.com/2023.2/Documentation/Manual/texture-compression-formats.html\n\n#pchardware #techexplained",
+   "status": "pending"
+  },
+  {
+   "id": "IlvT-Sk3UiQ",
+   "slug": "01-every-pc-component",
+   "views_2026_11_24": 109,
+   "old_title": "Every PC Component Explained in 7 Minutes (Animated)",
+   "new_title": "What Every Part in Your PC Actually Does",
+   "old_description": "What actually happens inside your PC when you double-click a game? This animated explainer follows one click through every part: power supply, motherboard, CPU, SSD vs. HDD, RAM, cache, GPU, cooling and case. You'll learn what each component does, which ones matter for speed, and where people waste money on upgrades.\n\nChapters\n0:00 One click, three seconds\n0:24 Power supply (PSU)\n1:10 Motherboard and UEFI\n1:44 CPU: cores and GHz\n2:24 Storage: SSD vs HDD\n3:19 RAM: short-term memory\n4:15 Cache\n4:41 GPU and VRAM\n5:37 Cooling and thermal throttling\n6:20 The case\n6:33 Replaying the click\n\nNext: Why your PC is slow, and why more RAM usually isn't the fix.\n\n#pchardware #pcbuild #techexplained",
+   "new_description": "Follow one click through the whole machine and learn what every component does, which parts actually matter for speed, and where people waste money.\n\nChapters\n0:00 One click, three seconds\n0:24 Power supply (PSU)\n1:10 Motherboard and UEFI\n1:44 CPU: cores and GHz\n2:24 Storage: SSD vs HDD\n3:19 RAM: short-term memory\n4:15 Cache\n4:41 GPU and VRAM\n5:37 Cooling and thermal throttling\n6:20 The case\n6:33 Replaying the click\n\nNext: Why your PC is slow, and why more RAM usually isn't the fix.\n\n#pchardware #pcbuild #techexplained\n\nSubscribe: https://www.youtube.com/@plainlysilicon?sub_confirmation=1",
+   "status": "pending"
+  }
+ ],
+ "shorts_descriptions": [
+  {
+   "id": "cjw9ANAxdFU",
+   "slug": "01s1-every-pc-part",
+   "title": "Every PC Part Explained in Under a Minute #shorts",
+   "long_video": "01-every-pc-component",
+   "long_url": "https://www.youtube.com/watch?v=IlvT-Sk3UiQ",
+   "old_description": "Every part inside your PC and what it actually does, in under a minute: power supply, motherboard, CPU, GPU, storage, RAM and cooling.\n\nFull animated breakdown on the channel: Every PC Component Explained in 7 Minutes.\n\n#shorts #pchardware #techexplained",
+   "new_description": "Full video: https://www.youtube.com/watch?v=IlvT-Sk3UiQ\nEvery part inside your PC and what it actually does, in under a minute: power supply, motherboard, CPU, GPU, storage, RAM and cooling.\n\nFull animated breakdown on the channel: Every PC Component Explained in 7 Minutes.\n\n#shorts #pchardware #techexplained",
+   "status": "pending"
+  },
+  {
+   "id": "rJ8u3qW4z1Q",
+   "slug": "01s2-ram-vs-storage",
+   "title": "RAM vs Storage: Why Your PC Needs Both #shorts",
+   "long_video": "01-every-pc-component",
+   "long_url": "https://www.youtube.com/watch?v=IlvT-Sk3UiQ",
+   "old_description": "RAM and storage are both memory, so why does your PC need both? The desk and the filing cabinet explain it, plus how much RAM you actually need for gaming.\n\nFull animated breakdown on the channel: Every PC Component Explained in 7 Minutes.\n\n#shorts #pchardware #ram",
+   "new_description": "Full video: https://www.youtube.com/watch?v=IlvT-Sk3UiQ\nRAM and storage are both memory, so why does your PC need both? The desk and the filing cabinet explain it, plus how much RAM you actually need for gaming.\n\nFull animated breakdown on the channel: Every PC Component Explained in 7 Minutes.\n\n#shorts #pchardware #ram",
+   "status": "pending"
+  },
+  {
+   "id": "9cedjC4MWNQ",
+   "slug": "01s3-gpu-thousands-of-cores",
+   "title": "Why Your GPU Has Thousands of Cores #shorts",
+   "long_video": "01-every-pc-component",
+   "long_url": "https://www.youtube.com/watch?v=IlvT-Sk3UiQ",
+   "old_description": "Your CPU might have 8 cores. Your graphics card has thousands. Here's why that crowd of simple cores is perfect for drawing every frame.\n\nFull animated breakdown on the channel: Every PC Component Explained in 7 Minutes.\n\n#shorts #gpu #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=IlvT-Sk3UiQ\nYour CPU might have 8 cores. Your graphics card has thousands. Here's why that crowd of simple cores is perfect for drawing every frame.\n\nFull animated breakdown on the channel: Every PC Component Explained in 7 Minutes.\n\n#shorts #gpu #pchardware",
+   "status": "pending"
+  },
+  {
+   "id": "lNcLXmt8Aco",
+   "slug": "01s4-best-upgrade-old-pc",
+   "title": "The One Upgrade That Revives an Old PC #shorts",
+   "long_video": "05-ssd-vs-hdd-vs-nvme",
+   "long_url": "https://www.youtube.com/watch?v=fau-c6M-M9I",
+   "old_description": "If your old PC feels painfully slow, check this first: swapping a hard drive for an SSD usually beats every other upgrade.\n\nFull animated breakdown on the channel: Every PC Component Explained in 7 Minutes.\n\n#shorts #ssd #pcupgrade",
+   "new_description": "Full video: https://www.youtube.com/watch?v=fau-c6M-M9I\nIf your old PC feels painfully slow, check this first: swapping a hard drive for an SSD usually beats every other upgrade.\n\nFull animated breakdown on the channel: Every PC Component Explained in 7 Minutes.\n\n#shorts #ssd #pcupgrade",
+   "status": "pending"
+  },
+  {
+   "id": "5AbYNnuyQdc",
+   "slug": "01s5-pc-slower-in-summer",
+   "title": "Why Your PC Gets Slower in Summer #shorts",
+   "long_video": "12-clean-your-pc",
+   "long_url": "https://www.youtube.com/watch?v=59PTTAVoZXM",
+   "old_description": "Does your PC feel slower on hot days? It's called thermal throttling. Here's why it happens and two free fixes.\n\nFull animated breakdown on the channel: Every PC Component Explained in 7 Minutes.\n\n#shorts #pccooling #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=59PTTAVoZXM\nDoes your PC feel slower on hot days? It's called thermal throttling. Here's why it happens and two free fixes.\n\nFull animated breakdown on the channel: Every PC Component Explained in 7 Minutes.\n\n#shorts #pccooling #pchardware",
+   "status": "pending"
+  },
+  {
+   "id": "2uyLR9TcsMg",
+   "slug": "01s7-1tb-shows-931gb",
+   "title": "Why Your 1 TB Drive Shows 931 GB #shorts",
+   "long_video": "05-ssd-vs-hdd-vs-nvme",
+   "long_url": "https://www.youtube.com/watch?v=fau-c6M-M9I",
+   "old_description": "Bought a 1 TB drive and Windows says 931 GB? Nothing is missing. Drive makers count in thousands, Windows counts in 1,024s.\n\nMore PC hardware explained on the channel.\n\n#shorts #pchardware #storage",
+   "new_description": "Full video: https://www.youtube.com/watch?v=fau-c6M-M9I\nBought a 1 TB drive and Windows says 931 GB? Nothing is missing. Drive makers count in thousands, Windows counts in 1,024s.\n\nMore PC hardware explained on the channel.\n\n#shorts #pchardware #storage",
+   "status": "pending"
+  },
+  {
+   "id": "Nqu5acq4PDI",
+   "slug": "01s6-gpus-not-just-graphics",
+   "title": "GPUs Aren't Just for Graphics #shorts",
+   "long_video": "02-how-a-gpu-works",
+   "long_url": "https://www.youtube.com/watch?v=oouhEJk4AVM",
+   "old_description": "Graphics cards do way more than graphics. Thousands of cores make GPUs perfect for AI, scientific simulations and video editing.\n\nMore PC hardware explained on the channel.\n\n#shorts #gpu #ai",
+   "new_description": "Full video: https://www.youtube.com/watch?v=oouhEJk4AVM\nGraphics cards do way more than graphics. Thousands of cores make GPUs perfect for AI, scientific simulations and video editing.\n\nMore PC hardware explained on the channel.\n\n#shorts #gpu #ai",
+   "status": "pending"
+  },
+  {
+   "id": "ushi5uADzCY",
+   "slug": "01s8-plug-monitor-into-gpu",
+   "title": "Is Your Monitor Plugged Into the Wrong Port? #shorts",
+   "long_video": "08-what-raises-fps",
+   "long_url": "https://www.youtube.com/watch?v=lPsuXNrw0ho",
+   "old_description": "Got a graphics card? Check where your monitor cable goes. The motherboard's video ports use the CPU's built-in graphics, not your GPU.\n\nMore PC hardware explained on the channel.\n\n#shorts #gpu #pcbuild",
+   "new_description": "Full video: https://www.youtube.com/watch?v=lPsuXNrw0ho\nGot a graphics card? Check where your monitor cable goes. The motherboard's video ports use the CPU's built-in graphics, not your GPU.\n\nMore PC hardware explained on the channel.\n\n#shorts #gpu #pcbuild",
+   "status": "pending"
+  },
+  {
+   "id": "tebCj2WisqM",
+   "slug": "01s9-monitor-stuck-at-60hz",
+   "title": "Your 144 Hz Monitor Might Be Stuck at 60 #shorts",
+   "long_video": "08-what-raises-fps",
+   "long_url": "https://www.youtube.com/watch?v=lPsuXNrw0ho",
+   "old_description": "Paid for a 144 Hz monitor? It might still be running at 60. Here's the 10-second fix in Windows 11.\n\nMore PC hardware explained on the channel.\n\n#shorts #gaming #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=lPsuXNrw0ho\nPaid for a 144 Hz monitor? It might still be running at 60. Here's the 10-second fix in Windows 11.\n\nMore PC hardware explained on the channel.\n\n#shorts #gaming #pchardware",
+   "status": "pending"
+  },
+  {
+   "id": "MXZFC-aeTRk",
+   "slug": "01s10-dual-channel-ram",
+   "title": "Why Two RAM Sticks Beat One #shorts",
+   "long_video": "03-every-type-of-ram",
+   "long_url": "https://www.youtube.com/watch?v=KLsnJ17daJE",
+   "old_description": "Two 8 GB sticks of RAM can beat one 16 GB stick. It's all about memory channels, and which slots you use.\n\nMore PC hardware explained on the channel.\n\n#shorts #ram #pcbuild",
+   "new_description": "Full video: https://www.youtube.com/watch?v=KLsnJ17daJE\nTwo 8 GB sticks of RAM can beat one 16 GB stick. It's all about memory channels, and which slots you use.\n\nMore PC hardware explained on the channel.\n\n#shorts #ram #pcbuild",
+   "status": "pending"
+  },
+  {
+   "id": "idn5jaZlcU4",
+   "slug": "01s11-cmos-battery",
+   "title": "The Tiny Battery Inside Your PC #shorts",
+   "long_video": "01-every-pc-component",
+   "long_url": "https://www.youtube.com/watch?v=IlvT-Sk3UiQ",
+   "old_description": "Even a plugged-in desktop has a tiny battery inside. Here's what that coin cell does, and what happens when it dies.\n\nMore PC hardware explained on the channel.\n\n#shorts #motherboard #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=IlvT-Sk3UiQ\nEven a plugged-in desktop has a tiny battery inside. Here's what that coin cell does, and what happens when it dies.\n\nMore PC hardware explained on the channel.\n\n#shorts #motherboard #pchardware",
+   "status": "pending"
+  },
+  {
+   "id": "4dC_XYvz8MA",
+   "slug": "01s12-what-ghz-means",
+   "title": "What 4 GHz Actually Means #shorts",
+   "long_video": "06-how-a-cpu-runs-code",
+   "long_url": "https://www.youtube.com/watch?v=O14uJcxMIvU",
+   "old_description": "Your CPU says 4 GHz. That's four billion clock ticks per second, but more ticks don't always mean a faster chip.\n\nMore PC hardware explained on the channel.\n\n#shorts #cpu #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=O14uJcxMIvU\nYour CPU says 4 GHz. That's four billion clock ticks per second, but more ticks don't always mean a faster chip.\n\nMore PC hardware explained on the channel.\n\n#shorts #cpu #pchardware",
+   "status": "pending"
+  },
+  {
+   "id": "jeubgoxVY8g",
+   "slug": "01s13-thermal-paste-amount",
+   "title": "How Much Thermal Paste Should You Use? #shorts",
+   "long_video": "12-clean-your-pc",
+   "long_url": "https://www.youtube.com/watch?v=59PTTAVoZXM",
+   "old_description": "How much thermal paste should you use? Less than you think. Here's the pea method, and why too much doesn't help.\n\nMore PC hardware explained on the channel.\n\n#shorts #pcbuild #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=59PTTAVoZXM\nHow much thermal paste should you use? Less than you think. Here's the pea method, and why too much doesn't help.\n\nMore PC hardware explained on the channel.\n\n#shorts #pcbuild #pchardware",
+   "status": "pending"
+  },
+  {
+   "id": "Ioo98nWJ81o",
+   "slug": "01s14-psu-wattage-myth",
+   "title": "Your 850 W Power Supply Doesn't Use 850 W #shorts",
+   "long_video": "10-power-supplies-explained",
+   "long_url": "https://www.youtube.com/watch?v=fJiCtrVyq04",
+   "old_description": "An 850 watt power supply doesn't use 850 watts. That number is a maximum. Your parts only draw what they need.\n\nMore PC hardware explained on the channel.\n\n#shorts #psu #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=fJiCtrVyq04\nAn 850 watt power supply doesn't use 850 watts. That number is a maximum. Your parts only draw what they need.\n\nMore PC hardware explained on the channel.\n\n#shorts #psu #pchardware",
+   "status": "pending"
+  },
+  {
+   "id": "_nJieW9jBfA",
+   "slug": "01s15-nm-is-marketing",
+   "title": "3 nm Chips Aren't Actually 3 nm #shorts",
+   "long_video": "06-how-a-cpu-runs-code",
+   "long_url": "https://www.youtube.com/watch?v=O14uJcxMIvU",
+   "old_description": "A 3 nanometer chip has nothing on it that measures 3 nanometers. Today the number is a generation label, not a size.\n\nMore PC hardware explained on the channel.\n\n#shorts #cpu #semiconductors",
+   "new_description": "Full video: https://www.youtube.com/watch?v=O14uJcxMIvU\nA 3 nanometer chip has nothing on it that measures 3 nanometers. Today the number is a generation label, not a size.\n\nMore PC hardware explained on the channel.\n\n#shorts #cpu #semiconductors",
+   "status": "pending"
+  },
+  {
+   "id": "XOUnoLxUz10",
+   "slug": "01s16-ram-default-speed",
+   "title": "Your RAM Is Probably Slower Than the Box Says #shorts",
+   "long_video": "01-every-pc-component",
+   "long_url": "https://www.youtube.com/watch?v=IlvT-Sk3UiQ",
+   "old_description": "New RAM runs at a standard default speed until you turn on its XMP or EXPO profile in the BIOS. Here's why the number on the box isn't automatic, and how to check.\nFull video: Every PC Component Explained in 7 Minutes, on the channel.\n#shorts #pchardware #ram",
+   "new_description": "Full video: https://www.youtube.com/watch?v=IlvT-Sk3UiQ\nNew RAM runs at a standard default speed until you turn on its XMP or EXPO profile in the BIOS. Here's why the number on the box isn't automatic, and how to check.\nFull video: Every PC Component Explained in 7 Minutes, on the channel.\n#shorts #pchardware #ram",
+   "status": "pending"
+  },
+  {
+   "id": "fwrX16y99Nk",
+   "slug": "01s17-ryzen-95-degrees",
+   "title": "Is 95°C Too Hot for a Ryzen CPU? #shorts",
+   "long_video": "12-clean-your-pc",
+   "long_url": "https://www.youtube.com/watch?v=59PTTAVoZXM",
+   "old_description": "Ryzen 7000 processors are designed to boost until they reach their temperature limit, about 95 degrees Celsius, under heavy load. Here's why that's normal and when heat is actually worth worrying about.\nMore PC hardware explained on the channel.\n#shorts #pchardware #cpu",
+   "new_description": "Full video: https://www.youtube.com/watch?v=59PTTAVoZXM\nRyzen 7000 processors are designed to boost until they reach their temperature limit, about 95 degrees Celsius, under heavy load. Here's why that's normal and when heat is actually worth worrying about.\nMore PC hardware explained on the channel.\n#shorts #pchardware #cpu",
+   "status": "pending"
+  },
+  {
+   "id": "b8rh1SlQbkk",
+   "slug": "01s18-m2-is-a-shape",
+   "title": "M.2 Is a Shape, Not a Speed #shorts",
+   "long_video": "05-ssd-vs-hdd-vs-nvme",
+   "long_url": "https://www.youtube.com/watch?v=fau-c6M-M9I",
+   "old_description": "Two M.2 drives can look identical while one is ten times faster. M.2 is a shape: the drive inside can be SATA or NVMe.\nMore PC hardware explained on the channel.\n#shorts #ssd #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=fau-c6M-M9I\nTwo M.2 drives can look identical while one is ten times faster. M.2 is a shape: the drive inside can be SATA or NVMe.\nMore PC hardware explained on the channel.\n#shorts #ssd #pchardware",
+   "status": "pending"
+  },
+  {
+   "id": "-CJTjorPTiY",
+   "slug": "01s19-gpu-power-cables",
+   "title": "Why Your Graphics Card Needs Extra Power Cables #shorts",
+   "long_video": "10-power-supplies-explained",
+   "long_url": "https://www.youtube.com/watch?v=fJiCtrVyq04",
+   "old_description": "The PCIe slot only gives your graphics card up to 75 watts. Here's what the 6-pin, 8-pin and 12V-2x6 cables add, and why every connector needs plugging in.\nMore PC hardware explained on the channel.\n#shorts #gpu #pcbuild",
+   "new_description": "Full video: https://www.youtube.com/watch?v=fJiCtrVyq04\nThe PCIe slot only gives your graphics card up to 75 watts. Here's what the 6-pin, 8-pin and 12V-2x6 cables add, and why every connector needs plugging in.\nMore PC hardware explained on the channel.\n#shorts #gpu #pcbuild",
+   "status": "pending"
+  },
+  {
+   "id": "mHeiAA2MNvc",
+   "slug": "01s20-ssd-slows-when-full",
+   "title": "Why Your SSD Gets Slower When It's Full #shorts",
+   "long_video": "05-ssd-vs-hdd-vs-nvme",
+   "long_url": "https://www.youtube.com/watch?v=fau-c6M-M9I",
+   "old_description": "Many SSDs write to a fast SLC cache built from free space, so a nearly full drive gets slower on big copies. Here's why, and how much space to leave free.\nMore PC hardware explained on the channel.\n#shorts #ssd #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=fau-c6M-M9I\nMany SSDs write to a fast SLC cache built from free space, so a nearly full drive gets slower on big copies. Here's why, and how much space to leave free.\nMore PC hardware explained on the channel.\n#shorts #ssd #pchardware",
+   "status": "pending"
+  },
+  {
+   "id": "ubzLlQX1v70",
+   "slug": "01s21-blue-usb-ports",
+   "title": "Why Some USB Ports Are Blue #shorts",
+   "long_video": "01-every-pc-component",
+   "long_url": "https://www.youtube.com/watch?v=IlvT-Sk3UiQ",
+   "old_description": "Blue USB ports usually mean USB 3 SuperSpeed, about ten times faster than USB 2. But color is only a convention, so here's the better clue.\nMore PC hardware explained on the channel.\n#shorts #usb #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=IlvT-Sk3UiQ\nBlue USB ports usually mean USB 3 SuperSpeed, about ten times faster than USB 2. But color is only a convention, so here's the better clue.\nMore PC hardware explained on the channel.\n#shorts #usb #pchardware",
+   "status": "pending"
+  },
+  {
+   "id": "LTcVBmWoAp0",
+   "slug": "01s22-tdp-isnt-power-draw",
+   "title": "TDP Isn't How Much Power Your CPU Uses #shorts",
+   "long_video": "10-power-supplies-explained",
+   "long_url": "https://www.youtube.com/watch?v=fJiCtrVyq04",
+   "old_description": "TDP is a cooling guideline, not your CPU's real power draw. Intel's Core i9-14900K is 125 W base but 253 W max turbo, and AMD's Ryzen 7 7700X is 105 W TDP but 142 W PPT.\nMore PC hardware explained on the channel.\n#shorts #cpu #pcbuild",
+   "new_description": "Full video: https://www.youtube.com/watch?v=fJiCtrVyq04\nTDP is a cooling guideline, not your CPU's real power draw. Intel's Core i9-14900K is 125 W base but 253 W max turbo, and AMD's Ryzen 7 7700X is 105 W TDP but 142 W PPT.\nMore PC hardware explained on the channel.\n#shorts #cpu #pcbuild",
+   "status": "pending"
+  },
+  {
+   "id": "SCJ5yoN0vR8",
+   "slug": "06s1-cpu-cache-levels",
+   "title": "CPU Cache Explained: Why RAM Is 100x Slower #shorts",
+   "long_video": "06-how-a-cpu-runs-code",
+   "long_url": "https://www.youtube.com/watch?v=O14uJcxMIvU",
+   "old_description": "Why your CPU keeps tiny memories inside itself: the L1, L2 and L3 caches on an AMD Zen 4 core, and how long each one takes to answer compared with your RAM.\nFull video: How a CPU Runs Your Code, One Clock Cycle at a Time\n#shorts #cpu #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=O14uJcxMIvU\nWhy your CPU keeps tiny memories inside itself: the L1, L2 and L3 caches on an AMD Zen 4 core, and how long each one takes to answer compared with your RAM.\nFull video: How a CPU Runs Your Code, One Clock Cycle at a Time\n#shorts #cpu #pchardware",
+   "status": "pending"
+  },
+  {
+   "id": "wfQFbHfrDJQ",
+   "slug": "03s1-laptop-ram-soldered",
+   "title": "Why You Can't Upgrade Your Laptop's RAM 🔒 #shorts",
+   "long_video": "03-every-type-of-ram",
+   "long_url": "https://www.youtube.com/watch?v=KLsnJ17daJE",
+   "old_description": "Why many thin laptops can never get a RAM upgrade: SO-DIMM slots vs soldered LPDDR vs the newer screw-in LPCAMM2 module, and what to look for on the spec sheet.\nFull video: Every Type of RAM Explained: DDR3 to DDR5\n#shorts #laptop #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=KLsnJ17daJE\nWhy many thin laptops can never get a RAM upgrade: SO-DIMM slots vs soldered LPDDR vs the newer screw-in LPCAMM2 module, and what to look for on the spec sheet.\nFull video: Every Type of RAM Explained: DDR3 to DDR5\n#shorts #laptop #pchardware",
+   "status": "pending"
+  },
+  {
+   "id": "Sqc_-RSNgWk",
+   "slug": "05s1-dont-defrag-an-ssd",
+   "title": "Should You Defrag an SSD? Here's Why Not #shorts",
+   "long_video": "05-ssd-vs-hdd-vs-nvme",
+   "long_url": "https://www.youtube.com/watch?v=fau-c6M-M9I",
+   "old_description": "Why defragmenting helps a hard drive but does nothing for an SSD except add wear, and what Windows' Optimize Drives does on an SSD instead (TRIM).\nFull video: SSD vs HDD vs NVMe: What Really Makes Games Load Faster\n#shorts #ssd #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=fau-c6M-M9I\nWhy defragmenting helps a hard drive but does nothing for an SSD except add wear, and what Windows' Optimize Drives does on an SSD instead (TRIM).\nFull video: SSD vs HDD vs NVMe: What Really Makes Games Load Faster\n#shorts #ssd #pchardware",
+   "status": "pending"
+  },
+  {
+   "id": "GbDlILezeZ8",
+   "slug": "06s2-cores-vs-threads",
+   "title": "Cores vs Threads: What Hyper-Threading Really Does #shorts",
+   "long_video": "06-how-a-cpu-runs-code",
+   "long_url": "https://www.youtube.com/watch?v=O14uJcxMIvU",
+   "old_description": "What a CPU thread is, how Hyper-Threading (SMT) lets one core run two threads by filling idle units, and why it adds up to about 30% instead of double.\nFull video: How a CPU Runs Your Code, One Clock Cycle at a Time\n#shorts #cpu #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=O14uJcxMIvU\nWhat a CPU thread is, how Hyper-Threading (SMT) lets one core run two threads by filling idle units, and why it adds up to about 30% instead of double.\nFull video: How a CPU Runs Your Code, One Clock Cycle at a Time\n#shorts #cpu #pchardware",
+   "status": "pending"
+  },
+  {
+   "id": "dwJ0O23uMx4",
+   "slug": "04s1-100-percent-disk",
+   "title": "Disk at 100% in Task Manager? It's Not About Space #shorts",
+   "long_video": "04-why-your-pc-is-slow",
+   "long_url": "https://www.youtube.com/watch?v=8zRSmxnJTIA",
+   "old_description": "What Task Manager's \"Disk 100%\" really measures (active time, not free space), why a hard drive's moving arm limits it to about 75 to 100 random reads per second, and why an SSD barely registers the same work.\nFull video: Why Your PC Is Slow — and Why More RAM Usually Isn't the Fix\n#shorts #pchardware #windows",
+   "new_description": "Full video: https://www.youtube.com/watch?v=8zRSmxnJTIA\nWhat Task Manager's \"Disk 100%\" really measures (active time, not free space), why a hard drive's moving arm limits it to about 75 to 100 random reads per second, and why an SSD barely registers the same work.\nFull video: Why Your PC Is Slow — and Why More RAM Usually Isn't the Fix\n#shorts #pchardware #windows",
+   "status": "pending"
+  },
+  {
+   "id": "4C-YQbxa6PY",
+   "slug": "08s2-frame-gen-latency",
+   "title": "Frame Generation Doubles FPS. Why Doesn't It Feel Faster? #shorts",
+   "long_video": "08-what-raises-fps",
+   "long_url": "https://www.youtube.com/watch?v=lPsuXNrw0ho",
+   "old_description": "Frame generation inserts a predicted frame between two real ones, so the FPS counter doubles, but only real frames read your input, so the game still responds at the real frame rate.\nFull video: What Actually Raises FPS (and 5 Myths That Don't)\n#shorts #pcgaming #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=lPsuXNrw0ho\nFrame generation inserts a predicted frame between two real ones, so the FPS counter doubles, but only real frames read your input, so the game still responds at the real frame rate.\nFull video: What Actually Raises FPS (and 5 Myths That Don't)\n#shorts #pcgaming #pchardware",
+   "status": "pending"
+  },
+  {
+   "id": "GY6rtDE3gY4",
+   "slug": "02s1-16-millisecond-frame",
+   "title": "Your GPU Has 16 Milliseconds Per Frame #shorts",
+   "long_video": "02-how-a-gpu-works",
+   "long_url": "https://www.youtube.com/watch?v=oouhEJk4AVM",
+   "old_description": "Where the 16.7 millisecond frame budget at 60 fps comes from, why it shrinks to 6.9 ms at 144 Hz, what the CPU and GPU must finish inside it, and why one slow frame feels like a hitch even when the average FPS looks fine.\nFull video: How a GPU Actually Works: One Frame in 16 Milliseconds (Animated)\n#shorts #gpu #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=oouhEJk4AVM\nWhere the 16.7 millisecond frame budget at 60 fps comes from, why it shrinks to 6.9 ms at 144 Hz, what the CPU and GPU must finish inside it, and why one slow frame feels like a hitch even when the average FPS looks fine.\nFull video: How a GPU Actually Works: One Frame in 16 Milliseconds (Animated)\n#shorts #gpu #pchardware",
+   "status": "pending"
+  },
+  {
+   "id": "wTM-lMHR8YY",
+   "slug": "04s2-ram-standby-cache",
+   "title": "Almost No Free RAM? Windows Does That on Purpose #shorts",
+   "long_video": "04-why-your-pc-is-slow",
+   "long_url": "https://www.youtube.com/watch?v=8zRSmxnJTIA",
+   "old_description": "Why Windows fills spare RAM with a standby cache of files and apps (SysMain even preloads the ones you use often), why that memory still counts as available, and the two Task Manager numbers that really show you're short on RAM.\nFull video: Why Your PC Is Slow — and Why More RAM Usually Isn't the Fix\n#shorts #windows #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=8zRSmxnJTIA\nWhy Windows fills spare RAM with a standby cache of files and apps (SysMain even preloads the ones you use often), why that memory still counts as available, and the two Task Manager numbers that really show you're short on RAM.\nFull video: Why Your PC Is Slow — and Why More RAM Usually Isn't the Fix\n#shorts #windows #pchardware",
+   "status": "pending"
+  },
+  {
+   "id": "4ldMo0funu4",
+   "slug": "08s1-ultra-vs-high",
+   "title": "Ultra vs High: Free FPS You Won't Even Notice #shorts",
+   "long_video": "08-what-raises-fps",
+   "long_url": "https://www.youtube.com/watch?v=lPsuXNrw0ho",
+   "old_description": "Why switching your game's preset from Ultra to High can add up to about a quarter more frames for a picture that looks nearly the same, using TechSpot's Cyberpunk 2077 tests, and why you should turn textures back up if your GPU has the memory.\nFull video: What Actually Raises FPS (and 5 Myths That Don't)\n#shorts #pcgaming #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=lPsuXNrw0ho\nWhy switching your game's preset from Ultra to High can add up to about a quarter more frames for a picture that looks nearly the same, using TechSpot's Cyberpunk 2077 tests, and why you should turn textures back up if your GPU has the memory.\nFull video: What Actually Raises FPS (and 5 Myths That Don't)\n#shorts #pcgaming #pchardware",
+   "status": "pending"
+  },
+  {
+   "id": "6pAYa4B4_fY",
+   "slug": "03s2-ram-notch",
+   "title": "DDR4 vs DDR5: Why the Wrong RAM Won't Fit #shorts",
+   "long_video": "03-every-type-of-ram",
+   "long_url": "https://www.youtube.com/watch?v=KLsnJ17daJE",
+   "old_description": "DDR4 and DDR5 desktop sticks both have 288 pins and the same length, but the notch sits in a different spot so the wrong one can't go in. Here's how to check which one your motherboard takes.\nFull video: Every Type of RAM Explained: DDR3 to DDR5\n#shorts #ram #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=KLsnJ17daJE\nDDR4 and DDR5 desktop sticks both have 288 pins and the same length, but the notch sits in a different spot so the wrong one can't go in. Here's how to check which one your motherboard takes.\nFull video: Every Type of RAM Explained: DDR3 to DDR5\n#shorts #ram #pchardware",
+   "status": "pending"
+  },
+  {
+   "id": "CMdAyOdSfrI",
+   "slug": "07s1-was-price-history",
+   "title": "Is That Black Friday \"Was\" Price Real? Check This #shorts",
+   "long_video": "07-black-friday-pc-traps",
+   "long_url": "https://www.youtube.com/watch?v=KutUk2MTViE",
+   "old_description": "Why the crossed-out \"was\" price is the weakest number on a Black Friday deal, what Which?'s year of price tracking found, and how to check a part's real price history in a minute.\nFull video: 7 Black Friday PC Part Traps (and How to Spot a Real Deal)\n#shorts #blackfriday #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=KutUk2MTViE\nWhy the crossed-out \"was\" price is the weakest number on a Black Friday deal, what Which?'s year of price tracking found, and how to check a part's real price history in a minute.\nFull video: 7 Black Friday PC Part Traps (and How to Spot a Real Deal)\n#shorts #blackfriday #pchardware",
+   "status": "pending"
+  },
+  {
+   "id": "duUtCwDQWvg",
+   "slug": "05s2-nvme-vs-sata-load-times",
+   "title": "Why a Faster NVMe SSD Doesn't Load Games Faster #shorts",
+   "long_video": "05-ssd-vs-hdd-vs-nvme",
+   "long_url": "https://www.youtube.com/watch?v=fau-c6M-M9I",
+   "old_description": "A PCIe 4.0 NVMe drive is rated over 13 times faster than a SATA SSD, yet most games load in about the same time. Here's where the load time actually goes, and the DirectStorage exception.\nFull video: SSD vs HDD vs NVMe: What Really Makes Games Load Faster\n#shorts #ssd #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=fau-c6M-M9I\nA PCIe 4.0 NVMe drive is rated over 13 times faster than a SATA SSD, yet most games load in about the same time. Here's where the load time actually goes, and the DirectStorage exception.\nFull video: SSD vs HDD vs NVMe: What Really Makes Games Load Faster\n#shorts #ssd #pchardware",
+   "status": "pending"
+  },
+  {
+   "id": "BeOpZMSupmo",
+   "slug": "07s2-rtx-3050-two-chips",
+   "title": "One Name, Two GPUs: The RTX 3050 6GB Catch #shorts",
+   "long_video": "07-black-friday-pc-traps",
+   "long_url": "https://www.youtube.com/watch?v=KutUk2MTViE",
+   "old_description": "Two graphics cards are both sold as an RTX 3050: the 6 GB version has fewer cores, a narrower 96-bit bus, less bandwidth and a 70 W power target, and here's how to tell which one a listing is.\nFull video: 7 Black Friday PC Part Traps (and How to Spot a Real Deal)\n#shorts #blackfriday #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=KutUk2MTViE\nTwo graphics cards are both sold as an RTX 3050: the 6 GB version has fewer cores, a narrower 96-bit bus, less bandwidth and a 70 W power target, and here's how to tell which one a listing is.\nFull video: 7 Black Friday PC Part Traps (and How to Spot a Real Deal)\n#shorts #blackfriday #pchardware",
+   "status": "pending"
+  },
+  {
+   "id": "-1pgOBFgQ6A",
+   "slug": "06s3-branch-prediction",
+   "title": "Your CPU Guesses Your Code Before It Knows #shorts",
+   "long_video": "06-how-a-cpu-runs-code",
+   "long_url": "https://www.youtube.com/watch?v=O14uJcxMIvU",
+   "old_description": "At every if-statement a CPU's branch predictor guesses which way the code will go and runs ahead; a wrong guess flushes the pipeline and costs roughly 15 to 20 clock cycles on recent desktop chips.\nFull video: How a CPU Runs Your Code, One Clock Cycle at a Time\n#shorts #cpu #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=O14uJcxMIvU\nAt every if-statement a CPU's branch predictor guesses which way the code will go and runs ahead; a wrong guess flushes the pipeline and costs roughly 15 to 20 clock cycles on recent desktop chips.\nFull video: How a CPU Runs Your Code, One Clock Cycle at a Time\n#shorts #cpu #pchardware",
+   "status": "pending"
+  },
+  {
+   "id": "6Em_r1QRTmc",
+   "slug": "09s1-low-cpu-usage-bottleneck",
+   "title": "Low CPU Usage but Still a CPU Bottleneck? Here's Why #shorts",
+   "long_video": "09-bottlenecks-explained",
+   "long_url": "https://www.youtube.com/watch?v=u_trO1M6UvI",
+   "old_description": "Total CPU usage is an average across every thread, so one maxed-out main thread can limit your frame rate while Task Manager shows a low number. GPU usage is the better tell.\nFull video: Bottlenecks Explained: Is Your CPU Holding Back Your GPU?\n#shorts #pcgaming #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=u_trO1M6UvI\nTotal CPU usage is an average across every thread, so one maxed-out main thread can limit your frame rate while Task Manager shows a low number. GPU usage is the better tell.\nFull video: Bottlenecks Explained: Is Your CPU Holding Back Your GPU?\n#shorts #pcgaming #pchardware",
+   "status": "pending"
+  },
+  {
+   "id": "j5vJwicvzcI",
+   "slug": "09s2-why-cpu-tests-1080p",
+   "title": "Why CPU Reviews Test at 1080p With the Fastest GPU #shorts",
+   "long_video": "09-bottlenecks-explained",
+   "long_url": "https://www.youtube.com/watch?v=u_trO1M6UvI",
+   "old_description": "CPU reviews pair low resolution with the fastest graphics card on purpose: it takes the GPU out of the way so you see each processor's real ceiling, using TechSpot's Core i3-13100 vs Core i9-13900K test.\nFull video: Bottlenecks Explained\n#shorts #pchardware #cpu",
+   "new_description": "Full video: https://www.youtube.com/watch?v=u_trO1M6UvI\nCPU reviews pair low resolution with the fastest graphics card on purpose: it takes the GPU out of the way so you see each processor's real ceiling, using TechSpot's Core i3-13100 vs Core i9-13900K test.\nFull video: Bottlenecks Explained\n#shorts #pchardware #cpu",
+   "status": "pending"
+  },
+  {
+   "id": "06K9NUVVAVs",
+   "slug": "10s2-80-plus-only-efficiency",
+   "title": "80 Plus Gold Isn't a Quality Rating. Here's What It Tests #shorts",
+   "long_video": "10-power-supplies-explained",
+   "long_url": "https://www.youtube.com/watch?v=fJiCtrVyq04",
+   "old_description": "The 80 Plus badge on a power supply only certifies efficiency at 20, 50 and 100 percent load. It doesn't test voltage stability, ripple or protections, so check a load-tested review before you buy.\nFull video: Power Supplies Explained: Watts, 80 Plus Ratings, and Why Cheap Ones Fail\n#shorts #pchardware #powersupply",
+   "new_description": "Full video: https://www.youtube.com/watch?v=fJiCtrVyq04\nThe 80 Plus badge on a power supply only certifies efficiency at 20, 50 and 100 percent load. It doesn't test voltage stability, ripple or protections, so check a load-tested review before you buy.\nFull video: Power Supplies Explained: Watts, 80 Plus Ratings, and Why Cheap Ones Fail\n#shorts #pchardware #powersupply",
+   "status": "pending"
+  }
+ ]
+}

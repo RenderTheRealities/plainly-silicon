@@ -1,6 +1,5 @@
 {
   "timezone": "America/Cambridge_Bay",
-  "publish_time": "12:00",
   "metricool_blog_id": "7842182",
   "youtube_channel_id": "UCf627rtR4-W-FS_p-WnFWnQ",
   "videos": [
@@ -12,7 +11,11 @@
       "status": "published",
       "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7842182&openWithPostUuid=1855835219625987956",
       "theme": "circuit",
-      "youtubeUrl": "https://www.youtube.com/watch?v=IlvT-Sk3UiQ"
+      "youtubeUrl": "https://www.youtube.com/watch?v=IlvT-Sk3UiQ",
+      "retitle": {
+        "old": "Every PC Component Explained in 7 Minutes (Animated)",
+        "new": "What Every Part in Your PC Actually Does"
+      }
     },
     {
       "slug": "02-how-a-gpu-works",
@@ -32,17 +35,25 @@
       "status": "published",
       "theme": "mint",
       "youtubeUrl": "https://www.youtube.com/watch?v=KLsnJ17daJE",
-      "publishedVia": "YouTube Studio (by hand), Nov 9 2026"
+      "publishedVia": "YouTube Studio (by hand), Nov 9 2026",
+      "retitle": {
+        "old": "Every Type of RAM Explained: DDR3 to DDR5",
+        "new": "Will This RAM Fit Your PC? DDR3 vs DDR4 vs DDR5"
+      }
     },
     {
       "slug": "04-why-your-pc-is-slow",
       "publish": "2026-11-09T21:40:00-08:00",
-      "title": "Why Your PC Is Slow \u2014 and Why More RAM Usually Isn't the Fix",
+      "title": "Why Your PC Is Slow — and Why More RAM Usually Isn't the Fix",
       "keyword": "how to have a low memory on your pc",
       "status": "published",
       "theme": "circuit",
       "youtubeUrl": "https://www.youtube.com/watch?v=8zRSmxnJTIA",
-      "publishedVia": "YouTube Studio (by hand), Nov 9 2026"
+      "publishedVia": "YouTube Studio (by hand), Nov 9 2026",
+      "retitle": {
+        "old": "Why Your PC Is Slow — and Why More RAM Usually Isn't the Fix",
+        "new": "Slow PC? More RAM Probably Won't Fix It"
+      }
     },
     {
       "slug": "05-ssd-vs-hdd-vs-nvme",
@@ -52,7 +63,11 @@
       "status": "published",
       "theme": "terminal",
       "youtubeUrl": "https://www.youtube.com/watch?v=fau-c6M-M9I",
-      "publishedVia": "YouTube Studio (by hand), Nov 9 2026"
+      "publishedVia": "YouTube Studio (by hand), Nov 9 2026",
+      "retitle": {
+        "old": "SSD vs HDD vs NVMe: What Really Makes Games Load Faster",
+        "new": "HDD to SSD Is Huge. SSD to NVMe Barely Matters"
+      }
     },
     {
       "slug": "06-how-a-cpu-runs-code",
@@ -62,142 +77,275 @@
       "status": "published",
       "theme": "sunset",
       "youtubeUrl": "https://www.youtube.com/watch?v=O14uJcxMIvU",
-      "publishedVia": "YouTube Studio (by hand), Nov 9 2026"
+      "publishedVia": "YouTube Studio (by hand), Nov 9 2026",
+      "retitle": {
+        "old": "How a CPU Runs Your Code, One Clock Cycle at a Time",
+        "new": "Why Your CPU Waits Hundreds of Cycles to Add 10"
+      }
     },
     {
       "slug": "07-black-friday-pc-traps",
       "publish": "2026-11-15T22:15:00-07:00",
       "title": "7 Black Friday PC Part Traps (and How to Spot a Real Deal)",
       "keyword": "pc parts black friday",
-      "status": "scheduled",
+      "status": "published",
       "theme": "retro",
-      "youtubeUrl": "https://www.youtube.com/watch?v=KutUk2MTViE"
+      "youtubeUrl": "https://www.youtube.com/watch?v=KutUk2MTViE",
+      "retitle": {
+        "old": "7 Black Friday PC Part Traps (and How to Spot a Real Deal)",
+        "new": "That Black Friday PC Deal Might Not Be a Deal"
+      }
     },
     {
       "slug": "08-what-raises-fps",
       "publish": "2026-11-15T22:20:00-07:00",
       "title": "What Actually Raises FPS (and 5 Myths That Don't)",
       "keyword": "how to optimize pc for gaming",
-      "status": "scheduled",
+      "status": "published",
       "theme": "arctic",
-      "youtubeUrl": "https://www.youtube.com/watch?v=lPsuXNrw0ho"
+      "youtubeUrl": "https://www.youtube.com/watch?v=lPsuXNrw0ho",
+      "retitle": {
+        "old": "What Actually Raises FPS (and 5 Myths That Don't)",
+        "new": "48 FPS to the Mid 80s Without Buying a Part"
+      }
     },
     {
       "slug": "09-bottlenecks-explained",
       "publish": "2026-11-16T12:10:00-07:00",
       "title": "Bottlenecks Explained: Is Your CPU Holding Back Your GPU?",
       "keyword": "pc bottleneck explained",
-      "status": "scheduled",
+      "status": "published",
       "theme": "ocean",
       "length": "6:53",
       "note": "Uploaded via YouTube API in the 16:00-slot run on Nov 16, public immediately (10:00 slot had passed).",
       "mediaUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/09-bottlenecks-explained.mp4",
       "thumbnailUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/09-bottlenecks-explained.jpg",
-      "youtubeUrl": "https://www.youtube.com/watch?v=u_trO1M6UvI"
+      "youtubeUrl": "https://www.youtube.com/watch?v=u_trO1M6UvI",
+      "retitle": {
+        "old": "Bottlenecks Explained: Is Your CPU Holding Back Your GPU?",
+        "new": "Is Your CPU Holding Back Your GPU? 1-Minute Test"
+      }
     },
     {
       "slug": "10-power-supplies-explained",
       "publish": "2026-11-16T16:00:00-07:00",
       "title": "Power Supplies Explained: Watts, 80 Plus Ratings, and Why Cheap Ones Fail",
       "keyword": "psu explained",
-      "status": "scheduled",
+      "status": "published",
       "theme": "ember",
       "length": "7:02",
       "youtubeUrl": "https://www.youtube.com/watch?v=fJiCtrVyq04",
       "mediaUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/10-power-supplies-explained.mp4",
-      "thumbnailUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/10-power-supplies-explained.jpg"
+      "thumbnailUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/10-power-supplies-explained.jpg",
+      "retitle": {
+        "old": "Power Supplies Explained: Watts, 80 Plus Ratings, and Why Cheap Ones Fail",
+        "new": "80 Plus Gold Doesn't Mean a Good Power Supply"
+      }
     },
     {
       "slug": "11-why-vram-matters",
-      "publish": "2026-11-18T10:00:00-07:00",
+      "publish": "2026-11-23T10:00:00-07:00",
       "title": "Why VRAM Suddenly Matters So Much (8 GB vs 16 GB, Explained)",
       "keyword": "vram explained",
-      "status": "ready",
+      "status": "published",
       "theme": "graphite",
       "length": "7:07",
       "mediaUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/11-why-vram-matters.mp4",
-      "thumbnailUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/11-why-vram-matters.jpg"
+      "thumbnailUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/11-why-vram-matters.jpg",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gnxWsFC82yU",
+      "note": "Uploaded outside the scheduled runs (owner chat); public Nov 23, 2026.",
+      "retitle": {
+        "old": "Why VRAM Suddenly Matters So Much (8 GB vs 16 GB, Explained)",
+        "new": "Same GPU, 66 FPS vs 27: The Difference Is VRAM"
+      }
     },
     {
       "slug": "12-clean-your-pc",
-      "publish": "2026-11-23T10:00:00-07:00",
+      "publish": "2026-11-24T10:00:00-07:00",
       "title": "How to Clean Your PC Without Breaking It",
       "keyword": "how to clean pc",
-      "status": "ready",
+      "status": "scheduled",
       "theme": "mint",
       "length": "6:07",
       "mediaUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/12-clean-your-pc.mp4",
-      "thumbnailUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/12-clean-your-pc.jpg"
+      "thumbnailUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/12-clean-your-pc.jpg",
+      "youtubeUrl": "https://www.youtube.com/watch?v=59PTTAVoZXM",
+      "note": "Uploaded outside the scheduled runs (owner chat), scheduled for Nov 24 10:00."
+    },
+    {
+      "slug": "23-best-budget-gpu",
+      "publish": "2026-11-28T10:00:00-07:00",
+      "title": "The Only Budget GPUs Worth Buying Right Now",
+      "keyword": "best budget gpu",
+      "status": "planned",
+      "format": "tier list",
+      "brief": "Black Friday/Cyber Monday weekend. Late-Nov 2026 picks to verify: Intel Arc B570 (~$289 per Tom's Hardware), Arc B580 (thin stock), RTX 5050, RX 9060 XT 16GB; RTX 3050 6GB is a trap (see Short 07s2). Rank by price per frame at 1080p; end with one buy, one skip.",
+      "teasers": []
+    },
+    {
+      "slug": "24-ddr4-vs-ddr5-2026",
+      "publish": "2026-12-05T10:00:00-07:00",
+      "title": "DDR4 or DDR5 in 2026? RAM Prices Changed the Answer",
+      "keyword": "ddr4 vs ddr5",
+      "status": "planned",
+      "format": "X vs Y showdown",
+      "brief": "Memory shortage: Nov 23, 2026 median DDR5 ~$18/GB vs DDR4 ~$8/GB (RamRadar); 32 GB DDR5 kits ~$430-600. Verdict by platform: keep DDR4 on AM4/LGA1700, DDR5 only if buying AM5/LGA1851. Different angle from 03 (types of RAM).",
+      "teasers": []
+    },
+    {
+      "slug": "25-psu-wattage-you-need",
+      "publish": "2026-12-12T10:00:00-07:00",
+      "title": "You Probably Bought Too Big a Power Supply",
+      "keyword": "how many watts psu do i need",
+      "status": "planned",
+      "format": "what happens if",
+      "brief": "What happens if your PSU is too small vs too big. Three real builds with measured draw, transient spikes (ATX 3.x), the 50% load efficiency sweet spot. Must not repeat 10 (how a PSU works) or Short 01s14; this one is a sizing verdict.",
+      "teasers": []
+    },
+    {
+      "slug": "26-intel-vs-amd-normal-person",
+      "publish": "2026-12-19T10:00:00-07:00",
+      "title": "Intel or AMD for a Normal PC? A Clear Answer",
+      "keyword": "intel vs amd",
+      "status": "planned",
+      "format": "build it for $___",
+      "brief": "Two $800 builds, one Intel, one AMD, judged on what a normal person does (games, browsing, upgrades later, power use). Zen 6 and Nova Lake reportedly slipped to 2027: say so, with the month. Upgrade path (AM5 vs LGA1851/new LGA1954) is the deciding point.",
+      "teasers": []
+    },
+    {
+      "slug": "27-new-pc-feels-slower",
+      "publish": "2026-12-26T10:00:00-07:00",
+      "title": "Your New PC Feels Slower? Check These 6 Settings",
+      "keyword": "new pc slower than old",
+      "status": "planned",
+      "format": "myth vs fact",
+      "brief": "Day after Christmas: new-PC setup mistakes (XMP/EXPO off, monitor cable in the motherboard, 60 Hz refresh, single-channel RAM, first-day Windows updates/indexing, OEM bloat). Different angle from 04 (diagnosing an old slow PC); link the matching Shorts.",
+      "teasers": []
+    },
+    {
+      "slug": "28-is-8gb-vram-enough",
+      "publish": "2027-01-02T10:00:00-07:00",
+      "title": "8 GB of VRAM in 2026: Enough Only If...",
+      "keyword": "is 8gb vram enough",
+      "status": "planned",
+      "format": "debunk",
+      "brief": "Must not repeat 11 (what VRAM is). This one is the verdict: 1080p medium fine (5060 Ti 8 vs 16 GB within ~2% at 1080p medium), 1440p ultra/RT not (~18-40% gap). Name which cards to skip at what price.",
+      "teasers": []
     },
     {
       "slug": "13-boot-process",
-      "publish": "2026-12-07T12:00:00-07:00",
-      "title": "What Happens When You Press the Power Button (Boot Process Explained)",
+      "publish": "2027-01-09T10:00:00-07:00",
+      "title": "What Happens in the First Second After You Hit Power",
       "keyword": "how a computer boots",
-      "status": "planned"
+      "status": "planned",
+      "working_title_old": "What Happens When You Press the Power Button (Boot Process Explained)",
+      "format": "what happens if",
+      "teasers": []
     },
     {
       "slug": "14-motherboard-chipsets-explained",
-      "publish": "2026-12-09T12:00:00-07:00",
-      "title": "Motherboard Chipsets Explained: What B, X and Z Really Mean",
+      "publish": "2027-01-16T10:00:00-07:00",
+      "title": "B, X or Z Motherboard? Most People Overpay",
       "keyword": "motherboard chipset explained",
-      "status": "planned"
+      "status": "planned",
+      "working_title_old": "Motherboard Chipsets Explained: What B, X and Z Really Mean",
+      "format": "tier list",
+      "teasers": []
     },
     {
       "slug": "15-air-vs-liquid-cooling",
-      "publish": "2026-12-11T12:00:00-07:00",
-      "title": "Air Cooler vs AIO Liquid Cooler: Which Really Keeps Your CPU Cooler?",
+      "publish": "2027-01-23T10:00:00-07:00",
+      "title": "AIO vs Air Cooler: The Cheaper One Usually Wins",
       "keyword": "air cooler vs aio",
-      "status": "planned"
+      "status": "planned",
+      "working_title_old": "Air Cooler vs AIO Liquid Cooler: Which Really Keeps Your CPU Cooler?",
+      "format": "X vs Y showdown",
+      "teasers": []
     },
     {
       "slug": "16-monitor-panels-explained",
-      "publish": "2026-12-14T12:00:00-07:00",
-      "title": "IPS vs VA vs OLED: How Monitor Panels Actually Work",
+      "publish": "2027-01-30T10:00:00-07:00",
+      "title": "IPS, VA or OLED? Pick the Right Monitor Panel",
       "keyword": "ips vs va vs oled",
-      "status": "planned"
+      "status": "planned",
+      "working_title_old": "IPS vs VA vs OLED: How Monitor Panels Actually Work",
+      "format": "myth vs fact",
+      "teasers": []
     },
     {
       "slug": "17-pcie-lanes-explained",
-      "publish": "2026-12-16T12:00:00-07:00",
-      "title": "PCIe Lanes Explained: Why Adding an SSD Can Slow Your GPU",
+      "publish": "2027-02-06T10:00:00-07:00",
+      "title": "Adding an SSD Can Slow Your GPU. Here's When",
       "keyword": "pcie lanes explained",
-      "status": "planned"
+      "status": "planned",
+      "working_title_old": "PCIe Lanes Explained: Why Adding an SSD Can Slow Your GPU",
+      "format": "what happens if",
+      "teasers": []
     },
     {
       "slug": "18-integrated-vs-dedicated-graphics",
-      "publish": "2026-12-18T12:00:00-07:00",
-      "title": "Integrated vs Dedicated Graphics: What Your CPU's GPU Can Really Do",
+      "publish": "2027-02-13T10:00:00-07:00",
+      "title": "Do You Even Need a Graphics Card?",
       "keyword": "integrated vs dedicated graphics",
-      "status": "planned"
+      "status": "planned",
+      "working_title_old": "Integrated vs Dedicated Graphics: What Your CPU's GPU Can Really Do",
+      "format": "debunk",
+      "teasers": []
     },
     {
       "slug": "19-hdmi-vs-displayport",
-      "publish": "2026-12-21T12:00:00-07:00",
-      "title": "HDMI vs DisplayPort: Which Cable Your Monitor Actually Needs",
+      "publish": "2027-02-20T10:00:00-07:00",
+      "title": "HDMI or DisplayPort? Your Monitor Cares",
       "keyword": "hdmi vs displayport",
-      "status": "planned"
+      "status": "planned",
+      "working_title_old": "HDMI vs DisplayPort: Which Cable Your Monitor Actually Needs",
+      "format": "X vs Y showdown",
+      "teasers": []
     },
     {
       "slug": "20-ethernet-vs-wifi-gaming",
-      "publish": "2026-12-23T12:00:00-07:00",
-      "title": "Ethernet vs Wi-Fi for Gaming: Where Lag Really Comes From",
+      "publish": "2027-02-27T10:00:00-07:00",
+      "title": "Lag Isn't Your Wi-Fi's Fault (Usually)",
       "keyword": "ethernet vs wifi for gaming",
-      "status": "planned"
+      "status": "planned",
+      "working_title_old": "Ethernet vs Wi-Fi for Gaming: Where Lag Really Comes From",
+      "format": "myth vs fact",
+      "teasers": []
     },
     {
       "slug": "21-shader-compilation-stutter",
-      "publish": "2026-12-28T12:00:00-07:00",
-      "title": "Why New PC Games Stutter: Shader Compilation Explained",
+      "publish": "2027-03-06T10:00:00-07:00",
+      "title": "Why New PC Games Stutter (It's Not Your GPU)",
       "keyword": "shader compilation stutter",
-      "status": "planned"
+      "status": "planned",
+      "working_title_old": "Why New PC Games Stutter: Shader Compilation Explained",
+      "format": "debunk",
+      "teasers": []
     },
     {
       "slug": "22-ssd-lifespan-tbw",
-      "publish": "2026-12-30T12:00:00-07:00",
-      "title": "How Long Do SSDs Actually Last? (TBW Explained)",
+      "publish": "2027-03-13T10:00:00-07:00",
+      "title": "Your SSD Will Outlive Your PC. Here's the Math",
       "keyword": "ssd lifespan",
-      "status": "planned"
+      "status": "planned",
+      "working_title_old": "How Long Do SSDs Actually Last? (TBW Explained)",
+      "format": "what happens if",
+      "teasers": []
     }
+  ],
+  "cadence": {
+    "long": "1 per week, Saturday 10:00 (America/Cambridge_Bay, -07:00 until DST starts Mar 14, 2027)",
+    "long_length": "8-12 minutes",
+    "shorts": "2 per day at 09:00 and 15:00, never more",
+    "max_uploads_per_day": 4,
+    "since": "2026-11-24"
+  },
+  "formats": [
+    "myth vs fact",
+    "X vs Y showdown",
+    "what happens if",
+    "tier list",
+    "build it for $___",
+    "debunk"
   ]
 }

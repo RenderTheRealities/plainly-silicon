@@ -3,6 +3,7 @@
 Usage:
   python3 render.py VIDEO_DIR frames  T1 T2 ...   # write preview PNGs at times (s)
   python3 render.py VIDEO_DIR render               # full render -> VIDEO_DIR/video_silent.mp4
+  python3 render.py VIDEO_DIR mux                  # narration + outro sting -> VIDEO_DIR/final.mp4
 
 VIDEO_DIR holds narration.txt and timing.json:
   {"paragraphs": [[start, end], ...]}   one entry per paragraph, seconds in the final audio
@@ -86,6 +87,14 @@ THEMES = {
                       WHITE=(23, 23, 59), MUTED=(110, 50, 20), RED=(150, 0, 30), GREEN=(10, 90, 50),
                       SUB_BG=(23, 23, 59, 230), SUB_FG=(255, 255, 255), bg="stripes", glow=False, fonts=INTER_HEAVY),
 }
+# ---------- brand constants (identical in every video, whatever the theme) ----------
+# The theme changes colors, backgrounds and body fonts. These never change: the title font,
+# the "PLAINLY SILICON" corner mark (same spot in every video) and the 0.5 s outro sting.
+BRAND_TITLE_FONT = FD + "InterDisplay-Black.otf"   # chapter labels, Shorts headlines, thumbnail words
+BRAND_MARK_FONT = FD + "InterDisplay-Bold.otf"
+BRAND_BG, BRAND_CYAN, BRAND_AMBER, BRAND_WHITE = (11, 18, 32), (34, 211, 238), (245, 158, 11), (240, 242, 245)
+STING = 0.5  # seconds of outro sting appended after the narration
+
 THEME = "circuit"
 SUB_FG = (255, 255, 255)
 FONTS, BG_STYLE, GLOW = INTER, "grid", True
@@ -110,7 +119,8 @@ apply_theme("circuit")
 def font(kind, size):
     key = (kind, size)
     if key not in _fc:
-        path = {"mono": DV + "DejaVuSansMono.ttf", "monob": DV + "DejaVuSansMono-Bold.ttf"}.get(kind) or FONTS[kind]
+        path = {"mono": DV + "DejaVuSansMono.ttf", "monob": DV + "DejaVuSansMono-Bold.ttf",
+                "brand": BRAND_TITLE_FONT, "mark": BRAND_MARK_FONT}.get(kind) or FONTS[kind]
         var = None
         if isinstance(path, tuple):
             path, var = path
@@ -124,7 +134,7 @@ def font(kind, size):
 # ---------- easing / helpers ----------
 def safe(s, kind="semi"):
     """Poppins and Lora lack the arrow symbol; swap it so nothing renders as a box."""
-    if kind in ("mono", "monob") or FONTS in (INTER, MONO):
+    if kind in ("mono", "monob", "brand", "mark") or FONTS in (INTER, MONO):
         return s
     return s.replace("→", "->")
 
@@ -359,7 +369,6 @@ def background():
 
 
 BG = None
-LOGO = None
 
 
 def wrap(text, f, maxw, d):
@@ -376,11 +385,51 @@ def wrap(text, f, maxw, d):
     return lines
 
 
+def corner_mark(img, d):
+    """Small PLAINLY SILICON mark, top-right, same size and spot in every video of a format."""
+    vertical = H > W
+    s, y, size = (44, 150, 26) if vertical else (44, 42, 24)
+    f = font("mark", size)
+    msg = "PLAINLY SILICON"
+    tw = d.textlength(msg, font=f)
+    x1 = W - (40 if vertical else 56)
+    d.rounded_rectangle([x1 - tw - s - 30, y - 6, x1, y + s + 6], radius=(s + 12) // 2, fill=(BRAND_BG + (200,)))
+    img.paste(LOGO_SMALL, (int(x1 - tw - s - 22), y), LOGO_SMALL)
+    d.text((x1 - 16, y + s / 2), msg, font=f, fill=BRAND_WHITE + (255,), anchor="rm")
+    return x1 - tw - s - 30
+
+
+def sting_frame(t):
+    """The 0.5 s outro sting: brand colors only, identical in every video (t = 0..STING)."""
+    img = Image.new("RGB", (W, H), BRAND_BG)
+    d = ImageDraw.Draw(img, "RGBA")
+    p = ease(t / (STING * 0.6))
+    u = min(W, H)
+    ls = int(u * 0.16 * (0.6 + 0.4 * p))
+    logo = LOGO_FULL.resize((ls, ls))
+    f = font("brand", int(u * 0.075))
+    msg = "PLAINLY SILICON"
+    tw = d.textlength(msg, font=f)
+    cy = H / 2
+    img.paste(logo, (int(W / 2 - ls / 2), int(cy - ls - u * 0.02)), logo)
+    d.text((W / 2, cy + u * 0.03), msg, font=f, fill=BRAND_WHITE + (int(255 * p),), anchor="ma")
+    bw = tw * p
+    d.rectangle([W / 2 - bw / 2, cy + u * 0.13, W / 2 + bw / 2, cy + u * 0.13 + 8], fill=BRAND_AMBER + (255,))
+    return img
+
+
+LOGO_SMALL = LOGO_FULL = None
+
+
 def frame(scenes, total, T):
-    global BG, LOGO
+    global BG, LOGO_SMALL, LOGO_FULL
+    if LOGO_FULL is None:
+        LOGO_FULL = Image.open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "brand/plainly-silicon-logo.png")).convert("RGBA")
+        LOGO_SMALL = LOGO_FULL.resize((44, 44))
+    if T >= total:
+        return sting_frame(T - total)
     if BG is None:
         BG = background().convert("RGB")
-        LOGO = Image.open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "brand/plainly-silicon-logo.png")).convert("RGBA").resize((64, 64))
     # Draw on an RGB canvas: PIL only alpha-blends RGBA colors onto RGB images. On an RGBA canvas it
     # overwrites pixels, so faded or hidden (alpha 0) shapes showed at full strength.
     img = BG.copy()
@@ -398,13 +447,13 @@ def frame(scenes, total, T):
     vertical = H > W
     if vertical:
         # Shorts: big scene headline under the top UI; subtitles above the bottom UI; no label/logo
-        hf = font("title", 64)
+        hf = font("brand", 64)
         for k, l in enumerate(wrap(sc["title"], hf, W - 140, d)[:2]):
             d.text((W / 2, 230 + k * 76), l, font=hf, fill=CYAN + (255,), anchor="ma")
         f, lh, maxw, ybase, nmax = font("semi", 50), 64, W - 160, 1560, 4
     else:
         d.text((60, 52), f"{si + 1:02d}", font=font("monob", 30), fill=CYAN + (255,))
-        d.text((112, 52), sc["title"].upper(), font=font("semi", 30), fill=WHITE + (230,))
+        d.text((112, 50), sc["title"].upper(), font=font("brand", 30), fill=WHITE + (230,))
         f, lh, maxw, ybase, nmax = font("semi", 36), 48, 1500, 1040, 3
     # subtitle (current sentence)
     cur = [s for (a, b, s) in sc["subs"] if a - 0.05 <= T < b + 0.2]
@@ -417,15 +466,16 @@ def frame(scenes, total, T):
             d.text((W / 2, y + k * lh), l, font=f, fill=SUB_FG + (255,), anchor="ma")
     if not vertical:
         d.rectangle([0, H - 6, W * T / total, H], fill=CYAN + (255,))
-        img.paste(LOGO, (W - 96, 36), LOGO)
-        # mid-video subscribe reminder: ~35% in, 6 s, slides into the header strip beside the logo
+    mark_left = corner_mark(img, d)
+    if not vertical:
+        # mid-video subscribe reminder: ~35% in, 6 s, slides into the header strip beside the corner mark
         s0 = total * 0.35
         if s0 <= T < s0 + 6:
             p = min(ease((T - s0) / 0.5), ease((s0 + 6 - T) / 0.5))
             f = font("semi", 30)
             msg = safe("Enjoying this? Subscribe for more animated PC explainers")
             tw = d.textlength(msg, font=f)
-            x1 = W - 120 + (1 - p) * (tw + 240)
+            x1 = mark_left - 16 + (1 - p) * (tw + W - mark_left + 200)
             d.rounded_rectangle([x1 - tw - 110, 24, x1, 82], radius=30, fill=SUB_BG)
             d.rounded_rectangle([x1 - tw - 96, 35, x1 - tw - 52, 71], radius=8, fill=RED + (255,))
             d.polygon([(x1 - tw - 80, 43), (x1 - tw - 80, 63), (x1 - tw - 64, 53)], fill=(255, 255, 255, 255))
@@ -445,7 +495,7 @@ def main():
     if mode == "render":
         out = os.path.join(vdir, "video_silent.mp4")
         tmp = os.path.join(vdir, "video_silent.tmp.mp4")
-        n = int(math.ceil(total * FPS))
+        n = int(math.ceil((total + STING) * FPS))
         p = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
                               "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-preset", "veryfast",
                               "-crf", "20", "-pix_fmt", "yuv420p", tmp], stdin=subprocess.PIPE)
@@ -466,6 +516,19 @@ def main():
             for sc in scenes:
                 for a, b, s in sc["subs"]:
                     f.write(f"{k}\n{ts_(a)} --> {ts_(b)}\n{s}\n\n"); k += 1
+
+
+    if mode == "mux":
+        # narration padded to the end of the last scene, then the brand sting tone, then mux with the video
+        sting = ("aevalsrc='0.35*(sin(2*PI*660*t)*lt(t,0.14)+sin(2*PI*990*t)*gte(t,0.14))"
+                 "*exp(-7*(t-0.14*gte(t,0.14)))':s=48000:d=" + str(STING))
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", os.path.join(vdir, "video_silent.mp4"),
+                        "-i", os.path.join(vdir, "narration.m4a"), "-f", "lavfi", "-i", sting,
+                        "-filter_complex", f"[1:a]aresample=48000,aformat=channel_layouts=mono,apad=whole_dur={total:.3f},atrim=0:{total:.3f}[n];"
+                        "[2:a]aformat=channel_layouts=mono[s];[n][s]concat=n=2:v=0:a=1[a]",
+                        "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
+                        "-movflags", "+faststart", os.path.join(vdir, "final.mp4")], check=True)
+        print("done", os.path.join(vdir, "final.mp4"), "duration", round(total + STING, 2))
 
 
 if __name__ == "__main__":
