@@ -10,15 +10,15 @@ Chapters
 1:09 Dollars per point
 1:41 The six-card lineup
 2:14 Skip: RTX 3050 6 GB
-2:56 Skip: RTX 5050
-3:42 B tier: RTX 5060 and RX 9060 XT 8 GB
-4:39 RX 9060 XT 16 GB: great card, bad price
-5:19 A tier: Arc B580
-5:51 S tier: Arc B570
-6:31 The Arc catch
-7:18 Judge any deal in 10 seconds
-7:51 The verdict
-8:25 Next Saturday
+3:11 Skip: RTX 5050
+3:57 B tier: RTX 5060 and RX 9060 XT 8 GB
+4:53 RX 9060 XT 16 GB: great card, bad price
+5:34 A tier: Arc B580
+6:05 S tier: Arc B570
+6:45 The Arc catch
+7:32 Judge any deal in 10 seconds
+8:05 The verdict
+8:39 Next Saturday
 
 Watch next: https://www.youtube.com/watch?v=gnxWsFC82yU
 

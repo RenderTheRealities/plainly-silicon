@@ -94,6 +94,12 @@ BRAND_TITLE_FONT = FD + "InterDisplay-Black.otf"   # chapter labels, Shorts head
 BRAND_MARK_FONT = FD + "InterDisplay-Bold.otf"
 BRAND_BG, BRAND_CYAN, BRAND_AMBER, BRAND_WHITE = (11, 18, 32), (34, 211, 238), (245, 158, 11), (240, 242, 245)
 STING = 0.5  # seconds of outro sting appended after the narration
+# The one subscribe ask per video, built on the channel's own numbers. YouTube Studio, last 28 days to
+# Nov 24, 2026: 99.1% of watch time came from viewers who aren't subscribed. Update when Studio changes.
+SUB_STAT = "99%"
+SUB_MSG = f"{SUB_STAT} of watch time here is from people who aren't subscribed. It's free: subscribe"
+SUB_MSG_SHORT = (f"{SUB_STAT} of watch time is from", "non-subscribers. It's free!")
+SUB_T = None  # (start, end) of the spoken subscribe sentence, found in load()
 
 THEME = "circuit"
 SUB_FG = (255, 255, 255)
@@ -309,6 +315,15 @@ def load(vdir):
                 beats.append(st - start)
                 subs.append((st, en, s))
         scenes.append(dict(start=start, end=end, beats=beats, subs=subs, title=SCENES[i][0], fn=SCENES[i][1]))
+    # the spoken subscribe ask: the sentence that mentions "percent" and "subscribed"
+    global SUB_T
+    SUB_T = None
+    for sc in scenes:
+        for k, (a, b, txt) in enumerate(sc["subs"]):
+            low = txt.lower()
+            if "percent" in low and "subscribed" in low:
+                # keep the card up through the next sentence of the ask, if there is one
+                SUB_T = (a, sc["subs"][k + 1][1] if k + 1 < len(sc["subs"]) else b)
     return scenes, total
 
 
@@ -445,15 +460,28 @@ def frame(scenes, total, T):
         img.paste(NAVY, (0, 0, W, H), Image.new("L", (W, H), int(255 * (1 - fade))))
     d = ImageDraw.Draw(img, "RGBA")
     vertical = H > W
+    s0, s1 = SUB_T if SUB_T else ((total * 0.5, total * 0.5 + 4) if H > W else (total * 0.35, total * 0.35 + 6))
+    s1 = max(s1, s0 + 4)
+    asking = s0 <= T < s1
+    pa = min(ease((T - s0) / 0.4), ease((s1 - T) / 0.4)) if asking else 0
     if vertical:
         # Shorts: big scene headline under the top UI; subtitles above the bottom UI; no label/logo
         hf = font("brand", 64)
-        for k, l in enumerate(wrap(sc["title"], hf, W - 140, d)[:2]):
-            d.text((W / 2, 230 + k * 76), l, font=hf, fill=CYAN + (255,), anchor="ma")
+        if asking:  # the one subscribe ask replaces the headline for a few seconds
+            f2 = font("brand", 50)
+            d.rounded_rectangle([60, 214, W - 60, 214 + 170], radius=30, fill=SUB_BG[:3] + (int(SUB_BG[3] * pa),))
+            d.rounded_rectangle([96, 254, 186, 344], radius=18, fill=RED + (int(255 * pa),))
+            d.polygon([(128, 274), (128, 324), (166, 299)], fill=(255, 255, 255, int(255 * pa)))
+            for k, l in enumerate(SUB_MSG_SHORT):
+                d.text((214, 238 + k * 66), safe(l), font=f2, fill=SUB_FG + (int(255 * pa),))
+        else:
+            for k, l in enumerate(wrap(sc["title"], hf, W - 140, d)[:2]):
+                d.text((W / 2, 230 + k * 76), l, font=hf, fill=CYAN + (255,), anchor="ma")
         f, lh, maxw, ybase, nmax = font("semi", 50), 64, W - 160, 1560, 4
     else:
-        d.text((60, 52), f"{si + 1:02d}", font=font("monob", 30), fill=CYAN + (255,))
-        d.text((112, 50), sc["title"].upper(), font=font("brand", 30), fill=WHITE + (230,))
+        if not asking:
+            d.text((60, 52), f"{si + 1:02d}", font=font("monob", 30), fill=CYAN + (255,))
+            d.text((112, 50), sc["title"].upper(), font=font("brand", 30), fill=WHITE + (230,))
         f, lh, maxw, ybase, nmax = font("semi", 36), 48, 1500, 1040, 3
     # subtitle (current sentence)
     cur = [s for (a, b, s) in sc["subs"] if a - 0.05 <= T < b + 0.2]
@@ -468,14 +496,12 @@ def frame(scenes, total, T):
         d.rectangle([0, H - 6, W * T / total, H], fill=CYAN + (255,))
     mark_left = corner_mark(img, d)
     if not vertical:
-        # mid-video subscribe reminder: ~35% in, 6 s, slides into the header strip beside the corner mark
-        s0 = total * 0.35
-        if s0 <= T < s0 + 6:
-            p = min(ease((T - s0) / 0.5), ease((s0 + 6 - T) / 0.5))
+        # the one subscribe ask: slides into the header strip (chapter label hidden) while it's spoken
+        if asking:
             f = font("semi", 30)
-            msg = safe("Enjoying this? Subscribe for more animated PC explainers")
+            msg = safe(SUB_MSG)
             tw = d.textlength(msg, font=f)
-            x1 = mark_left - 16 + (1 - p) * (tw + W - mark_left + 200)
+            x1 = mark_left - 16 + (1 - pa) * (tw + W - mark_left + 200)
             d.rounded_rectangle([x1 - tw - 110, 24, x1, 82], radius=30, fill=SUB_BG)
             d.rounded_rectangle([x1 - tw - 96, 35, x1 - tw - 52, 71], radius=8, fill=RED + (255,))
             d.polygon([(x1 - tw - 80, 43), (x1 - tw - 80, 63), (x1 - tw - 64, 53)], fill=(255, 255, 255, 255))

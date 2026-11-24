@@ -18,43 +18,43 @@
   ],
   [
    134.116,
-   176.235
+   190.435
   ],
   [
-   176.985,
-   222.167
+   191.185,
+   236.366
   ],
   [
-   222.917,
-   278.509
+   237.116,
+   292.708
   ],
   [
-   279.259,
-   319.238
+   293.458,
+   333.437
   ],
   [
-   319.988,
-   350.279
+   334.187,
+   364.479
   ],
   [
-   351.029,
-   390.288
+   365.229,
+   404.487
   ],
   [
-   391.038,
-   437.851
+   405.237,
+   452.05
   ],
   [
-   438.601,
-   470.917
+   452.8,
+   485.117
   ],
   [
-   471.667,
-   504.402
+   485.867,
+   518.601
   ],
   [
-   505.152,
-   519.062
+   519.351,
+   533.261
   ]
  ],
  "sentences": [
@@ -201,293 +201,303 @@
     170.025,
     176.235,
     "If a cheap prebuilt lists an RTX 30 50 with 6 gigabytes, that's where the money was saved."
+   ],
+   [
+    176.515,
+    184.54,
+    "Quick favor before the next card: over 99 percent of the watch time on this channel comes from people who aren't subscribed."
+   ],
+   [
+    184.82,
+    190.435,
+    "If these verdicts save you money, subscribing is free, and it tells me to keep making them."
    ]
   ],
   [
    [
-    176.985,
-    182.209,
+    191.185,
+    196.408,
     "Skip tier, card two, and this one surprises people: the RTX 50 50."
    ],
    [
-    182.489,
-    183.823,
+    196.688,
+    198.022,
     "It isn't a bad chip."
    ],
    [
-    184.103,
-    197.585,
+    198.302,
+    211.785,
     "It scores about 78, roughly the same as Intel's cheaper B570, and TechSpot measured the Arc B580 about fourteen percent faster across sixteen games."
    ],
    [
-    197.865,
-    199.504,
+    212.065,
+    213.703,
     "The problem is the price."
    ],
    [
-    199.784,
-    206.039,
+    213.983,
+    220.239,
     "It launched at 249 dollars, and in mid November Best Buy listed it at 400."
    ],
    [
-    206.319,
-    211.951,
+    220.519,
+    226.15,
     "That's about 5 dollars and 13 cents per point, with only 8 gigabytes of memory."
    ],
    [
-    212.231,
-    222.167,
+    226.43,
+    236.366,
     "Walk-away price: anything above what the B570 costs, because the B570 matches it and gives you 2 more gigabytes."
    ]
   ],
   [
    [
-    222.917,
-    228.942,
+    237.116,
+    243.141,
     "B tier: the RTX 50 60 and the 8 gigabyte RX 90 60 XT."
    ],
    [
-    229.222,
-    231.97,
+    243.421,
+    246.169,
     "Together they set our yardstick of 100."
    ],
    [
-    232.25,
-    249.256,
+    246.449,
+    263.455,
     "In TechPowerUp's testing the 16 gigabyte Radeon was about three and a half percent faster than the RTX 50 60 at 1080p, and the 8 gigabyte version about five percent slower than the 16, so these two are a tie."
    ],
    [
-    249.536,
-    258.307,
+    263.735,
+    272.507,
     "The RTX 50 60 launched at 299 dollars and was listed around 500 on Amazon in mid November."
    ],
    [
-    258.587,
-    260.926,
+    272.787,
+    275.126,
     "That's exactly 5 dollars per point."
    ],
    [
-    261.206,
-    271.486,
+    275.406,
+    285.685,
     "Both have 8 gigabytes, which still works at 1080p, but costs you real frames at 1440p with ultra textures."
    ],
    [
-    271.766,
-    278.509,
+    285.965,
+    292.708,
     "Verdict: if you want one of these, buy whichever is cheaper on the day, and don't pay more than 400."
    ]
   ],
   [
    [
-    279.259,
-    285.59,
+    293.458,
+    299.789,
     "Now the most interesting card in the list: the RX 90 60 XT with 16 gigabytes."
    ],
    [
-    285.87,
-    293.731,
+    300.069,
+    307.931,
     "It's the fastest card here, at about 105, and it's the cheapest way to get 16 gigabytes of video memory."
    ],
    [
-    294.011,
-    296.704,
+    308.211,
+    310.904,
     "It launched at 349 dollars."
    ],
    [
-    296.984,
-    300.797,
+    311.184,
+    314.996,
     "In mid November, Newegg listed one at 750."
    ],
    [
-    301.077,
-    307.053,
+    315.276,
+    321.252,
     "That's over 7 dollars per point, the worst value on this list, for the best card on this list."
    ],
    [
-    307.333,
-    309.183,
+    321.532,
+    323.382,
     "Great card, terrible price."
    ],
    [
-    309.463,
-    312.754,
+    323.662,
+    326.953,
     "Its walk-away price is 420 dollars."
    ],
    [
-    313.034,
-    319.238,
+    327.233,
+    333.437,
     "At or below that, it's the one I'd buy, because 16 gigabytes keeps it useful for years."
    ]
   ],
   [
    [
-    319.988,
-    322.733,
+    334.187,
+    336.932,
     "A tier: Intel's Arc B580."
    ],
    [
-    323.013,
-    330.679,
+    337.212,
+    344.878,
     "It scores about 88, so it's a bit slower than the RTX 50 60, but it has 12 gigabytes of memory."
    ],
    [
-    330.959,
-    338.771,
+    345.158,
+    352.97,
     "It launched at 249 dollars, and in November it's been averaging around 390 at US stores."
    ],
    [
-    339.051,
-    342.466,
+    353.25,
+    356.665,
     "That's about 4 dollars and 43 cents per point."
    ],
    [
-    342.746,
-    350.279,
+    356.945,
+    364.479,
     "Cheaper per frame than every Nvidia and AMD card on this list, with more memory than any 8 gigabyte card."
    ]
   ],
   [
    [
-    351.029,
-    356.772,
+    365.229,
+    370.972,
     "And S tier, the best value this Black Friday: Intel's Arc B570."
    ],
    [
-    357.052,
-    369.053,
+    371.252,
+    383.252,
     "It scores about 78, the same as the RTX 50 50, and in reviews it landed within about seven percent of the RTX 40 60 at 1080p."
    ],
    [
-    369.333,
-    371.261,
+    383.532,
+    385.46,
     "It has 10 gigabytes of memory."
    ],
    [
-    371.541,
-    378.217,
+    385.74,
+    392.416,
     "It launched at 219 dollars, and on November 18th Newegg listed it at 289."
    ],
    [
-    378.497,
-    384.112,
+    392.696,
+    398.312,
     "That works out to about 3 dollars and 71 cents per point, the lowest on the board."
    ],
    [
-    384.392,
-    390.288,
+    398.592,
+    404.487,
     "It costs 111 dollars less than the RTX 50 50 for the same speed."
    ]
   ],
   [
    [
-    391.038,
-    395.021,
+    405.237,
+    409.221,
     "But there's a catch, and it decides whether Intel is right for you."
    ],
    [
-    395.301,
-    403.838,
+    409.501,
+    418.037,
     "Arc cards need a feature called Resizable BAR switched on in your motherboard's settings, or they lose a lot of performance."
    ],
    [
-    404.118,
-    411.219,
+    418.317,
+    425.418,
     "And on older processors, Intel's driver has needed more CPU time than AMD's or Nvidia's."
    ],
    [
-    411.499,
-    420.875,
+    425.698,
+    435.074,
     "When TechSpot paired the B580 with a Ryzen 5 2600, it ran about twenty percent slower than it should have."
    ],
    [
-    421.155,
-    425.089,
+    435.354,
+    439.288,
     "Newer drivers improved this, but some games are still affected."
    ],
    [
-    425.369,
-    437.851,
+    439.568,
+    452.05,
     "So if your PC is several years old, or your board doesn't offer Resizable BAR, skip Arc and pick the RX 90 60 XT or the RTX 50 60 instead."
    ]
   ],
   [
    [
-    438.601,
-    441.986,
+    452.8,
+    456.186,
     "Here's how to judge any Black Friday deal in ten seconds."
    ],
    [
-    442.266,
-    444.698,
+    456.466,
+    458.897,
     "Aim for 4 dollars per point or less."
    ],
    [
-    444.978,
-    450.891,
+    459.177,
+    465.09,
     "That means the B570 is a good deal under about 310 dollars."
    ],
    [
-    451.171,
-    454.468,
+    465.37,
+    468.667,
     "The B580 under 350."
    ],
    [
-    454.748,
-    459.868,
+    468.947,
+    474.068,
     "The RTX 50 60 or the 8 gigabyte Radeon under 400."
    ],
    [
-    460.148,
-    464.041,
+    474.348,
+    478.24,
     "And the 16 gigabyte Radeon under 420."
    ],
    [
-    464.321,
-    470.917,
+    478.52,
+    485.117,
     "If a card misses its number, it isn't a deal, no matter what the banner says the original price was."
    ]
   ],
   [
    [
-    471.667,
-    473.049,
+    485.867,
+    487.249,
     "So here's the verdict."
    ],
    [
-    473.329,
-    481.424,
+    487.529,
+    495.624,
     "If your PC is from the last few years and you play at 1080p, buy the Arc B570."
    ],
    [
-    481.704,
-    487.005,
+    495.904,
+    501.204,
     "Step up to the B580 only if you find it under 350."
    ],
    [
-    487.285,
-    493.652,
+    501.484,
+    507.851,
     "Skip the RTX 50 50 and the 6 gigabyte RTX 30 50 at today's prices."
    ],
    [
-    493.932,
-    501.807,
+    508.131,
+    516.006,
     "And if a 16 gigabyte RX 90 60 XT ever drops near 420 dollars, buy it on the spot."
    ],
    [
-    502.087,
-    504.402,
+    516.286,
+    518.601,
     "It's the card that will last the longest."
    ]
   ],
   [
    [
-    505.152,
-    514.091,
+    519.351,
+    528.29,
     "Next Saturday: DDR4 or DDR5 in 2026, and why this year's memory prices changed the answer."
    ],
    [
-    514.371,
-    519.062,
+    528.57,
+    533.261,
     "There's a new verdict every Saturday, so subscribe and you'll catch the next one."
    ]
   ]
