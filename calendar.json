@@ -174,20 +174,18 @@
     },
     {
       "slug": "23-best-budget-gpu",
-      "publish": "2026-11-28T10:00:00-07:00",
+      "publish": "2026-11-28T05:00:00-07:00",
       "title": "The Only Budget GPUs Worth Buying Right Now",
       "keyword": "best budget gpu",
-      "status": "scheduled",
+      "status": "ready",
       "format": "tier list",
       "brief": "Black Friday/Cyber Monday weekend. Late-Nov 2026 picks to verify: Intel Arc B570 (~$289 per Tom's Hardware), Arc B580 (thin stock), RTX 5050, RX 9060 XT 16GB; RTX 3050 6GB is a trap (see Short 07s2). Rank by price per frame at 1080p; end with one buy, one skip.",
       "teasers": [],
-      "youtubeUrl": "https://www.youtube.com/watch?v=iM69YHi2yAQ",
-      "uploaded": "2026-11-24",
       "theme": "neon",
-      "length": "8:41",
+      "length": "8:55",
       "mediaUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/23-best-budget-gpu.mp4",
       "thumbnailUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/23-best-budget-gpu.jpg",
-      "note": "Uploaded scheduled for Sat 10:00 before the 05:00 rule; owner to move it to Nov 28 05:00 in Studio (manual-fixes.md). Set publish to 05:00 once done."
+      "note": "Old upload iM69YHi2yAQ deleted by the owner Nov 24. Re-rendered version (with subscribe ask) is hosted; a scheduled follow-up uploads it just after midnight Nov 25 for Sat 05:00."
     },
     {
       "slug": "24-ddr4-vs-ddr5-2026",
