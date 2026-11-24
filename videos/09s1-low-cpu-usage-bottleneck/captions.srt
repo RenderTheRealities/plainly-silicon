@@ -1,44 +1,52 @@
 1
-00:00:00,300 --> 00:00:03,504
+00:00:00,020 --> 00:00:03,224
 Task Manager says your processor is at 40 percent.
 
 2
-00:00:03,784 --> 00:00:06,816
+00:00:03,504 --> 00:00:06,536
 It can still be the part holding your frame rate back.
 
 3
-00:00:07,566 --> 00:00:11,673
+00:00:07,886 --> 00:00:11,993
 That number is an average across every thread your processor has.
 
 4
-00:00:11,953 --> 00:00:14,159
+00:00:12,273 --> 00:00:14,479
 Games rarely spread their work evenly.
 
 5
-00:00:14,909 --> 00:00:17,807
+00:00:15,229 --> 00:00:18,127
 A lot of each frame waits on one main thread.
 
 6
-00:00:18,087 --> 00:00:24,160
+00:00:18,407 --> 00:00:24,480
 On a 16 thread chip, one thread running flat out adds only about 6 percent to the total.
 
 7
-00:00:24,910 --> 00:00:30,982
+00:00:25,230 --> 00:00:31,302
 So that one busy thread sets the pace, while the others sit mostly idle and pull the average down.
 
 8
-00:00:31,732 --> 00:00:33,684
+00:00:32,052 --> 00:00:34,004
 Check GPU usage instead.
 
 9
-00:00:33,964 --> 00:00:38,379
+00:00:34,284 --> 00:00:38,699
 If it's pinned at 95 percent or more, the graphics card is the limit.
 
 10
-00:00:38,659 --> 00:00:45,235
+00:00:38,979 --> 00:00:45,555
 If it sits well below 90, with no frame cap or V-Sync, the processor is likely the wall.
 
 11
-00:00:45,985 --> 00:00:49,461
-The full guide is in our video, Bottlenecks Explained.
+00:00:46,305 --> 00:00:49,089
+But GPU usage is only half the test.
+
+12
+00:00:49,369 --> 00:00:53,617
+The full one-minute check is in Bottlenecks Explained, linked below.
+
+13
+00:00:53,897 --> 00:00:56,694
+Share this, subscribe, and comment your questions.
 

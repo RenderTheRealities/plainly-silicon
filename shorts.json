@@ -397,12 +397,11 @@
    "slug": "09s1-low-cpu-usage-bottleneck",
    "theme": "arctic",
    "title": "Low CPU Usage but Still a CPU Bottleneck? Here's Why #shorts",
-   "publish": "2026-11-24T12:00:00-07:00",
+   "publish": "2026-11-25T05:00:00-07:00",
    "source": "09-bottlenecks-explained",
-   "status": "scheduled",
+   "status": "ready",
    "mediaUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/09s1-low-cpu-usage-bottleneck.mp4",
-   "youtubeUrl": "https://www.youtube.com/shorts/6Em_r1QRTmc",
-   "note": "Uploaded outside the scheduled runs (owner chat).",
+   "note": "Re-rendered Nov 24 (hook at frame 0, intro, subscribe card, outro); old upload 6Em_r1QRTmc deleted. Uploads 00:15 Nov 25 (follow-up task).",
    "longVideo": "09-bottlenecks-explained"
   },
   {
@@ -432,12 +431,11 @@
    "slug": "10s2-80-plus-only-efficiency",
    "theme": "lab",
    "title": "80 Plus Gold Isn't a Quality Rating. Here's What It Tests #shorts",
-   "publish": "2026-11-24T18:00:00-07:00",
+   "publish": "2026-11-26T05:00:00-07:00",
    "source": "10-power-supplies-explained",
-   "status": "scheduled",
+   "status": "reserved",
    "mediaUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/10s2-80-plus-only-efficiency.mp4",
-   "youtubeUrl": "https://www.youtube.com/shorts/06K9NUVVAVs",
-   "note": "Uploaded outside the scheduled runs (owner chat).",
+   "note": "Re-rendered Nov 24; old upload 06K9NUVVAVs deleted. A follow-up task uploads it 00:15 Nov 26 for Nov 26 05:00. Counts as one of Nov 26's 2 Shorts; scheduled runs must not upload it.",
    "longVideo": "10-power-supplies-explained"
   }
  ],

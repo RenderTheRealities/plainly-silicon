@@ -11,290 +11,294 @@ The processor ran 11 degrees cooler in games, and the graphics card about 4 degr
 In the next few minutes we'll clean one dusty PC together, in the right order, and I'll show you the three ways people break hardware while doing it.
 
 4
-00:00:23,655 --> 00:00:25,426
+00:00:24,655 --> 00:00:26,426
 Here's why dust matters at all.
 
 5
-00:00:25,706 --> 00:00:31,123
+00:00:26,706 --> 00:00:32,123
 Every fan in your case pulls air across thin metal fins, and the heat leaves with that air.
 
 6
-00:00:31,403 --> 00:00:35,440
+00:00:32,403 --> 00:00:36,440
 Dust settles on the fins and in the filters like a felt blanket.
 
 7
-00:00:35,720 --> 00:00:38,330
+00:00:36,720 --> 00:00:39,330
 Less air gets through, so the chips get hotter.
 
 8
-00:00:38,610 --> 00:00:43,004
+00:00:39,610 --> 00:00:44,004
 Modern processors and graphics cards don't just get warm and carry on.
 
 9
-00:00:43,284 --> 00:00:49,155
+00:00:44,284 --> 00:00:50,155
 They protect themselves by lowering their boost clocks, which means fewer frames and louder fans.
 
 10
-00:00:49,435 --> 00:00:54,173
+00:00:50,435 --> 00:00:55,173
 So a dusty PC is often a slower PC, not just a dirtier one.
 
 11
-00:00:54,923 --> 00:00:59,480
+00:00:55,923 --> 00:01:00,480
 Our PC is a normal tower that's been running for a year in a bedroom.
 
 12
-00:00:59,760 --> 00:01:02,373
+00:01:00,760 --> 00:01:03,373
 Before we touch it, shut it down from Windows.
 
 13
-00:01:02,653 --> 00:01:10,531
+00:01:03,653 --> 00:01:11,531
 Then flip the switch on the back of the power supply to the off position, the side marked with a circle, and pull the power cord out.
 
 14
-00:01:10,811 --> 00:01:15,263
+00:01:11,811 --> 00:01:16,263
 With the cord out, press and hold the power button for about 30 seconds.
 
 15
-00:01:15,543 --> 00:01:18,900
+00:01:16,543 --> 00:01:19,900
 That drains the little bit of charge still sitting in the system.
 
 16
-00:01:19,180 --> 00:01:23,081
+00:01:20,180 --> 00:01:24,081
 Now carry the PC somewhere with a hard floor and some airflow.
 
 17
-00:01:23,361 --> 00:01:30,813
+00:01:24,361 --> 00:01:31,813
 A garage, a balcony or a table by an open window is perfect, because the dust is about to go everywhere.
 
 18
-00:01:31,563 --> 00:01:34,202
+00:01:32,563 --> 00:01:35,202
 The first way people break a PC is static.
 
 19
-00:01:34,482 --> 00:01:40,432
+00:01:35,482 --> 00:01:41,432
 Your body can carry a charge you never feel, and a spark you can't even see can damage a chip.
 
 20
-00:01:40,712 --> 00:01:47,109
+00:01:41,712 --> 00:01:48,109
 So stand on a hard floor, not carpet, and touch the bare metal of the case before you reach inside.
 
 21
-00:01:47,389 --> 00:01:49,692
+00:01:48,389 --> 00:01:50,692
 Touch it again now and then while you work.
 
 22
-00:01:49,972 --> 00:01:54,463
+00:01:50,972 --> 00:01:55,463
 An antistatic wrist strap clipped to the case is even better, and it's cheap.
 
 23
-00:01:54,743 --> 00:01:59,801
+00:01:55,743 --> 00:02:00,801
 This is also why a household vacuum cleaner should never go inside the case.
 
 24
-00:02:00,081 --> 00:02:06,977
+00:02:01,081 --> 00:02:07,977
 Its plastic nozzle builds up static as air rushes through it, and it's easy to knock a small part off the board.
 
 25
-00:02:07,727 --> 00:02:10,721
-Start with the easy wins: the dust filters.
+00:02:08,257 --> 00:02:16,632
+Quick favor before we start cleaning: over 99 percent of the watch time on this channel comes from people who aren't subscribed.
 
 26
-00:02:11,001 --> 00:02:17,292
-Most cases have a mesh filter at the front, one under the power supply, and often one on top.
+00:02:16,912 --> 00:02:22,426
+If this saves your PC, subscribing is free, and it tells me to keep making these.
 
 27
-00:02:17,572 --> 00:02:20,396
-They usually slide out or pull off with magnets.
+00:02:23,176 --> 00:02:26,171
+Start with the easy wins: the dust filters.
 
 28
-00:02:20,676 --> 00:02:24,720
-Here the vacuum is fine, because the filter is out of the PC.
+00:02:26,451 --> 00:02:32,741
+Most cases have a mesh filter at the front, one under the power supply, and often one on top.
 
 29
-00:02:25,000 --> 00:02:28,240
-Most mesh filters can also be rinsed under the tap.
+00:02:33,021 --> 00:02:35,846
+They usually slide out or pull off with magnets.
 
 30
-00:02:28,520 --> 00:02:32,590
-If you wash one, let it dry completely before it goes back in.
+00:02:36,126 --> 00:02:40,170
+Here the vacuum is fine, because the filter is out of the PC.
 
 31
-00:02:32,870 --> 00:02:37,986
-Water and electronics only mix when you give them a chance, so don't rush this part.
+00:02:40,450 --> 00:02:43,689
+Most mesh filters can also be rinsed under the tap.
 
 32
-00:02:38,736 --> 00:02:42,555
-Now the compressed air, and the second way people break things.
+00:02:43,969 --> 00:02:48,040
+If you wash one, let it dry completely before it goes back in.
 
 33
-00:02:42,835 --> 00:02:49,017
-Point the air at a fan and it spins like a pinwheel, far faster than it was ever built to run.
+00:02:48,320 --> 00:02:53,436
+Water and electronics only mix when you give them a chance, so don't rush this part.
 
 34
-00:02:49,297 --> 00:02:52,438
-That can wear out its bearings or even crack a blade.
+00:02:54,186 --> 00:02:58,005
+Now the compressed air, and the second way people break things.
 
 35
-00:02:52,718 --> 00:02:57,971
-So hold every fan still with a finger or a plastic tool before you blow on it.
+00:02:58,285 --> 00:03:04,466
+Point the air at a fan and it spins like a pinwheel, far faster than it was ever built to run.
 
 36
-00:02:58,251 --> 00:03:04,669
-Use short bursts, not one long blast, and keep the nozzle about 5 to 10 centimetres away.
+00:03:04,746 --> 00:03:07,888
+That can wear out its bearings or even crack a blade.
 
 37
-00:03:04,949 --> 00:03:06,489
-Keep the can upright, too.
+00:03:08,168 --> 00:03:13,420
+So hold every fan still with a finger or a plastic tool before you blow on it.
 
 38
-00:03:06,769 --> 00:03:12,790
-Tip it sideways or upside down and it can spit freezing liquid propellant onto your parts.
+00:03:13,700 --> 00:03:20,118
+Use short bursts, not one long blast, and keep the nozzle about 5 to 10 centimetres away.
 
 39
-00:03:13,540 --> 00:03:14,653
-The order matters.
+00:03:20,398 --> 00:03:21,938
+Keep the can upright, too.
 
 40
-00:03:14,933 --> 00:03:22,607
-Work from the top of the case down, so loose dust falls toward the bottom and out, not onto parts you've already cleaned.
+00:03:22,218 --> 00:03:28,239
+Tip it sideways or upside down and it can spit freezing liquid propellant onto your parts.
 
 41
-00:03:22,887 --> 00:03:29,044
-On the processor cooler and the graphics card, blow from the side where the air normally leaves the heatsink.
+00:03:28,989 --> 00:03:30,103
+The order matters.
 
 42
-00:03:29,324 --> 00:03:34,691
-That pushes dust back out the way it came in, instead of packing it deeper into the fins.
+00:03:30,383 --> 00:03:38,056
+Work from the top of the case down, so loose dust falls toward the bottom and out, not onto parts you've already cleaned.
 
 43
-00:03:34,971 --> 00:03:40,246
-Clean the case fans, then the cooler, then the graphics card, then the floor of the case.
+00:03:38,336 --> 00:03:44,494
+On the processor cooler and the graphics card, blow from the side where the air normally leaves the heatsink.
 
 44
-00:03:40,526 --> 00:03:44,246
-Ten minutes of this and you'll see the difference with your own eyes.
+00:03:44,774 --> 00:03:50,140
+That pushes dust back out the way it came in, instead of packing it deeper into the fins.
 
 45
-00:03:44,996 --> 00:03:48,053
-The third way people break things is going too deep.
+00:03:50,420 --> 00:03:55,695
+Clean the case fans, then the cooler, then the graphics card, then the floor of the case.
 
 46
-00:03:48,333 --> 00:03:50,229
-Never open the power supply.
+00:03:55,975 --> 00:03:59,696
+Ten minutes of this and you'll see the difference with your own eyes.
 
 47
-00:03:50,509 --> 00:03:57,506
-Its capacitors can hold a dangerous charge even after it's unplugged, and there's nothing inside you need to clean.
+00:04:00,446 --> 00:04:03,503
+The third way people break things is going too deep.
 
 48
-00:03:57,786 --> 00:04:00,291
-Just blow through its vents from the outside.
+00:04:03,783 --> 00:04:05,679
+Never open the power supply.
 
 49
-00:04:00,571 --> 00:04:02,925
-Don't take the graphics card apart either.
+00:04:05,959 --> 00:04:12,956
+Its capacitors can hold a dangerous charge even after it's unplugged, and there's nothing inside you need to clean.
 
 50
-00:04:03,205 --> 00:04:12,012
-And don't take the processor cooler off just to dust it, because if you lift it, the thermal paste underneath has to be cleaned off and replaced.
+00:04:13,236 --> 00:04:15,741
+Just blow through its vents from the outside.
 
 51
-00:04:12,292 --> 00:04:15,119
-On the motherboard and the memory, use air only.
+00:04:16,021 --> 00:04:18,375
+Don't take the graphics card apart either.
 
 52
-00:04:15,399 --> 00:04:17,572
-Brushes can snag tiny parts there.
+00:04:18,655 --> 00:04:27,462
+And don't take the processor cooler off just to dust it, because if you lift it, the thermal paste underneath has to be cleaned off and replaced.
 
 53
-00:04:18,322 --> 00:04:22,963
-Some dust turns into sticky grime, especially near smokers or kitchens.
+00:04:27,742 --> 00:04:30,569
+On the motherboard and the memory, use air only.
 
 54
-00:04:23,243 --> 00:04:31,029
-For that, put a little isopropyl alcohol on a cotton swab or a microfibre cloth, wipe, and let it evaporate.
+00:04:30,849 --> 00:04:33,022
+Brushes can snag tiny parts there.
 
 55
-00:04:31,309 --> 00:04:33,996
-Never spray anything directly into the case.
+00:04:33,772 --> 00:04:38,413
+Some dust turns into sticky grime, especially near smokers or kitchens.
 
 56
-00:04:34,276 --> 00:04:41,068
-Skip household cleaners with bleach or ammonia, and skip paper towels, which shed fibres and scratch.
+00:04:38,693 --> 00:04:46,479
+For that, put a little isopropyl alcohol on a cotton swab or a microfibre cloth, wipe, and let it evaporate.
 
 57
-00:04:41,348 --> 00:04:43,079
-And wear a simple dust mask.
+00:04:46,759 --> 00:04:49,445
+Never spray anything directly into the case.
 
 58
-00:04:43,359 --> 00:04:46,633
-A year of dust is not something you want in your lungs.
+00:04:49,725 --> 00:04:56,518
+Skip household cleaners with bleach or ammonia, and skip paper towels, which shed fibres and scratch.
 
 59
-00:04:47,383 --> 00:04:51,872
-Before you put the side panel back on, plug the PC in and turn it on.
+00:04:56,798 --> 00:04:58,529
+And wear a simple dust mask.
 
 60
-00:04:52,152 --> 00:04:53,453
-Look at every fan.
+00:04:58,809 --> 00:05:02,083
+A year of dust is not something you want in your lungs.
 
 61
-00:04:53,733 --> 00:04:56,896
-Each one should spin, and none should rattle or wobble.
+00:05:02,833 --> 00:05:07,322
+Before you put the side panel back on, plug the PC in and turn it on.
 
 62
-00:04:57,176 --> 00:05:01,229
-A fan that stays still might have a loose cable you knocked while cleaning.
+00:05:07,602 --> 00:05:08,903
+Look at every fan.
 
 63
-00:05:01,509 --> 00:05:04,999
-Then close it up and play the same game you played before.
+00:05:09,183 --> 00:05:12,345
+Each one should spin, and none should rattle or wobble.
 
 64
-00:05:05,279 --> 00:05:08,905
-Watch the temperatures with a free monitoring tool and compare.
+00:05:12,625 --> 00:05:16,679
+A fan that stays still might have a loose cable you knocked while cleaning.
 
 65
-00:05:09,185 --> 00:05:12,647
-For that tester, this is where the 11 degrees showed up.
+00:05:16,959 --> 00:05:20,449
+Then close it up and play the same game you played before.
 
 66
-00:05:13,397 --> 00:05:20,982
-To keep it clean for longer, check the filters every month or two, and do a full clean like this every three to six months.
+00:05:20,729 --> 00:05:24,355
+Watch the temperatures with a free monitoring tool and compare.
 
 67
-00:05:21,262 --> 00:05:25,655
-With pets, smokers or a dusty room, make it every two to three months.
+00:05:24,635 --> 00:05:28,097
+For that tester, this is where the 11 degrees showed up.
 
 68
-00:05:25,935 --> 00:05:28,293
-Keep the tower off the carpet if you can.
+00:05:28,847 --> 00:05:36,431
+To keep it clean for longer, check the filters every month or two, and do a full clean like this every three to six months.
 
 69
-00:05:28,573 --> 00:05:34,721
-And set your fans for slight positive pressure, which means more fans pulling air in than pushing it out.
+00:05:36,711 --> 00:05:41,105
+With pets, smokers or a dusty room, make it every two to three months.
 
 70
-00:05:35,001 --> 00:05:42,643
-A common setup is two or three intake fans at the front, each behind a filter, and one exhaust fan at the back.
+00:05:41,385 --> 00:05:43,743
+Keep the tower off the carpet if you can.
 
 71
-00:05:42,923 --> 00:05:47,797
-Then most air enters through the filters, and less dust sneaks in through every gap.
+00:05:44,023 --> 00:05:50,171
+And set your fans for slight positive pressure, which means more fans pulling air in than pushing it out.
 
 72
-00:05:48,547 --> 00:05:52,400
-Now your PC is clean and cool, so press the power button.
+00:05:50,451 --> 00:05:58,093
+A common setup is two or three intake fans at the front, each behind a filter, and one exhaust fan at the back.
 
 73
-00:05:52,680 --> 00:05:57,908
-But what actually happens in the second after you press it, before Windows even starts?
+00:05:58,373 --> 00:06:03,246
+Then most air enters through the filters, and less dust sneaks in through every gap.
 
 74
-00:05:58,188 --> 00:06:02,646
-That's the next video: the boot process, explained one step at a time.
+00:06:03,996 --> 00:06:06,112
+Now your PC is clean and cool.
 
 75
-00:06:02,926 --> 00:06:06,001
-Subscribe so you don't miss it, and I'll see you there.
+00:06:06,392 --> 00:06:14,509
+And if you're wondering which graphics card deserves that clean case, this Saturday we rank every budget card you can buy right now.
+
+76
+00:06:14,789 --> 00:06:22,382
+If this helped, share it with a friend whose PC sounds like a jet engine, subscribe, and comment your questions below.
 

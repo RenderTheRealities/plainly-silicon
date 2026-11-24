@@ -14,17 +14,17 @@ Cleaning the dust out of your PC can drop temperatures by several degrees, but d
 
 Chapters
 0:00 Six months of dust
-0:23 Why dust slows you down
-0:54 Power it down properly
-1:31 Way 1: static
-2:07 Dust filters first
-2:38 Way 2: spinning fans
-3:13 The right order
-3:45 Way 3: going too deep
-4:18 Sticky grime
-4:47 Test before closing
-5:13 Keep it clean longer
-5:48 Next: the boot process
+0:24 Why dust slows you down
+0:55 Power it down properly
+1:32 Way 1: static
+2:23 Dust filters first
+2:54 Way 2: spinning fans
+3:28 The right order
+4:00 Way 3: going too deep
+4:33 Sticky grime
+5:02 Test before closing
+5:28 Keep it clean longer
+6:03 This Saturday: budget GPUs
 
 Watch next: https://www.youtube.com/watch?v=8zRSmxnJTIA
 

@@ -1,56 +1,56 @@
 1
-00:00:00,300 --> 00:00:05,396
+00:00:00,020 --> 00:00:05,116
 That 80 Plus Gold sticker on your power supply measures exactly one thing.
 
 2
-00:00:05,676 --> 00:00:07,045
+00:00:05,396 --> 00:00:06,765
 And it isn't quality.
 
 3
-00:00:07,795 --> 00:00:09,260
+00:00:08,115 --> 00:00:09,580
 It measures efficiency.
 
 4
-00:00:09,540 --> 00:00:12,809
+00:00:09,860 --> 00:00:13,128
 That's how much wall power actually reaches your parts.
 
 5
-00:00:13,088 --> 00:00:14,524
+00:00:13,408 --> 00:00:14,844
 The rest turns into heat.
 
 6
-00:00:15,274 --> 00:00:20,312
+00:00:15,594 --> 00:00:20,632
 Testers load the unit at 20, 50 and 100 percent of its rating.
 
 7
-00:00:20,592 --> 00:00:23,883
+00:00:20,912 --> 00:00:24,203
 Gold needs 90 percent efficiency at half load.
 
 8
-00:00:24,163 --> 00:00:25,761
+00:00:24,483 --> 00:00:26,081
 Bronze needs 85.
 
 9
-00:00:26,511 --> 00:00:28,254
+00:00:26,831 --> 00:00:28,574
 Here's what the badge leaves out.
 
 10
-00:00:28,534 --> 00:00:36,409
+00:00:28,854 --> 00:00:36,729
 How steady the voltages stay, how much ripple noise gets through, and the protections that save your parts when something fails.
 
 11
-00:00:36,689 --> 00:00:39,505
-Makers can even send in hand-picked samples.
-
-12
-00:00:40,255 --> 00:00:43,520
+00:00:37,479 --> 00:00:40,745
 So a badly built unit can still wear a Gold badge.
 
-13
-00:00:43,800 --> 00:00:48,546
+12
+00:00:41,025 --> 00:00:45,771
 Before you buy, look for an independent review that actually load tests it.
 
+13
+00:00:46,521 --> 00:00:50,732
+How to pick a good one is in Power Supplies Explained, linked below.
+
 14
-00:00:49,296 --> 00:00:53,025
-The full story is in our video, Power Supplies Explained.
+00:00:51,012 --> 00:00:53,809
+Share this, subscribe, and comment your questions.
 
