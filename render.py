@@ -314,6 +314,8 @@ def load(vdir):
                 en = sp0 + (sp1 - sp0) * acc / L
                 beats.append(st - start)
                 subs.append((st, en, s))
+        if i == 0 and H > W and beats:
+            beats[0] = min(beats[0], -0.6)  # Shorts: the first visual is fully drawn at frame 0, no fade-in
         scenes.append(dict(start=start, end=end, beats=beats, subs=subs, title=SCENES[i][0], fn=SCENES[i][1]))
     # the spoken subscribe ask: the sentence that mentions "percent" and "subscribed"
     global SUB_T
@@ -455,7 +457,8 @@ def frame(scenes, total, T):
     x = Ctx(img, t, dur, sc["beats"])
     sc["fn"](x)
     # scene fade in/out (0.35 s)
-    fade = min(ease(t / 0.35), ease((dur - t) / 0.35)) if si < len(scenes) - 1 else ease(t / 0.35)
+    fade_in = 1.0 if (si == 0 and H > W) else ease(t / 0.35)  # Shorts: frame 0 is already the full hook
+    fade = min(fade_in, ease((dur - t) / 0.35)) if si < len(scenes) - 1 else fade_in
     if fade < 1:
         img.paste(NAVY, (0, 0, W, H), Image.new("L", (W, H), int(255 * (1 - fade))))
     d = ImageDraw.Draw(img, "RGBA")
@@ -484,7 +487,7 @@ def frame(scenes, total, T):
             d.text((112, 50), sc["title"].upper(), font=font("brand", 30), fill=WHITE + (230,))
         f, lh, maxw, ybase, nmax = font("semi", 36), 48, 1500, 1040, 3
     # subtitle (current sentence)
-    cur = [s for (a, b, s) in sc["subs"] if a - 0.05 <= T < b + 0.2]
+    cur = [s for (a, b, s) in sc["subs"] if a - (0.3 if (vertical and si == 0) else 0.05) <= T < b + 0.2]
     if cur:
         lines = wrap(cur[-1], f, maxw, d)[:nmax]
         y = ybase - lh * len(lines)

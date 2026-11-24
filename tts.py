@@ -23,8 +23,11 @@ def main(vdir):
     k = Kokoro(os.path.join(HERE, "tts/model.onnx"), os.path.join(HERE, "tts/voices.npz"))
     paras = [p for p in open(os.path.join(vdir, "narration.txt")).read().strip().split("\n\n") if p.strip()]
     sr = 24000
-    chunks = [np.zeros(int(sr * LEAD), np.float32)]
-    t = LEAD
+    # Shorts start talking at once: in the Shorts feed viewers decide to stay or swipe in the first second
+    short = "(1080, 1920)" in open(os.path.join(vdir, "scenes.py")).read() if os.path.exists(os.path.join(vdir, "scenes.py")) else False
+    lead = 0.02 if short else LEAD
+    chunks = [np.zeros(int(sr * lead), np.float32)]
+    t = lead
     out = {"paragraphs": [], "sentences": []}
     for pi, p in enumerate(paras):
         p_start, sents = t, []

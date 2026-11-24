@@ -338,6 +338,26 @@
       "working_title_old": "How Long Do SSDs Actually Last? (TBW Explained)",
       "format": "what happens if",
       "teasers": []
+    },
+    {
+      "slug": "29-thermal-throttling",
+      "publish": "2027-03-20T05:00:00-06:00",
+      "title": "Is Your PC Slowing Down Because It's Too Hot?",
+      "keyword": "thermal throttling",
+      "status": "planned",
+      "format": "debunk",
+      "teasers": [],
+      "brief": "From Studio Nov 24, 2026: concrete component questions keep viewers. How CPUs/GPUs throttle, how to see it (HWiNFO clocks vs temps), and the fixes that actually work."
+    },
+    {
+      "slug": "30-case-fans-gpu-temps",
+      "publish": "2027-03-27T05:00:00-06:00",
+      "title": "Do Case Fans Actually Lower GPU Temps?",
+      "keyword": "do case fans matter",
+      "status": "planned",
+      "format": "X vs Y showdown",
+      "teasers": [],
+      "brief": "Search-question title suggested by Studio. Test-backed: intake vs exhaust, fan count, positive pressure; verdict on how many fans you need."
     }
   ],
   "cadence": {
