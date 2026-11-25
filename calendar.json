@@ -164,19 +164,21 @@
       "publish": "2026-11-25T05:00:00-07:00",
       "title": "How to Clean Your PC Without Breaking It",
       "keyword": "how to clean pc",
-      "status": "ready",
+      "status": "scheduled",
       "theme": "mint",
       "length": "6:24",
       "mediaUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/12-clean-your-pc.mp4",
       "thumbnailUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/12-clean-your-pc.jpg",
-      "note": "Re-rendered Nov 24 with cold open + intro, subscribe ask and share/subscribe/comment outro; old scheduled upload 59PTTAVoZXM deleted by the owner. Uploads 00:15 Nov 25 (follow-up task)."
+      "note": "Re-rendered Nov 24 (cold open + intro, subscribe ask, share/subscribe/comment outro); replaces deleted upload 59PTTAVoZXM.",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tMnGPUovm7o",
+      "uploaded": "2026-11-25"
     },
     {
       "slug": "23-best-budget-gpu",
       "publish": "2026-11-28T05:00:00-07:00",
       "title": "The Only Budget GPUs Worth Buying Right Now",
       "keyword": "best budget gpu",
-      "status": "ready",
+      "status": "scheduled",
       "format": "tier list",
       "brief": "Black Friday/Cyber Monday weekend. Late-Nov 2026 picks to verify: Intel Arc B570 (~$289 per Tom's Hardware), Arc B580 (thin stock), RTX 5050, RX 9060 XT 16GB; RTX 3050 6GB is a trap (see Short 07s2). Rank by price per frame at 1080p; end with one buy, one skip.",
       "teasers": [],
@@ -184,7 +186,9 @@
       "length": "9:01",
       "mediaUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/23-best-budget-gpu.mp4",
       "thumbnailUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/23-best-budget-gpu.jpg",
-      "note": "Re-rendered Nov 24 (cold open + intro, subscribe ask, outro). Old upload iM69YHi2yAQ deleted. Uploads 00:15 Nov 25 (follow-up task) for Sat 05:00."
+      "note": "Re-rendered Nov 24 (cold open + intro, subscribe ask, outro); replaces deleted upload iM69YHi2yAQ.",
+      "youtubeUrl": "https://www.youtube.com/watch?v=15pV5fzsfSU",
+      "uploaded": "2026-11-25"
     },
     {
       "slug": "24-ddr4-vs-ddr5-2026",

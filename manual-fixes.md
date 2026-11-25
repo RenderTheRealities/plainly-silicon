@@ -88,7 +88,7 @@ First line to paste: `Full video: https://www.youtube.com/watch?v=fau-c6M-M9I`
 
 ### → How to Clean Your PC Without Breaking It
 
-First line to paste: `Full video: https://www.youtube.com/watch?v=59PTTAVoZXM`
+First line to paste: `Full video: https://www.youtube.com/watch?v=tMnGPUovm7o`
 
 - [ ] Why Your PC Gets Slower in Summer #shorts (https://youtube.com/shorts/5AbYNnuyQdc)
 - [ ] How Much Thermal Paste Should You Use? #shorts (https://youtube.com/shorts/jeubgoxVY8g)
@@ -135,7 +135,6 @@ First line to paste: `Full video: https://www.youtube.com/watch?v=fJiCtrVyq04`
 - [ ] Your 850 W Power Supply Doesn't Use 850 W #shorts (https://youtube.com/shorts/Ioo98nWJ81o)
 - [ ] Why Your Graphics Card Needs Extra Power Cables #shorts (https://youtube.com/shorts/-CJTjorPTiY)
 - [ ] TDP Isn't How Much Power Your CPU Uses #shorts (https://youtube.com/shorts/LTcVBmWoAp0)
-- [ ] 80 Plus Gold Isn't a Quality Rating. Here's What It Tests #shorts (https://youtube.com/shorts/06K9NUVVAVs)
 
 ### → Slow PC? More RAM Probably Won't Fix It
 
@@ -155,16 +154,12 @@ First line to paste: `Full video: https://www.youtube.com/watch?v=KutUk2MTViE`
 
 First line to paste: `Full video: https://www.youtube.com/watch?v=u_trO1M6UvI`
 
-- [ ] Low CPU Usage but Still a CPU Bottleneck? Here's Why #shorts (https://youtube.com/shorts/6Em_r1QRTmc)
 - [ ] Why CPU Reviews Test at 1080p With the Fastest GPU #shorts (https://youtube.com/shorts/j5vJwicvzcI)
 
 ## 3. First comments (pin each one)
 
 Post from the channel account, then ⋮ → Pin. Do it once the video is public.
 
-- [ ] 12-clean-your-pc (public 10:00 Nov 24), https://youtu.be/59PTTAVoZXM: "When did you last clean the dust out of your PC, and how bad was it?"
-- [ ] 09s1 Short (public 12:00 Nov 24), https://youtu.be/6Em_r1QRTmc: "What does your GPU usage sit at in the game you play most?"
-- [ ] 10s2 Short (public 18:00 Nov 24), https://youtu.be/06K9NUVVAVs: "What 80 Plus rating is the power supply in your PC?"
 - [ ] 11-why-vram-matters, https://youtu.be/gnxWsFC82yU: "What GPU are you running right now, and how much VRAM does it have?"
 
 ## 4. End screens on long videos
@@ -181,6 +176,8 @@ Re-authorize the YouTube token with the extra scope `https://www.googleapis.com/
 ## Ongoing (added by the scheduled runs)
 
 <!-- Each run adds a line per upload: first comment to pin, Related video for Shorts, end-screen update for long videos. -->
-- [ ] 2026-11-28 23-best-budget-gpu https://youtu.be/iM69YHi2yAQ (public Sat 10:00): pin first comment "What GPU are you running right now, and what did you pay for it?"; point 12-clean-your-pc's end screen (https://youtu.be/59PTTAVoZXM) at this video; add this video's end screen (Subscribe + "Most recent upload")
 - [x] (done Nov 24) By Fri Nov 27: **DELETE the old private upload of 23** https://youtu.be/iM69YHi2yAQ (Studio → Content → ⋮ → Delete forever). A new version with the subscribe ask uploads automatically just after midnight Nov 25, scheduled for Sat Nov 28 5:00 AM; if the old one isn't deleted it also goes public Sat 10:00 as a duplicate.
 - [ ] Optional: Short 10s1 ("Why Cheap Power Supplies Die Early") is set to publish 12:00 Nov 25 by the vidIQ reminder on your MacBook. To move it to 5:00 AM, approve the updated reminder in a Claude conversation on that Mac, or change it in vidIQ.
+- [ ] 2026-11-25 12-clean-your-pc https://youtu.be/tMnGPUovm7o (public Wed 5:00 AM): pin first comment "When did you last clean the dust out of your PC, and how bad was it?"; end screen: point its video element at 23 (https://youtu.be/15pV5fzsfSU) + Subscribe
+- [ ] 2026-11-25 09s1 Short https://youtube.com/shorts/LK1bec3JH_A (public Wed 5:00 AM): Related video = Bottlenecks video (https://youtu.be/u_trO1M6UvI); pin first comment "What does your GPU usage sit at in the game you play most?"
+- [ ] 2026-11-28 23-best-budget-gpu https://youtu.be/15pV5fzsfSU (public Sat 5:00 AM): pin first comment "What GPU are you running right now, and what did you pay for it?"; add an end screen (Subscribe + a video element)

@@ -148,9 +148,9 @@
    "slug": "01s5-pc-slower-in-summer",
    "title": "Why Your PC Gets Slower in Summer #shorts",
    "long_video": "12-clean-your-pc",
-   "long_url": "https://www.youtube.com/watch?v=59PTTAVoZXM",
+   "long_url": "https://www.youtube.com/watch?v=tMnGPUovm7o",
    "old_description": "Does your PC feel slower on hot days? It's called thermal throttling. Here's why it happens and two free fixes.\n\nFull animated breakdown on the channel: Every PC Component Explained in 7 Minutes.\n\n#shorts #pccooling #pchardware",
-   "new_description": "Full video: https://www.youtube.com/watch?v=59PTTAVoZXM\nDoes your PC feel slower on hot days? It's called thermal throttling. Here's why it happens and two free fixes.\n\nFull animated breakdown on the channel: Every PC Component Explained in 7 Minutes.\n\n#shorts #pccooling #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=tMnGPUovm7o\nDoes your PC feel slower on hot days? It's called thermal throttling. Here's why it happens and two free fixes.\n\nFull animated breakdown on the channel: Every PC Component Explained in 7 Minutes.\n\n#shorts #pccooling #pchardware",
    "status": "pending"
   },
   {
@@ -228,9 +228,9 @@
    "slug": "01s13-thermal-paste-amount",
    "title": "How Much Thermal Paste Should You Use? #shorts",
    "long_video": "12-clean-your-pc",
-   "long_url": "https://www.youtube.com/watch?v=59PTTAVoZXM",
+   "long_url": "https://www.youtube.com/watch?v=tMnGPUovm7o",
    "old_description": "How much thermal paste should you use? Less than you think. Here's the pea method, and why too much doesn't help.\n\nMore PC hardware explained on the channel.\n\n#shorts #pcbuild #pchardware",
-   "new_description": "Full video: https://www.youtube.com/watch?v=59PTTAVoZXM\nHow much thermal paste should you use? Less than you think. Here's the pea method, and why too much doesn't help.\n\nMore PC hardware explained on the channel.\n\n#shorts #pcbuild #pchardware",
+   "new_description": "Full video: https://www.youtube.com/watch?v=tMnGPUovm7o\nHow much thermal paste should you use? Less than you think. Here's the pea method, and why too much doesn't help.\n\nMore PC hardware explained on the channel.\n\n#shorts #pcbuild #pchardware",
    "status": "pending"
   },
   {
@@ -268,9 +268,9 @@
    "slug": "01s17-ryzen-95-degrees",
    "title": "Is 95°C Too Hot for a Ryzen CPU? #shorts",
    "long_video": "12-clean-your-pc",
-   "long_url": "https://www.youtube.com/watch?v=59PTTAVoZXM",
+   "long_url": "https://www.youtube.com/watch?v=tMnGPUovm7o",
    "old_description": "Ryzen 7000 processors are designed to boost until they reach their temperature limit, about 95 degrees Celsius, under heavy load. Here's why that's normal and when heat is actually worth worrying about.\nMore PC hardware explained on the channel.\n#shorts #pchardware #cpu",
-   "new_description": "Full video: https://www.youtube.com/watch?v=59PTTAVoZXM\nRyzen 7000 processors are designed to boost until they reach their temperature limit, about 95 degrees Celsius, under heavy load. Here's why that's normal and when heat is actually worth worrying about.\nMore PC hardware explained on the channel.\n#shorts #pchardware #cpu",
+   "new_description": "Full video: https://www.youtube.com/watch?v=tMnGPUovm7o\nRyzen 7000 processors are designed to boost until they reach their temperature limit, about 95 degrees Celsius, under heavy load. Here's why that's normal and when heat is actually worth worrying about.\nMore PC hardware explained on the channel.\n#shorts #pchardware #cpu",
    "status": "pending"
   },
   {
@@ -464,16 +464,6 @@
    "status": "pending"
   },
   {
-   "id": "6Em_r1QRTmc",
-   "slug": "09s1-low-cpu-usage-bottleneck",
-   "title": "Low CPU Usage but Still a CPU Bottleneck? Here's Why #shorts",
-   "long_video": "09-bottlenecks-explained",
-   "long_url": "https://www.youtube.com/watch?v=u_trO1M6UvI",
-   "old_description": "Total CPU usage is an average across every thread, so one maxed-out main thread can limit your frame rate while Task Manager shows a low number. GPU usage is the better tell.\nFull video: Bottlenecks Explained: Is Your CPU Holding Back Your GPU?\n#shorts #pcgaming #pchardware",
-   "new_description": "Full video: https://www.youtube.com/watch?v=u_trO1M6UvI\nTotal CPU usage is an average across every thread, so one maxed-out main thread can limit your frame rate while Task Manager shows a low number. GPU usage is the better tell.\nFull video: Bottlenecks Explained: Is Your CPU Holding Back Your GPU?\n#shorts #pcgaming #pchardware",
-   "status": "pending"
-  },
-  {
    "id": "j5vJwicvzcI",
    "slug": "09s2-why-cpu-tests-1080p",
    "title": "Why CPU Reviews Test at 1080p With the Fastest GPU #shorts",
@@ -481,16 +471,6 @@
    "long_url": "https://www.youtube.com/watch?v=u_trO1M6UvI",
    "old_description": "CPU reviews pair low resolution with the fastest graphics card on purpose: it takes the GPU out of the way so you see each processor's real ceiling, using TechSpot's Core i3-13100 vs Core i9-13900K test.\nFull video: Bottlenecks Explained\n#shorts #pchardware #cpu",
    "new_description": "Full video: https://www.youtube.com/watch?v=u_trO1M6UvI\nCPU reviews pair low resolution with the fastest graphics card on purpose: it takes the GPU out of the way so you see each processor's real ceiling, using TechSpot's Core i3-13100 vs Core i9-13900K test.\nFull video: Bottlenecks Explained\n#shorts #pchardware #cpu",
-   "status": "pending"
-  },
-  {
-   "id": "06K9NUVVAVs",
-   "slug": "10s2-80-plus-only-efficiency",
-   "title": "80 Plus Gold Isn't a Quality Rating. Here's What It Tests #shorts",
-   "long_video": "10-power-supplies-explained",
-   "long_url": "https://www.youtube.com/watch?v=fJiCtrVyq04",
-   "old_description": "The 80 Plus badge on a power supply only certifies efficiency at 20, 50 and 100 percent load. It doesn't test voltage stability, ripple or protections, so check a load-tested review before you buy.\nFull video: Power Supplies Explained: Watts, 80 Plus Ratings, and Why Cheap Ones Fail\n#shorts #pchardware #powersupply",
-   "new_description": "Full video: https://www.youtube.com/watch?v=fJiCtrVyq04\nThe 80 Plus badge on a power supply only certifies efficiency at 20, 50 and 100 percent load. It doesn't test voltage stability, ripple or protections, so check a load-tested review before you buy.\nFull video: Power Supplies Explained: Watts, 80 Plus Ratings, and Why Cheap Ones Fail\n#shorts #pchardware #powersupply",
    "status": "pending"
   }
  ]

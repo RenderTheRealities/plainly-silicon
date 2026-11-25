@@ -399,10 +399,12 @@
    "title": "Low CPU Usage but Still a CPU Bottleneck? Here's Why #shorts",
    "publish": "2026-11-25T05:00:00-07:00",
    "source": "09-bottlenecks-explained",
-   "status": "ready",
+   "status": "scheduled",
    "mediaUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/09s1-low-cpu-usage-bottleneck.mp4",
-   "note": "Re-rendered Nov 24 (hook at frame 0, intro, subscribe card, outro); old upload 6Em_r1QRTmc deleted. Uploads 00:15 Nov 25 (follow-up task).",
-   "longVideo": "09-bottlenecks-explained"
+   "note": "Re-rendered Nov 24 (hook at frame 0, intro, subscribe card, outro); replaces deleted upload 6Em_r1QRTmc.",
+   "longVideo": "09-bottlenecks-explained",
+   "youtubeUrl": "https://www.youtube.com/shorts/LK1bec3JH_A",
+   "uploaded": "2026-11-25"
   },
   {
    "slug": "10s1-capacitor-heat-rule",
