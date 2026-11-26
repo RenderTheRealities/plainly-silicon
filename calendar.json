@@ -196,7 +196,7 @@
     },
     {
       "slug": "24-ddr4-vs-ddr5-2026",
-      "publish": "2026-12-05T05:00:00-07:00",
+      "publish": "2026-11-30T05:00:00-07:00",
       "title": "DDR4 or DDR5 in 2026? RAM Prices Changed the Answer",
       "keyword": "ddr4 vs ddr5",
       "status": "planned",
@@ -206,7 +206,7 @@
     },
     {
       "slug": "25-psu-wattage-you-need",
-      "publish": "2026-12-12T05:00:00-07:00",
+      "publish": "2026-12-02T05:00:00-07:00",
       "title": "You Probably Bought Too Big a Power Supply",
       "keyword": "how many watts psu do i need",
       "status": "planned",
@@ -216,7 +216,7 @@
     },
     {
       "slug": "26-intel-vs-amd-normal-person",
-      "publish": "2026-12-19T05:00:00-07:00",
+      "publish": "2026-12-04T05:00:00-07:00",
       "title": "Intel or AMD for a Normal PC? A Clear Answer",
       "keyword": "intel vs amd",
       "status": "planned",
@@ -225,18 +225,18 @@
       "teasers": []
     },
     {
-      "slug": "27-new-pc-feels-slower",
-      "publish": "2026-12-26T05:00:00-07:00",
-      "title": "Your New PC Feels Slower? Check These 6 Settings",
-      "keyword": "new pc slower than old",
+      "slug": "20-ethernet-vs-wifi-gaming",
+      "publish": "2026-12-07T05:00:00-07:00",
+      "title": "Lag Isn't Your Wi-Fi's Fault (Usually)",
+      "keyword": "ethernet vs wifi for gaming",
       "status": "planned",
+      "working_title_old": "Ethernet vs Wi-Fi for Gaming: Where Lag Really Comes From",
       "format": "myth vs fact",
-      "brief": "Day after Christmas: new-PC setup mistakes (XMP/EXPO off, monitor cable in the motherboard, 60 Hz refresh, single-channel RAM, first-day Windows updates/indexing, OEM bloat). Different angle from 04 (diagnosing an old slow PC); link the matching Shorts.",
       "teasers": []
     },
     {
       "slug": "28-is-8gb-vram-enough",
-      "publish": "2027-01-02T05:00:00-07:00",
+      "publish": "2026-12-09T05:00:00-07:00",
       "title": "8 GB of VRAM in 2026: Enough Only If...",
       "keyword": "is 8gb vram enough",
       "status": "planned",
@@ -246,7 +246,7 @@
     },
     {
       "slug": "13-boot-process",
-      "publish": "2027-01-09T05:00:00-07:00",
+      "publish": "2026-12-11T05:00:00-07:00",
       "title": "What Happens in the First Second After You Hit Power",
       "keyword": "how a computer boots",
       "status": "planned",
@@ -256,7 +256,7 @@
     },
     {
       "slug": "14-motherboard-chipsets-explained",
-      "publish": "2027-01-16T05:00:00-07:00",
+      "publish": "2026-12-14T05:00:00-07:00",
       "title": "B, X or Z Motherboard? Most People Overpay",
       "keyword": "motherboard chipset explained",
       "status": "planned",
@@ -266,7 +266,7 @@
     },
     {
       "slug": "15-air-vs-liquid-cooling",
-      "publish": "2027-01-23T05:00:00-07:00",
+      "publish": "2026-12-16T05:00:00-07:00",
       "title": "AIO vs Air Cooler: The Cheaper One Usually Wins",
       "keyword": "air cooler vs aio",
       "status": "planned",
@@ -276,7 +276,7 @@
     },
     {
       "slug": "16-monitor-panels-explained",
-      "publish": "2027-01-30T05:00:00-07:00",
+      "publish": "2026-12-18T05:00:00-07:00",
       "title": "IPS, VA or OLED? Pick the Right Monitor Panel",
       "keyword": "ips vs va vs oled",
       "status": "planned",
@@ -286,7 +286,7 @@
     },
     {
       "slug": "17-pcie-lanes-explained",
-      "publish": "2027-02-06T05:00:00-07:00",
+      "publish": "2026-12-21T05:00:00-07:00",
       "title": "Adding an SSD Can Slow Your GPU. Here's When",
       "keyword": "pcie lanes explained",
       "status": "planned",
@@ -296,7 +296,7 @@
     },
     {
       "slug": "18-integrated-vs-dedicated-graphics",
-      "publish": "2027-02-13T05:00:00-07:00",
+      "publish": "2026-12-23T05:00:00-07:00",
       "title": "Do You Even Need a Graphics Card?",
       "keyword": "integrated vs dedicated graphics",
       "status": "planned",
@@ -306,7 +306,7 @@
     },
     {
       "slug": "19-hdmi-vs-displayport",
-      "publish": "2027-02-20T05:00:00-07:00",
+      "publish": "2026-12-25T05:00:00-07:00",
       "title": "HDMI or DisplayPort? Your Monitor Cares",
       "keyword": "hdmi vs displayport",
       "status": "planned",
@@ -315,18 +315,18 @@
       "teasers": []
     },
     {
-      "slug": "20-ethernet-vs-wifi-gaming",
-      "publish": "2027-02-27T05:00:00-07:00",
-      "title": "Lag Isn't Your Wi-Fi's Fault (Usually)",
-      "keyword": "ethernet vs wifi for gaming",
+      "slug": "27-new-pc-feels-slower",
+      "publish": "2026-12-28T05:00:00-07:00",
+      "title": "Your New PC Feels Slower? Check These 6 Settings",
+      "keyword": "new pc slower than old",
       "status": "planned",
-      "working_title_old": "Ethernet vs Wi-Fi for Gaming: Where Lag Really Comes From",
       "format": "myth vs fact",
+      "brief": "Day after Christmas: new-PC setup mistakes (XMP/EXPO off, monitor cable in the motherboard, 60 Hz refresh, single-channel RAM, first-day Windows updates/indexing, OEM bloat). Different angle from 04 (diagnosing an old slow PC); link the matching Shorts.",
       "teasers": []
     },
     {
       "slug": "21-shader-compilation-stutter",
-      "publish": "2027-03-06T05:00:00-07:00",
+      "publish": "2026-12-30T05:00:00-07:00",
       "title": "Why New PC Games Stutter (It's Not Your GPU)",
       "keyword": "shader compilation stutter",
       "status": "planned",
@@ -336,7 +336,7 @@
     },
     {
       "slug": "22-ssd-lifespan-tbw",
-      "publish": "2027-03-13T05:00:00-07:00",
+      "publish": "2027-01-01T05:00:00-07:00",
       "title": "Your SSD Will Outlive Your PC. Here's the Math",
       "keyword": "ssd lifespan",
       "status": "planned",
@@ -346,7 +346,7 @@
     },
     {
       "slug": "29-thermal-throttling",
-      "publish": "2027-03-20T05:00:00-06:00",
+      "publish": "2027-01-04T05:00:00-07:00",
       "title": "Is Your PC Slowing Down Because It's Too Hot?",
       "keyword": "thermal throttling",
       "status": "planned",
@@ -356,7 +356,7 @@
     },
     {
       "slug": "30-case-fans-gpu-temps",
-      "publish": "2027-03-27T05:00:00-06:00",
+      "publish": "2027-01-06T05:00:00-07:00",
       "title": "Do Case Fans Actually Lower GPU Temps?",
       "keyword": "do case fans matter",
       "status": "planned",
@@ -366,7 +366,7 @@
     }
   ],
   "cadence": {
-    "long": "1 per week, Saturday 05:00 (America/Cambridge_Bay, -07:00 until DST starts Mar 14, 2027)",
+    "long": "3 per week: Monday, Wednesday, Friday at 05:00 (America/Cambridge_Bay, -07:00 until DST starts Mar 14, 2027)",
     "long_length": "8-12 minutes",
     "shorts": "2 per day, both at 05:00, never more",
     "max_uploads_per_day": 4,
