@@ -399,7 +399,7 @@
    "title": "Low CPU Usage but Still a CPU Bottleneck? Here's Why #shorts",
    "publish": "2026-11-25T05:00:00-07:00",
    "source": "09-bottlenecks-explained",
-   "status": "scheduled",
+   "status": "published",
    "mediaUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/09s1-low-cpu-usage-bottleneck.mp4",
    "note": "Re-rendered Nov 24 (hook at frame 0, intro, subscribe card, outro); replaces deleted upload 6Em_r1QRTmc.",
    "longVideo": "09-bottlenecks-explained",
@@ -412,10 +412,11 @@
    "title": "Why Cheap Power Supplies Die Early: The 10 Degree Rule #shorts",
    "publish": "2026-11-25T12:00:00-07:00",
    "source": "10-power-supplies-explained",
-   "status": "scheduled",
+   "status": "published",
    "mediaUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/10s1-capacitor-heat-rule.mp4",
-   "note": "Queued by a one-off reminder task to publish through vidIQ at 12:00 Nov 25 (vidIQ postId 24c05976...). Set youtubeUrl once it is live. Counts toward Nov 25's 2 Shorts.",
-   "longVideo": "10-power-supplies-explained"
+   "note": "Posted through vidIQ (owner reminder task), public Nov 25 12:00. Older render: no intro/outro/subscribe card.",
+   "longVideo": "10-power-supplies-explained",
+   "youtubeUrl": "https://www.youtube.com/shorts/z_F-J2FwYIo"
   },
   {
    "slug": "09s2-why-cpu-tests-1080p",
@@ -435,10 +436,12 @@
    "title": "80 Plus Gold Isn't a Quality Rating. Here's What It Tests #shorts",
    "publish": "2026-11-26T05:00:00-07:00",
    "source": "10-power-supplies-explained",
-   "status": "reserved",
+   "status": "scheduled",
    "mediaUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/10s2-80-plus-only-efficiency.mp4",
-   "note": "Re-rendered Nov 24; old upload 06K9NUVVAVs deleted. A follow-up task uploads it 00:15 Nov 26 for Nov 26 05:00. Counts as one of Nov 26's 2 Shorts; scheduled runs must not upload it.",
-   "longVideo": "10-power-supplies-explained"
+   "note": "Re-rendered Nov 24 (hook at frame 0, intro, subscribe card, outro); replaces deleted upload 06K9NUVVAVs.",
+   "longVideo": "10-power-supplies-explained",
+   "youtubeUrl": "https://www.youtube.com/shorts/0WGwHvpwYa8",
+   "uploaded": "2026-11-26"
   }
  ],
  "since": "2026-11-25: both daily Shorts at 05:00 (09:00/15:00 planned Nov 24, 12:00/18:00 before that)"
