@@ -54,6 +54,25 @@ Why: on Nov 24, 2026 the channel had 48 videos, about 22,800 views and 33 subscr
 - **Long-video descriptions** start with the hook line, then the chapters, then `Watch next:` with the full URL of the most related published long video, then `Subscribe: https://www.youtube.com/@plainlysilicon?sub_confirmation=1`, then sources and hashtags.
 - **Never** buy views, subscribers or engagement, use sub-for-sub schemes, or post links to the channel in other communities. It breaks YouTube's rules and can get the channel terminated.
 
+## Thumbnail specs (owner, Nov 26, 2026 — always follow)
+
+Every thumbnail is designed in **Canva**, and **the owner approves every design at 8 PM the day before it publishes** (see "Thumbnail approval" below). Nothing goes on YouTube as a final thumbnail without that approval.
+
+| | Long video | Short |
+|---|---|---|
+| Size | **1280 x 720 (16:9)** JPG, under 2 MB | **1080 x 1920 (9:16)** JPG, under 2 MB (2160 x 3840 only if the Canva source is that size) |
+| What YouTube shows | the whole frame, but a duration badge covers the **bottom-right** corner | about **2:3**: roughly **y 150 to y 1770**; Studio also puts "Scheduled" and a menu over the top corners |
+| Background | full-bleed, edge to edge | full-bleed, edge to edge (never shrink, pad, blur or mirror to fit) |
+| Text, part render | anywhere except the bottom-right corner | only between **y ≈ 190 and y ≈ 1760**, centred horizontally |
+| Logo | **top-right**, about 94 px tile (`brand_thumb.py` stamps it if the design lacks it) | **top-right at top ≈ 190**, about 130 px (part of the Canva design) |
+| Words | at most 3, not repeating the title, brand title font (Inter Black style) | same |
+
+Check every export: long videos at 320 x 180 (readable?), Shorts by cropping to the middle 1080 x 1620 (nothing cut?).
+
+## Thumbnail approval (8 PM the day before)
+
+A daily check-in at 7:50 PM America/Cambridge_Bay runs in the owner's chat session (it has Canva). It collects every upload publishing the next day (that day's 2 Shorts, and on Fridays Saturday's long video), makes or fixes each Canva thumbnail to the specs above, sends the owner the previews, and asks them to approve. Only approved designs are set with `thumbnails.set`; record `thumbnailApproved` (date) on the calendar.json / shorts.json entry. Runs that upload earlier set their best draft thumbnail and leave `thumbnailApproved` empty; the check-in replaces it. If Canva has no credits left, the check-in still sends a code-drawn draft for approval and says Canva was out of credits; never buy credits.
+
 ## Titles and thumbnails
 
 - **Titles under 55 characters.** Lead with the viewer's problem or a verdict, not the part name: "Slow PC? More RAM Probably Won't Fix It", not "What Is a Page File". Shorts: under 55 characters plus " #shorts". Planned titles in `calendar.json` are drafts: re-check them against the finished script.
