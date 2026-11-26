@@ -12,17 +12,28 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 
 
 def shorts_safe(im):
-    """YouTube crops Shorts thumbnails to about 2:3 (Studio grid, Shorts shelves), cutting ~8% off
-    the top and bottom of a 9:16 image. Fit the whole design inside the centre 2:3 area and fill
-    the rest of the 1080x1920 frame with a blurred copy, so nothing important is ever cropped."""
+    """YouTube crops Shorts thumbnails to about 2:3 (Studio grid, Shorts shelves): roughly the middle
+    1080x1620 of a 1080x1920 image. Fit the whole design into that area, then fill the strips beside
+    and above/below it by stretching the design's outermost pixels, so the background colour simply
+    continues to the frame edge (no blur, no mirrored copies)."""
     W, H = 1080, 1920
     safe_h = int(W * 3 / 2)                      # 1620: the part every surface shows
     s = safe_h / im.height
     fg = im.resize((int(im.width * s), safe_h), Image.LANCZOS)
-    bg = im.resize((W, H), Image.LANCZOS).filter(ImageFilter.GaussianBlur(40))
-    bg = Image.blend(bg, Image.new("RGB", (W, H), (0, 0, 0)), 0.35)
-    bg.paste(fg, ((W - fg.width) // 2, (H - safe_h) // 2))
-    return bg
+    x0, y0 = (W - fg.width) // 2, (H - safe_h) // 2
+    out = Image.new("RGB", (W, H))
+    out.paste(fg, (x0, y0))
+    # sides: stretch the design's outermost pixel columns outward (continues the background colour only)
+    if x0 > 0:
+        left = fg.crop((0, 0, 3, safe_h)).resize((x0, safe_h), Image.BILINEAR)
+        rw = W - x0 - fg.width
+        right = fg.crop((fg.width - 3, 0, fg.width, safe_h)).resize((rw, safe_h), Image.BILINEAR)
+        out.paste(left, (0, y0)); out.paste(right, (x0 + fg.width, y0))
+    # top and bottom (outside the shown area): stretch the outermost rows the same way
+    out.paste(out.crop((0, y0, W, y0 + 3)).resize((W, y0), Image.BILINEAR), (0, 0))
+    hb = H - y0 - safe_h
+    out.paste(out.crop((0, y0 + safe_h - 3, W, y0 + safe_h)).resize((W, hb), Image.BILINEAR), (0, y0 + safe_h))
+    return out
 
 
 def stamp(src, dst, logo_too=True):
