@@ -81,6 +81,7 @@ def night(W, H, out, glow_y):
         d.line([(0, y), (W, y)], fill=(0, 0, 0, 28))
     img.save(os.path.join(HERE, out), quality=93)
 
-print(number("30", 900, "gta_30.png"))
-night(1280, 720, "gta_night_16x9.jpg", 420)
-night(1080, 1920, "gta_night_9x16.jpg", 1000)
+if __name__ == "__main__":
+    print(number("30", 900, "gta_30.png"))
+    night(1280, 720, "gta_night_16x9.jpg", 420)
+    night(1080, 1920, "gta_night_9x16.jpg", 1000)

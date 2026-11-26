@@ -1,6 +1,6 @@
 """Stamp the Plainly Silicon logo on a thumbnail (same size and spot on every thumbnail).
 
-Usage: python3 brand_thumb.py IN.jpg OUT.jpg [--no-logo] [--fit]   (16:9 long-video or 9:16 Shorts thumbnail;
+Usage: python3 brand_thumb.py IN OUT.jpg [--no-logo] [--fit]   (16:9 long-video or 9:16 Shorts thumbnail, saved at 2x: 2560x1440 / 2160x3840;
 Shorts covers should be DESIGNED for the 2:3 area YouTube shows; --fit shrinks one that wasn't)
 Canva makes the design; this adds the brand mark so it never depends on the generated layout:
 the logo tile in the top-right corner (bottom-right is covered by YouTube's duration badge), 9% of the thumbnail height from the edges.
@@ -38,18 +38,21 @@ def shorts_safe(im):
 
 def stamp(src, dst, logo_too=True):
     im = Image.open(src).convert("RGB")
-    # long videos: 1280x720 (16:9); Shorts: 1080x1920 (9:16, vertical like the Short itself)
-    target = (1280, 720) if im.width > im.height else (1080, 1920)
+    # long videos: 2560x1440 (16:9, 2x of 1280x720); Shorts: 2160x3840 (9:16, 2x of 1080x1920).
+    # Exported at 2x so thumbnails stay sharp on big screens; layouts are designed at 1x and scaled.
+    vertical = im.height > im.width
+    if vertical and "--fit" in sys.argv:
+        im = shorts_safe(im.resize((1080, 1920), Image.LANCZOS))   # last resort for a design not laid out for the 2:3 area
+    target = (2160, 3840) if vertical else (2560, 1440)
     if im.size != target:
         im = im.resize(target, Image.LANCZOS)
-    if target == (1080, 1920) and "--fit" in sys.argv:
-        im = shorts_safe(im)   # last resort for a design not laid out for the 2:3 area
     if not logo_too:
-        im.save(dst, quality=92)
+        save(im, dst)
         return
     w, h = im.size
-    if h > w:   # Short: 130 px logo, top-right, inside the 2:3 area YouTube shows (top ~190)
-        s, x, y = 130, w - 130 - 50, 190
+    k = w / (1080 if vertical else 1280)
+    if vertical:   # Short: 130 px (1x) logo, top-right, inside the 2:3 area YouTube shows (top ~190 at 1x)
+        s, x, y = int(130 * k), w - int(180 * k), int(190 * k)
     else:       # long video: ~94 px logo, top-right (bottom-right is under the duration badge)
         s = int(min(w, h) * 0.13)
         m = int(min(w, h) * 0.035)
@@ -60,7 +63,15 @@ def stamp(src, dst, logo_too=True):
     ImageDraw.Draw(plate).rounded_rectangle([x - 6, y - 6, x + s + 6, y + s + 6], radius=int(s * 0.22), fill=(11, 18, 32, 170))
     out = Image.alpha_composite(im.convert("RGBA"), plate)
     out.alpha_composite(logo, (x, y))
-    out.convert("RGB").save(dst, quality=92)
+    save(out.convert("RGB"), dst)
+
+
+def save(im, dst):
+    """JPEG under YouTube's 2 MB thumbnail limit (step quality down if needed)."""
+    for q in (95, 92, 90, 87, 84, 80, 75):
+        im.save(dst, quality=q, subsampling=0 if q >= 90 else 2)
+        if os.path.getsize(dst) < 2_000_000:
+            return
 
 
 if __name__ == "__main__":
