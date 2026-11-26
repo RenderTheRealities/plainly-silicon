@@ -1,0 +1,483 @@
+{
+ "paragraphs": [
+  [
+   0.3,
+   22.347
+  ],
+  [
+   23.097,
+   56.753
+  ],
+  [
+   57.503,
+   85.617
+  ],
+  [
+   86.367,
+   123.819
+  ],
+  [
+   124.569,
+   139.149
+  ],
+  [
+   139.899,
+   168.557
+  ],
+  [
+   169.307,
+   189.6
+  ],
+  [
+   190.35,
+   219.809
+  ],
+  [
+   220.559,
+   255.188
+  ],
+  [
+   255.938,
+   285.617
+  ],
+  [
+   286.367,
+   322.241
+  ],
+  [
+   322.991,
+   356.597
+  ],
+  [
+   357.347,
+   384.559
+  ],
+  [
+   385.309,
+   403.856
+  ],
+  [
+   404.606,
+   446.136
+  ],
+  [
+   446.886,
+   469.576
+  ],
+  [
+   470.326,
+   491.509
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.3,
+    8.483,
+    "GTA 6 has been out for a week, and on the most powerful PlayStation you can buy, it runs at 30 frames a second."
+   ],
+   [
+    8.763,
+    11.345,
+    "The PC version isn't even announced yet."
+   ],
+   [
+    11.625,
+    16.436,
+    "But the console version already tells us a lot about what a PC will need."
+   ],
+   [
+    16.716,
+    22.347,
+    "By the end, you'll know whether your PC is in the running, and which upgrade actually matters."
+   ]
+  ],
+  [
+   [
+    23.097,
+    27.116,
+    "Here's what we know as of late November 2026."
+   ],
+   [
+    27.396,
+    33.964,
+    "GTA 6 launched on November 19th for PS5 and Xbox Series consoles."
+   ],
+   [
+    34.244,
+    44.027,
+    "Digital Foundry found a 30 frame cap on both PS5 models, with an internal resolution around 1440p."
+   ],
+   [
+    44.307,
+    50.559,
+    "The PS5 Pro upscales that to something close to 4K, and it holds 30 more steadily."
+   ],
+   [
+    50.839,
+    54.349,
+    "The base PS5 dips below 30 in big fights."
+   ],
+   [
+    54.629,
+    56.753,
+    "And there's no performance mode at all."
+   ]
+  ],
+  [
+   [
+    57.503,
+    59.141,
+    "So when does it reach PC?"
+   ],
+   [
+    59.421,
+    60.792,
+    "Rockstar hasn't said."
+   ],
+   [
+    61.072,
+    71.223,
+    "In October, GamesBeat reported, citing four unnamed sources, that a PC version is planned for the first quarter of 2027."
+   ],
+   [
+    71.503,
+    72.987,
+    "Rockstar didn't comment."
+   ],
+   [
+    73.267,
+    83.471,
+    "For context, GTA 5 reached PC about a year and a half after it first launched on consoles, and Red Dead Redemption 2 took about a year."
+   ],
+   [
+    83.751,
+    85.617,
+    "Either way, you have time to plan."
+   ]
+  ],
+  [
+   [
+    86.367,
+    90.175,
+    "Now let's open the console, because it's basically a PC."
+   ],
+   [
+    90.455,
+    107.268,
+    "The PS5 has eight Zen 2 processor cores running at up to 3.5 gigahertz, a graphics chip rated at about 10 teraflops, 16 gigabytes of memory shared between the game and the graphics, and a fast NVMe SSD."
+   ],
+   [
+    107.548,
+    116.883,
+    "In Digital Foundry's tests, its graphics power lands close to an RTX 20 70 Super or a Radeon RX 67 hundred."
+   ],
+   [
+    117.163,
+    123.819,
+    "Its processor is a lot like a Ryzen 7 37 hundred X, with lower clocks and less cache."
+   ]
+  ],
+  [
+   [
+    124.569,
+    132.769,
+    "Quick favor before we go further: over 99 percent of the watch time on this channel comes from people who aren't subscribed."
+   ],
+   [
+    133.049,
+    139.149,
+    "If this helps you plan your upgrade, subscribing is free, and it tells me to keep making these."
+   ]
+  ],
+  [
+   [
+    139.899,
+    141.672,
+    "So why only 30 frames?"
+   ],
+   [
+    141.952,
+    145.216,
+    "Because the processor is the wall, not the graphics chip."
+   ],
+   [
+    145.496,
+    154.218,
+    "Every pedestrian, every car, every bit of traffic and physics is worked out by the CPU before the GPU can draw the frame."
+   ],
+   [
+    154.498,
+    159.271,
+    "At 30 frames a second, the CPU has 33 milliseconds per frame."
+   ],
+   [
+    159.551,
+    162.073,
+    "At 60, it gets just 16 and a half."
+   ],
+   [
+    162.353,
+    168.557,
+    "Digital Foundry has said GTA 6's dense crowds are what keep the consoles at 30."
+   ]
+  ],
+  [
+   [
+    169.307,
+    171.076,
+    "The PS5 Pro proves it."
+   ],
+   [
+    171.356,
+    181.423,
+    "Sony gave it a much bigger graphics chip, but the processor only got about 10 percent faster, from 3.5 to 3.85 gigahertz."
+   ],
+   [
+    181.703,
+    185.682,
+    "The result is a sharper image and a steadier 30, not 60."
+   ],
+   [
+    185.962,
+    189.6,
+    "More graphics power alone doesn't buy frames in this game."
+   ]
+  ],
+  [
+   [
+    190.35,
+    193.518,
+    "You can check your own processor in about 30 seconds."
+   ],
+   [
+    193.798,
+    198.375,
+    "On Windows, open Task Manager, go to Performance, and click CPU."
+   ],
+   [
+    198.655,
+    204.579,
+    "The name of your processor is in the top right, and below the graph you'll see how many cores it has."
+   ],
+   [
+    204.859,
+    208.427,
+    "Search that name with the word launch, and you'll know its age."
+   ],
+   [
+    208.707,
+    219.809,
+    "An eight-core chip from 2022 or later is in a very different league from a four-core chip from 2017, even if the gigahertz number looks similar."
+   ]
+  ],
+  [
+   [
+    220.559,
+    225.809,
+    "That makes the CPU the most important part for GTA 6 on PC."
+   ],
+   [
+    226.089,
+    230.798,
+    "To hold 60, a processor has to do the console's work in half the time."
+   ],
+   [
+    231.078,
+    240.732,
+    "Digital Foundry's Oliver Mackenzie has warned that even twice the console's performance may not hold 60 in the most CPU-heavy scenes."
+   ],
+   [
+    241.012,
+    255.188,
+    "Modern eight-core chips with large caches are far ahead of the console's Zen 2 cores, but older four- and six-core processors from 2019 and earlier will probably land near console frame rates."
+   ]
+  ],
+  [
+   [
+    255.938,
+    258.654,
+    "The graphics card matters less than you'd think."
+   ],
+   [
+    258.934,
+    272.176,
+    "Matching the console's look, 1440p internally at 30 frames, should only take a card in the RTX 20 70 Super or RX 67 hundred class."
+   ],
+   [
+    272.456,
+    281.023,
+    "Doubling the frame rate at the same settings needs roughly double that, which is today's mid-range, especially with upscaling turned on."
+   ],
+   [
+    281.303,
+    285.617,
+    "That's my estimate until Rockstar publishes real requirements."
+   ]
+  ],
+  [
+   [
+    286.367,
+    289.525,
+    "Upscaling helps, but only with half of the problem."
+   ],
+   [
+    289.805,
+    301.634,
+    "DLSS, FSR and XeSS render the game at a lower resolution and rebuild a sharp image, which is exactly what the PS5 Pro does with PSSR."
+   ],
+   [
+    301.914,
+    303.684,
+    "That frees up the graphics card."
+   ],
+   [
+    303.964,
+    313.923,
+    "But if the processor is already the wall, rendering fewer pixels changes nothing, because the CPU still has to simulate the whole city every frame."
+   ],
+   [
+    314.203,
+    322.241,
+    "Frame generation can make the counter read 60, but the game still reacts to your input at the real frame rate underneath."
+   ]
+  ],
+  [
+   [
+    322.991,
+    325.196,
+    "Memory is where PCs differ most."
+   ],
+   [
+    325.476,
+    329.816,
+    "A console shares its 16 gigabytes between the game and the graphics."
+   ],
+   [
+    330.096,
+    335.496,
+    "A PC splits them: system RAM for the game, video memory on the card."
+   ],
+   [
+    335.776,
+    345.427,
+    "An eight gigabyte card is the most likely to need lower texture settings in a game this detailed, so 12 or 16 gigabytes is the safer bet."
+   ],
+   [
+    345.707,
+    350.923,
+    "For system memory, 16 gigabytes is the floor, and 32 is comfortable."
+   ],
+   [
+    351.203,
+    356.597,
+    "And plan on an NVMe SSD with plenty of free space, not a hard drive."
+   ]
+  ],
+  [
+   [
+    357.347,
+    360.98,
+    "Memory is also the most expensive part to buy right now."
+   ],
+   [
+    361.26,
+    364.812,
+    "The AI boom has pushed memory prices way up this year."
+   ],
+   [
+    365.092,
+    379.812,
+    "In mid-November, a 32 gigabyte DDR5 kit was listed at around 430 to 600 dollars in the US, and graphics cards with lots of video memory cost more than they did at launch."
+   ],
+   [
+    380.092,
+    384.559,
+    "That's one more reason not to rush an upgrade for a game you can't buy yet."
+   ]
+  ],
+  [
+   [
+    385.309,
+    386.791,
+    "So should you upgrade now?"
+   ],
+   [
+    387.071,
+    387.618,
+    "No."
+   ],
+   [
+    387.898,
+    395.96,
+    "There are no official specs, memory and graphics card prices are high this year, and the PC version is likely months away."
+   ],
+   [
+    396.24,
+    403.856,
+    "Rockstar usually publishes system requirements close to a PC launch, and prices could look very different by then."
+   ]
+  ],
+  [
+   [
+    404.606,
+    410.673,
+    "Here's how that plays out on three example PCs, and these are estimates, not benchmarks."
+   ],
+   [
+    410.953,
+    424.914,
+    "A PC with a six-core processor from 2019 and an RTX 20 70 Super will probably look and run a lot like the PS5: around 30 frames, with dips in crowded streets."
+   ],
+   [
+    425.194,
+    437.279,
+    "A PC with a recent eight-core chip and a 16 gigabyte mid-range card should get well above the console, likely near 60 in most areas, with dips in the busiest scenes."
+   ],
+   [
+    437.559,
+    446.136,
+    "And a high-end PC with a large-cache gaming processor has the best chance of holding 60, but even it may not be locked there."
+   ]
+  ],
+  [
+   [
+    446.886,
+    448.07,
+    "Here's the verdict."
+   ],
+   [
+    448.35,
+    449.993,
+    "Check your processor first."
+   ],
+   [
+    450.273,
+    456.71,
+    "If it's an eight-core chip from the last few years, you're probably in good shape, and the rest is settings."
+   ],
+   [
+    456.99,
+    464.95,
+    "If it's a four- or six-core chip from 2019 or earlier, that's the upgrade to plan for, before the graphics card."
+   ],
+   [
+    465.23,
+    469.576,
+    "And if your card has 8 gigabytes, expect to turn textures down."
+   ]
+  ],
+  [
+   [
+    470.326,
+    479.857,
+    "Next up, on Wednesday: DDR4 or DDR5 in 2026, and why this year's memory prices changed the answer."
+   ],
+   [
+    480.137,
+    491.509,
+    "If this helped, share it with a friend who's waiting for GTA 6 on PC, subscribe for new verdicts every Monday, Wednesday and Friday, and comment your questions below."
+   ]
+  ]
+ ]
+}

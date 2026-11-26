@@ -323,10 +323,14 @@ And if a 16 gigabyte RX 90 60 XT ever drops near 420 dollars, buy it on the spot
 It's the card that will last the longest.
 
 82
-00:08:40,351 --> 00:08:49,290
-Next Saturday: DDR4 or DDR5 in 2026, and why this year's memory prices changed the answer.
+00:08:40,351 --> 00:08:44,128
+Next up, on Monday: can your PC run GTA 6?
 
 83
-00:08:49,570 --> 00:08:58,796
-If this helped, share it with a friend who's shopping for a graphics card, subscribe for a new verdict every Saturday, and comment your questions below.
+00:08:44,408 --> 00:08:48,371
+We'll use the console version to work out what a PC will need.
+
+84
+00:08:48,651 --> 00:08:58,998
+If this helped, share it with a friend who's shopping for a graphics card, subscribe for new verdicts every Monday, Wednesday and Friday, and comment your questions below.
 

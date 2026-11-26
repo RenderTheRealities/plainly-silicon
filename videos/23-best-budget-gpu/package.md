@@ -18,7 +18,7 @@ Chapters
 6:46 The Arc catch
 7:33 Judge any deal in 10 seconds
 8:06 The verdict
-8:40 Next Saturday
+8:40 Next up: Monday
 
 Watch next: https://www.youtube.com/watch?v=gnxWsFC82yU
 

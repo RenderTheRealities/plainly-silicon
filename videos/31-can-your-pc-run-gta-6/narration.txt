@@ -1,0 +1,33 @@
+GTA 6 has been out for a week, and on the most powerful PlayStation you can buy, it runs at 30 frames a second. The PC version isn't even announced yet. But the console version already tells us a lot about what a PC will need. By the end, you'll know whether your PC is in the running, and which upgrade actually matters.
+
+Here's what we know as of late November 2026. GTA 6 launched on November 19th for PS5 and Xbox Series consoles. Digital Foundry found a 30 frame cap on both PS5 models, with an internal resolution around 1440p. The PS5 Pro upscales that to something close to 4K, and it holds 30 more steadily. The base PS5 dips below 30 in big fights. And there's no performance mode at all.
+
+So when does it reach PC? Rockstar hasn't said. In October, GamesBeat reported, citing four unnamed sources, that a PC version is planned for the first quarter of 2027. Rockstar didn't comment. For context, GTA 5 reached PC about a year and a half after it first launched on consoles, and Red Dead Redemption 2 took about a year. Either way, you have time to plan.
+
+Now let's open the console, because it's basically a PC. The PS5 has eight Zen 2 processor cores running at up to 3.5 gigahertz, a graphics chip rated at about 10 teraflops, 16 gigabytes of memory shared between the game and the graphics, and a fast NVMe SSD. In Digital Foundry's tests, its graphics power lands close to an RTX 20 70 Super or a Radeon RX 67 hundred. Its processor is a lot like a Ryzen 7 37 hundred X, with lower clocks and less cache.
+
+Quick favor before we go further: over 99 percent of the watch time on this channel comes from people who aren't subscribed. If this helps you plan your upgrade, subscribing is free, and it tells me to keep making these.
+
+So why only 30 frames? Because the processor is the wall, not the graphics chip. Every pedestrian, every car, every bit of traffic and physics is worked out by the CPU before the GPU can draw the frame. At 30 frames a second, the CPU has 33 milliseconds per frame. At 60, it gets just 16 and a half. Digital Foundry has said GTA 6's dense crowds are what keep the consoles at 30.
+
+The PS5 Pro proves it. Sony gave it a much bigger graphics chip, but the processor only got about 10 percent faster, from 3.5 to 3.85 gigahertz. The result is a sharper image and a steadier 30, not 60. More graphics power alone doesn't buy frames in this game.
+
+You can check your own processor in about 30 seconds. On Windows, open Task Manager, go to Performance, and click CPU. The name of your processor is in the top right, and below the graph you'll see how many cores it has. Search that name with the word launch, and you'll know its age. An eight-core chip from 2022 or later is in a very different league from a four-core chip from 2017, even if the gigahertz number looks similar.
+
+That makes the CPU the most important part for GTA 6 on PC. To hold 60, a processor has to do the console's work in half the time. Digital Foundry's Oliver Mackenzie has warned that even twice the console's performance may not hold 60 in the most CPU-heavy scenes. Modern eight-core chips with large caches are far ahead of the console's Zen 2 cores, but older four- and six-core processors from 2019 and earlier will probably land near console frame rates.
+
+The graphics card matters less than you'd think. Matching the console's look, 1440p internally at 30 frames, should only take a card in the RTX 20 70 Super or RX 67 hundred class. Doubling the frame rate at the same settings needs roughly double that, which is today's mid-range, especially with upscaling turned on. That's my estimate until Rockstar publishes real requirements.
+
+Upscaling helps, but only with half of the problem. DLSS, FSR and XeSS render the game at a lower resolution and rebuild a sharp image, which is exactly what the PS5 Pro does with PSSR. That frees up the graphics card. But if the processor is already the wall, rendering fewer pixels changes nothing, because the CPU still has to simulate the whole city every frame. Frame generation can make the counter read 60, but the game still reacts to your input at the real frame rate underneath.
+
+Memory is where PCs differ most. A console shares its 16 gigabytes between the game and the graphics. A PC splits them: system RAM for the game, video memory on the card. An eight gigabyte card is the most likely to need lower texture settings in a game this detailed, so 12 or 16 gigabytes is the safer bet. For system memory, 16 gigabytes is the floor, and 32 is comfortable. And plan on an NVMe SSD with plenty of free space, not a hard drive.
+
+Memory is also the most expensive part to buy right now. The AI boom has pushed memory prices way up this year. In mid-November, a 32 gigabyte DDR5 kit was listed at around 430 to 600 dollars in the US, and graphics cards with lots of video memory cost more than they did at launch. That's one more reason not to rush an upgrade for a game you can't buy yet.
+
+So should you upgrade now? No. There are no official specs, memory and graphics card prices are high this year, and the PC version is likely months away. Rockstar usually publishes system requirements close to a PC launch, and prices could look very different by then.
+
+Here's how that plays out on three example PCs, and these are estimates, not benchmarks. A PC with a six-core processor from 2019 and an RTX 20 70 Super will probably look and run a lot like the PS5: around 30 frames, with dips in crowded streets. A PC with a recent eight-core chip and a 16 gigabyte mid-range card should get well above the console, likely near 60 in most areas, with dips in the busiest scenes. And a high-end PC with a large-cache gaming processor has the best chance of holding 60, but even it may not be locked there.
+
+Here's the verdict. Check your processor first. If it's an eight-core chip from the last few years, you're probably in good shape, and the rest is settings. If it's a four- or six-core chip from 2019 or earlier, that's the upgrade to plan for, before the graphics card. And if your card has 8 gigabytes, expect to turn textures down.
+
+Next up, on Wednesday: DDR4 or DDR5 in 2026, and why this year's memory prices changed the answer. If this helped, share it with a friend who's waiting for GTA 6 on PC, subscribe for new verdicts every Monday, Wednesday and Friday, and comment your questions below.
