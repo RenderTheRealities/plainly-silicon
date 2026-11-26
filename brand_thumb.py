@@ -1,7 +1,7 @@
 """Stamp the Plainly Silicon logo on a thumbnail (same size and spot on every thumbnail).
 
-Usage: python3 brand_thumb.py IN.jpg OUT.jpg [--no-logo]   (16:9 long-video or 9:16 Shorts thumbnail;
-9:16 ones are fitted into the 2:3 area YouTube actually shows)
+Usage: python3 brand_thumb.py IN.jpg OUT.jpg [--no-logo] [--fit]   (16:9 long-video or 9:16 Shorts thumbnail;
+Shorts covers should be DESIGNED for the 2:3 area YouTube shows; --fit shrinks one that wasn't)
 Canva makes the design; this adds the brand mark so it never depends on the generated layout:
 the logo tile in the top-right corner (bottom-right is covered by YouTube's duration badge), 9% of the thumbnail height from the edges.
 """
@@ -42,8 +42,8 @@ def stamp(src, dst, logo_too=True):
     target = (1280, 720) if im.width > im.height else (1080, 1920)
     if im.size != target:
         im = im.resize(target, Image.LANCZOS)
-    if target == (1080, 1920):
-        im = shorts_safe(im)
+    if target == (1080, 1920) and "--fit" in sys.argv:
+        im = shorts_safe(im)   # last resort for a design not laid out for the 2:3 area
     if not logo_too:
         im.save(dst, quality=92)
         return
