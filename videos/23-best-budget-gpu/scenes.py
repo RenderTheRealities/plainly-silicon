@@ -311,7 +311,7 @@ def s_verdict(x):
 
 def s_outro(x):
     a0 = x.b(0)
-    x.text((160, 400), "NEXT SATURDAY", "semi", 34, MUTED, a0)
+    x.text((160, 400), "NEXT UP: MONDAY", "semi", 34, MUTED, a0)
     x.text((160, 470), "DDR4 or DDR5", "title", 84, CYAN, a0)
     x.text((160, 570), "in 2026?", "title", 84, CYAN, a0)
     x.line([(160, 670), (160 + 500 * ease(x.since(0) / 1.5), 670)], AMBER, a0, 6)
@@ -331,5 +331,5 @@ SCENES = [
     ("The Arc catch", s_catch),
     ("Judge any deal in 10 seconds", s_rule),
     ("The verdict", s_verdict),
-    ("Next Saturday", s_outro),
+    ("Next up: Monday", s_outro),
 ]

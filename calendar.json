@@ -195,8 +195,21 @@
       "thumbnailApproved": "2026-11-26"
     },
     {
-      "slug": "24-ddr4-vs-ddr5-2026",
+      "slug": "31-can-your-pc-run-gta-6",
       "publish": "2026-11-30T05:00:00-07:00",
+      "title": "Can Your PC Run GTA 6? What the PS5 Tells Us",
+      "keyword": "gta 6 pc requirements",
+      "status": "building",
+      "format": "what happens if",
+      "teasers": [
+        "31s1-gta-6-ps5-30fps"
+      ],
+      "brief": "Owner request Nov 26. GTA 6 launched on PS5/Xbox Nov 19, 2026; Digital Foundry: 30 fps cap, ~1440p internal, no performance mode, PS5 Pro steadiest. No PC version announced; GamesBeat (Oct 13, 2026) reports PC in Q1 2027 (unofficial). Use the console hardware to estimate what a PC needs for 60 fps; verdict: don't buy for it until Rockstar posts specs, and what to prioritise if you upgrade.",
+      "note": "Being built in the owner's chat session (not by the scheduled run)."
+    },
+    {
+      "slug": "24-ddr4-vs-ddr5-2026",
+      "publish": "2026-12-02T05:00:00-07:00",
       "title": "DDR4 or DDR5 in 2026? RAM Prices Changed the Answer",
       "keyword": "ddr4 vs ddr5",
       "status": "planned",
@@ -206,7 +219,7 @@
     },
     {
       "slug": "25-psu-wattage-you-need",
-      "publish": "2026-12-02T05:00:00-07:00",
+      "publish": "2026-12-04T05:00:00-07:00",
       "title": "You Probably Bought Too Big a Power Supply",
       "keyword": "how many watts psu do i need",
       "status": "planned",
@@ -216,7 +229,7 @@
     },
     {
       "slug": "26-intel-vs-amd-normal-person",
-      "publish": "2026-12-04T05:00:00-07:00",
+      "publish": "2026-12-07T05:00:00-07:00",
       "title": "Intel or AMD for a Normal PC? A Clear Answer",
       "keyword": "intel vs amd",
       "status": "planned",
@@ -226,7 +239,7 @@
     },
     {
       "slug": "20-ethernet-vs-wifi-gaming",
-      "publish": "2026-12-07T05:00:00-07:00",
+      "publish": "2026-12-09T05:00:00-07:00",
       "title": "Lag Isn't Your Wi-Fi's Fault (Usually)",
       "keyword": "ethernet vs wifi for gaming",
       "status": "planned",
@@ -236,7 +249,7 @@
     },
     {
       "slug": "28-is-8gb-vram-enough",
-      "publish": "2026-12-09T05:00:00-07:00",
+      "publish": "2026-12-11T05:00:00-07:00",
       "title": "8 GB of VRAM in 2026: Enough Only If...",
       "keyword": "is 8gb vram enough",
       "status": "planned",
@@ -246,7 +259,7 @@
     },
     {
       "slug": "13-boot-process",
-      "publish": "2026-12-11T05:00:00-07:00",
+      "publish": "2026-12-14T05:00:00-07:00",
       "title": "What Happens in the First Second After You Hit Power",
       "keyword": "how a computer boots",
       "status": "planned",
@@ -256,7 +269,7 @@
     },
     {
       "slug": "14-motherboard-chipsets-explained",
-      "publish": "2026-12-14T05:00:00-07:00",
+      "publish": "2026-12-16T05:00:00-07:00",
       "title": "B, X or Z Motherboard? Most People Overpay",
       "keyword": "motherboard chipset explained",
       "status": "planned",
@@ -266,7 +279,7 @@
     },
     {
       "slug": "15-air-vs-liquid-cooling",
-      "publish": "2026-12-16T05:00:00-07:00",
+      "publish": "2026-12-18T05:00:00-07:00",
       "title": "AIO vs Air Cooler: The Cheaper One Usually Wins",
       "keyword": "air cooler vs aio",
       "status": "planned",
@@ -276,7 +289,7 @@
     },
     {
       "slug": "16-monitor-panels-explained",
-      "publish": "2026-12-18T05:00:00-07:00",
+      "publish": "2026-12-21T05:00:00-07:00",
       "title": "IPS, VA or OLED? Pick the Right Monitor Panel",
       "keyword": "ips vs va vs oled",
       "status": "planned",
@@ -286,7 +299,7 @@
     },
     {
       "slug": "17-pcie-lanes-explained",
-      "publish": "2026-12-21T05:00:00-07:00",
+      "publish": "2026-12-23T05:00:00-07:00",
       "title": "Adding an SSD Can Slow Your GPU. Here's When",
       "keyword": "pcie lanes explained",
       "status": "planned",
@@ -296,7 +309,7 @@
     },
     {
       "slug": "18-integrated-vs-dedicated-graphics",
-      "publish": "2026-12-23T05:00:00-07:00",
+      "publish": "2026-12-25T05:00:00-07:00",
       "title": "Do You Even Need a Graphics Card?",
       "keyword": "integrated vs dedicated graphics",
       "status": "planned",
@@ -306,7 +319,7 @@
     },
     {
       "slug": "19-hdmi-vs-displayport",
-      "publish": "2026-12-25T05:00:00-07:00",
+      "publish": "2026-12-28T05:00:00-07:00",
       "title": "HDMI or DisplayPort? Your Monitor Cares",
       "keyword": "hdmi vs displayport",
       "status": "planned",
@@ -316,7 +329,7 @@
     },
     {
       "slug": "27-new-pc-feels-slower",
-      "publish": "2026-12-28T05:00:00-07:00",
+      "publish": "2026-12-30T05:00:00-07:00",
       "title": "Your New PC Feels Slower? Check These 6 Settings",
       "keyword": "new pc slower than old",
       "status": "planned",
@@ -326,7 +339,7 @@
     },
     {
       "slug": "21-shader-compilation-stutter",
-      "publish": "2026-12-30T05:00:00-07:00",
+      "publish": "2027-01-01T05:00:00-07:00",
       "title": "Why New PC Games Stutter (It's Not Your GPU)",
       "keyword": "shader compilation stutter",
       "status": "planned",
@@ -336,7 +349,7 @@
     },
     {
       "slug": "22-ssd-lifespan-tbw",
-      "publish": "2027-01-01T05:00:00-07:00",
+      "publish": "2027-01-04T05:00:00-07:00",
       "title": "Your SSD Will Outlive Your PC. Here's the Math",
       "keyword": "ssd lifespan",
       "status": "planned",
@@ -346,7 +359,7 @@
     },
     {
       "slug": "29-thermal-throttling",
-      "publish": "2027-01-04T05:00:00-07:00",
+      "publish": "2027-01-06T05:00:00-07:00",
       "title": "Is Your PC Slowing Down Because It's Too Hot?",
       "keyword": "thermal throttling",
       "status": "planned",
@@ -356,7 +369,7 @@
     },
     {
       "slug": "30-case-fans-gpu-temps",
-      "publish": "2027-01-06T05:00:00-07:00",
+      "publish": "2027-01-08T05:00:00-07:00",
       "title": "Do Case Fans Actually Lower GPU Temps?",
       "keyword": "do case fans matter",
       "status": "planned",
