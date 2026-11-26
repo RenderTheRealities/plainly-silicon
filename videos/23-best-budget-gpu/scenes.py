@@ -312,8 +312,8 @@ def s_verdict(x):
 def s_outro(x):
     a0 = x.b(0)
     x.text((160, 400), "NEXT UP: MONDAY", "semi", 34, MUTED, a0)
-    x.text((160, 470), "DDR4 or DDR5", "title", 84, CYAN, a0)
-    x.text((160, 570), "in 2026?", "title", 84, CYAN, a0)
+    x.text((160, 470), "Can your PC", "title", 84, CYAN, a0)
+    x.text((160, 570), "run GTA 6?", "title", 84, CYAN, a0)
     x.line([(160, 670), (160 + 500 * ease(x.since(0) / 1.5), 670)], AMBER, a0, 6)
 
 

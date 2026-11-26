@@ -1,0 +1,97 @@
+{
+ "paragraphs": [
+  [
+   0.02,
+   6.7
+  ],
+  [
+   7.45,
+   17.56
+  ],
+  [
+   18.31,
+   26.79
+  ],
+  [
+   27.54,
+   36.73
+  ],
+  [
+   37.48,
+   48.09
+  ],
+  [
+   48.84,
+   55.277
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.02,
+    6.7,
+    "GTA 6 is finally out, and even a PS5 Pro can't run it at 60 frames a second."
+   ]
+  ],
+  [
+   [
+    7.45,
+    17.56,
+    "Digital Foundry measured a 30 frame cap on both PlayStation 5 models, around 1440p, with no performance mode."
+   ]
+  ],
+  [
+   [
+    18.31,
+    20.339,
+    "The graphics chip isn't the problem."
+   ],
+   [
+    20.619,
+    26.79,
+    "Every pedestrian and car runs on the processor: eight Zen 2 cores from 2020."
+   ]
+  ],
+  [
+   [
+    27.54,
+    34.276,
+    "The PS5 Pro's GPU is much bigger, but its processor is only about ten percent faster."
+   ],
+   [
+    34.556,
+    36.73,
+    "So it just holds 30 more steadily."
+   ]
+  ],
+  [
+   [
+    37.48,
+    38.951,
+    "PC isn't announced."
+   ],
+   [
+    39.231,
+    48.09,
+    "One report says early 2027, and Digital Foundry warns even double the console's speed may miss 60 in crowds."
+   ]
+  ],
+  [
+   [
+    48.84,
+    50.495,
+    "So what will your PC need?"
+   ],
+   [
+    50.775,
+    52.201,
+    "Full breakdown Monday."
+   ],
+   [
+    52.481,
+    55.277,
+    "Share this, subscribe, and comment your questions."
+   ]
+  ]
+ ]
+}

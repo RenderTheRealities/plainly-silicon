@@ -1,0 +1,44 @@
+1
+00:00:00,020 --> 00:00:06,700
+GTA 6 is finally out, and even a PS5 Pro can't run it at 60 frames a second.
+
+2
+00:00:08,050 --> 00:00:18,160
+Digital Foundry measured a 30 frame cap on both PlayStation 5 models, around 1440p, with no performance mode.
+
+3
+00:00:18,910 --> 00:00:20,939
+The graphics chip isn't the problem.
+
+4
+00:00:21,219 --> 00:00:27,390
+Every pedestrian and car runs on the processor: eight Zen 2 cores from 2020.
+
+5
+00:00:28,140 --> 00:00:34,876
+The PS5 Pro's GPU is much bigger, but its processor is only about ten percent faster.
+
+6
+00:00:35,156 --> 00:00:37,330
+So it just holds 30 more steadily.
+
+7
+00:00:38,080 --> 00:00:39,551
+PC isn't announced.
+
+8
+00:00:39,831 --> 00:00:48,690
+One report says early 2027, and Digital Foundry warns even double the console's speed may miss 60 in crowds.
+
+9
+00:00:49,440 --> 00:00:51,095
+So what will your PC need?
+
+10
+00:00:51,375 --> 00:00:52,801
+Full breakdown Monday.
+
+11
+00:00:53,081 --> 00:00:55,877
+Share this, subscribe, and comment your questions.
+

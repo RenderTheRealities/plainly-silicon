@@ -48,10 +48,13 @@ def stamp(src, dst, logo_too=True):
         im.save(dst, quality=92)
         return
     w, h = im.size
-    s = int(min(w, h) * 0.13)          # logo size (94 px on 1280x720)
-    m = int(min(w, h) * 0.035)         # margin from the edges
+    if h > w:   # Short: 130 px logo, top-right, inside the 2:3 area YouTube shows (top ~190)
+        s, x, y = 130, w - 130 - 50, 190
+    else:       # long video: ~94 px logo, top-right (bottom-right is under the duration badge)
+        s = int(min(w, h) * 0.13)
+        m = int(min(w, h) * 0.035)
+        x, y = w - s - m, m
     logo = Image.open(os.path.join(HERE, "brand/plainly-silicon-logo.png")).convert("RGBA").resize((s, s), Image.LANCZOS)
-    x, y = w - s - m, m
     # soft dark plate so the logo reads on any background
     plate = Image.new("RGBA", im.size, (0, 0, 0, 0))
     ImageDraw.Draw(plate).rounded_rectangle([x - 6, y - 6, x + s + 6, y + s + 6], radius=int(s * 0.22), fill=(11, 18, 32, 170))
