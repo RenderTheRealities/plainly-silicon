@@ -62,10 +62,10 @@ def main():
         req = urllib.request.Request(loc, data=f.read(), method="PUT",
                                      headers={"Authorization": f"Bearer {tok}", "Content-Type": "video/mp4"})
     vid = json.load(urllib.request.urlopen(req, timeout=1800))["id"]
-    # 3) custom thumbnail (long videos only)
+    # 3) custom thumbnail (Canva design + brand_thumb.py logo), long videos and Shorts
     thumb = os.path.join(a.vdir, "thumbnail.jpg")
     thumb_ok = None
-    if os.path.exists(thumb) and not a.short:
+    if os.path.exists(thumb):  # long videos and Shorts (custom Short thumbnails show on the channel page and in search)
         with open(thumb, "rb") as f:
             req = urllib.request.Request(f"{API}/upload/youtube/v3/thumbnails/set?videoId={vid}", data=f.read(),
                                          method="POST", headers={"Authorization": f"Bearer {tok}", "Content-Type": "image/jpeg"})

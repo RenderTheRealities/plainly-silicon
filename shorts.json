@@ -441,7 +441,8 @@
    "note": "Re-rendered Nov 24 (hook at frame 0, intro, subscribe card, outro); replaces deleted upload 06K9NUVVAVs.",
    "longVideo": "10-power-supplies-explained",
    "youtubeUrl": "https://www.youtube.com/shorts/0WGwHvpwYa8",
-   "uploaded": "2026-11-26"
+   "uploaded": "2026-11-26",
+   "thumbnail": "code-drawn (Canva credits exhausted Nov 26)"
   },
   {
    "slug": "23s1-resizable-bar-256mb",
@@ -455,7 +456,8 @@
    "status": "scheduled",
    "youtubeUrl": "https://www.youtube.com/shorts/PdAbu_FWZA4",
    "uploaded": "2026-11-26",
-   "note": "Built by the Nov 25 Shorts run (its push was refused: the routine has no push access); rebuilt from that run's transcript and uploaded by the owner session Nov 26."
+   "note": "Built by the Nov 25 Shorts run (its push was refused: the routine has no push access); rebuilt from that run's transcript and uploaded by the owner session Nov 26.",
+   "canvaThumbnail": "DAHcA61WnTQ"
   }
  ],
  "since": "2026-11-25: both daily Shorts at 05:00 (09:00/15:00 planned Nov 24, 12:00/18:00 before that)"
