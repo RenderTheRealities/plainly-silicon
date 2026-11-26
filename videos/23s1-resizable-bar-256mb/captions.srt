@@ -1,0 +1,56 @@
+1
+00:00:00,020 --> 00:00:03,425
+Your graphics card might have 12 gigabytes of memory.
+
+2
+00:00:03,705 --> 00:00:09,595
+Without one setting, your processor reaches just 256 megabytes of it at a time.
+
+3
+00:00:10,945 --> 00:00:14,659
+That window is a leftover from 32-bit computers.
+
+4
+00:00:14,939 --> 00:00:18,307
+To reach the rest, the CPU keeps sliding it along.
+
+5
+00:00:19,057 --> 00:00:22,832
+Resizable BAR opens the window to the whole card.
+
+6
+00:00:23,112 --> 00:00:25,341
+Textures and game data go straight in.
+
+7
+00:00:26,091 --> 00:00:28,695
+Nvidia and AMD cards gain a little.
+
+8
+00:00:28,975 --> 00:00:31,239
+Intel Arc cards are built around it.
+
+9
+00:00:31,519 --> 00:00:38,646
+With it off, TechPowerUp's Arc A770 ran almost a quarter slower at 1080p.
+
+10
+00:00:39,396 --> 00:00:41,710
+So check your BIOS before buying Arc.
+
+11
+00:00:41,990 --> 00:00:44,259
+If your board can't turn it on, skip Arc.
+
+12
+00:00:45,009 --> 00:00:48,026
+But is Intel even the right budget pick this year?
+
+13
+00:00:48,306 --> 00:00:50,329
+The full ranking is linked below.
+
+14
+00:00:50,609 --> 00:00:53,406
+Share this, subscribe, and comment your questions.
+

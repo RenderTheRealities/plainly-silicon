@@ -181,7 +181,9 @@
       "status": "scheduled",
       "format": "tier list",
       "brief": "Black Friday/Cyber Monday weekend. Late-Nov 2026 picks to verify: Intel Arc B570 (~$289 per Tom's Hardware), Arc B580 (thin stock), RTX 5050, RX 9060 XT 16GB; RTX 3050 6GB is a trap (see Short 07s2). Rank by price per frame at 1080p; end with one buy, one skip.",
-      "teasers": [],
+      "teasers": [
+        "23s1-resizable-bar-256mb"
+      ],
       "theme": "neon",
       "length": "9:01",
       "mediaUrl": "https://raw.githubusercontent.com/RenderTheRealities/plainly-silicon/media/23-best-budget-gpu.mp4",

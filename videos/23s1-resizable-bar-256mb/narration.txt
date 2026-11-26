@@ -1,0 +1,11 @@
+Your graphics card might have 12 gigabytes of memory. Without one setting, your processor reaches just 256 megabytes of it at a time.
+
+That window is a leftover from 32-bit computers. To reach the rest, the CPU keeps sliding it along.
+
+Resizable BAR opens the window to the whole card. Textures and game data go straight in.
+
+Nvidia and AMD cards gain a little. Intel Arc cards are built around it. With it off, TechPowerUp's Arc A770 ran almost a quarter slower at 1080p.
+
+So check your BIOS before buying Arc. If your board can't turn it on, skip Arc.
+
+But is Intel even the right budget pick this year? The full ranking is linked below. Share this, subscribe, and comment your questions.

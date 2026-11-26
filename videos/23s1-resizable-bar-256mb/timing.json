@@ -1,0 +1,112 @@
+{
+ "paragraphs": [
+  [
+   0.02,
+   9.595
+  ],
+  [
+   10.345,
+   17.707
+  ],
+  [
+   18.457,
+   24.741
+  ],
+  [
+   25.491,
+   38.046
+  ],
+  [
+   38.796,
+   43.659
+  ],
+  [
+   44.409,
+   52.806
+  ]
+ ],
+ "sentences": [
+  [
+   [
+    0.02,
+    3.425,
+    "Your graphics card might have 12 gigabytes of memory."
+   ],
+   [
+    3.705,
+    9.595,
+    "Without one setting, your processor reaches just 256 megabytes of it at a time."
+   ]
+  ],
+  [
+   [
+    10.345,
+    14.059,
+    "That window is a leftover from 32-bit computers."
+   ],
+   [
+    14.339,
+    17.707,
+    "To reach the rest, the CPU keeps sliding it along."
+   ]
+  ],
+  [
+   [
+    18.457,
+    22.232,
+    "Resizable BAR opens the window to the whole card."
+   ],
+   [
+    22.512,
+    24.741,
+    "Textures and game data go straight in."
+   ]
+  ],
+  [
+   [
+    25.491,
+    28.095,
+    "Nvidia and AMD cards gain a little."
+   ],
+   [
+    28.375,
+    30.639,
+    "Intel Arc cards are built around it."
+   ],
+   [
+    30.919,
+    38.046,
+    "With it off, TechPowerUp's Arc A770 ran almost a quarter slower at 1080p."
+   ]
+  ],
+  [
+   [
+    38.796,
+    41.11,
+    "So check your BIOS before buying Arc."
+   ],
+   [
+    41.39,
+    43.659,
+    "If your board can't turn it on, skip Arc."
+   ]
+  ],
+  [
+   [
+    44.409,
+    47.426,
+    "But is Intel even the right budget pick this year?"
+   ],
+   [
+    47.706,
+    49.729,
+    "The full ranking is linked below."
+   ],
+   [
+    50.009,
+    52.806,
+    "Share this, subscribe, and comment your questions."
+   ]
+  ]
+ ]
+}

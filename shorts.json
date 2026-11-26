@@ -442,6 +442,20 @@
    "longVideo": "10-power-supplies-explained",
    "youtubeUrl": "https://www.youtube.com/shorts/0WGwHvpwYa8",
    "uploaded": "2026-11-26"
+  },
+  {
+   "slug": "23s1-resizable-bar-256mb",
+   "theme": "blueprint",
+   "format": "what happens if",
+   "title": "Resizable BAR Off? Your CPU Sees Only 256 MB of VRAM #shorts",
+   "publish": "2026-11-26T05:00:00-07:00",
+   "source": "23-best-budget-gpu",
+   "longVideo": "23-best-budget-gpu",
+   "teases": "23-best-budget-gpu",
+   "status": "scheduled",
+   "youtubeUrl": "https://www.youtube.com/shorts/PdAbu_FWZA4",
+   "uploaded": "2026-11-26",
+   "note": "Built by the Nov 25 Shorts run (its push was refused: the routine has no push access); rebuilt from that run's transcript and uploaded by the owner session Nov 26."
   }
  ],
  "since": "2026-11-25: both daily Shorts at 05:00 (09:00/15:00 planned Nov 24, 12:00/18:00 before that)"
