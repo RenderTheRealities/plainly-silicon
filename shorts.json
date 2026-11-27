@@ -184,7 +184,7 @@
     {
       "slug": "01s17-ryzen-95-degrees",
       "theme": "ember",
-      "title": "Is 95\u00b0C Too Hot for a Ryzen CPU? #shorts",
+      "title": "Is 95°C Too Hot for a Ryzen CPU? #shorts",
       "publish": "2026-11-07T07:09:00-07:00",
       "source": "standalone",
       "status": "published",
@@ -469,9 +469,10 @@
       "source": "31-can-your-pc-run-gta-6",
       "longVideo": "31-can-your-pc-run-gta-6",
       "teases": "31-can-your-pc-run-gta-6",
-      "status": "ready",
-      "note": "Being built in the owner's chat session (owner request Nov 26). Counts as one of Nov 27's 2 Shorts; scheduled runs must not build or upload it. Uploads just after midnight Nov 27 (Nov 26 upload cap).",
-      "thumbnailApproved": "2026-11-26 owner (Canva PS5 vs PC face-off, 2x)"
+      "status": "scheduled",
+      "thumbnailApproved": "2026-11-26 owner (Canva PS5 vs PC face-off, 2x)",
+      "youtubeUrl": "https://youtu.be/bMJ9unC-qi4",
+      "uploaded": "2026-11-27"
     }
   ],
   "since": "2026-11-25: both daily Shorts at 05:00 (09:00/15:00 planned Nov 24, 12:00/18:00 before that)"
