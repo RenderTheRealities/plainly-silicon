@@ -43,14 +43,14 @@ def stamp(src, dst, logo_too=True):
     vertical = im.height > im.width
     if vertical and "--fit" in sys.argv:
         im = shorts_safe(im.resize((1080, 1920), Image.LANCZOS))   # last resort for a design not laid out for the 2:3 area
-    target = (2160, 3840) if vertical else (2560, 1440)
+    target = (1080, 1920) if vertical else (2560, 1440)   # Shorts: 1080x1920 is what YouTube registers as the vertical cover
     if im.size != target:
         im = im.resize(target, Image.LANCZOS)
     if not logo_too:
         save(im, dst)
         return
     w, h = im.size
-    k = w / (1080 if vertical else 1280)
+    k = 1 if vertical else w / 1280
     if vertical:   # Short: 130 px (1x) logo, top-right, inside the 2:3 area YouTube shows (top ~190 at 1x)
         s, x, y = int(130 * k), w - int(180 * k), int(190 * k)
     else:       # long video: ~94 px logo, top-right (bottom-right is under the duration badge)
