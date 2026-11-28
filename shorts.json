@@ -1,7 +1,29 @@
 {
   "shorts_per_day": 2,
   "times": [
-    "05:00"
+    "05:00",
+    {
+      "slug": "auto-exhaust-fans-dust",
+      "title": "Too Many Exhaust Fans Pull Dust Into Your PC #shorts",
+      "publish": "2026-11-28T05:00:00-07:00",
+      "source": "standalone",
+      "status": "scheduled",
+      "youtubeUrl": "https://youtube.com/shorts/iBn-bXdadRo",
+      "thumbnail": "videos/shorts-covers/iBn-bXdadRo-exhaust-fans.jpg",
+      "thumbnailApproved": "2026-11-27 owner (Canva cover)",
+      "note": "Uploaded by the scheduled Shorts run, which could not push its files; entry added from the channel (Nov 27)."
+    },
+    {
+      "slug": "auto-vram-stutter",
+      "title": "Game Stutters but FPS Looks Fine? Check Your VRAM #shorts",
+      "publish": "2026-11-28T05:00:00-07:00",
+      "source": "standalone",
+      "status": "scheduled",
+      "youtubeUrl": "https://youtube.com/shorts/7gRiqzbHIGE",
+      "thumbnail": "videos/shorts-covers/7gRiqzbHIGE-vram-stutter.jpg",
+      "thumbnailApproved": "2026-11-27 owner (Canva cover)",
+      "note": "Uploaded by the scheduled Shorts run, which could not push its files; entry added from the channel (Nov 27)."
+    }
   ],
   "timezone": "America/Cambridge_Bay",
   "shorts": [
